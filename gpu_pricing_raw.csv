@@ -1,0 +1,159 @@
+provider,gpu_type,gpu_count,sku,price_tier,per_gpu_hourly_usd,total_hourly_usd,region
+Azure,A100,1,Standard_NC24ads_A100_v4,on_demand,3.673,3.673,eastus
+Azure,A100,2,Standard_NC48ads_A100_v4,on_demand,3.673,7.346,eastus
+Azure,A100,4,Standard_NC96ads_A100_v4,on_demand,3.673,14.692,eastus
+Azure,A100,8,Standard_ND96amsr_A100_v4,on_demand,4.0963,32.77,eastus
+Azure,A100,8,Standard_ND96amsr_A100_v4,on_demand,6.1854,49.483,southindia
+GCP,A100,,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Americas,12mo,1.6136,,us-central1
+GCP,A100,,Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Americas,12mo,1.8462,,us-central1
+GCP,A100,,Commitment v1: Nvidia Tesla A100 GPU running in Mumbai for 1 Year,on_demand,2.1844,,asia-south1
+GCP,A100,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Mumbai for 3 Years,on_demand,3.7193,,asia-south1
+GCP,A100,,Nvidia Tesla A100 80GB GPU running in Mumbai,on_demand,4.718,,asia-south1
+GCP,A100,,Commitment v1: Nvidia Tesla A100 GPU running in Mumbai for 3 Year,on_demand,1.1552,,asia-south1
+GCP,A100,,Nvidia Tesla A100 GPU running in Mumbai,on_demand,3.4369,,asia-south1
+GCP,A100,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Mumbai for 1 Year,on_demand,4.1811,,asia-south1
+GCP,A100,,Nvidia Tesla A100 GPU running in Americas,on_demand,2.9339,,us-central1
+GCP,A100,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Americas for 1 Year,on_demand,3.4811,,us-central1
+GCP,A100,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Americas for 3 Years,on_demand,3.0966,,us-central1
+GCP,A100,,Commitment v1: Nvidia Tesla A100 GPU running in Americas for 3 Year,on_demand,1.0269,,us-central1
+GCP,A100,,Commitment v1: Nvidia Tesla A100 GPU running in Americas for 1 Year,on_demand,1.8484,,us-central1
+GCP,A100,,Nvidia Tesla A100 80GB GPU running in Americas,on_demand,3.9281,,us-central1
+GCP,A100,,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Mumbai,spot,0.8096,,asia-south1
+GCP,A100,,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Mumbai,spot,0.5897,,asia-south1
+GCP,A100,,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Americas,spot,1.4341,,us-central1
+GCP,A100,,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Americas,spot,1.964,,us-central1
+OCI,A100,1,B95907,on_demand,4,4,global
+RunPod,A100,,NVIDIA A100 80GB PCIe,36mo,1.21,,global
+RunPod,A100,,NVIDIA A100-SXM4-80GB,36mo,1.3,,global
+RunPod,A100,,NVIDIA A100 80GB PCIe,6mo,1.18,,global
+RunPod,A100,,NVIDIA A100-SXM4-80GB,6mo,1.27,,global
+RunPod,A100,,NVIDIA A100 80GB PCIe,on_demand,1.39,,global
+RunPod,A100,,NVIDIA A100-SXM4-80GB,on_demand,1.49,,global
+RunPod,A100,,NVIDIA A100 80GB PCIe,spot,1.19,,global
+RunPod,A100,,NVIDIA A100-SXM4-40GB,spot,1,,global
+RunPod,A100,,NVIDIA A100-SXM4-80GB,spot,1.39,,global
+AWS,A100 40GB,8,p4d.24xlarge,on_demand,3.2931,26.3444,ap-south-1
+AWS,A100 40GB,8,p4d.24xlarge,on_demand,2.7447,21.9576,us-east-1
+AWS,A100 80GB,8,p4de.24xlarge,on_demand,3.4309,27.4471,us-east-1
+AWS,B200,8,p6-b200.48xlarge,on_demand,14.2416,113.9328,us-east-1
+GCP,B200,,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Mumbai,12mo,8.055,,asia-south1
+GCP,B200,,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Americas,12mo,8.055,,us-central1
+GCP,B200,,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Mumbai,36mo,11.277,,asia-south1
+GCP,B200,,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Americas,36mo,11.277,,us-central1
+GCP,B200,,Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 1 Year,on_demand,11.1159,,us-central1
+GCP,B200,,Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 3 Year,on_demand,7.0884,,us-central1
+GCP,B200,,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Mumbai,spot,2.8099,,asia-south1
+GCP,B200,,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Americas,spot,4.2796,,us-central1
+OCI,B200,1,B110978,on_demand,14,14,global
+OCI,B200,1,B110979,on_demand,16,16,global
+RunPod,B200,,NVIDIA B200,36mo,5.54,,global
+RunPod,B200,,NVIDIA B200,6mo,5.12,,global
+RunPod,B200,,NVIDIA B200,on_demand,5.89,,global
+RunPod,B200,,NVIDIA B200,spot,5.98,,global
+OCI,B300,1,B112140,on_demand,18,18,global
+OCI,B300,1,B112237,on_demand,15,15,global
+RunPod,B300,,NVIDIA B300 SXM6 AC,on_demand,7.39,,global
+RunPod,B300,,NVIDIA B300 SXM6 AC,spot,6.94,,global
+Azure,H100 NVL,1,Standard_NC40ads_H100_v5,on_demand,6.98,6.98,eastus
+Azure,H100 NVL,2,Standard_NC80adis_H100_v5,on_demand,6.98,13.96,eastus
+AWS,H100 SXM,8,p5.48xlarge,on_demand,8.256,66.048,ap-south-1
+AWS,H100 SXM,8,p5.48xlarge,on_demand,6.88,55.04,us-east-1
+Azure,H100 SXM,8,Standard_ND96isr_H100_v5,on_demand,12.29,98.32,eastus
+GCP,H100 SXM,,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Mumbai,12mo,4.2008,,asia-south1
+GCP,H100 SXM,,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Mumbai,12mo,4.4239,,asia-south1
+GCP,H100 SXM,,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Americas,12mo,4.2008,,us-central1
+GCP,H100 SXM,,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Americas,12mo,4.4239,,us-central1
+GCP,H100 SXM,,Reserved Nvidia H100 80GB Mega GPU in Mumbai in Calendar Mode,36mo,4.8411,,asia-south1
+GCP,H100 SXM,,Reserved Nvidia H100 80GB GPU in Mumbai in Calendar Mode,36mo,4.5701,,asia-south1
+GCP,H100 SXM,,Reserved Nvidia H100 80GB Mega GPU in Americas in Calendar Mode,36mo,4.8411,,us-central1
+GCP,H100 SXM,,Reserved Nvidia H100 80GB GPU in Americas in Calendar Mode,36mo,4.5701,,us-central1
+GCP,H100 SXM,,Nvidia H100 80GB GPU running in Mumbai,on_demand,10.1884,,asia-south1
+GCP,H100 SXM,,Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 1 Year,on_demand,7.0708,,asia-south1
+GCP,H100 SXM,,Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 3 Years,on_demand,4.4719,,asia-south1
+GCP,H100 SXM,,Commitment v1: Nvidia H100 80GB GPU running in Americas for 3 Years,on_demand,4.2999,,us-central1
+GCP,H100 SXM,,Commitment v1: Nvidia H100 80GB GPU running in Americas for 1 Year,on_demand,6.7988,,us-central1
+GCP,H100 SXM,,Commitment v1: Nvidia H100 80GB Plus GPU running in Americas for 3 Years,on_demand,4.499,,us-central1
+GCP,H100 SXM,,Commitment v1: Nvidia H100 80GB Plus GPU running in Americas for 1 Year,on_demand,7.1136,,us-central1
+GCP,H100 SXM,,Nvidia H100 80GB Plus GPU running in Americas,on_demand,10.3443,,us-central1
+GCP,H100 SXM,,Nvidia H100 80GB GPU running in Americas,on_demand,9.7966,,us-central1
+GCP,H100 SXM,,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Mumbai,spot,3.1155,,asia-south1
+GCP,H100 SXM,,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Americas,spot,4.0013,,us-central1
+GCP,H100 SXM,,Nvidia H100 80GB Plus GPU attached to Spot Preemptible VMs running in Americas,spot,4.2252,,us-central1
+OCI,H100 SXM,1,B109480,on_demand,10.75,10.75,global
+OCI,H100 SXM,1,B98415,on_demand,10,10,global
+RunPod,H100 SXM,,NVIDIA H100 80GB HBM3,36mo,3.09,,global
+RunPod,H100 SXM,,NVIDIA H100 NVL,36mo,3,,global
+RunPod,H100 SXM,,NVIDIA H100 PCIe,36mo,2.72,,global
+RunPod,H100 SXM,,NVIDIA H100 80GB HBM3,6mo,2.86,,global
+RunPod,H100 SXM,,NVIDIA H100 NVL,6mo,2.78,,global
+RunPod,H100 SXM,,NVIDIA H100 PCIe,6mo,2.51,,global
+RunPod,H100 SXM,,NVIDIA H100 80GB HBM3,on_demand,3.29,,global
+RunPod,H100 SXM,,NVIDIA H100 NVL,on_demand,3.19,,global
+RunPod,H100 SXM,,NVIDIA H100 PCIe,on_demand,2.89,,global
+RunPod,H100 SXM,,NVIDIA H100 80GB HBM3,spot,2.69,,global
+RunPod,H100 SXM,,NVIDIA H100 NVL,spot,2.59,,global
+RunPod,H100 SXM,,NVIDIA H100 PCIe,spot,1.99,,global
+AWS,H200 SXM,8,p5en.48xlarge,on_demand,9.4944,75.9552,ap-south-1
+GCP,H200 SXM,,H200 141GB GPU attached to DWS Defined Duration VMs running in Mumbai,12mo,4.5753,,asia-south1
+GCP,H200 SXM,,H200 141GB GPU attached to DWS Defined Duration VMs running in Americas,12mo,4.5753,,us-central1
+GCP,H200 SXM,,Reserved H200 141GB GPU in Mumbai in Calendar Mode,36mo,6.4745,,asia-south1
+GCP,H200 SXM,,Reserved H200 141GB GPU in Americas in Calendar Mode,36mo,6.4745,,us-central1
+GCP,H200 SXM,,Commitment v1: H200 141GB GPU running in Mumbai for 3 Years,on_demand,4.8996,,asia-south1
+GCP,H200 SXM,,Commitment v1: H200 141GB GPU running in Mumbai for 1 Year,on_demand,7.7177,,asia-south1
+GCP,H200 SXM,,H200 141GB GPU running in Mumbai,on_demand,11.1741,,asia-south1
+GCP,H200 SXM,,H200 141GB GPU running in Americas,on_demand,9.3117,,us-central1
+GCP,H200 SXM,,Commitment v1: H200 141GB GPU running in Americas for 1 Year,on_demand,6.4314,,us-central1
+GCP,H200 SXM,,Commitment v1: H200 141GB GPU running in Americas for 3 Years,on_demand,4.083,,us-central1
+GCP,H200 SXM,,H200 141GB GPU attached to Spot Preemptible VMs running in Mumbai,spot,4.8421,,asia-south1
+GCP,H200 SXM,,H200 141GB GPU attached to Spot Preemptible VMs running in Americas,spot,4.6559,,us-central1
+OCI,H200 SXM,1,B110519,on_demand,10,10,global
+RunPod,H200 SXM,,NVIDIA H200,36mo,4.13,,global
+RunPod,H200 SXM,,NVIDIA H200 NVL,36mo,3.56,,global
+RunPod,H200 SXM,,NVIDIA H200,6mo,3.82,,global
+RunPod,H200 SXM,,NVIDIA H200 NVL,6mo,3.3,,global
+RunPod,H200 SXM,,NVIDIA H200,on_demand,4.39,,global
+RunPod,H200 SXM,,NVIDIA H200 NVL,on_demand,3.79,,global
+RunPod,H200 SXM,,NVIDIA H200,spot,3.59,,global
+RunPod,H200 SXM,,NVIDIA H200 NVL,spot,0.5,,global
+AWS,L4,1,g6.xlarge,on_demand,0.9664,0.9664,ap-south-1
+AWS,L4,1,g6.4xlarge,on_demand,1.5889,1.5889,ap-south-1
+AWS,L4,4,g6.12xlarge,on_demand,1.3814,5.5256,ap-south-1
+AWS,L4,8,g6.48xlarge,on_demand,2.0039,16.0311,ap-south-1
+AWS,L4,1,g6.xlarge,on_demand,0.8048,0.8048,us-east-1
+AWS,L4,1,g6.4xlarge,on_demand,1.3232,1.3232,us-east-1
+AWS,L4,4,g6.12xlarge,on_demand,1.1504,4.6016,us-east-1
+AWS,L4,8,g6.48xlarge,on_demand,1.6688,13.3504,us-east-1
+GCP,L4,,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Mumbai,12mo,0.5824,,asia-south1
+GCP,L4,,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Americas,12mo,0.56,,us-central1
+GCP,L4,,Commitment v1: Nvidia L4 GPU running in Mumbai for 1 Year,on_demand,0.3673,,asia-south1
+GCP,L4,,Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years,on_demand,0.2623,,asia-south1
+GCP,L4,,Nvidia L4 GPU running in Mumbai,on_demand,0.583,,asia-south1
+GCP,L4,,Commitment v1: Nvidia L4 GPU running in Americas for 3 Years,on_demand,0.252,,us-central1
+GCP,L4,,Nvidia L4 GPU running in Americas,on_demand,0.56,,us-central1
+GCP,L4,,Commitment v1: Nvidia L4 GPU running in Americas for 1 Year,on_demand,0.3528,,us-central1
+GCP,L4,,Nvidia L4 GPU attached to Spot Preemptible VMs running in Mumbai,spot,0.2437,,asia-south1
+GCP,L4,,Nvidia L4 GPU attached to Spot Preemptible VMs running in Americas,spot,0.2343,,us-central1
+RunPod,L4,,NVIDIA L4,36mo,0.34,,global
+RunPod,L4,,NVIDIA L4,6mo,0.33,,global
+RunPod,L4,,NVIDIA L4,on_demand,0.39,,global
+RunPod,L4,,NVIDIA L4,spot,0.44,,global
+RunPod,L40,,NVIDIA L40,36mo,0.71,,global
+RunPod,L40,,NVIDIA L40,6mo,0.7,,global
+RunPod,L40,,NVIDIA L40,on_demand,0.82,,global
+RunPod,L40,,NVIDIA L40,spot,0.69,,global
+AWS,L40S,1,g6e.xlarge,on_demand,2.235,2.235,ap-south-1
+AWS,L40S,1,g6e.4xlarge,on_demand,3.608,3.608,ap-south-1
+AWS,L40S,4,g6e.12xlarge,on_demand,3.1503,12.6013,ap-south-1
+AWS,L40S,8,g6e.48xlarge,on_demand,4.5233,36.1866,ap-south-1
+AWS,L40S,1,g6e.xlarge,on_demand,1.861,1.861,us-east-1
+AWS,L40S,1,g6e.4xlarge,on_demand,3.0042,3.0042,us-east-1
+AWS,L40S,4,g6e.12xlarge,on_demand,2.6232,10.4926,us-east-1
+AWS,L40S,8,g6e.48xlarge,on_demand,3.7664,30.1312,us-east-1
+OCI,L40S,1,B109479,on_demand,3.5,3.5,global
+OCI,L40S,1,B110965,on_demand,3.5,3.5,global
+OCI,L40S,1,B111454,on_demand,0.6,0.6,global
+OCI,L40S,1,B111455,on_demand,2.9,2.9,global
+RunPod,L40S,,NVIDIA L40S,36mo,0.748,,global
+RunPod,L40S,,NVIDIA L40S,6mo,0.731,,global
+RunPod,L40S,,NVIDIA L40S,on_demand,0.86,,global
+RunPod,L40S,,NVIDIA L40S,spot,0.79,,global

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T16:07:24.292525+00:00",
+  "fetched_at": "2026-05-21T16:26:39.833101+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -9,6 +9,7 @@
           "gpu_type": "H100 SXM",
           "gpu_count": 8,
           "region": "eastus",
+          "price_tier": "on_demand",
           "total_hourly_usd": 98.32,
           "per_gpu_hourly_usd": 12.29
         },
@@ -17,6 +18,7 @@
           "gpu_type": "H100 NVL",
           "gpu_count": 1,
           "region": "eastus",
+          "price_tier": "on_demand",
           "total_hourly_usd": 6.98,
           "per_gpu_hourly_usd": 6.98
         },
@@ -25,6 +27,7 @@
           "gpu_type": "H100 NVL",
           "gpu_count": 2,
           "region": "eastus",
+          "price_tier": "on_demand",
           "total_hourly_usd": 13.96,
           "per_gpu_hourly_usd": 6.98
         },
@@ -33,6 +36,7 @@
           "gpu_type": "A100",
           "gpu_count": 1,
           "region": "eastus",
+          "price_tier": "on_demand",
           "total_hourly_usd": 3.673,
           "per_gpu_hourly_usd": 3.673
         },
@@ -41,6 +45,7 @@
           "gpu_type": "A100",
           "gpu_count": 2,
           "region": "eastus",
+          "price_tier": "on_demand",
           "total_hourly_usd": 7.346,
           "per_gpu_hourly_usd": 3.673
         },
@@ -49,6 +54,7 @@
           "gpu_type": "A100",
           "gpu_count": 4,
           "region": "eastus",
+          "price_tier": "on_demand",
           "total_hourly_usd": 14.692,
           "per_gpu_hourly_usd": 3.673
         },
@@ -57,6 +63,7 @@
           "gpu_type": "A100",
           "gpu_count": 8,
           "region": "eastus",
+          "price_tier": "on_demand",
           "total_hourly_usd": 32.77,
           "per_gpu_hourly_usd": 4.0963
         },
@@ -65,6 +72,7 @@
           "gpu_type": "A100",
           "gpu_count": 8,
           "region": "southindia",
+          "price_tier": "on_demand",
           "total_hourly_usd": 49.483,
           "per_gpu_hourly_usd": 6.1854
         }
@@ -79,7 +87,7 @@
           "gpu_type": "L40S",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 3.5,
           "total_hourly_usd": 3.5
         },
@@ -89,7 +97,7 @@
           "gpu_type": "H100 SXM",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 10.75,
           "total_hourly_usd": 10.75
         },
@@ -99,7 +107,7 @@
           "gpu_type": "H200 SXM",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 10,
           "total_hourly_usd": 10
         },
@@ -109,7 +117,7 @@
           "gpu_type": "L40S",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 3.5,
           "total_hourly_usd": 3.5
         },
@@ -119,7 +127,7 @@
           "gpu_type": "B200",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 14,
           "total_hourly_usd": 14
         },
@@ -129,7 +137,7 @@
           "gpu_type": "B200",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 16,
           "total_hourly_usd": 16
         },
@@ -139,7 +147,7 @@
           "gpu_type": "L40S",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 0.6,
           "total_hourly_usd": 0.6
         },
@@ -149,7 +157,7 @@
           "gpu_type": "L40S",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 2.9,
           "total_hourly_usd": 2.9
         },
@@ -159,7 +167,7 @@
           "gpu_type": "B300",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 18,
           "total_hourly_usd": 18
         },
@@ -169,7 +177,7 @@
           "gpu_type": "B300",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 15,
           "total_hourly_usd": 15
         },
@@ -179,7 +187,7 @@
           "gpu_type": "A100",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 4,
           "total_hourly_usd": 4
         },
@@ -189,7 +197,7 @@
           "gpu_type": "H100 SXM",
           "gpu_count": 1,
           "region": "global",
-          "metric": "GPU Per Hour",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 10,
           "total_hourly_usd": 10
         }
@@ -203,22 +211,16 @@
           "gpu_type": "H100 SXM",
           "gpu_count": 8,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 55.04,
           "per_gpu_hourly_usd": 6.88
-        },
-        {
-          "instance_type": "p5en.48xlarge",
-          "gpu_type": "H200 SXM",
-          "gpu_count": 8,
-          "region": "us-east-1",
-          "total_hourly_usd": 63.296,
-          "per_gpu_hourly_usd": 7.912
         },
         {
           "instance_type": "p6-b200.48xlarge",
           "gpu_type": "B200",
           "gpu_count": 8,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 113.9328,
           "per_gpu_hourly_usd": 14.2416
         },
@@ -227,6 +229,7 @@
           "gpu_type": "L4",
           "gpu_count": 1,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 0.8048,
           "per_gpu_hourly_usd": 0.8048
         },
@@ -235,6 +238,7 @@
           "gpu_type": "L4",
           "gpu_count": 1,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 1.3232,
           "per_gpu_hourly_usd": 1.3232
         },
@@ -243,6 +247,7 @@
           "gpu_type": "L4",
           "gpu_count": 4,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 4.6016,
           "per_gpu_hourly_usd": 1.1504
         },
@@ -251,6 +256,7 @@
           "gpu_type": "L4",
           "gpu_count": 8,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 13.3504,
           "per_gpu_hourly_usd": 1.6688
         },
@@ -259,6 +265,7 @@
           "gpu_type": "L40S",
           "gpu_count": 1,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 1.861,
           "per_gpu_hourly_usd": 1.861
         },
@@ -267,6 +274,7 @@
           "gpu_type": "L40S",
           "gpu_count": 1,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 3.0042,
           "per_gpu_hourly_usd": 3.0042
         },
@@ -275,6 +283,7 @@
           "gpu_type": "L40S",
           "gpu_count": 4,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 10.4926,
           "per_gpu_hourly_usd": 2.6232
         },
@@ -283,6 +292,7 @@
           "gpu_type": "L40S",
           "gpu_count": 8,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 30.1312,
           "per_gpu_hourly_usd": 3.7664
         },
@@ -291,6 +301,7 @@
           "gpu_type": "A100 40GB",
           "gpu_count": 8,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 21.9576,
           "per_gpu_hourly_usd": 2.7447
         },
@@ -299,6 +310,7 @@
           "gpu_type": "A100 80GB",
           "gpu_count": 8,
           "region": "us-east-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 27.4471,
           "per_gpu_hourly_usd": 3.4309
         },
@@ -307,6 +319,7 @@
           "gpu_type": "H100 SXM",
           "gpu_count": 8,
           "region": "ap-south-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 66.048,
           "per_gpu_hourly_usd": 8.256
         },
@@ -315,6 +328,7 @@
           "gpu_type": "H200 SXM",
           "gpu_count": 8,
           "region": "ap-south-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 75.9552,
           "per_gpu_hourly_usd": 9.4944
         },
@@ -323,6 +337,7 @@
           "gpu_type": "L4",
           "gpu_count": 1,
           "region": "ap-south-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 0.9664,
           "per_gpu_hourly_usd": 0.9664
         },
@@ -331,6 +346,7 @@
           "gpu_type": "L4",
           "gpu_count": 1,
           "region": "ap-south-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 1.5889,
           "per_gpu_hourly_usd": 1.5889
         },
@@ -339,6 +355,7 @@
           "gpu_type": "L4",
           "gpu_count": 4,
           "region": "ap-south-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 5.5256,
           "per_gpu_hourly_usd": 1.3814
         },
@@ -347,6 +364,7 @@
           "gpu_type": "L4",
           "gpu_count": 8,
           "region": "ap-south-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 16.0311,
           "per_gpu_hourly_usd": 2.0039
         },
@@ -355,6 +373,7 @@
           "gpu_type": "L40S",
           "gpu_count": 1,
           "region": "ap-south-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 2.235,
           "per_gpu_hourly_usd": 2.235
         },
@@ -363,6 +382,7 @@
           "gpu_type": "L40S",
           "gpu_count": 1,
           "region": "ap-south-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 3.608,
           "per_gpu_hourly_usd": 3.608
         },
@@ -371,6 +391,7 @@
           "gpu_type": "L40S",
           "gpu_count": 4,
           "region": "ap-south-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 12.6013,
           "per_gpu_hourly_usd": 3.1503
         },
@@ -379,6 +400,7 @@
           "gpu_type": "L40S",
           "gpu_count": 8,
           "region": "ap-south-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 36.1866,
           "per_gpu_hourly_usd": 4.5233
         },
@@ -387,6 +409,7 @@
           "gpu_type": "A100 40GB",
           "gpu_count": 8,
           "region": "ap-south-1",
+          "price_tier": "on_demand",
           "total_hourly_usd": 26.3444,
           "per_gpu_hourly_usd": 3.2931
         }
@@ -399,200 +422,479 @@
           "description": "Nvidia Tesla A100 GPU running in Americas",
           "gpu_type": "A100",
           "region": "us-central1",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 2.9339
         },
         {
           "description": "Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "A100",
           "region": "us-central1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 1.6136
         },
         {
           "description": "DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Americas",
           "gpu_type": "B200",
           "region": "us-central1",
+          "price_tier": "36mo",
           "per_gpu_hourly_usd": 11.277
+        },
+        {
+          "description": "Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Mumbai",
+          "gpu_type": "H100 SXM",
+          "region": "asia-south1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 3.1155
+        },
+        {
+          "description": "Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 1 Year",
+          "gpu_type": "B200",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 11.1159
+        },
+        {
+          "description": "Commitment v1: Nvidia Tesla A100 80GB GPU running in Americas for 1 Year",
+          "gpu_type": "A100",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 3.4811
+        },
+        {
+          "description": "Commitment v1: Nvidia Tesla A100 GPU running in Mumbai for 1 Year",
+          "gpu_type": "A100",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 2.1844
+        },
+        {
+          "description": "Commitment v1: Nvidia H100 80GB GPU running in Americas for 3 Years",
+          "gpu_type": "H100 SXM",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 4.2999
+        },
+        {
+          "description": "Commitment v1: Nvidia L4 GPU running in Mumbai for 1 Year",
+          "gpu_type": "L4",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 0.3673
+        },
+        {
+          "description": "Commitment v1: Nvidia H100 80GB GPU running in Americas for 1 Year",
+          "gpu_type": "H100 SXM",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 6.7988
         },
         {
           "description": "Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 4.2008
         },
         {
           "description": "A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Mumbai",
           "gpu_type": "B200",
           "region": "asia-south1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 8.055
+        },
+        {
+          "description": "Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Americas",
+          "gpu_type": "A100",
+          "region": "us-central1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 1.4341
+        },
+        {
+          "description": "Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years",
+          "gpu_type": "L4",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 0.2623
         },
         {
           "description": "Reserved H200 141GB GPU in Americas in Calendar Mode",
           "gpu_type": "H200 SXM",
           "region": "us-central1",
+          "price_tier": "36mo",
           "per_gpu_hourly_usd": 6.4745
         },
         {
           "description": "Nvidia H100 80GB GPU running in Mumbai",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 10.1884
         },
         {
           "description": "H200 141GB GPU running in Americas",
           "gpu_type": "H200 SXM",
           "region": "us-central1",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 9.3117
         },
         {
           "description": "Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "A100",
           "region": "us-central1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 1.8462
+        },
+        {
+          "description": "Commitment v1: Nvidia Tesla A100 80GB GPU running in Mumbai for 3 Years",
+          "gpu_type": "A100",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 3.7193
         },
         {
           "description": "Reserved Nvidia H100 80GB Mega GPU in Mumbai in Calendar Mode",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
+          "price_tier": "36mo",
           "per_gpu_hourly_usd": 4.8411
+        },
+        {
+          "description": "Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 3 Year",
+          "gpu_type": "B200",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 7.0884
         },
         {
           "description": "DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Mumbai",
           "gpu_type": "B200",
           "region": "asia-south1",
+          "price_tier": "36mo",
           "per_gpu_hourly_usd": 11.277
+        },
+        {
+          "description": "Commitment v1: H200 141GB GPU running in Mumbai for 3 Years",
+          "gpu_type": "H200 SXM",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 4.8996
+        },
+        {
+          "description": "Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Mumbai",
+          "gpu_type": "A100",
+          "region": "asia-south1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 0.8096
+        },
+        {
+          "description": "Commitment v1: Nvidia H100 80GB Plus GPU running in Americas for 3 Years",
+          "gpu_type": "H100 SXM",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 4.499
         },
         {
           "description": "Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Mumbai",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 4.2008
+        },
+        {
+          "description": "Commitment v1: Nvidia L4 GPU running in Americas for 3 Years",
+          "gpu_type": "L4",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 0.252
+        },
+        {
+          "description": "H200 141GB GPU attached to Spot Preemptible VMs running in Americas",
+          "gpu_type": "H200 SXM",
+          "region": "us-central1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 4.6559
         },
         {
           "description": "Nvidia L4 GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "L4",
           "region": "us-central1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 0.56
+        },
+        {
+          "description": "Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 1 Year",
+          "gpu_type": "H100 SXM",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 7.0708
         },
         {
           "description": "Nvidia Tesla A100 80GB GPU running in Mumbai",
           "gpu_type": "A100",
           "region": "asia-south1",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 4.718
+        },
+        {
+          "description": "Nvidia L4 GPU attached to Spot Preemptible VMs running in Mumbai",
+          "gpu_type": "L4",
+          "region": "asia-south1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 0.2437
+        },
+        {
+          "description": "Commitment v1: Nvidia H100 80GB Plus GPU running in Americas for 1 Year",
+          "gpu_type": "H100 SXM",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 7.1136
         },
         {
           "description": "H200 141GB GPU attached to DWS Defined Duration VMs running in Mumbai",
           "gpu_type": "H200 SXM",
           "region": "asia-south1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 4.5753
+        },
+        {
+          "description": "Commitment v1: H200 141GB GPU running in Americas for 1 Year",
+          "gpu_type": "H200 SXM",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 6.4314
+        },
+        {
+          "description": "Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Americas",
+          "gpu_type": "H100 SXM",
+          "region": "us-central1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 4.0013
+        },
+        {
+          "description": "Commitment v1: H200 141GB GPU running in Mumbai for 1 Year",
+          "gpu_type": "H200 SXM",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 7.7177
         },
         {
           "description": "Nvidia H100 80GB Plus GPU running in Americas",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 10.3443
+        },
+        {
+          "description": "Commitment v1: Nvidia Tesla A100 80GB GPU running in Americas for 3 Years",
+          "gpu_type": "A100",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 3.0966
         },
         {
           "description": "Reserved H200 141GB GPU in Mumbai in Calendar Mode",
           "gpu_type": "H200 SXM",
           "region": "asia-south1",
+          "price_tier": "36mo",
           "per_gpu_hourly_usd": 6.4745
         },
         {
           "description": "Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Americas",
           "gpu_type": "B200",
           "region": "us-central1",
+          "price_tier": "spot",
           "per_gpu_hourly_usd": 4.2796
+        },
+        {
+          "description": "Nvidia H100 80GB Plus GPU attached to Spot Preemptible VMs running in Americas",
+          "gpu_type": "H100 SXM",
+          "region": "us-central1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 4.2252
         },
         {
           "description": "Reserved Nvidia H100 80GB GPU in Mumbai in Calendar Mode",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
+          "price_tier": "36mo",
           "per_gpu_hourly_usd": 4.5701
         },
         {
           "description": "Reserved Nvidia H100 80GB Mega GPU in Americas in Calendar Mode",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
+          "price_tier": "36mo",
           "per_gpu_hourly_usd": 4.8411
         },
         {
           "description": "A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "B200",
           "region": "us-central1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 8.055
         },
         {
           "description": "Nvidia L4 GPU running in Americas",
           "gpu_type": "L4",
           "region": "us-central1",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 0.56
+        },
+        {
+          "description": "Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 3 Years",
+          "gpu_type": "H100 SXM",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 4.4719
+        },
+        {
+          "description": "Commitment v1: Nvidia Tesla A100 GPU running in Americas for 3 Year",
+          "gpu_type": "A100",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 1.0269
         },
         {
           "description": "Nvidia L4 GPU running in Mumbai",
           "gpu_type": "L4",
           "region": "asia-south1",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 0.583
         },
         {
           "description": "Reserved Nvidia H100 80GB GPU in Americas in Calendar Mode",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
+          "price_tier": "36mo",
           "per_gpu_hourly_usd": 4.5701
+        },
+        {
+          "description": "Nvidia L4 GPU attached to Spot Preemptible VMs running in Americas",
+          "gpu_type": "L4",
+          "region": "us-central1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 0.2343
+        },
+        {
+          "description": "H200 141GB GPU attached to Spot Preemptible VMs running in Mumbai",
+          "gpu_type": "H200 SXM",
+          "region": "asia-south1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 4.8421
+        },
+        {
+          "description": "Commitment v1: H200 141GB GPU running in Americas for 3 Years",
+          "gpu_type": "H200 SXM",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 4.083
+        },
+        {
+          "description": "Commitment v1: Nvidia L4 GPU running in Americas for 1 Year",
+          "gpu_type": "L4",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 0.3528
         },
         {
           "description": "Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 4.4239
         },
         {
           "description": "Nvidia L4 GPU attached to DWS Defined Duration VMs running in Mumbai",
           "gpu_type": "L4",
           "region": "asia-south1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 0.5824
         },
         {
           "description": "Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Mumbai",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 4.4239
         },
         {
           "description": "Nvidia H100 80GB GPU running in Americas",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 9.7966
+        },
+        {
+          "description": "Commitment v1: Nvidia Tesla A100 GPU running in Mumbai for 3 Year",
+          "gpu_type": "A100",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 1.1552
+        },
+        {
+          "description": "Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Americas",
+          "gpu_type": "A100",
+          "region": "us-central1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 1.964
+        },
+        {
+          "description": "Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Mumbai",
+          "gpu_type": "B200",
+          "region": "asia-south1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 2.8099
         },
         {
           "description": "H200 141GB GPU running in Mumbai",
           "gpu_type": "H200 SXM",
           "region": "asia-south1",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 11.1741
         },
         {
           "description": "Nvidia Tesla A100 GPU running in Mumbai",
           "gpu_type": "A100",
           "region": "asia-south1",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 3.4369
+        },
+        {
+          "description": "Commitment v1: Nvidia Tesla A100 GPU running in Americas for 1 Year",
+          "gpu_type": "A100",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 1.8484
         },
         {
           "description": "Nvidia Tesla A100 80GB GPU running in Americas",
           "gpu_type": "A100",
           "region": "us-central1",
+          "price_tier": "on_demand",
           "per_gpu_hourly_usd": 3.9281
+        },
+        {
+          "description": "Commitment v1: Nvidia Tesla A100 80GB GPU running in Mumbai for 1 Year",
+          "gpu_type": "A100",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 4.1811
+        },
+        {
+          "description": "Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Mumbai",
+          "gpu_type": "A100",
+          "region": "asia-south1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 0.5897
         },
         {
           "description": "H200 141GB GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "H200 SXM",
           "region": "us-central1",
+          "price_tier": "12mo",
           "per_gpu_hourly_usd": 4.5753
         }
       ]
-    },
-    "digitalocean": {
-      "provider": "DigitalOcean",
-      "error": "DO_API_TOKEN env var not set",
-      "skus": []
     },
     "runpod": {
       "provider": "RunPod",
@@ -602,156 +904,423 @@
           "display_name": "A100 PCIe",
           "gpu_type": "A100",
           "memory_gb": 80,
-          "per_gpu_hourly_usd": 1.39,
-          "secure_per_gpu_hourly_usd": 1.39,
-          "community_per_gpu_hourly_usd": 1.19,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": 1.21,
-          "six_month_per_gpu_hourly_usd": 1.18
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 1.39
+        },
+        {
+          "id": "NVIDIA A100 80GB PCIe",
+          "display_name": "A100 PCIe",
+          "gpu_type": "A100",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "6mo",
+          "per_gpu_hourly_usd": 1.18
+        },
+        {
+          "id": "NVIDIA A100 80GB PCIe",
+          "display_name": "A100 PCIe",
+          "gpu_type": "A100",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 1.21
+        },
+        {
+          "id": "NVIDIA A100 80GB PCIe",
+          "display_name": "A100 PCIe",
+          "gpu_type": "A100",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 1.19
         },
         {
           "id": "NVIDIA A100-SXM4-40GB",
           "display_name": "A100 SXM 40GB",
           "gpu_type": "A100",
           "memory_gb": 40,
-          "per_gpu_hourly_usd": 0,
-          "secure_per_gpu_hourly_usd": 0,
-          "community_per_gpu_hourly_usd": 1,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": null,
-          "six_month_per_gpu_hourly_usd": null
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 1
         },
         {
           "id": "NVIDIA A100-SXM4-80GB",
           "display_name": "A100 SXM",
           "gpu_type": "A100",
           "memory_gb": 80,
-          "per_gpu_hourly_usd": 1.49,
-          "secure_per_gpu_hourly_usd": 1.49,
-          "community_per_gpu_hourly_usd": 1.39,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": 1.3,
-          "six_month_per_gpu_hourly_usd": 1.27
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 1.49
+        },
+        {
+          "id": "NVIDIA A100-SXM4-80GB",
+          "display_name": "A100 SXM",
+          "gpu_type": "A100",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "6mo",
+          "per_gpu_hourly_usd": 1.27
+        },
+        {
+          "id": "NVIDIA A100-SXM4-80GB",
+          "display_name": "A100 SXM",
+          "gpu_type": "A100",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 1.3
+        },
+        {
+          "id": "NVIDIA A100-SXM4-80GB",
+          "display_name": "A100 SXM",
+          "gpu_type": "A100",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 1.39
         },
         {
           "id": "NVIDIA B200",
           "display_name": "B200",
           "gpu_type": "B200",
           "memory_gb": 180,
-          "per_gpu_hourly_usd": 5.89,
-          "secure_per_gpu_hourly_usd": 5.89,
-          "community_per_gpu_hourly_usd": 5.98,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": 5.54,
-          "six_month_per_gpu_hourly_usd": 5.12
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 5.89
+        },
+        {
+          "id": "NVIDIA B200",
+          "display_name": "B200",
+          "gpu_type": "B200",
+          "memory_gb": 180,
+          "region": "global",
+          "price_tier": "6mo",
+          "per_gpu_hourly_usd": 5.12
+        },
+        {
+          "id": "NVIDIA B200",
+          "display_name": "B200",
+          "gpu_type": "B200",
+          "memory_gb": 180,
+          "region": "global",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 5.54
+        },
+        {
+          "id": "NVIDIA B200",
+          "display_name": "B200",
+          "gpu_type": "B200",
+          "memory_gb": 180,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 5.98
         },
         {
           "id": "NVIDIA B300 SXM6 AC",
           "display_name": "B300",
           "gpu_type": "B300",
           "memory_gb": 288,
-          "per_gpu_hourly_usd": 7.39,
-          "secure_per_gpu_hourly_usd": 7.39,
-          "community_per_gpu_hourly_usd": 6.94,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": null,
-          "six_month_per_gpu_hourly_usd": null
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 7.39
+        },
+        {
+          "id": "NVIDIA B300 SXM6 AC",
+          "display_name": "B300",
+          "gpu_type": "B300",
+          "memory_gb": 288,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 6.94
         },
         {
           "id": "NVIDIA H100 80GB HBM3",
           "display_name": "H100 SXM",
           "gpu_type": "H100 SXM",
           "memory_gb": 80,
-          "per_gpu_hourly_usd": 3.29,
-          "secure_per_gpu_hourly_usd": 3.29,
-          "community_per_gpu_hourly_usd": 2.69,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": 3.09,
-          "six_month_per_gpu_hourly_usd": 2.86
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 3.29
+        },
+        {
+          "id": "NVIDIA H100 80GB HBM3",
+          "display_name": "H100 SXM",
+          "gpu_type": "H100 SXM",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "6mo",
+          "per_gpu_hourly_usd": 2.86
+        },
+        {
+          "id": "NVIDIA H100 80GB HBM3",
+          "display_name": "H100 SXM",
+          "gpu_type": "H100 SXM",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 3.09
+        },
+        {
+          "id": "NVIDIA H100 80GB HBM3",
+          "display_name": "H100 SXM",
+          "gpu_type": "H100 SXM",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 2.69
         },
         {
           "id": "NVIDIA H100 NVL",
           "display_name": "H100 NVL",
           "gpu_type": "H100 SXM",
           "memory_gb": 94,
-          "per_gpu_hourly_usd": 3.19,
-          "secure_per_gpu_hourly_usd": 3.19,
-          "community_per_gpu_hourly_usd": 2.59,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": 3,
-          "six_month_per_gpu_hourly_usd": 2.78
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 3.19
+        },
+        {
+          "id": "NVIDIA H100 NVL",
+          "display_name": "H100 NVL",
+          "gpu_type": "H100 SXM",
+          "memory_gb": 94,
+          "region": "global",
+          "price_tier": "6mo",
+          "per_gpu_hourly_usd": 2.78
+        },
+        {
+          "id": "NVIDIA H100 NVL",
+          "display_name": "H100 NVL",
+          "gpu_type": "H100 SXM",
+          "memory_gb": 94,
+          "region": "global",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 3
+        },
+        {
+          "id": "NVIDIA H100 NVL",
+          "display_name": "H100 NVL",
+          "gpu_type": "H100 SXM",
+          "memory_gb": 94,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 2.59
         },
         {
           "id": "NVIDIA H100 PCIe",
           "display_name": "H100 PCIe",
           "gpu_type": "H100 SXM",
           "memory_gb": 80,
-          "per_gpu_hourly_usd": 2.89,
-          "secure_per_gpu_hourly_usd": 2.89,
-          "community_per_gpu_hourly_usd": 1.99,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": 2.72,
-          "six_month_per_gpu_hourly_usd": 2.51
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 2.89
+        },
+        {
+          "id": "NVIDIA H100 PCIe",
+          "display_name": "H100 PCIe",
+          "gpu_type": "H100 SXM",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "6mo",
+          "per_gpu_hourly_usd": 2.51
+        },
+        {
+          "id": "NVIDIA H100 PCIe",
+          "display_name": "H100 PCIe",
+          "gpu_type": "H100 SXM",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 2.72
+        },
+        {
+          "id": "NVIDIA H100 PCIe",
+          "display_name": "H100 PCIe",
+          "gpu_type": "H100 SXM",
+          "memory_gb": 80,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 1.99
         },
         {
           "id": "NVIDIA H200",
           "display_name": "H200 SXM",
           "gpu_type": "H200 SXM",
           "memory_gb": 141,
-          "per_gpu_hourly_usd": 4.39,
-          "secure_per_gpu_hourly_usd": 4.39,
-          "community_per_gpu_hourly_usd": 3.59,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": 4.13,
-          "six_month_per_gpu_hourly_usd": 3.82
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 4.39
+        },
+        {
+          "id": "NVIDIA H200",
+          "display_name": "H200 SXM",
+          "gpu_type": "H200 SXM",
+          "memory_gb": 141,
+          "region": "global",
+          "price_tier": "6mo",
+          "per_gpu_hourly_usd": 3.82
+        },
+        {
+          "id": "NVIDIA H200",
+          "display_name": "H200 SXM",
+          "gpu_type": "H200 SXM",
+          "memory_gb": 141,
+          "region": "global",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 4.13
+        },
+        {
+          "id": "NVIDIA H200",
+          "display_name": "H200 SXM",
+          "gpu_type": "H200 SXM",
+          "memory_gb": 141,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 3.59
         },
         {
           "id": "NVIDIA H200 NVL",
           "display_name": "H200 NVL",
           "gpu_type": "H200 SXM",
           "memory_gb": 143,
-          "per_gpu_hourly_usd": 3.79,
-          "secure_per_gpu_hourly_usd": 3.79,
-          "community_per_gpu_hourly_usd": 0.5,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": 3.56,
-          "six_month_per_gpu_hourly_usd": 3.3
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 3.79
+        },
+        {
+          "id": "NVIDIA H200 NVL",
+          "display_name": "H200 NVL",
+          "gpu_type": "H200 SXM",
+          "memory_gb": 143,
+          "region": "global",
+          "price_tier": "6mo",
+          "per_gpu_hourly_usd": 3.3
+        },
+        {
+          "id": "NVIDIA H200 NVL",
+          "display_name": "H200 NVL",
+          "gpu_type": "H200 SXM",
+          "memory_gb": 143,
+          "region": "global",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 3.56
+        },
+        {
+          "id": "NVIDIA H200 NVL",
+          "display_name": "H200 NVL",
+          "gpu_type": "H200 SXM",
+          "memory_gb": 143,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 0.5
         },
         {
           "id": "NVIDIA L4",
           "display_name": "L4",
           "gpu_type": "L4",
           "memory_gb": 24,
-          "per_gpu_hourly_usd": 0.39,
-          "secure_per_gpu_hourly_usd": 0.39,
-          "community_per_gpu_hourly_usd": 0.44,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": 0.34,
-          "six_month_per_gpu_hourly_usd": 0.33
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 0.39
+        },
+        {
+          "id": "NVIDIA L4",
+          "display_name": "L4",
+          "gpu_type": "L4",
+          "memory_gb": 24,
+          "region": "global",
+          "price_tier": "6mo",
+          "per_gpu_hourly_usd": 0.33
+        },
+        {
+          "id": "NVIDIA L4",
+          "display_name": "L4",
+          "gpu_type": "L4",
+          "memory_gb": 24,
+          "region": "global",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 0.34
+        },
+        {
+          "id": "NVIDIA L4",
+          "display_name": "L4",
+          "gpu_type": "L4",
+          "memory_gb": 24,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 0.44
         },
         {
           "id": "NVIDIA L40",
           "display_name": "L40",
           "gpu_type": "L40",
           "memory_gb": 48,
-          "per_gpu_hourly_usd": 0.82,
-          "secure_per_gpu_hourly_usd": 0.82,
-          "community_per_gpu_hourly_usd": 0.69,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": 0.71,
-          "six_month_per_gpu_hourly_usd": 0.7
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 0.82
+        },
+        {
+          "id": "NVIDIA L40",
+          "display_name": "L40",
+          "gpu_type": "L40",
+          "memory_gb": 48,
+          "region": "global",
+          "price_tier": "6mo",
+          "per_gpu_hourly_usd": 0.7
+        },
+        {
+          "id": "NVIDIA L40",
+          "display_name": "L40",
+          "gpu_type": "L40",
+          "memory_gb": 48,
+          "region": "global",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 0.71
+        },
+        {
+          "id": "NVIDIA L40",
+          "display_name": "L40",
+          "gpu_type": "L40",
+          "memory_gb": 48,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 0.69
         },
         {
           "id": "NVIDIA L40S",
           "display_name": "L40S",
           "gpu_type": "L40S",
           "memory_gb": 48,
-          "per_gpu_hourly_usd": 0.86,
-          "secure_per_gpu_hourly_usd": 0.86,
-          "community_per_gpu_hourly_usd": 0.79,
-          "one_month_per_gpu_hourly_usd": null,
-          "three_month_per_gpu_hourly_usd": 0.748,
-          "six_month_per_gpu_hourly_usd": 0.731
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 0.86
+        },
+        {
+          "id": "NVIDIA L40S",
+          "display_name": "L40S",
+          "gpu_type": "L40S",
+          "memory_gb": 48,
+          "region": "global",
+          "price_tier": "6mo",
+          "per_gpu_hourly_usd": 0.731
+        },
+        {
+          "id": "NVIDIA L40S",
+          "display_name": "L40S",
+          "gpu_type": "L40S",
+          "memory_gb": 48,
+          "region": "global",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 0.748
+        },
+        {
+          "id": "NVIDIA L40S",
+          "display_name": "L40S",
+          "gpu_type": "L40S",
+          "memory_gb": 48,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 0.79
         }
       ]
     }
