@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T15:37:42.553903+00:00",
+  "fetched_at": "2026-05-21T16:07:24.292525+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -197,8 +197,200 @@
     },
     "aws": {
       "provider": "AWS",
-      "error": "No AWS credentials. Run `aws configure`",
-      "skus": []
+      "skus": [
+        {
+          "instance_type": "p5.48xlarge",
+          "gpu_type": "H100 SXM",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "total_hourly_usd": 55.04,
+          "per_gpu_hourly_usd": 6.88
+        },
+        {
+          "instance_type": "p5en.48xlarge",
+          "gpu_type": "H200 SXM",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "total_hourly_usd": 63.296,
+          "per_gpu_hourly_usd": 7.912
+        },
+        {
+          "instance_type": "p6-b200.48xlarge",
+          "gpu_type": "B200",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "total_hourly_usd": 113.9328,
+          "per_gpu_hourly_usd": 14.2416
+        },
+        {
+          "instance_type": "g6.xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 1,
+          "region": "us-east-1",
+          "total_hourly_usd": 0.8048,
+          "per_gpu_hourly_usd": 0.8048
+        },
+        {
+          "instance_type": "g6.4xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 1,
+          "region": "us-east-1",
+          "total_hourly_usd": 1.3232,
+          "per_gpu_hourly_usd": 1.3232
+        },
+        {
+          "instance_type": "g6.12xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 4,
+          "region": "us-east-1",
+          "total_hourly_usd": 4.6016,
+          "per_gpu_hourly_usd": 1.1504
+        },
+        {
+          "instance_type": "g6.48xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "total_hourly_usd": 13.3504,
+          "per_gpu_hourly_usd": 1.6688
+        },
+        {
+          "instance_type": "g6e.xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 1,
+          "region": "us-east-1",
+          "total_hourly_usd": 1.861,
+          "per_gpu_hourly_usd": 1.861
+        },
+        {
+          "instance_type": "g6e.4xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 1,
+          "region": "us-east-1",
+          "total_hourly_usd": 3.0042,
+          "per_gpu_hourly_usd": 3.0042
+        },
+        {
+          "instance_type": "g6e.12xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 4,
+          "region": "us-east-1",
+          "total_hourly_usd": 10.4926,
+          "per_gpu_hourly_usd": 2.6232
+        },
+        {
+          "instance_type": "g6e.48xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "total_hourly_usd": 30.1312,
+          "per_gpu_hourly_usd": 3.7664
+        },
+        {
+          "instance_type": "p4d.24xlarge",
+          "gpu_type": "A100 40GB",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "total_hourly_usd": 21.9576,
+          "per_gpu_hourly_usd": 2.7447
+        },
+        {
+          "instance_type": "p4de.24xlarge",
+          "gpu_type": "A100 80GB",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "total_hourly_usd": 27.4471,
+          "per_gpu_hourly_usd": 3.4309
+        },
+        {
+          "instance_type": "p5.48xlarge",
+          "gpu_type": "H100 SXM",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "total_hourly_usd": 66.048,
+          "per_gpu_hourly_usd": 8.256
+        },
+        {
+          "instance_type": "p5en.48xlarge",
+          "gpu_type": "H200 SXM",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "total_hourly_usd": 75.9552,
+          "per_gpu_hourly_usd": 9.4944
+        },
+        {
+          "instance_type": "g6.xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 1,
+          "region": "ap-south-1",
+          "total_hourly_usd": 0.9664,
+          "per_gpu_hourly_usd": 0.9664
+        },
+        {
+          "instance_type": "g6.4xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 1,
+          "region": "ap-south-1",
+          "total_hourly_usd": 1.5889,
+          "per_gpu_hourly_usd": 1.5889
+        },
+        {
+          "instance_type": "g6.12xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 4,
+          "region": "ap-south-1",
+          "total_hourly_usd": 5.5256,
+          "per_gpu_hourly_usd": 1.3814
+        },
+        {
+          "instance_type": "g6.48xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "total_hourly_usd": 16.0311,
+          "per_gpu_hourly_usd": 2.0039
+        },
+        {
+          "instance_type": "g6e.xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 1,
+          "region": "ap-south-1",
+          "total_hourly_usd": 2.235,
+          "per_gpu_hourly_usd": 2.235
+        },
+        {
+          "instance_type": "g6e.4xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 1,
+          "region": "ap-south-1",
+          "total_hourly_usd": 3.608,
+          "per_gpu_hourly_usd": 3.608
+        },
+        {
+          "instance_type": "g6e.12xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 4,
+          "region": "ap-south-1",
+          "total_hourly_usd": 12.6013,
+          "per_gpu_hourly_usd": 3.1503
+        },
+        {
+          "instance_type": "g6e.48xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "total_hourly_usd": 36.1866,
+          "per_gpu_hourly_usd": 4.5233
+        },
+        {
+          "instance_type": "p4d.24xlarge",
+          "gpu_type": "A100 40GB",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "total_hourly_usd": 26.3444,
+          "per_gpu_hourly_usd": 3.2931
+        }
+      ]
     },
     "gcp": {
       "provider": "GCP",
