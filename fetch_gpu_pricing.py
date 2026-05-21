@@ -599,7 +599,7 @@ def write_comparison_csv(output, path):
     final = ["gpu_type", "pricing_note"] + neysa_cols + populated
 
     with open(path, "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=final)
+        writer = csv.DictWriter(f, fieldnames=final, extrasaction='ignore')
         writer.writeheader()
         writer.writerow({k: v for k, v in guide.items() if k in final})
         writer.writerows(rows)
