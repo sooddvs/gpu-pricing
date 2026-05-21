@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 """
-GPU Pricing Fetcher v3 — Neysa Competitive Intelligence
+GPU Pricing Fetcher v4 — Neysa Competitive Intelligence
 
-Outputs two files:
-  gpu_pricing_raw.csv        — every SKU from every provider, all rows
-  gpu_pricing_comparison.csv — clean pivot: one row per GPU type, columns are
-                               Neysa tiers vs competitor equivalent tiers.
-                               India pricing preferred; falls back to US.
+Fixes vs v3:
+- GCP: "Commitment v1" rows now correctly map to 12mo/36mo tiers
+- Azure: reservation term filter corrected ("1 Year"/"3 Years")
+- AWS: reserved pricing now extracted from Pricing API response directly
+       (no longer using describe_reserved_instances_offerings)
 
-GPU types tracked: L4, L40S, H100 SXM, H100 NVL, H200 SXM, B200, B300
-
-Providers: Azure, OCI, AWS, GCP, RunPod
+Outputs:
+  gpu_pricing.json              — full raw data
+  gpu_pricing_raw.csv           — every SKU, every provider, all rows
+  gpu_pricing_comparison.csv    — clean pivot: one row per GPU type,
+                                  Neysa tiers vs competitor tiers,
+                                  India pricing preferred, US fallback
 """
 
 import os, sys, csv, json, re
@@ -23,9 +26,6 @@ except ImportError:
 
 
 # ─── NEYSA PRICING (from official price list, May 2026) ─────────────────────
-# Per GPU per hour in USD. on_demand=None means not offered.
-# Tiers: on_demand, 1mo, 6mo, 12mo, 24mo, 36mo
-
 NEYSA = {
     "L4": {
         "on_demand": 1.17, "1mo": 0.78, "6mo": 0.73,
@@ -59,9 +59,8 @@ NEYSA = {
 
 GPU_TYPES = ["L4", "L40S", "H100 SXM", "H100 NVL", "H200 SXM", "B200", "B300"]
 
-# Region preference: India first, US fallback
-INDIA_REGIONS  = {"azure": "southindia", "aws": "ap-south-1", "gcp": "asia-south1"}
-US_REGIONS     = {"azure": "eastus",     "aws": "us-east-1",  "gcp": "us-central1"}
+INDIA_REGIONS = {"azure": "southindia", "aws": "ap-south-1", "gcp": "asia-south1"}
+US_REGIONS    = {"azure": "eastus",     "aws": "us-east-1",  "gcp": "us-central1"}
 
 REGIONS = {
     "azure": ["eastus", "southindia"],
@@ -88,22 +87,26 @@ AZURE_SKUS = {
     "Standard_ND_GB200_v6":       ("B200", 4),
 }
 
-# Azure Reserved Instance SKU name patterns (for 1yr/3yr committed pricing)
-# These return priceType='Reservation' rows
-AZURE_RESERVATION_TERMS = {"P1Y": "12mo", "P3Y": "36mo"}
+# FIX: correct reservation term strings for Azure Retail Prices API
+AZURE_RESERVATION_TERMS = {
+    "1 Year":  "12mo",
+    "3 Years": "36mo",
+}
 
 
 def fetch_azure():
     base = "https://prices.azure.com/api/retail/prices"
     skus = []
+
     for region in REGIONS["azure"]:
         for arm_sku, (gpu, count) in AZURE_SKUS.items():
-            # On-demand
+
+            # On-demand (Consumption)
             flt = (f"serviceName eq 'Virtual Machines' and armSkuName eq '{arm_sku}' "
                    f"and armRegionName eq '{region}' and priceType eq 'Consumption'")
             try:
-                resp = requests.get(base, params={"$filter": flt}, timeout=30)
-                items = [i for i in resp.json().get("Items", [])
+                items = requests.get(base, params={"$filter": flt}, timeout=30).json().get("Items", [])
+                items = [i for i in items
                          if "Windows" not in i.get("productName", "")
                          and "Spot" not in i.get("meterName", "")
                          and "Low Priority" not in i.get("meterName", "")]
@@ -125,17 +128,19 @@ def fetch_azure():
                          f"and armRegionName eq '{region}' and priceType eq 'Reservation' "
                          f"and reservationTerm eq '{term}'")
                 try:
-                    resp = requests.get(base, params={"$filter": flt_r}, timeout=30)
-                    items = [i for i in resp.json().get("Items", [])
-                             if "Windows" not in i.get("productName", "")]
+                    items = requests.get(base, params={"$filter": flt_r}, timeout=30).json().get("Items", [])
+                    items = [i for i in items if "Windows" not in i.get("productName", "")]
                     if items:
                         items.sort(key=lambda x: x.get("retailPrice", 999))
                         total = items[0]["retailPrice"]
+                        # Azure reservation prices are total for the term; convert to hourly
+                        hours = 8760 if term == "1 Year" else 26280
+                        hourly = total / hours
                         skus.append({
                             "sku": arm_sku, "gpu_type": gpu, "gpu_count": count,
                             "region": region, "price_tier": tier_label,
-                            "total_hourly_usd": round(total, 4),
-                            "per_gpu_hourly_usd": round(total / count, 4),
+                            "total_hourly_usd": round(hourly, 4),
+                            "per_gpu_hourly_usd": round(hourly / count, 4),
                         })
                 except Exception:
                     pass
@@ -207,17 +212,11 @@ AWS_INSTANCES = {
     "p4de.24xlarge":      ("A100 80GB", 8),
 }
 
-# AWS Reserved Instance offering classes we want
-AWS_RESERVED_TERMS = [
-    ("1yr", "12mo", "1yr", "No Upfront"),
-    ("3yr", "36mo", "3yr", "No Upfront"),
-]
-
 
 def fetch_aws():
     try:
         import boto3
-        from botocore.exceptions import NoCredentialsError, ClientError
+        from botocore.exceptions import NoCredentialsError
     except ImportError:
         return {"provider": "AWS", "error": "boto3 not installed", "skus": []}
 
@@ -237,66 +236,58 @@ def fetch_aws():
                 {"Type": "TERM_MATCH", "Field": "capacitystatus",  "Value": "Used"},
                 {"Type": "TERM_MATCH", "Field": "regionCode",      "Value": region},
             ]
-
-            # On-demand
             try:
-                resp = client.get_products(ServiceCode="AmazonEC2",
-                                           Filters=base_filters, MaxResults=5)
-                for ps in resp.get("PriceList", []):
-                    obj = json.loads(ps)
-                    for term in obj.get("terms", {}).get("OnDemand", {}).values():
-                        for dim in term.get("priceDimensions", {}).values():
-                            price = float(dim.get("pricePerUnit", {}).get("USD", 0))
-                            if price > 0:
-                                skus.append({
-                                    "instance_type": inst, "gpu_type": gpu,
-                                    "gpu_count": count, "region": region,
-                                    "price_tier": "on_demand",
-                                    "total_hourly_usd": round(price, 4),
-                                    "per_gpu_hourly_usd": round(price / count, 4),
-                                })
-                                break
-                        break
-                    break
-            except (NoCredentialsError, Exception) as e:
-                if "NoCredentials" in str(type(e)):
-                    return {"provider": "AWS",
-                            "error": "No AWS credentials configured", "skus": []}
+                response = client.get_products(ServiceCode="AmazonEC2",
+                                               Filters=base_filters, MaxResults=10)
+            except NoCredentialsError:
+                return {"provider": "AWS", "error": "No AWS credentials configured", "skus": []}
+            except Exception:
                 continue
 
-            # Reserved (1yr no upfront, 3yr no upfront)
-            try:
-                ec2 = boto3.client("ec2", region_name=region)
-                for term_label, tier_name, term_length, offering in AWS_RESERVED_TERMS:
-                    try:
-                        ri_resp = ec2.describe_reserved_instances_offerings(
-                            InstanceType=inst,
-                            ProductDescription="Linux/UNIX",
-                            OfferingType=offering,
-                            OfferingClass="standard",
-                            MinDuration=31536000 if term_length == "1yr" else 94608000,
-                            MaxDuration=31536000 if term_length == "1yr" else 94608001,
-                            MaxResults=5,
-                        )
-                        for ri in ri_resp.get("ReservedInstancesOfferings", []):
-                            hourly = ri.get("UsagePrice", 0)
-                            fixed = ri.get("FixedPrice", 0)
-                            duration = ri.get("Duration", 31536000)
-                            # Convert to effective hourly (fixed cost amortized + usage)
-                            effective = hourly + (fixed / (duration / 3600))
-                            if effective > 0:
-                                skus.append({
-                                    "instance_type": inst, "gpu_type": gpu,
-                                    "gpu_count": count, "region": region,
-                                    "price_tier": tier_name,
-                                    "total_hourly_usd": round(effective, 4),
-                                    "per_gpu_hourly_usd": round(effective / count, 4),
-                                })
-                                break
-                    except Exception:
-                        pass
-            except Exception:
-                pass
+            for ps in response.get("PriceList", []):
+                obj = json.loads(ps)
+
+                # On-demand
+                for term in obj.get("terms", {}).get("OnDemand", {}).values():
+                    for dim in term.get("priceDimensions", {}).values():
+                        price = float(dim.get("pricePerUnit", {}).get("USD", 0))
+                        if price > 0:
+                            skus.append({
+                                "instance_type": inst, "gpu_type": gpu,
+                                "gpu_count": count, "region": region,
+                                "price_tier": "on_demand",
+                                "total_hourly_usd": round(price, 4),
+                                "per_gpu_hourly_usd": round(price / count, 4),
+                            })
+                            break
+                    break
+
+                # FIX: extract Reserved terms directly from same Pricing API response
+                # Looks at "standard" class, "No Upfront" purchase option
+                for term_data in obj.get("terms", {}).get("Reserved", {}).values():
+                    attrs = term_data.get("termAttributes", {})
+                    if attrs.get("OfferingClass") != "standard":
+                        continue
+                    if attrs.get("PurchaseOption") != "No Upfront":
+                        continue
+                    lease = attrs.get("LeaseContractLength", "")
+                    tier_name = {"1yr": "12mo", "3yr": "36mo"}.get(lease)
+                    if not tier_name:
+                        continue
+                    for dim in term_data.get("priceDimensions", {}).values():
+                        unit = dim.get("unit", "").lower()
+                        if "hrs" not in unit and "hour" not in unit:
+                            continue
+                        price = float(dim.get("pricePerUnit", {}).get("USD", 0))
+                        if price > 0:
+                            skus.append({
+                                "instance_type": inst, "gpu_type": gpu,
+                                "gpu_count": count, "region": region,
+                                "price_tier": tier_name,
+                                "total_hourly_usd": round(price, 4),
+                                "per_gpu_hourly_usd": round(price / count, 4),
+                            })
+                            break
 
     return {"provider": "AWS", "skus": skus}
 
@@ -310,23 +301,32 @@ GCP_GPU_PATTERNS = [
     ("B300",      "B300"),
 ]
 
-# GCP SKU description substrings that indicate pricing tier
-GCP_TIER_MAP = [
-    ("Spot Preemptible",           "spot"),
-    ("DWS Defined Duration",       "on_demand"),   # DWS ≈ 1-yr CUD equivalent
-    ("Calendar Mode",              "12mo"),         # Calendar ≈ committed
-    ("running in",                 "on_demand"),    # standard on-demand
-]
-
 
 def _gcp_tier(desc):
-    desc_lower = desc.lower()
-    if "spot preemptible" in desc_lower:
+    """
+    FIX: properly detect all GCP pricing tiers including Commitment v1.
+    Priority order matters — check most specific patterns first.
+    """
+    d = desc.lower()
+
+    if "spot preemptible" in d:
         return "spot"
-    if "dws defined duration" in desc_lower:
-        return "12mo"   # DWS ≈ 1-yr committed
-    if "calendar mode" in desc_lower:
-        return "36mo"   # Calendar ≈ 3-yr committed
+
+    # Commitment v1: "... for 1 Year" → 12mo, "... for 3 Year(s)" → 36mo
+    if "commitment v1" in d:
+        if "3 year" in d or "3 years" in d:
+            return "36mo"
+        if "1 year" in d or "1 years" in d:
+            return "12mo"
+
+    # DWS Defined Duration ≈ 1-yr committed reservation
+    if "dws defined duration" in d:
+        return "12mo"
+
+    # Calendar Mode ≈ 3-yr committed reservation
+    if "calendar mode" in d:
+        return "36mo"
+
     return "on_demand"
 
 
@@ -338,7 +338,6 @@ def fetch_gcp():
     url = f"https://cloudbilling.googleapis.com/v1/services/{GCP_COMPUTE}/skus"
     skus = []
     page_token = None
-    target_regions = list(INDIA_REGIONS["gcp"].split()) + list(US_REGIONS["gcp"].split())
     target_regions = [INDIA_REGIONS["gcp"], US_REGIONS["gcp"]]
     pages = 0
 
@@ -429,12 +428,12 @@ def fetch_runpod():
         if not gpu_type:
             continue
 
-        # Map RunPod tiers to Neysa-equivalent tiers
         tier_map = [
-            ("on_demand",  gpu.get("securePrice")),
-            ("1mo",        gpu.get("oneMonthPrice")),
-            ("6mo",        gpu.get("sixMonthPrice")),
-            ("36mo",       gpu.get("threeMonthPrice")),  # closest to 36mo
+            ("on_demand", gpu.get("securePrice")),
+            ("1mo",       gpu.get("oneMonthPrice")),
+            ("6mo",       gpu.get("sixMonthPrice")),
+            ("36mo",      gpu.get("threeMonthPrice")),
+            ("spot",      gpu.get("communityPrice")),
         ]
         for tier, price in tier_map:
             if price:
@@ -447,17 +446,6 @@ def fetch_runpod():
                     "price_tier": tier,
                     "per_gpu_hourly_usd": price,
                 })
-        # Community cloud as a separate note
-        if gpu.get("communityPrice"):
-            skus.append({
-                "id": gpu.get("id"),
-                "display_name": gpu.get("displayName"),
-                "gpu_type": gpu_type,
-                "memory_gb": gpu.get("memoryInGb"),
-                "region": "global",
-                "price_tier": "spot",
-                "per_gpu_hourly_usd": gpu.get("communityPrice"),
-            })
     return {"provider": "RunPod", "skus": skus}
 
 
@@ -490,91 +478,86 @@ def write_raw_csv(output, path):
 
 
 # ─── COMPARISON CSV ──────────────────────────────────────────────────────────
-# Tiers to compare
 NEYSA_TIERS = ["on_demand", "1mo", "6mo", "12mo", "24mo", "36mo"]
-
-# Which tiers each competitor provides (mapped to Neysa tier names)
-COMPETITOR_TIERS = {
-    "on_demand": "On-demand",
+TIER_LABELS = {
+    "on_demand": "On-demand (PAYG)",
     "1mo":       "1-month committed",
     "6mo":       "6-month committed",
     "12mo":      "12-month / 1-yr reserved",
+    "24mo":      "24-month committed",
     "36mo":      "36-month / 3-yr reserved",
     "spot":      "Spot / Community Cloud",
 }
-
 PROVIDERS_ORDER = ["Azure", "AWS", "GCP", "OCI", "RunPod"]
+COMP_TIERS = ["on_demand", "1mo", "6mo", "12mo", "36mo", "spot"]
 
 
-def _best_price(skus, gpu_type, tier,
-                india_region, us_region, provider_name):
-    """
-    Find the best (lowest) per_gpu_hourly_usd for a given gpu_type + tier.
-    Prefers India region, falls back to US, then global.
-    """
+def _best_price(skus, gpu_type, tier, india_region, us_region):
     candidates = [s for s in skus
                   if s.get("gpu_type") == gpu_type
                   and s.get("price_tier") == tier
                   and s.get("per_gpu_hourly_usd")]
-
     if not candidates:
         return None, None
 
-    def region_priority(s):
+    def priority(s):
         r = s.get("region", "")
-        if r == india_region:   return 0
-        if r == us_region:      return 1
-        if r == "global":       return 2
+        if r == india_region: return 0
+        if r == us_region:    return 1
+        if r == "global":     return 2
         return 3
 
-    candidates.sort(key=lambda s: (region_priority(s),
+    candidates.sort(key=lambda s: (priority(s),
                                    float(s.get("per_gpu_hourly_usd", 999))))
     best = candidates[0]
     return best.get("per_gpu_hourly_usd"), best.get("region", "")
 
 
 def write_comparison_csv(output, path):
-    providers = {}
-    for prov_key, prov_data in output["providers"].items():
-        name = prov_data.get("provider", prov_key)
-        providers[name] = prov_data.get("skus", [])
+    providers = {
+        prov_data.get("provider", k): prov_data.get("skus", [])
+        for k, prov_data in output["providers"].items()
+    }
 
-    # Build column headers
-    # Neysa columns
     neysa_cols = [f"neysa_{t}" for t in NEYSA_TIERS]
-    # Competitor columns: provider_tier for each tier we track
-    comp_cols = []
-    for pname in PROVIDERS_ORDER:
-        for tier in ["on_demand", "1mo", "6mo", "12mo", "36mo", "spot"]:
-            comp_cols.append(f"{pname.lower()}_{tier}")
+    comp_cols  = [f"{p.lower()}_{t}" for p in PROVIDERS_ORDER for t in COMP_TIERS]
+    fieldnames = ["gpu_type", "pricing_note"] + neysa_cols + comp_cols
 
-    fieldnames = ["gpu_type", "data_source_note"] + neysa_cols + comp_cols
+    # Human-readable header guide row
+    guide = {
+        "gpu_type": "COLUMN GUIDE",
+        "pricing_note": "India pricing used where available (IN); US fallback (US); global = provider-wide",
+        **{f"neysa_{t}": f"Neysa — {TIER_LABELS[t]}" for t in NEYSA_TIERS},
+        **{f"{p.lower()}_{t}": f"{p} — {TIER_LABELS[t]}"
+           for p in PROVIDERS_ORDER for t in COMP_TIERS},
+    }
 
     rows = []
     for gpu in GPU_TYPES:
         neysa_data = NEYSA.get(gpu, {})
-        row = {"gpu_type": gpu, "data_source_note": "India pricing preferred; US fallback"}
+        row = {
+            "gpu_type": gpu,
+            "pricing_note": "India preferred; US fallback",
+        }
 
-        # Neysa tiers
         for tier in NEYSA_TIERS:
             val = neysa_data.get(tier)
             row[f"neysa_{tier}"] = f"${val:.2f}" if val else "—"
 
-        # Competitors
         for pname in PROVIDERS_ORDER:
             skus = providers.get(pname, [])
             india = INDIA_REGIONS.get(pname.lower(), "")
             us    = US_REGIONS.get(pname.lower(), "")
 
-            for tier in ["on_demand", "1mo", "6mo", "12mo", "36mo", "spot"]:
-                price, region_used = _best_price(skus, gpu, tier, india, us, pname)
+            for tier in COMP_TIERS:
+                price, region_used = _best_price(skus, gpu, tier, india, us)
                 col = f"{pname.lower()}_{tier}"
                 if price:
-                    region_tag = ""
-                    if region_used == india:   region_tag = " (IN)"
-                    elif region_used == us:    region_tag = " (US)"
-                    elif region_used == "global": region_tag = " (global)"
-                    row[col] = f"${float(price):.2f}{region_tag}"
+                    if region_used == india:    tag = " (IN)"
+                    elif region_used == us:     tag = " (US)"
+                    elif region_used == "global": tag = " (global)"
+                    else:                       tag = f" ({region_used})"
+                    row[col] = f"${float(price):.2f}{tag}"
                 else:
                     row[col] = "—"
 
@@ -583,15 +566,7 @@ def write_comparison_csv(output, path):
     with open(path, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        # Write a human-readable header row explaining each column
-        writer.writerow({
-            "gpu_type": "--- COLUMN GUIDE ---",
-            "data_source_note": "India pricing preferred (IN); US used if India unavailable (US)",
-            **{f"neysa_{t}": f"Neysa {t}" for t in NEYSA_TIERS},
-            **{f"{p.lower()}_{t}": f"{p} {COMPETITOR_TIERS.get(t, t)}"
-               for p in PROVIDERS_ORDER
-               for t in ["on_demand", "1mo", "6mo", "12mo", "36mo", "spot"]},
-        })
+        writer.writerow(guide)
         writer.writerows(rows)
 
 
@@ -636,7 +611,7 @@ def main():
     print_summary(output)
     for fname in ["gpu_pricing.json", "gpu_pricing_raw.csv", "gpu_pricing_comparison.csv"]:
         if os.path.exists(fname):
-            print(f"  Wrote {fname} ({os.path.getsize(fname)//1024} KB)")
+            print(f"  Wrote {fname} ({os.path.getsize(fname) // 1024} KB)")
 
 
 if __name__ == "__main__":
