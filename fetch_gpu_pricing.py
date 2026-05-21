@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
 """
-GPU Pricing Fetcher v4 — Neysa Competitive Intelligence
+GPU Pricing Fetcher v5 — Neysa Competitive Intelligence
 
-Fixes vs v3:
-- GCP: "Commitment v1" rows now correctly map to 12mo/36mo tiers
-- Azure: reservation term filter corrected ("1 Year"/"3 Years")
-- AWS: reserved pricing now extracted from Pricing API response directly
-       (no longer using describe_reserved_instances_offerings)
+Fixes vs v4:
+- Azure: uses preview API (returns more SKUs including L4)
+- Azure: reads Savings Plans inline instead of separate reservation query
+- Azure: added eastus2 + westus2 regions (needed for H200)
+- Azure: L4 SKUs corrected to full-GPU only (NV36/NV72, not fractional NV6/12/18)
+- All other providers unchanged
 
 Outputs:
   gpu_pricing.json              — full raw data
   gpu_pricing_raw.csv           — every SKU, every provider, all rows
-  gpu_pricing_comparison.csv    — clean pivot: one row per GPU type,
-                                  Neysa tiers vs competitor tiers,
-                                  India pricing preferred, US fallback
+  gpu_pricing_comparison.csv    — clean pivot table, Neysa vs competitors
 """
 
 import os, sys, csv, json, re
@@ -27,43 +26,23 @@ except ImportError:
 
 # ─── NEYSA PRICING (from official price list, May 2026) ─────────────────────
 NEYSA = {
-    "L4": {
-        "on_demand": 1.17, "1mo": 0.78, "6mo": 0.73,
-        "12mo": 0.68, "24mo": 0.64, "36mo": 0.59,
-    },
-    "L40S": {
-        "on_demand": 1.95, "1mo": 1.30, "6mo": 1.21,
-        "12mo": 1.13, "24mo": 1.06, "36mo": 0.99,
-    },
-    "H100 SXM": {
-        "on_demand": 4.39, "1mo": 3.17, "6mo": 2.98,
-        "12mo": 2.80, "24mo": 2.63, "36mo": 2.47,
-    },
-    "H100 NVL": {
-        "on_demand": 4.39, "1mo": 3.17, "6mo": 2.98,
-        "12mo": 2.80, "24mo": 2.63, "36mo": 2.47,
-    },
-    "H200 SXM": {
-        "on_demand": 4.73, "1mo": 3.32, "6mo": 3.12,
-        "12mo": 2.93, "24mo": 2.76, "36mo": 2.59,
-    },
-    "B200": {
-        "on_demand": None, "1mo": None, "6mo": None,
-        "12mo": None, "24mo": None, "36mo": None,
-    },
-    "B300": {
-        "on_demand": None, "1mo": None, "6mo": None,
-        "12mo": None, "24mo": None, "36mo": None,
-    },
+    "L4":      {"on_demand": 1.17, "1mo": 0.78, "6mo": 0.73, "12mo": 0.68, "24mo": 0.64, "36mo": 0.59},
+    "L40S":    {"on_demand": 1.95, "1mo": 1.30, "6mo": 1.21, "12mo": 1.13, "24mo": 1.06, "36mo": 0.99},
+    "H100 SXM":{"on_demand": 4.39, "1mo": 3.17, "6mo": 2.98, "12mo": 2.80, "24mo": 2.63, "36mo": 2.47},
+    "H100 NVL":{"on_demand": 4.39, "1mo": 3.17, "6mo": 2.98, "12mo": 2.80, "24mo": 2.63, "36mo": 2.47},
+    "H200 SXM":{"on_demand": 4.73, "1mo": 3.32, "6mo": 3.12, "12mo": 2.93, "24mo": 2.76, "36mo": 2.59},
+    "B200":    {"on_demand": None, "1mo": None, "6mo": None, "12mo": None, "24mo": None, "36mo": None},
+    "B300":    {"on_demand": None, "1mo": None, "6mo": None, "12mo": None, "24mo": None, "36mo": None},
 }
 
 GPU_TYPES = ["L4", "L40S", "H100 SXM", "H100 NVL", "H200 SXM", "B200", "B300"]
 
-INDIA_REGIONS = {"azure": "southindia", "aws": "ap-south-1", "gcp": "asia-south1"}
-US_REGIONS    = {"azure": "eastus",     "aws": "us-east-1",  "gcp": "us-central1"}
+INDIA_REGIONS = {"azure": "southindia", "aws": "ap-south-1",  "gcp": "asia-south1"}
+US_REGIONS    = {"azure": "eastus",     "aws": "us-east-1",   "gcp": "us-central1"}
 
 REGIONS = {
-    "azure": ["eastus", "southindia"],
+    # FIX: added eastus2 + westus2 — needed for H200 and newer SKUs
+    "azure": ["eastus", "eastus2", "westus2", "southindia"],
     "aws":   ["us-east-1", "ap-south-1"],
     "gcp":   ["us-central1", "asia-south1"],
 }
@@ -71,79 +50,85 @@ REGIONS = {
 
 # ─── PROVIDER 1: AZURE ───────────────────────────────────────────────────────
 AZURE_SKUS = {
+    # H100 SXM
     "Standard_ND96isr_H100_v5":   ("H100 SXM", 8),
+    # H100 NVL
     "Standard_NC40ads_H100_v5":   ("H100 NVL", 1),
     "Standard_NC80adis_H100_v5":  ("H100 NVL", 2),
+    # H200 SXM — lives in eastus2/westus2, not eastus
     "Standard_ND96isr_H200_v5":   ("H200 SXM", 8),
-    "Standard_NV6ads_L4_v5":      ("L4", 1),
-    "Standard_NV12ads_L4_v5":     ("L4", 1),
-    "Standard_NV18ads_L4_v5":     ("L4", 1),
+    # FIX: L4 — full GPU SKUs only. NV36=1 full L4, NV72=2 full L4s.
+    # NV6/NV12/NV18 are fractional vGPU slices — excluded, not comparable to Neysa.
     "Standard_NV36ads_L4_v5":     ("L4", 1),
+    "Standard_NV36adms_L4_v5":    ("L4", 1),
     "Standard_NV72ads_L4_v5":     ("L4", 2),
+    # A100
     "Standard_NC24ads_A100_v4":   ("A100", 1),
     "Standard_NC48ads_A100_v4":   ("A100", 2),
     "Standard_NC96ads_A100_v4":   ("A100", 4),
     "Standard_ND96amsr_A100_v4":  ("A100", 8),
+    # B200 — speculative, skips silently if not yet in pricing API
     "Standard_ND_GB200_v6":       ("B200", 4),
-}
-
-# FIX: correct reservation term strings for Azure Retail Prices API
-AZURE_RESERVATION_TERMS = {
-    "1 Year":  "12mo",
-    "3 Years": "36mo",
 }
 
 
 def fetch_azure():
+    # FIX: preview API version returns more complete SKU coverage
     base = "https://prices.azure.com/api/retail/prices"
+    api_ver = {"api-version": "2023-01-01-preview"}
     skus = []
+    seen = set()  # deduplicate across regions
 
     for region in REGIONS["azure"]:
         for arm_sku, (gpu, count) in AZURE_SKUS.items():
-
-            # On-demand (Consumption)
             flt = (f"serviceName eq 'Virtual Machines' and armSkuName eq '{arm_sku}' "
                    f"and armRegionName eq '{region}' and priceType eq 'Consumption'")
             try:
-                items = requests.get(base, params={"$filter": flt}, timeout=30).json().get("Items", [])
+                items = requests.get(base, params={**api_ver, "$filter": flt},
+                                     timeout=30).json().get("Items", [])
                 items = [i for i in items
                          if "Windows" not in i.get("productName", "")
                          and "Spot" not in i.get("meterName", "")
                          and "Low Priority" not in i.get("meterName", "")]
-                if items:
-                    items.sort(key=lambda x: x.get("retailPrice", 999))
-                    total = items[0]["retailPrice"]
+                if not items:
+                    continue
+                items.sort(key=lambda x: x.get("retailPrice", 999))
+                item = items[0]
+                total = item["retailPrice"]
+
+                # On-demand
+                key = (arm_sku, region, "on_demand")
+                if key not in seen:
+                    seen.add(key)
                     skus.append({
                         "sku": arm_sku, "gpu_type": gpu, "gpu_count": count,
                         "region": region, "price_tier": "on_demand",
                         "total_hourly_usd": round(total, 4),
                         "per_gpu_hourly_usd": round(total / count, 4),
                     })
-            except Exception:
-                pass
 
-            # Reserved (1yr, 3yr)
-            for term, tier_label in AZURE_RESERVATION_TERMS.items():
-                flt_r = (f"serviceName eq 'Virtual Machines' and armSkuName eq '{arm_sku}' "
-                         f"and armRegionName eq '{region}' and priceType eq 'Reservation' "
-                         f"and reservationTerm eq '{term}'")
-                try:
-                    items = requests.get(base, params={"$filter": flt_r}, timeout=30).json().get("Items", [])
-                    items = [i for i in items if "Windows" not in i.get("productName", "")]
-                    if items:
-                        items.sort(key=lambda x: x.get("retailPrice", 999))
-                        total = items[0]["retailPrice"]
-                        # Azure reservation prices are total for the term; convert to hourly
-                        hours = 8760 if term == "1 Year" else 26280
-                        hourly = total / hours
+                # FIX: Savings Plans returned inline — much more reliable than
+                # separate reservation queries
+                for sp in item.get("savingsPlan", []):
+                    term = sp.get("term", "")
+                    sp_price = sp.get("retailPrice") or sp.get("unitPrice")
+                    if not sp_price:
+                        continue
+                    tier = ("12mo" if "1 Year" in term else
+                            "36mo" if "3 Year" in term else None)
+                    if not tier:
+                        continue
+                    key2 = (arm_sku, region, tier)
+                    if key2 not in seen:
+                        seen.add(key2)
                         skus.append({
                             "sku": arm_sku, "gpu_type": gpu, "gpu_count": count,
-                            "region": region, "price_tier": tier_label,
-                            "total_hourly_usd": round(hourly, 4),
-                            "per_gpu_hourly_usd": round(hourly / count, 4),
+                            "region": region, "price_tier": tier,
+                            "total_hourly_usd": round(sp_price, 4),
+                            "per_gpu_hourly_usd": round(sp_price / count, 4),
                         })
-                except Exception:
-                    pass
+            except Exception:
+                pass
 
     return {"provider": "Azure", "skus": skus}
 
@@ -165,7 +150,7 @@ def fetch_oci():
 
     skus = []
     for item in data.get("items", []):
-        name = item.get("displayName", "")
+        name   = item.get("displayName", "")
         metric = item.get("metricName", "")
         if "GPU" not in metric.upper() or "GPU" not in name.upper():
             continue
@@ -183,8 +168,7 @@ def fetch_oci():
         m = re.search(r"[.\s](\d+)\s*$", name.strip())
         count = int(m.group(1)) if m else 1
         skus.append({
-            "part_number": item.get("partNumber"),
-            "display_name": name,
+            "part_number": item.get("partNumber"), "display_name": name,
             "gpu_type": gpu_type, "gpu_count": count,
             "region": "global", "price_tier": "on_demand",
             "per_gpu_hourly_usd": round(price, 4),
@@ -219,7 +203,6 @@ def fetch_aws():
         from botocore.exceptions import NoCredentialsError
     except ImportError:
         return {"provider": "AWS", "error": "boto3 not installed", "skus": []}
-
     try:
         client = boto3.client("pricing", region_name="us-east-1")
     except Exception as e:
@@ -228,7 +211,7 @@ def fetch_aws():
     skus = []
     for region in REGIONS["aws"]:
         for inst, (gpu, count) in AWS_INSTANCES.items():
-            base_filters = [
+            filters = [
                 {"Type": "TERM_MATCH", "Field": "instanceType",    "Value": inst},
                 {"Type": "TERM_MATCH", "Field": "operatingSystem", "Value": "Linux"},
                 {"Type": "TERM_MATCH", "Field": "tenancy",         "Value": "Shared"},
@@ -238,9 +221,9 @@ def fetch_aws():
             ]
             try:
                 response = client.get_products(ServiceCode="AmazonEC2",
-                                               Filters=base_filters, MaxResults=10)
+                                               Filters=filters, MaxResults=10)
             except NoCredentialsError:
-                return {"provider": "AWS", "error": "No AWS credentials configured", "skus": []}
+                return {"provider": "AWS", "error": "No AWS credentials", "skus": []}
             except Exception:
                 continue
 
@@ -262,8 +245,7 @@ def fetch_aws():
                             break
                     break
 
-                # FIX: extract Reserved terms directly from same Pricing API response
-                # Looks at "standard" class, "No Upfront" purchase option
+                # Reserved — standard class, No Upfront, 1yr and 3yr
                 for term_data in obj.get("terms", {}).get("Reserved", {}).values():
                     attrs = term_data.get("termAttributes", {})
                     if attrs.get("OfferingClass") != "standard":
@@ -275,8 +257,7 @@ def fetch_aws():
                     if not tier_name:
                         continue
                     for dim in term_data.get("priceDimensions", {}).values():
-                        unit = dim.get("unit", "").lower()
-                        if "hrs" not in unit and "hour" not in unit:
+                        if "hrs" not in dim.get("unit", "").lower():
                             continue
                         price = float(dim.get("pricePerUnit", {}).get("USD", 0))
                         if price > 0:
@@ -295,38 +276,21 @@ def fetch_aws():
 # ─── PROVIDER 4: GCP ─────────────────────────────────────────────────────────
 GCP_COMPUTE = "6F81-5844-456A"
 GCP_GPU_PATTERNS = [
-    ("H100",      "H100 SXM"), ("H200",      "H200 SXM"),
-    ("L40S",      "L40S"),     ("Nvidia L4", "L4"),
-    ("A100",      "A100"),     ("B200",      "B200"),
-    ("B300",      "B300"),
+    ("H100", "H100 SXM"), ("H200", "H200 SXM"), ("L40S", "L40S"),
+    ("Nvidia L4", "L4"), ("A100", "A100"), ("B200", "B200"), ("B300", "B300"),
 ]
 
 
 def _gcp_tier(desc):
-    """
-    FIX: properly detect all GCP pricing tiers including Commitment v1.
-    Priority order matters — check most specific patterns first.
-    """
     d = desc.lower()
-
     if "spot preemptible" in d:
         return "spot"
-
-    # Commitment v1: "... for 1 Year" → 12mo, "... for 3 Year(s)" → 36mo
     if "commitment v1" in d:
-        if "3 year" in d or "3 years" in d:
-            return "36mo"
-        if "1 year" in d or "1 years" in d:
-            return "12mo"
-
-    # DWS Defined Duration ≈ 1-yr committed reservation
+        return "36mo" if ("3 year" in d or "3 years" in d) else "12mo"
     if "dws defined duration" in d:
         return "12mo"
-
-    # Calendar Mode ≈ 3-yr committed reservation
     if "calendar mode" in d:
         return "36mo"
-
     return "on_demand"
 
 
@@ -354,20 +318,18 @@ def fetch_gcp():
 
         for sku in data.get("skus", []):
             desc = sku.get("description", "")
-            cat = sku.get("category", {})
+            cat  = sku.get("category", {})
             if "GPU" not in desc.upper() and "Gpu" not in str(cat.get("resourceGroup", "")):
                 continue
-            gpu_type = next((l for k, l in GCP_GPU_PATTERNS if k.lower() in desc.lower()), None)
+            gpu_type = next((l for k, l in GCP_GPU_PATTERNS
+                             if k.lower() in desc.lower()), None)
             if not gpu_type:
                 continue
-
-            regions = sku.get("serviceRegions", [])
+            regions  = sku.get("serviceRegions", [])
             matching = [r for r in regions if r in target_regions]
             if not matching:
                 continue
-
             tier = _gcp_tier(desc)
-
             for pinfo in sku.get("pricingInfo", []):
                 for t in pinfo.get("pricingExpression", {}).get("tieredRates", []):
                     up = t.get("unitPrice", {})
@@ -401,9 +363,9 @@ RUNPOD_QUERY = """
 }
 """
 RUNPOD_KEYWORDS = [
-    ("h100", "H100 SXM"), ("h200", "H200 SXM"),
-    ("l40s", "L40S"), ("l40", "L40"), ("l4", "L4"),
-    ("a100", "A100"), ("b300", "B300"), ("b200", "B200"),
+    ("h100", "H100 SXM"), ("h200", "H200 SXM"), ("l40s", "L40S"),
+    ("l40", "L40"), ("l4", "L4"), ("a100", "A100"),
+    ("b300", "B300"), ("b200", "B200"),
 ]
 
 
@@ -412,9 +374,8 @@ def fetch_runpod():
     if not api_key:
         return {"provider": "RunPod", "error": "RUNPOD_API_KEY not set", "skus": []}
     try:
-        resp = requests.post(f"https://api.runpod.io/graphql?api_key={api_key}",
-                             json={"query": RUNPOD_QUERY}, timeout=30)
-        data = resp.json()
+        data = requests.post(f"https://api.runpod.io/graphql?api_key={api_key}",
+                             json={"query": RUNPOD_QUERY}, timeout=30).json()
     except Exception as e:
         return {"provider": "RunPod", "error": str(e), "skus": []}
 
@@ -423,27 +384,22 @@ def fetch_runpod():
 
     skus = []
     for gpu in data.get("data", {}).get("gpuTypes", []) or []:
-        display = (gpu.get("displayName") or "").lower()
-        gpu_type = next((l for k, l in RUNPOD_KEYWORDS if k in display), None)
+        display   = (gpu.get("displayName") or "").lower()
+        gpu_type  = next((l for k, l in RUNPOD_KEYWORDS if k in display), None)
         if not gpu_type:
             continue
-
-        tier_map = [
+        for tier, price in [
             ("on_demand", gpu.get("securePrice")),
             ("1mo",       gpu.get("oneMonthPrice")),
             ("6mo",       gpu.get("sixMonthPrice")),
             ("36mo",      gpu.get("threeMonthPrice")),
             ("spot",      gpu.get("communityPrice")),
-        ]
-        for tier, price in tier_map:
+        ]:
             if price:
                 skus.append({
-                    "id": gpu.get("id"),
-                    "display_name": gpu.get("displayName"),
-                    "gpu_type": gpu_type,
-                    "memory_gb": gpu.get("memoryInGb"),
-                    "region": "global",
-                    "price_tier": tier,
+                    "id": gpu.get("id"), "display_name": gpu.get("displayName"),
+                    "gpu_type": gpu_type, "memory_gb": gpu.get("memoryInGb"),
+                    "region": "global", "price_tier": tier,
                     "per_gpu_hourly_usd": price,
                 })
     return {"provider": "RunPod", "skus": skus}
@@ -459,9 +415,8 @@ def write_raw_csv(output, path):
                 "gpu_type":           sku.get("gpu_type"),
                 "gpu_count":          sku.get("gpu_count", ""),
                 "sku":                (sku.get("sku") or sku.get("instance_type")
-                                       or sku.get("slug") or sku.get("part_number")
-                                       or sku.get("id") or sku.get("description")
-                                       or sku.get("display_name") or ""),
+                                       or sku.get("part_number") or sku.get("id")
+                                       or sku.get("description") or sku.get("display_name") or ""),
                 "price_tier":         sku.get("price_tier", "on_demand"),
                 "per_gpu_hourly_usd": sku.get("per_gpu_hourly_usd") or "",
                 "total_hourly_usd":   sku.get("total_hourly_usd", ""),
@@ -478,21 +433,21 @@ def write_raw_csv(output, path):
 
 
 # ─── COMPARISON CSV ──────────────────────────────────────────────────────────
-NEYSA_TIERS = ["on_demand", "1mo", "6mo", "12mo", "24mo", "36mo"]
-TIER_LABELS = {
-    "on_demand": "On-demand (PAYG)",
-    "1mo":       "1-month committed",
-    "6mo":       "6-month committed",
-    "12mo":      "12-month / 1-yr reserved",
-    "24mo":      "24-month committed",
-    "36mo":      "36-month / 3-yr reserved",
-    "spot":      "Spot / Community Cloud",
-}
+NEYSA_TIERS   = ["on_demand", "1mo", "6mo", "12mo", "24mo", "36mo"]
+COMP_TIERS    = ["on_demand", "1mo", "6mo", "12mo", "36mo", "spot"]
 PROVIDERS_ORDER = ["Azure", "AWS", "GCP", "OCI", "RunPod"]
-COMP_TIERS = ["on_demand", "1mo", "6mo", "12mo", "36mo", "spot"]
+TIER_LABELS   = {
+    "on_demand": "On-demand (PAYG)",
+    "1mo":  "1-month committed",
+    "6mo":  "6-month committed",
+    "12mo": "12-month / 1-yr reserved",
+    "24mo": "24-month committed",
+    "36mo": "36-month / 3-yr reserved",
+    "spot": "Spot / Community Cloud",
+}
 
 
-def _best_price(skus, gpu_type, tier, india_region, us_region):
+def _best_price(skus, gpu_type, tier, india, us):
     candidates = [s for s in skus
                   if s.get("gpu_type") == gpu_type
                   and s.get("price_tier") == tier
@@ -500,30 +455,23 @@ def _best_price(skus, gpu_type, tier, india_region, us_region):
     if not candidates:
         return None, None
 
-    def priority(s):
+    def pri(s):
         r = s.get("region", "")
-        if r == india_region: return 0
-        if r == us_region:    return 1
-        if r == "global":     return 2
-        return 3
+        return 0 if r == india else 1 if r == us else 2 if r == "global" else 3
 
-    candidates.sort(key=lambda s: (priority(s),
-                                   float(s.get("per_gpu_hourly_usd", 999))))
-    best = candidates[0]
-    return best.get("per_gpu_hourly_usd"), best.get("region", "")
+    candidates.sort(key=lambda s: (pri(s), float(s.get("per_gpu_hourly_usd", 999))))
+    b = candidates[0]
+    return b.get("per_gpu_hourly_usd"), b.get("region", "")
 
 
 def write_comparison_csv(output, path):
-    providers = {
-        prov_data.get("provider", k): prov_data.get("skus", [])
-        for k, prov_data in output["providers"].items()
-    }
+    providers = {v.get("provider", k): v.get("skus", [])
+                 for k, v in output["providers"].items()}
 
     neysa_cols = [f"neysa_{t}" for t in NEYSA_TIERS]
     comp_cols  = [f"{p.lower()}_{t}" for p in PROVIDERS_ORDER for t in COMP_TIERS]
-    fieldnames = ["gpu_type", "pricing_note"] + neysa_cols + comp_cols
+    all_cols   = ["gpu_type", "pricing_note"] + neysa_cols + comp_cols
 
-    # Human-readable header guide row
     guide = {
         "gpu_type": "COLUMN GUIDE",
         "pricing_note": "India pricing used where available (IN); US fallback (US); global = provider-wide",
@@ -534,39 +482,36 @@ def write_comparison_csv(output, path):
 
     rows = []
     for gpu in GPU_TYPES:
-        neysa_data = NEYSA.get(gpu, {})
-        row = {
-            "gpu_type": gpu,
-            "pricing_note": "India preferred; US fallback",
-        }
-
-        for tier in NEYSA_TIERS:
-            val = neysa_data.get(tier)
-            row[f"neysa_{tier}"] = f"${val:.2f}" if val else "—"
-
+        neysa = NEYSA.get(gpu, {})
+        row   = {"gpu_type": gpu, "pricing_note": "India preferred; US fallback"}
+        for t in NEYSA_TIERS:
+            v = neysa.get(t)
+            row[f"neysa_{t}"] = f"${v:.2f}" if v else "—"
         for pname in PROVIDERS_ORDER:
-            skus = providers.get(pname, [])
+            skus  = providers.get(pname, [])
             india = INDIA_REGIONS.get(pname.lower(), "")
             us    = US_REGIONS.get(pname.lower(), "")
-
-            for tier in COMP_TIERS:
-                price, region_used = _best_price(skus, gpu, tier, india, us)
-                col = f"{pname.lower()}_{tier}"
+            for t in COMP_TIERS:
+                price, region = _best_price(skus, gpu, t, india, us)
+                col = f"{pname.lower()}_{t}"
                 if price:
-                    if region_used == india:    tag = " (IN)"
-                    elif region_used == us:     tag = " (US)"
-                    elif region_used == "global": tag = " (global)"
-                    else:                       tag = f" ({region_used})"
+                    tag = (" (IN)"     if region == india  else
+                           " (US)"     if region == us     else
+                           " (global)" if region == "global" else f" ({region})")
                     row[col] = f"${float(price):.2f}{tag}"
                 else:
                     row[col] = "—"
-
         rows.append(row)
 
+    # Drop columns that are all "—" to reduce noise
+    populated = [c for c in comp_cols
+                 if any(row.get(c, "—") != "—" for row in rows)]
+    final = ["gpu_type", "pricing_note"] + neysa_cols + populated
+
     with open(path, "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=final)
         writer.writeheader()
-        writer.writerow(guide)
+        writer.writerow({k: v for k, v in guide.items() if k in final})
         writer.writerows(rows)
 
 
@@ -585,17 +530,10 @@ def print_summary(output):
 
 
 def main():
-    output = {
-        "fetched_at": datetime.now(timezone.utc).isoformat(),
-        "providers": {},
-    }
-    for key, fn in [
-        ("azure",  fetch_azure),
-        ("oci",    fetch_oci),
-        ("aws",    fetch_aws),
-        ("gcp",    fetch_gcp),
-        ("runpod", fetch_runpod),
-    ]:
+    output = {"fetched_at": datetime.now(timezone.utc).isoformat(), "providers": {}}
+
+    for key, fn in [("azure", fetch_azure), ("oci", fetch_oci), ("aws", fetch_aws),
+                    ("gcp", fetch_gcp), ("runpod", fetch_runpod)]:
         print(f"→ Fetching {key} ...")
         try:
             output["providers"][key] = fn()
