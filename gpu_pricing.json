@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T16:35:55.404993+00:00",
+  "fetched_at": "2026-05-21T17:25:05.587478+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -12,24 +12,6 @@
           "price_tier": "on_demand",
           "total_hourly_usd": 98.32,
           "per_gpu_hourly_usd": 12.29
-        },
-        {
-          "sku": "Standard_ND96isr_H100_v5",
-          "gpu_type": "H100 SXM",
-          "gpu_count": 8,
-          "region": "eastus",
-          "price_tier": "12mo",
-          "total_hourly_usd": 62.9248,
-          "per_gpu_hourly_usd": 7.8656
-        },
-        {
-          "sku": "Standard_ND96isr_H100_v5",
-          "gpu_type": "H100 SXM",
-          "gpu_count": 8,
-          "region": "eastus",
-          "price_tier": "36mo",
-          "total_hourly_usd": 43.1625,
-          "per_gpu_hourly_usd": 5.3953
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
@@ -45,18 +27,18 @@
           "gpu_type": "H100 NVL",
           "gpu_count": 1,
           "region": "eastus",
-          "price_tier": "12mo",
-          "total_hourly_usd": 5.235,
-          "per_gpu_hourly_usd": 5.235
+          "price_tier": "36mo",
+          "total_hourly_usd": 4.306,
+          "per_gpu_hourly_usd": 4.306
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
           "gpu_type": "H100 NVL",
           "gpu_count": 1,
           "region": "eastus",
-          "price_tier": "36mo",
-          "total_hourly_usd": 3.839,
-          "per_gpu_hourly_usd": 3.839
+          "price_tier": "12mo",
+          "total_hourly_usd": 5.8067,
+          "per_gpu_hourly_usd": 5.8067
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -72,18 +54,18 @@
           "gpu_type": "H100 NVL",
           "gpu_count": 2,
           "region": "eastus",
-          "price_tier": "12mo",
-          "total_hourly_usd": 10.47,
-          "per_gpu_hourly_usd": 5.235
+          "price_tier": "36mo",
+          "total_hourly_usd": 8.6119,
+          "per_gpu_hourly_usd": 4.306
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
           "gpu_type": "H100 NVL",
           "gpu_count": 2,
           "region": "eastus",
-          "price_tier": "36mo",
-          "total_hourly_usd": 7.678,
-          "per_gpu_hourly_usd": 3.839
+          "price_tier": "12mo",
+          "total_hourly_usd": 11.6133,
+          "per_gpu_hourly_usd": 5.8067
         },
         {
           "sku": "Standard_NC24ads_A100_v4",
@@ -99,18 +81,18 @@
           "gpu_type": "A100",
           "gpu_count": 1,
           "region": "eastus",
-          "price_tier": "12mo",
-          "total_hourly_usd": 2.401,
-          "per_gpu_hourly_usd": 2.401
+          "price_tier": "36mo",
+          "total_hourly_usd": 2.2659,
+          "per_gpu_hourly_usd": 2.2659
         },
         {
           "sku": "Standard_NC24ads_A100_v4",
           "gpu_type": "A100",
           "gpu_count": 1,
           "region": "eastus",
-          "price_tier": "36mo",
-          "total_hourly_usd": 1.3631,
-          "per_gpu_hourly_usd": 1.3631
+          "price_tier": "12mo",
+          "total_hourly_usd": 3.0574,
+          "per_gpu_hourly_usd": 3.0574
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -126,18 +108,18 @@
           "gpu_type": "A100",
           "gpu_count": 2,
           "region": "eastus",
-          "price_tier": "12mo",
-          "total_hourly_usd": 4.8021,
-          "per_gpu_hourly_usd": 2.401
+          "price_tier": "36mo",
+          "total_hourly_usd": 4.5317,
+          "per_gpu_hourly_usd": 2.2659
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
           "gpu_type": "A100",
           "gpu_count": 2,
           "region": "eastus",
-          "price_tier": "36mo",
-          "total_hourly_usd": 2.7261,
-          "per_gpu_hourly_usd": 1.3631
+          "price_tier": "12mo",
+          "total_hourly_usd": 6.1148,
+          "per_gpu_hourly_usd": 3.0574
         },
         {
           "sku": "Standard_NC96ads_A100_v4",
@@ -153,18 +135,18 @@
           "gpu_type": "A100",
           "gpu_count": 4,
           "region": "eastus",
-          "price_tier": "12mo",
-          "total_hourly_usd": 9.6041,
-          "per_gpu_hourly_usd": 2.401
+          "price_tier": "36mo",
+          "total_hourly_usd": 9.0635,
+          "per_gpu_hourly_usd": 2.2659
         },
         {
           "sku": "Standard_NC96ads_A100_v4",
           "gpu_type": "A100",
           "gpu_count": 4,
           "region": "eastus",
-          "price_tier": "36mo",
-          "total_hourly_usd": 5.4522,
-          "per_gpu_hourly_usd": 1.3631
+          "price_tier": "12mo",
+          "total_hourly_usd": 12.2296,
+          "per_gpu_hourly_usd": 3.0574
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -180,18 +162,378 @@
           "gpu_type": "A100",
           "gpu_count": 8,
           "region": "eastus",
-          "price_tier": "12mo",
-          "total_hourly_usd": 20.9728,
-          "per_gpu_hourly_usd": 2.6216
+          "price_tier": "36mo",
+          "total_hourly_usd": 17.0109,
+          "per_gpu_hourly_usd": 2.1264
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
           "gpu_type": "A100",
           "gpu_count": 8,
           "region": "eastus",
+          "price_tier": "12mo",
+          "total_hourly_usd": 28.2445,
+          "per_gpu_hourly_usd": 3.5306
+        },
+        {
+          "sku": "Standard_ND96isr_H100_v5",
+          "gpu_type": "H100 SXM",
+          "gpu_count": 8,
+          "region": "eastus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 98.32,
+          "per_gpu_hourly_usd": 12.29
+        },
+        {
+          "sku": "Standard_NC40ads_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 1,
+          "region": "eastus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 6.98,
+          "per_gpu_hourly_usd": 6.98
+        },
+        {
+          "sku": "Standard_NC40ads_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 1,
+          "region": "eastus2",
           "price_tier": "36mo",
-          "total_hourly_usd": 14.4188,
-          "per_gpu_hourly_usd": 1.8023
+          "total_hourly_usd": 4.306,
+          "per_gpu_hourly_usd": 4.306
+        },
+        {
+          "sku": "Standard_NC40ads_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 1,
+          "region": "eastus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 5.8067,
+          "per_gpu_hourly_usd": 5.8067
+        },
+        {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "eastus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 13.96,
+          "per_gpu_hourly_usd": 6.98
+        },
+        {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "eastus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 8.6119,
+          "per_gpu_hourly_usd": 4.306
+        },
+        {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "eastus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 11.6133,
+          "per_gpu_hourly_usd": 5.8067
+        },
+        {
+          "sku": "Standard_ND96isr_H200_v5",
+          "gpu_type": "H200 SXM",
+          "gpu_count": 8,
+          "region": "eastus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 84.8,
+          "per_gpu_hourly_usd": 10.6
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "eastus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 3.673,
+          "per_gpu_hourly_usd": 3.673
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "eastus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 2.2659,
+          "per_gpu_hourly_usd": 2.2659
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "eastus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 3.0574,
+          "per_gpu_hourly_usd": 3.0574
+        },
+        {
+          "sku": "Standard_NC48ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 2,
+          "region": "eastus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 7.346,
+          "per_gpu_hourly_usd": 3.673
+        },
+        {
+          "sku": "Standard_NC48ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 2,
+          "region": "eastus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 4.5317,
+          "per_gpu_hourly_usd": 2.2659
+        },
+        {
+          "sku": "Standard_NC48ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 2,
+          "region": "eastus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 6.1148,
+          "per_gpu_hourly_usd": 3.0574
+        },
+        {
+          "sku": "Standard_NC96ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 4,
+          "region": "eastus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 14.692,
+          "per_gpu_hourly_usd": 3.673
+        },
+        {
+          "sku": "Standard_NC96ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 4,
+          "region": "eastus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 9.0635,
+          "per_gpu_hourly_usd": 2.2659
+        },
+        {
+          "sku": "Standard_NC96ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 4,
+          "region": "eastus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 12.2296,
+          "per_gpu_hourly_usd": 3.0574
+        },
+        {
+          "sku": "Standard_ND96amsr_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 8,
+          "region": "eastus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 32.77,
+          "per_gpu_hourly_usd": 4.0963
+        },
+        {
+          "sku": "Standard_ND96amsr_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 8,
+          "region": "eastus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 17.0109,
+          "per_gpu_hourly_usd": 2.1264
+        },
+        {
+          "sku": "Standard_ND96amsr_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 8,
+          "region": "eastus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 28.2445,
+          "per_gpu_hourly_usd": 3.5306
+        },
+        {
+          "sku": "Standard_ND96isr_H100_v5",
+          "gpu_type": "H100 SXM",
+          "gpu_count": 8,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 98.32,
+          "per_gpu_hourly_usd": 12.29
+        },
+        {
+          "sku": "Standard_NC40ads_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 6.98,
+          "per_gpu_hourly_usd": 6.98
+        },
+        {
+          "sku": "Standard_NC40ads_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 4.306,
+          "per_gpu_hourly_usd": 4.306
+        },
+        {
+          "sku": "Standard_NC40ads_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 5.8067,
+          "per_gpu_hourly_usd": 5.8067
+        },
+        {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 13.96,
+          "per_gpu_hourly_usd": 6.98
+        },
+        {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "westus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 8.6119,
+          "per_gpu_hourly_usd": 4.306
+        },
+        {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "westus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 11.6133,
+          "per_gpu_hourly_usd": 5.8067
+        },
+        {
+          "sku": "Standard_ND96isr_H200_v5",
+          "gpu_type": "H200 SXM",
+          "gpu_count": 8,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 84.8,
+          "per_gpu_hourly_usd": 10.6
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 3.673,
+          "per_gpu_hourly_usd": 3.673
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 2.2659,
+          "per_gpu_hourly_usd": 2.2659
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 3.0574,
+          "per_gpu_hourly_usd": 3.0574
+        },
+        {
+          "sku": "Standard_NC48ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 2,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 7.346,
+          "per_gpu_hourly_usd": 3.673
+        },
+        {
+          "sku": "Standard_NC48ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 2,
+          "region": "westus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 4.5317,
+          "per_gpu_hourly_usd": 2.2659
+        },
+        {
+          "sku": "Standard_NC48ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 2,
+          "region": "westus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 6.1148,
+          "per_gpu_hourly_usd": 3.0574
+        },
+        {
+          "sku": "Standard_NC96ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 4,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 14.692,
+          "per_gpu_hourly_usd": 3.673
+        },
+        {
+          "sku": "Standard_NC96ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 4,
+          "region": "westus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 9.0635,
+          "per_gpu_hourly_usd": 2.2659
+        },
+        {
+          "sku": "Standard_NC96ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 4,
+          "region": "westus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 12.2296,
+          "per_gpu_hourly_usd": 3.0574
+        },
+        {
+          "sku": "Standard_ND96amsr_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 8,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 32.77,
+          "per_gpu_hourly_usd": 4.0963
+        },
+        {
+          "sku": "Standard_ND96amsr_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 8,
+          "region": "westus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 17.0109,
+          "per_gpu_hourly_usd": 2.1264
+        },
+        {
+          "sku": "Standard_ND96amsr_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 8,
+          "region": "westus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 28.2445,
+          "per_gpu_hourly_usd": 3.5306
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -207,18 +549,18 @@
           "gpu_type": "A100",
           "gpu_count": 8,
           "region": "southindia",
-          "price_tier": "12mo",
-          "total_hourly_usd": 31.6689,
-          "per_gpu_hourly_usd": 3.9586
+          "price_tier": "36mo",
+          "total_hourly_usd": 25.6866,
+          "per_gpu_hourly_usd": 3.2108
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
           "gpu_type": "A100",
           "gpu_count": 8,
           "region": "southindia",
-          "price_tier": "36mo",
-          "total_hourly_usd": 21.7724,
-          "per_gpu_hourly_usd": 2.7215
+          "price_tier": "12mo",
+          "total_hourly_usd": 42.6494,
+          "per_gpu_hourly_usd": 5.3312
         }
       ]
     },
@@ -1836,6 +2178,159 @@
           "per_gpu_hourly_usd": 0.79
         }
       ]
+    },
+    "vultr": {
+      "provider": "Vultr",
+      "skus": [
+        {
+          "plan_id": "vcg-a16-2c-8g-2vram",
+          "gpu_type": "A16",
+          "gpu_type_raw": "NVIDIA_A16",
+          "gpu_count": 1,
+          "vcpus": 2,
+          "ram_gb": 8.0,
+          "region": "ewr,ord,atl,lhr,fra",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 0.0597,
+          "per_gpu_hourly_usd": 0.0597
+        },
+        {
+          "plan_id": "vcg-a16-2c-16g-4vram",
+          "gpu_type": "A16",
+          "gpu_type_raw": "NVIDIA_A16",
+          "gpu_count": 1,
+          "vcpus": 2,
+          "ram_gb": 16.0,
+          "region": "ewr,ord,atl,lhr,fra",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 0.1194,
+          "per_gpu_hourly_usd": 0.1194
+        },
+        {
+          "plan_id": "vcg-a16-3c-32g-8vram",
+          "gpu_type": "A16",
+          "gpu_type_raw": "NVIDIA_A16",
+          "gpu_count": 1,
+          "vcpus": 3,
+          "ram_gb": 32.0,
+          "region": "ewr,ord,atl,lhr,fra",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 0.2389,
+          "per_gpu_hourly_usd": 0.2389
+        },
+        {
+          "plan_id": "vcg-a16-6c-64g-16vram",
+          "gpu_type": "A16",
+          "gpu_type_raw": "NVIDIA_A16",
+          "gpu_count": 1,
+          "vcpus": 6,
+          "ram_gb": 64.0,
+          "region": "ewr,ord,atl,lhr,fra",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 0.4778,
+          "per_gpu_hourly_usd": 0.4778
+        },
+        {
+          "plan_id": "vcg-a16-12c-128g-32vram",
+          "gpu_type": "A16",
+          "gpu_type_raw": "NVIDIA_A16",
+          "gpu_count": 1,
+          "vcpus": 12,
+          "ram_gb": 128.0,
+          "region": "ewr,ord,atl,lhr,fra",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 0.9556,
+          "per_gpu_hourly_usd": 0.9556
+        },
+        {
+          "plan_id": "vcg-l40s-16c-180g-48vram",
+          "gpu_type": "L40S",
+          "gpu_type_raw": "NVIDIA_L40S",
+          "gpu_count": 1,
+          "vcpus": 16,
+          "ram_gb": 180.0,
+          "region": "",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 1.5596,
+          "per_gpu_hourly_usd": 1.5596
+        },
+        {
+          "plan_id": "vcg-a16-24c-256g-64vram",
+          "gpu_type": "A16",
+          "gpu_type_raw": "NVIDIA_A16",
+          "gpu_count": 1,
+          "vcpus": 24,
+          "ram_gb": 256.0,
+          "region": "ewr,ord,fra,sgp,blr",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 1.9097,
+          "per_gpu_hourly_usd": 1.9097
+        },
+        {
+          "plan_id": "vcg-a16-48c-496g-128vram",
+          "gpu_type": "A16",
+          "gpu_type_raw": "NVIDIA_A16",
+          "gpu_count": 1,
+          "vcpus": 48,
+          "ram_gb": 496.0,
+          "region": "sgp,blr",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 3.8194,
+          "per_gpu_hourly_usd": 3.8194
+        },
+        {
+          "plan_id": "vcg-a16-96c-960g-256vram",
+          "gpu_type": "A16",
+          "gpu_type_raw": "NVIDIA_A16",
+          "gpu_count": 1,
+          "vcpus": 96,
+          "ram_gb": 960.0,
+          "region": "",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 7.6389,
+          "per_gpu_hourly_usd": 7.6389
+        },
+        {
+          "plan_id": "vcg-l40s-32c-375g-96vram",
+          "gpu_type": "L40S",
+          "gpu_type_raw": "NVIDIA_L40S",
+          "gpu_count": 1,
+          "vcpus": 32,
+          "ram_gb": 375.0,
+          "region": "",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 3.1192,
+          "per_gpu_hourly_usd": 3.1192
+        },
+        {
+          "plan_id": "vcg-l40s-64c-750g-192vram",
+          "gpu_type": "L40S",
+          "gpu_type_raw": "NVIDIA_L40S",
+          "gpu_count": 1,
+          "vcpus": 64,
+          "ram_gb": 750.0,
+          "region": "",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 6.2384,
+          "per_gpu_hourly_usd": 6.2384
+        },
+        {
+          "plan_id": "vcg-l40s-128c-1500g-384vram",
+          "gpu_type": "L40S",
+          "gpu_type_raw": "NVIDIA_L40S",
+          "gpu_count": 1,
+          "vcpus": 128,
+          "ram_gb": 1500.0,
+          "region": "",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 12.4768,
+          "per_gpu_hourly_usd": 12.4768
+        }
+      ]
+    },
+    "vastai": {
+      "provider": "Vast.ai",
+      "skus": []
     }
   }
 }

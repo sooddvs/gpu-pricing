@@ -1,0 +1,163 @@
+date,provider,gpu_type,price_tier,per_gpu_hourly_usd,region,source
+2022-01-01,AWS,A100,on_demand,4.34,us-east-1,historical_estimate
+2022-01-01,GCP,A100,on_demand,3.93,us-central1,historical_estimate
+2022-01-01,Azure,A100,on_demand,4.1,eastus,historical_estimate
+2022-01-01,OCI,A100,on_demand,4.0,global,historical_estimate
+2022-07-01,AWS,A100,on_demand,4.34,us-east-1,historical_estimate
+2022-07-01,GCP,A100,on_demand,3.93,us-central1,historical_estimate
+2022-07-01,Azure,A100,on_demand,4.1,eastus,historical_estimate
+2022-07-01,OCI,A100,on_demand,4.0,global,historical_estimate
+2023-01-01,AWS,A100,on_demand,4.34,us-east-1,historical_estimate
+2023-01-01,GCP,A100,on_demand,3.93,us-central1,historical_estimate
+2023-01-01,Azure,A100,on_demand,3.67,eastus,historical_estimate
+2023-01-01,OCI,A100,on_demand,4.0,global,historical_estimate
+2023-07-01,AWS,A100,on_demand,4.34,us-east-1,historical_estimate
+2023-07-01,GCP,A100,on_demand,3.93,us-central1,historical_estimate
+2023-07-01,Azure,A100,on_demand,3.67,eastus,historical_estimate
+2023-07-01,OCI,A100,on_demand,4.0,global,historical_estimate
+2023-10-01,AWS,H100 SXM,on_demand,12.29,us-east-1,historical_estimate
+2023-10-01,GCP,H100 SXM,on_demand,10.8,us-central1,historical_estimate
+2023-10-01,RunPod,H100 SXM,on_demand,3.49,global,historical_estimate
+2024-01-01,AWS,H100 SXM,on_demand,12.29,us-east-1,historical_estimate
+2024-01-01,GCP,H100 SXM,on_demand,10.4,us-central1,historical_estimate
+2024-01-01,Azure,H100 SXM,on_demand,12.29,eastus,historical_estimate
+2024-01-01,OCI,H100 SXM,on_demand,10.0,global,historical_estimate
+2024-01-01,RunPod,H100 SXM,on_demand,3.29,global,historical_estimate
+2024-04-01,AWS,H100 SXM,on_demand,12.29,us-east-1,historical_estimate
+2024-04-01,GCP,H100 SXM,on_demand,10.2,us-central1,historical_estimate
+2024-04-01,Azure,H100 SXM,on_demand,12.29,eastus,historical_estimate
+2024-04-01,OCI,H100 SXM,on_demand,10.0,global,historical_estimate
+2024-04-01,RunPod,H100 SXM,on_demand,3.09,global,historical_estimate
+2024-07-01,AWS,H100 SXM,on_demand,12.29,us-east-1,historical_estimate
+2024-07-01,GCP,H100 SXM,on_demand,9.97,us-central1,historical_estimate
+2024-07-01,Azure,H100 SXM,on_demand,12.29,eastus,historical_estimate
+2024-07-01,OCI,H100 SXM,on_demand,10.0,global,historical_estimate
+2024-07-01,RunPod,H100 SXM,on_demand,2.99,global,historical_estimate
+2024-10-01,AWS,H100 SXM,on_demand,12.29,us-east-1,historical_estimate
+2024-10-01,GCP,H100 SXM,on_demand,9.8,us-central1,historical_estimate
+2024-10-01,Azure,H100 SXM,on_demand,12.29,eastus,historical_estimate
+2024-10-01,OCI,H100 SXM,on_demand,10.0,global,historical_estimate
+2024-10-01,RunPod,H100 SXM,on_demand,2.89,global,historical_estimate
+2025-01-01,AWS,H100 SXM,on_demand,12.29,us-east-1,historical_estimate
+2025-01-01,GCP,H100 SXM,on_demand,9.8,us-central1,historical_estimate
+2025-01-01,Azure,H100 SXM,on_demand,12.29,eastus,historical_estimate
+2025-01-01,OCI,H100 SXM,on_demand,10.0,global,historical_estimate
+2025-01-01,RunPod,H100 SXM,on_demand,2.89,global,historical_estimate
+2025-04-01,AWS,H100 SXM,on_demand,12.29,us-east-1,historical_estimate
+2025-04-01,GCP,H100 SXM,on_demand,9.8,us-central1,historical_estimate
+2025-04-01,Azure,H100 SXM,on_demand,12.29,eastus,historical_estimate
+2025-04-01,OCI,H100 SXM,on_demand,10.0,global,historical_estimate
+2025-04-01,RunPod,H100 SXM,on_demand,2.89,global,historical_estimate
+2025-07-01,AWS,H100 SXM,on_demand,6.88,us-east-1,historical_estimate
+2025-07-01,GCP,H100 SXM,on_demand,9.8,us-central1,historical_estimate
+2025-07-01,Azure,H100 SXM,on_demand,12.29,eastus,historical_estimate
+2025-07-01,OCI,H100 SXM,on_demand,10.0,global,historical_estimate
+2025-07-01,RunPod,H100 SXM,on_demand,2.89,global,historical_estimate
+2025-10-01,AWS,H100 SXM,on_demand,6.88,us-east-1,historical_estimate
+2025-10-01,GCP,H100 SXM,on_demand,9.8,us-central1,historical_estimate
+2025-10-01,Azure,H100 SXM,on_demand,12.29,eastus,historical_estimate
+2025-10-01,OCI,H100 SXM,on_demand,10.0,global,historical_estimate
+2025-10-01,RunPod,H100 SXM,on_demand,2.89,global,historical_estimate
+2024-10-01,GCP,H200 SXM,on_demand,9.31,us-central1,historical_estimate
+2024-10-01,OCI,H200 SXM,on_demand,10.0,global,historical_estimate
+2024-10-01,RunPod,H200 SXM,on_demand,4.39,global,historical_estimate
+2025-01-01,GCP,H200 SXM,on_demand,9.31,us-central1,historical_estimate
+2025-01-01,OCI,H200 SXM,on_demand,10.0,global,historical_estimate
+2025-01-01,RunPod,H200 SXM,on_demand,4.39,global,historical_estimate
+2025-07-01,AWS,H200 SXM,on_demand,7.91,us-east-1,historical_estimate
+2025-07-01,GCP,H200 SXM,on_demand,9.31,us-central1,historical_estimate
+2025-07-01,OCI,H200 SXM,on_demand,10.0,global,historical_estimate
+2025-07-01,RunPod,H200 SXM,on_demand,3.99,global,historical_estimate
+2023-10-01,GCP,L4,on_demand,0.7,us-central1,historical_estimate
+2023-10-01,RunPod,L4,on_demand,0.5,global,historical_estimate
+2024-01-01,GCP,L4,on_demand,0.7,us-central1,historical_estimate
+2024-01-01,RunPod,L4,on_demand,0.48,global,historical_estimate
+2024-07-01,AWS,L4,on_demand,0.8,us-east-1,historical_estimate
+2024-07-01,GCP,L4,on_demand,0.7,us-central1,historical_estimate
+2024-07-01,RunPod,L4,on_demand,0.44,global,historical_estimate
+2025-01-01,AWS,L4,on_demand,0.8,us-east-1,historical_estimate
+2025-01-01,GCP,L4,on_demand,0.56,us-central1,historical_estimate
+2025-01-01,RunPod,L4,on_demand,0.44,global,historical_estimate
+2024-07-01,AWS,L40S,on_demand,1.86,us-east-1,historical_estimate
+2024-07-01,OCI,L40S,on_demand,3.5,global,historical_estimate
+2024-07-01,RunPod,L40S,on_demand,0.86,global,historical_estimate
+2025-01-01,AWS,L40S,on_demand,1.86,us-east-1,historical_estimate
+2025-01-01,OCI,L40S,on_demand,3.5,global,historical_estimate
+2025-01-01,RunPod,L40S,on_demand,0.86,global,historical_estimate
+2025-07-01,AWS,L40S,on_demand,1.86,us-east-1,historical_estimate
+2025-07-01,OCI,L40S,on_demand,3.5,global,historical_estimate
+2025-07-01,RunPod,L40S,on_demand,0.86,global,historical_estimate
+2026-05-21,Azure,H100 SXM,on_demand,12.29,eastus,live
+2026-05-21,Azure,H100 NVL,on_demand,6.98,eastus,live
+2026-05-21,Azure,H100 NVL,36mo,4.306,eastus,live
+2026-05-21,Azure,H100 NVL,12mo,5.8067,eastus,live
+2026-05-21,Azure,A100,on_demand,3.673,eastus,live
+2026-05-21,Azure,A100,36mo,2.1264,eastus,live
+2026-05-21,Azure,A100,12mo,3.0574,eastus,live
+2026-05-21,Azure,H200 SXM,on_demand,10.6,eastus2,live
+2026-05-21,OCI,L40S,on_demand,0.6,global,live
+2026-05-21,OCI,H100 SXM,on_demand,10.0,global,live
+2026-05-21,OCI,H200 SXM,on_demand,10.0,global,live
+2026-05-21,OCI,B200,on_demand,14.0,global,live
+2026-05-21,OCI,B300,on_demand,15.0,global,live
+2026-05-21,OCI,A100,on_demand,4.0,global,live
+2026-05-21,AWS,H100 SXM,on_demand,6.88,us-east-1,live
+2026-05-21,AWS,H100 SXM,36mo,2.9722,us-east-1,live
+2026-05-21,AWS,H200 SXM,on_demand,7.912,us-east-1,live
+2026-05-21,AWS,B200,on_demand,14.2416,us-east-1,live
+2026-05-21,AWS,L4,on_demand,0.8048,us-east-1,live
+2026-05-21,AWS,L4,36mo,0.3694,us-east-1,live
+2026-05-21,AWS,L4,12mo,0.5239,us-east-1,live
+2026-05-21,AWS,L40S,on_demand,1.861,us-east-1,live
+2026-05-21,AWS,L40S,12mo,1.1724,us-east-1,live
+2026-05-21,AWS,L40S,36mo,0.804,us-east-1,live
+2026-05-21,AWS,A100 40GB,on_demand,2.7447,us-east-1,live
+2026-05-21,AWS,A100 40GB,36mo,1.1718,us-east-1,live
+2026-05-21,AWS,A100 40GB,12mo,1.7401,us-east-1,live
+2026-05-21,AWS,A100 80GB,on_demand,3.4309,us-east-1,live
+2026-05-21,AWS,A100 80GB,36mo,1.4647,us-east-1,live
+2026-05-21,AWS,A100 80GB,12mo,2.1752,us-east-1,live
+2026-05-21,GCP,A100,on_demand,2.9339,us-central1,live
+2026-05-21,GCP,A100,12mo,1.6136,us-central1,live
+2026-05-21,GCP,B200,36mo,7.0884,us-central1,live
+2026-05-21,GCP,H100 SXM,spot,3.1155,asia-south1,live
+2026-05-21,GCP,B200,12mo,8.055,asia-south1,live
+2026-05-21,GCP,H100 SXM,36mo,4.2999,us-central1,live
+2026-05-21,GCP,L4,12mo,0.3528,us-central1,live
+2026-05-21,GCP,H100 SXM,12mo,4.2008,us-central1,live
+2026-05-21,GCP,A100,spot,0.5897,asia-south1,live
+2026-05-21,GCP,L4,36mo,0.252,us-central1,live
+2026-05-21,GCP,H200 SXM,36mo,4.083,us-central1,live
+2026-05-21,GCP,H100 SXM,on_demand,9.7966,us-central1,live
+2026-05-21,GCP,H200 SXM,on_demand,9.3117,us-central1,live
+2026-05-21,GCP,A100,36mo,1.0269,us-central1,live
+2026-05-21,GCP,H200 SXM,spot,4.6559,us-central1,live
+2026-05-21,GCP,L4,spot,0.2343,us-central1,live
+2026-05-21,GCP,H200 SXM,12mo,4.5753,asia-south1,live
+2026-05-21,GCP,B200,spot,2.8099,asia-south1,live
+2026-05-21,GCP,L4,on_demand,0.56,us-central1,live
+2026-05-21,RunPod,A100,on_demand,1.39,global,live
+2026-05-21,RunPod,A100,36mo,1.21,global,live
+2026-05-21,RunPod,A100,spot,1.0,global,live
+2026-05-21,RunPod,B200,on_demand,5.89,global,live
+2026-05-21,RunPod,B200,36mo,5.54,global,live
+2026-05-21,RunPod,B200,spot,5.98,global,live
+2026-05-21,RunPod,B300,on_demand,7.39,global,live
+2026-05-21,RunPod,B300,spot,6.94,global,live
+2026-05-21,RunPod,H100 SXM,on_demand,2.89,global,live
+2026-05-21,RunPod,H100 SXM,36mo,2.72,global,live
+2026-05-21,RunPod,H100 SXM,spot,1.99,global,live
+2026-05-21,RunPod,H200 SXM,on_demand,3.79,global,live
+2026-05-21,RunPod,H200 SXM,36mo,3.56,global,live
+2026-05-21,RunPod,H200 SXM,spot,0.5,global,live
+2026-05-21,RunPod,L4,on_demand,0.39,global,live
+2026-05-21,RunPod,L4,36mo,0.34,global,live
+2026-05-21,RunPod,L4,spot,0.44,global,live
+2026-05-21,RunPod,L40,on_demand,0.82,global,live
+2026-05-21,RunPod,L40,36mo,0.71,global,live
+2026-05-21,RunPod,L40,spot,0.69,global,live
+2026-05-21,RunPod,L40S,on_demand,0.86,global,live
+2026-05-21,RunPod,L40S,36mo,0.748,global,live
+2026-05-21,RunPod,L40S,spot,0.79,global,live
+2026-05-21,Vultr,A16,on_demand,0.0597,"ewr,ord,atl,lhr,fra",live
+2026-05-21,Vultr,L40S,on_demand,1.5596,,live
