@@ -33,13 +33,16 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: us-east-1
 
+      - name: Update price history
+        run: python update_history.py
+
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin main
           git reset --soft origin/main
-          git add gpu_pricing.json gpu_pricing_raw.csv gpu_pricing_comparison.csv
+          git add gpu_pricing.json gpu_pricing_raw.csv gpu_pricing_comparison.csv gpu_pricing_history.csv
           git diff --staged --quiet && echo "No changes" && exit 0
           git commit -m "Daily pricing refresh $(date -u +%Y-%m-%d)"
           git push origin main
