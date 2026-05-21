@@ -39,7 +39,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin main
           git reset --soft origin/main
-          git add gpu_pricing.json gpu_pricing.csv
+          git add gpu_pricing.json gpu_pricing_raw.csv gpu_pricing_comparison.csv
           git diff --staged --quiet && echo "No changes" && exit 0
           git commit -m "Daily pricing refresh $(date -u +%Y-%m-%d)"
           git push origin main
