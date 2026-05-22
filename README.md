@@ -1,17 +1,50 @@
-# GPU Pricing Tracker
+GPU Pricing Intelligence
 
-Fetches live GPU pricing daily from Azure, OCI, AWS, GCP, DigitalOcean, and RunPod.
+Live competitive pricing data — GPU cloud providers and LLM inference APIs — refreshed daily via GitHub Actions.
 
-## Outputs
-- `gpu_pricing.json` — full structured data
-- `gpu_pricing.csv` — flat summary, open in Excel/Sheets
+## What this does
 
-## Secrets needed
-| Secret | Where to get it |
-|--------|----------------|
-| `RUNPOD_API_KEY` | runpod.io/console/user/settings |
-| `GCP_API_KEY` | console.cloud.google.com/apis/credentials |
-| `DO_API_TOKEN` | cloud.digitalocean.com/account/api/tokens |
-| `AWS_ACCESS_KEY_ID` + `AWS_SECRET_ACCESS_KEY` | AWS IAM console |
+Two daily scripts pull pricing from 8+ providers and commit the results as CSV files you can open directly in Excel or Google Sheets.
 
-Azure and OCI work with no credentials at all.
+## Output files
+
+| File | What's in it |
+|---|---|
+| `gpu_pricing_comparison.csv` | **Main file.** One row per GPU type. Neysa tiers vs Azure, AWS, GCP, OCI, RunPod, Vultr. India pricing preferred, US fallback. |
+| `gpu_pricing_raw.csv` | Every GPU SKU from every provider. All tiers, all regions, all configs. For deep dives. |
+| `gpu_pricing_history.csv` | Daily price snapshots going back to 2022. Open in Excel → PivotChart for trend lines. |
+| `inference_api_pricing.csv` | Per-token pricing for LLM inference APIs: AWS Bedrock, Azure OpenAI, Azure AI Foundry, GCP Vertex AI / Gemini. |
+| `gpu_pricing.json` | Raw JSON source data. Used by other scripts. |
+
+## Scripts
+
+| Script | Purpose |
+|---|---|
+| `fetch_gpu_pricing.py` | Pulls GPU on-demand + committed pricing from all cloud providers |
+| `fetch_inference_pricing.py` | Pulls per-token inference pricing from Bedrock, Azure OpenAI, Vertex AI |
+| `update_history.py` | Appends today's prices to the history file |
+
+## Providers covered
+
+**GPU pricing:** Azure · AWS EC2 · AWS SageMaker · GCP · Oracle Cloud · RunPod · Vultr · Vast.ai
+
+**Inference API pricing:** AWS Bedrock · Azure OpenAI · Azure AI Foundry · GCP Vertex AI / Gemini
+
+## Credentials (GitHub Secrets)
+
+| Secret | Provider | Required? |
+|---|---|---|
+| `RUNPOD_API_KEY` | RunPod | Yes — free account, no card |
+| `GCP_API_KEY` | GCP Billing API | Yes — free API key |
+| `AWS_ACCESS_KEY_ID` | AWS Pricing API | Yes — read-only IAM user |
+| `AWS_SECRET_ACCESS_KEY` | AWS Pricing API | Yes |
+
+Azure and OCI work without any credentials (public APIs).
+
+## Schedule
+
+Runs daily at 6am UTC (11:30am IST). Trigger manually anytime via Actions → Run workflow.
+
+## Adding new providers
+
+Edit `fetch_gpu_pricing.py` — add a new `fetch_yourprovider()` function and append it to the `fetchers` list in `main()`. The comparison table picks it up automatically.
