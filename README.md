@@ -1,4 +1,4 @@
-GPU Pricing Intelligence
+# GPU Pricing Intelligence
 
 Live competitive pricing data — GPU cloud providers and LLM inference APIs — refreshed daily via GitHub Actions.
 
