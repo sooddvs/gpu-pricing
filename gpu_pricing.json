@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-22T08:16:37.730038+00:00",
+  "fetched_at": "2026-05-22T08:43:08.870910+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -212,6 +212,33 @@
           "per_gpu_hourly_usd": 5.8067
         },
         {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "eastus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 13.96,
+          "per_gpu_hourly_usd": 6.98
+        },
+        {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "eastus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 8.6119,
+          "per_gpu_hourly_usd": 4.306
+        },
+        {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "eastus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 11.6133,
+          "per_gpu_hourly_usd": 5.8067
+        },
+        {
           "sku": "Standard_ND96isr_H200_v5",
           "gpu_type": "H200 SXM",
           "gpu_count": 8,
@@ -219,6 +246,33 @@
           "price_tier": "on_demand",
           "total_hourly_usd": 84.8,
           "per_gpu_hourly_usd": 10.6
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "eastus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 3.673,
+          "per_gpu_hourly_usd": 3.673
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "eastus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 2.2659,
+          "per_gpu_hourly_usd": 2.2659
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "eastus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 3.0574,
+          "per_gpu_hourly_usd": 3.0574
         },
         {
           "sku": "Standard_NC48ads_A100_v4",

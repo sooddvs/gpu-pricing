@@ -3,6 +3,7 @@ A100,Azure,12mo,3.0574,3.0574,eastus,1,Standard_NC24ads_A100_v4
 A100,Azure,12mo,3.0574,6.1148,eastus,2,Standard_NC48ads_A100_v4
 A100,Azure,12mo,3.0574,12.2296,eastus,4,Standard_NC96ads_A100_v4
 A100,Azure,12mo,3.5306,28.2445,eastus,8,Standard_ND96amsr_A100_v4
+A100,Azure,12mo,3.0574,3.0574,eastus2,1,Standard_NC24ads_A100_v4
 A100,Azure,12mo,3.0574,6.1148,eastus2,2,Standard_NC48ads_A100_v4
 A100,Azure,12mo,3.0574,12.2296,eastus2,4,Standard_NC96ads_A100_v4
 A100,Azure,12mo,3.5306,28.2445,eastus2,8,Standard_ND96amsr_A100_v4
@@ -15,6 +16,7 @@ A100,Azure,36mo,2.2659,2.2659,eastus,1,Standard_NC24ads_A100_v4
 A100,Azure,36mo,2.2659,4.5317,eastus,2,Standard_NC48ads_A100_v4
 A100,Azure,36mo,2.2659,9.0635,eastus,4,Standard_NC96ads_A100_v4
 A100,Azure,36mo,2.1264,17.0109,eastus,8,Standard_ND96amsr_A100_v4
+A100,Azure,36mo,2.2659,2.2659,eastus2,1,Standard_NC24ads_A100_v4
 A100,Azure,36mo,2.2659,4.5317,eastus2,2,Standard_NC48ads_A100_v4
 A100,Azure,36mo,2.2659,9.0635,eastus2,4,Standard_NC96ads_A100_v4
 A100,Azure,36mo,2.1264,17.0109,eastus2,8,Standard_ND96amsr_A100_v4
@@ -27,6 +29,7 @@ A100,Azure,on_demand,3.673,3.673,eastus,1,Standard_NC24ads_A100_v4
 A100,Azure,on_demand,3.673,7.346,eastus,2,Standard_NC48ads_A100_v4
 A100,Azure,on_demand,3.673,14.692,eastus,4,Standard_NC96ads_A100_v4
 A100,Azure,on_demand,4.0963,32.77,eastus,8,Standard_ND96amsr_A100_v4
+A100,Azure,on_demand,3.673,3.673,eastus2,1,Standard_NC24ads_A100_v4
 A100,Azure,on_demand,3.673,7.346,eastus2,2,Standard_NC48ads_A100_v4
 A100,Azure,on_demand,3.673,14.692,eastus2,4,Standard_NC96ads_A100_v4
 A100,Azure,on_demand,4.0963,32.77,eastus2,8,Standard_ND96amsr_A100_v4
@@ -98,16 +101,19 @@ B300,RunPod,spot,6.94,,global,,NVIDIA B300 SXM6 AC
 H100 NVL,Azure,12mo,5.8067,5.8067,eastus,1,Standard_NC40ads_H100_v5
 H100 NVL,Azure,12mo,5.8067,11.6133,eastus,2,Standard_NC80adis_H100_v5
 H100 NVL,Azure,12mo,5.8067,5.8067,eastus2,1,Standard_NC40ads_H100_v5
+H100 NVL,Azure,12mo,5.8067,11.6133,eastus2,2,Standard_NC80adis_H100_v5
 H100 NVL,Azure,12mo,5.8067,5.8067,westus2,1,Standard_NC40ads_H100_v5
 H100 NVL,Azure,12mo,5.8067,11.6133,westus2,2,Standard_NC80adis_H100_v5
 H100 NVL,Azure,36mo,4.306,4.306,eastus,1,Standard_NC40ads_H100_v5
 H100 NVL,Azure,36mo,4.306,8.6119,eastus,2,Standard_NC80adis_H100_v5
 H100 NVL,Azure,36mo,4.306,4.306,eastus2,1,Standard_NC40ads_H100_v5
+H100 NVL,Azure,36mo,4.306,8.6119,eastus2,2,Standard_NC80adis_H100_v5
 H100 NVL,Azure,36mo,4.306,4.306,westus2,1,Standard_NC40ads_H100_v5
 H100 NVL,Azure,36mo,4.306,8.6119,westus2,2,Standard_NC80adis_H100_v5
 H100 NVL,Azure,on_demand,6.98,6.98,eastus,1,Standard_NC40ads_H100_v5
 H100 NVL,Azure,on_demand,6.98,13.96,eastus,2,Standard_NC80adis_H100_v5
 H100 NVL,Azure,on_demand,6.98,6.98,eastus2,1,Standard_NC40ads_H100_v5
+H100 NVL,Azure,on_demand,6.98,13.96,eastus2,2,Standard_NC80adis_H100_v5
 H100 NVL,Azure,on_demand,6.98,6.98,westus2,1,Standard_NC40ads_H100_v5
 H100 NVL,Azure,on_demand,6.98,13.96,westus2,2,Standard_NC80adis_H100_v5
 H100 SXM,AWS EC2,36mo,2.9722,23.7773,us-east-1,8,p5.48xlarge
