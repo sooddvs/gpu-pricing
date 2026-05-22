@@ -1,0 +1,69 @@
+section,model,can_self_host,bedrock_input_per_1m,bedrock_output_per_1m,bedrock_blended_per_1m,neysa_gpu_config,neysa_monthly_infra_cost,neysa_max_tokens_per_month,neysa_per_1m_tokens,bedrock_vs_neysa_per_1m,break_even_tokens_monthly,break_even_monthly_spend,notes
+MODEL COMPARISON,One row per model. Break-even = monthly tokens where Neysa total cost = Bedrock total cost.,,Bedrock input $/1M tokens,Bedrock output $/1M tokens,Bedrock blended $/1M (50/50 in/out),Recommended Neysa config,Neysa monthly GPU cost (full month),Max token capacity on that config,Neysa effective $/1M tokens at capacity,Bedrock is X% cheaper/more expensive per 1M tokens,Monthly tokens where self-hosting starts winning,Bedrock monthly spend at break-even point,Notes
+model,Amazon Nova Micro,No — proprietary,$0.0350,$0.1400,$0.0875,—,—,—,—,—,—,—,Amazon proprietary
+model,Amazon Nova Lite,No — proprietary,$0.0600,$0.2400,$0.1500,—,—,—,—,—,—,—,Amazon proprietary
+model,Amazon Nova Pro,No — proprietary,$0.8000,$3.2000,$2.0000,—,—,—,—,—,—,—,Amazon proprietary
+model,Amazon Titan Text Lite,No — proprietary,$0.3000,$0.4000,$0.3500,—,—,—,—,—,—,—,Amazon proprietary
+model,Amazon Titan Express,No — proprietary,$0.8000,$1.6000,$1.2000,—,—,—,—,—,—,—,Amazon proprietary
+model,Claude 3 Haiku,No — proprietary,$0.2500,$1.2500,$0.7500,—,—,—,—,—,—,—,Anthropic proprietary
+model,Claude 3.5 Haiku,No — proprietary,$0.8000,$4.0000,$2.4000,—,—,—,—,—,—,—,Anthropic proprietary
+model,Claude 3.5 Sonnet,No — proprietary,$3.0000,$15.0000,$9.0000,—,—,—,—,—,—,—,Anthropic proprietary
+model,Claude 3 Opus,No — proprietary,$15.0000,$75.0000,$45.0000,—,—,—,—,—,—,—,Anthropic proprietary
+model,Claude 3.7 Sonnet,No — proprietary,$3.0000,$15.0000,$9.0000,—,—,—,—,—,—,—,Anthropic proprietary
+model,Llama 3.1 8B,Yes — open source,$0.2200,$0.2200,$0.2200,1x L40S,"$1,404",20.7B,$0.0677,Bedrock 69% more expensive at capacity,6.4B,"$1,404","8,000 tok/s estimated throughput. Open source"
+model,Llama 3.1 70B,Yes — open source,$0.7200,$0.7200,$0.7200,2x H100 SXM,"$6,322",5.2B,$1.2194,Neysa 69% more expensive at capacity,8.8B,"$6,322","2,000 tok/s estimated throughput. Open source"
+model,Llama 3.1 405B,Yes — open source,$5.3200,$16.0000,$10.6600,8x H100 SXM,"$25,286",1.6B,$16.2593,Neysa 52% more expensive at capacity,2.4B,"$25,286",600 tok/s estimated throughput. Open source
+model,Llama 3.2 3B,Yes — open source,$0.1500,$0.1500,$0.1500,1x L4,$842.40,31.1B,$0.0271,Bedrock 82% more expensive at capacity,5.6B,$842.40,"12,000 tok/s estimated throughput. Open source"
+model,Llama 3.2 11B,Yes — open source,$0.1600,$0.1600,$0.1600,1x L40S,"$1,404",15.6B,$0.0903,Bedrock 44% more expensive at capacity,8.8B,"$1,404","6,000 tok/s estimated throughput. Open source"
+model,Llama 3.2 90B,Yes — open source,$0.7200,$0.7200,$0.7200,2x H100 SXM,"$6,322",4.7B,$1.3549,Neysa 88% more expensive at capacity,8.8B,"$6,322","1,800 tok/s estimated throughput. Open source"
+model,Llama 3.3 70B,Yes — open source,$0.7200,$0.7200,$0.7200,2x H100 SXM,"$6,322",5.2B,$1.2194,Neysa 69% more expensive at capacity,8.8B,"$6,322","2,000 tok/s estimated throughput. Open source"
+model,Mistral 7B,Yes — open source,$0.1500,$0.2000,$0.1750,1x L40S,"$1,404",25.9B,$0.0542,Bedrock 69% more expensive at capacity,8.0B,"$1,404","10,000 tok/s estimated throughput. Open source"
+model,Mixtral 8x7B,Yes — open source,$0.4500,$0.7000,$0.5750,2x H100 SXM,"$6,322",6.5B,$0.9756,Neysa 70% more expensive at capacity,11.0B,"$6,322","2,500 tok/s estimated throughput. Open source"
+model,Mistral Large,Yes — open source,$4.0000,$12.0000,$8.0000,4x H100 SXM,"$12,643",2.1B,$6.0972,Bedrock 24% more expensive at capacity,1.6B,"$12,643",800 tok/s estimated throughput. Open source
+model,DeepSeek R1,Yes — open source,$8.0000,$24.0000,$16.0000,8x H200 SXM,"$27,245",1.0B,$26.2778,Neysa 64% more expensive at capacity,1.7B,"$27,245",400 tok/s estimated throughput. Open source — verify Bedrock availability
+model,DeepSeek R1 Distill 70B,Yes — open source,$0.7200,$0.7200,$0.7200,2x H100 SXM,"$6,322",5.2B,$1.2194,Neysa 69% more expensive at capacity,8.8B,"$6,322","2,000 tok/s estimated throughput. Open source"
+model,DeepSeek R1 Distill 8B,Yes — open source,$0.2200,$0.2200,$0.2200,1x L40S,"$1,404",20.7B,$0.0677,Bedrock 69% more expensive at capacity,6.4B,"$1,404","8,000 tok/s estimated throughput. Open source"
+,,,,,,,,,,,,,
+MONTHLY COST AT SCALE,For open-source models only. Neysa cost = GPU rental (fixed) + assumes sufficient GPU capacity.,,Monthly tokens,Bedrock monthly cost,Neysa monthly GPU cost,Neysa GPU config,Monthly savings (Bedrock - Neysa),Savings %,,,,,Note: Neysa cost scales stepwise (add more GPUs for more capacity). Bedrock scales linearly.
+scale,Llama 3.1 8B,Yes,100M,$22.00,"$1,404",1x L40S,"Bedrock cheaper by $1,382",0%,,,,,Neysa needs 1x L40S for 100M tok/mo capacity
+scale,Llama 3.1 8B,Yes,500M,$110.00,"$1,404",1x L40S,"Bedrock cheaper by $1,294",0%,,,,,Neysa needs 1x L40S for 500M tok/mo capacity
+scale,Llama 3.1 8B,Yes,1B,$220.00,"$1,404",1x L40S,"Bedrock cheaper by $1,184",0%,,,,,Neysa needs 1x L40S for 1B tok/mo capacity
+scale,Llama 3.1 8B,Yes,5B,"$1,100","$1,404",1x L40S,Bedrock cheaper by $304.00,0%,,,,,Neysa needs 1x L40S for 5B tok/mo capacity
+scale,Llama 3.1 8B,Yes,10B,"$2,200","$1,404",1x L40S,$796.00,36%,,,,,Neysa needs 1x L40S for 10B tok/mo capacity
+scale,Llama 3.1 8B,Yes,50B,"$11,000","$4,212",3x L40S,"$6,788",62%,,,,,Neysa needs 3x L40S for 50B tok/mo capacity
+scale,Llama 3.1 70B,Yes,100M,$72.00,"$6,322",2x H100 SXM,"Bedrock cheaper by $6,250",0%,,,,,Neysa needs 2x H100 SXM for 100M tok/mo capacity
+scale,Llama 3.1 70B,Yes,500M,$360.00,"$6,322",2x H100 SXM,"Bedrock cheaper by $5,962",0%,,,,,Neysa needs 2x H100 SXM for 500M tok/mo capacity
+scale,Llama 3.1 70B,Yes,1B,$720.00,"$6,322",2x H100 SXM,"Bedrock cheaper by $5,602",0%,,,,,Neysa needs 2x H100 SXM for 1B tok/mo capacity
+scale,Llama 3.1 70B,Yes,5B,"$3,600","$6,322",2x H100 SXM,"Bedrock cheaper by $2,722",0%,,,,,Neysa needs 2x H100 SXM for 5B tok/mo capacity
+scale,Llama 3.1 70B,Yes,10B,"$7,200","$12,643",4x H100 SXM,"Bedrock cheaper by $5,443",0%,,,,,Neysa needs 4x H100 SXM for 10B tok/mo capacity
+scale,Llama 3.1 70B,Yes,50B,"$36,000","$63,216",20x H100 SXM,"Bedrock cheaper by $27,216",0%,,,,,Neysa needs 20x H100 SXM for 50B tok/mo capacity
+scale,Llama 3.3 70B,Yes,100M,$72.00,"$6,322",2x H100 SXM,"Bedrock cheaper by $6,250",0%,,,,,Neysa needs 2x H100 SXM for 100M tok/mo capacity
+scale,Llama 3.3 70B,Yes,500M,$360.00,"$6,322",2x H100 SXM,"Bedrock cheaper by $5,962",0%,,,,,Neysa needs 2x H100 SXM for 500M tok/mo capacity
+scale,Llama 3.3 70B,Yes,1B,$720.00,"$6,322",2x H100 SXM,"Bedrock cheaper by $5,602",0%,,,,,Neysa needs 2x H100 SXM for 1B tok/mo capacity
+scale,Llama 3.3 70B,Yes,5B,"$3,600","$6,322",2x H100 SXM,"Bedrock cheaper by $2,722",0%,,,,,Neysa needs 2x H100 SXM for 5B tok/mo capacity
+scale,Llama 3.3 70B,Yes,10B,"$7,200","$12,643",4x H100 SXM,"Bedrock cheaper by $5,443",0%,,,,,Neysa needs 4x H100 SXM for 10B tok/mo capacity
+scale,Llama 3.3 70B,Yes,50B,"$36,000","$63,216",20x H100 SXM,"Bedrock cheaper by $27,216",0%,,,,,Neysa needs 20x H100 SXM for 50B tok/mo capacity
+scale,Llama 3.1 405B,Yes,100M,"$1,066","$25,286",8x H100 SXM,"Bedrock cheaper by $24,220",0%,,,,,Neysa needs 8x H100 SXM for 100M tok/mo capacity
+scale,Llama 3.1 405B,Yes,500M,"$5,330","$25,286",8x H100 SXM,"Bedrock cheaper by $19,956",0%,,,,,Neysa needs 8x H100 SXM for 500M tok/mo capacity
+scale,Llama 3.1 405B,Yes,1B,"$10,660","$25,286",8x H100 SXM,"Bedrock cheaper by $14,626",0%,,,,,Neysa needs 8x H100 SXM for 1B tok/mo capacity
+scale,Llama 3.1 405B,Yes,5B,"$53,300","$101,146",32x H100 SXM,"Bedrock cheaper by $47,846",0%,,,,,Neysa needs 32x H100 SXM for 5B tok/mo capacity
+scale,Llama 3.1 405B,Yes,10B,"$106,600","$177,005",56x H100 SXM,"Bedrock cheaper by $70,405",0%,,,,,Neysa needs 56x H100 SXM for 10B tok/mo capacity
+scale,Llama 3.1 405B,Yes,50B,"$533,000","$834,451",264x H100 SXM,"Bedrock cheaper by $301,451",0%,,,,,Neysa needs 264x H100 SXM for 50B tok/mo capacity
+scale,Mistral 7B,Yes,100M,$17.50,"$1,404",1x L40S,"Bedrock cheaper by $1,386",0%,,,,,Neysa needs 1x L40S for 100M tok/mo capacity
+scale,Mistral 7B,Yes,500M,$87.50,"$1,404",1x L40S,"Bedrock cheaper by $1,316",0%,,,,,Neysa needs 1x L40S for 500M tok/mo capacity
+scale,Mistral 7B,Yes,1B,$175.00,"$1,404",1x L40S,"Bedrock cheaper by $1,229",0%,,,,,Neysa needs 1x L40S for 1B tok/mo capacity
+scale,Mistral 7B,Yes,5B,$875.00,"$1,404",1x L40S,Bedrock cheaper by $529.00,0%,,,,,Neysa needs 1x L40S for 5B tok/mo capacity
+scale,Mistral 7B,Yes,10B,"$1,750","$1,404",1x L40S,$346.00,20%,,,,,Neysa needs 1x L40S for 10B tok/mo capacity
+scale,Mistral 7B,Yes,50B,"$8,750","$2,808",2x L40S,"$5,942",68%,,,,,Neysa needs 2x L40S for 50B tok/mo capacity
+scale,Mixtral 8x7B,Yes,100M,$57.50,"$6,322",2x H100 SXM,"Bedrock cheaper by $6,264",0%,,,,,Neysa needs 2x H100 SXM for 100M tok/mo capacity
+scale,Mixtral 8x7B,Yes,500M,$287.50,"$6,322",2x H100 SXM,"Bedrock cheaper by $6,034",0%,,,,,Neysa needs 2x H100 SXM for 500M tok/mo capacity
+scale,Mixtral 8x7B,Yes,1B,$575.00,"$6,322",2x H100 SXM,"Bedrock cheaper by $5,747",0%,,,,,Neysa needs 2x H100 SXM for 1B tok/mo capacity
+scale,Mixtral 8x7B,Yes,5B,"$2,875","$6,322",2x H100 SXM,"Bedrock cheaper by $3,447",0%,,,,,Neysa needs 2x H100 SXM for 5B tok/mo capacity
+scale,Mixtral 8x7B,Yes,10B,"$5,750","$12,643",4x H100 SXM,"Bedrock cheaper by $6,893",0%,,,,,Neysa needs 4x H100 SXM for 10B tok/mo capacity
+scale,Mixtral 8x7B,Yes,50B,"$28,750","$50,573",16x H100 SXM,"Bedrock cheaper by $21,823",0%,,,,,Neysa needs 16x H100 SXM for 50B tok/mo capacity
+scale,DeepSeek R1 Distill 70B,Yes,100M,$72.00,"$6,322",2x H100 SXM,"Bedrock cheaper by $6,250",0%,,,,,Neysa needs 2x H100 SXM for 100M tok/mo capacity
+scale,DeepSeek R1 Distill 70B,Yes,500M,$360.00,"$6,322",2x H100 SXM,"Bedrock cheaper by $5,962",0%,,,,,Neysa needs 2x H100 SXM for 500M tok/mo capacity
+scale,DeepSeek R1 Distill 70B,Yes,1B,$720.00,"$6,322",2x H100 SXM,"Bedrock cheaper by $5,602",0%,,,,,Neysa needs 2x H100 SXM for 1B tok/mo capacity
+scale,DeepSeek R1 Distill 70B,Yes,5B,"$3,600","$6,322",2x H100 SXM,"Bedrock cheaper by $2,722",0%,,,,,Neysa needs 2x H100 SXM for 5B tok/mo capacity
+scale,DeepSeek R1 Distill 70B,Yes,10B,"$7,200","$12,643",4x H100 SXM,"Bedrock cheaper by $5,443",0%,,,,,Neysa needs 4x H100 SXM for 10B tok/mo capacity
+scale,DeepSeek R1 Distill 70B,Yes,50B,"$36,000","$63,216",20x H100 SXM,"Bedrock cheaper by $27,216",0%,,,,,Neysa needs 20x H100 SXM for 50B tok/mo capacity

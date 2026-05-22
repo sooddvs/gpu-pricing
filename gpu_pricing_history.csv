@@ -161,3 +161,82 @@ date,provider,gpu_type,price_tier,per_gpu_hourly_usd,region,source
 2026-05-21,RunPod,L40S,spot,0.79,global,live
 2026-05-21,Vultr,A16,on_demand,0.0597,"ewr,ord,atl,lhr,fra",live
 2026-05-21,Vultr,L40S,on_demand,1.5596,,live
+2026-05-22,Azure,H100 SXM,on_demand,12.29,eastus,live
+2026-05-22,Azure,H100 NVL,on_demand,6.98,eastus,live
+2026-05-22,Azure,H100 NVL,36mo,4.306,eastus,live
+2026-05-22,Azure,H100 NVL,12mo,5.8067,eastus,live
+2026-05-22,Azure,A100,on_demand,3.673,eastus,live
+2026-05-22,Azure,A100,36mo,2.1264,eastus,live
+2026-05-22,Azure,A100,12mo,3.0574,eastus,live
+2026-05-22,Azure,H200 SXM,on_demand,10.6,eastus2,live
+2026-05-22,OCI,L40S,on_demand,0.6,global,live
+2026-05-22,OCI,H100 SXM,on_demand,10.0,global,live
+2026-05-22,OCI,H200 SXM,on_demand,10.0,global,live
+2026-05-22,OCI,B200,on_demand,14.0,global,live
+2026-05-22,OCI,B300,on_demand,15.0,global,live
+2026-05-22,OCI,A100,on_demand,4.0,global,live
+2026-05-22,AWS EC2,H100 SXM,on_demand,6.88,us-east-1,live
+2026-05-22,AWS EC2,H100 SXM,36mo,2.9722,us-east-1,live
+2026-05-22,AWS EC2,H200 SXM,on_demand,7.912,us-east-1,live
+2026-05-22,AWS EC2,B200,on_demand,14.2416,us-east-1,live
+2026-05-22,AWS EC2,L4,on_demand,0.8048,us-east-1,live
+2026-05-22,AWS EC2,L4,36mo,0.3694,us-east-1,live
+2026-05-22,AWS EC2,L4,12mo,0.5239,us-east-1,live
+2026-05-22,AWS EC2,L40S,on_demand,1.861,us-east-1,live
+2026-05-22,AWS EC2,L40S,12mo,1.1724,us-east-1,live
+2026-05-22,AWS EC2,L40S,36mo,0.804,us-east-1,live
+2026-05-22,AWS EC2,A100 40GB,on_demand,2.7447,us-east-1,live
+2026-05-22,AWS EC2,A100 40GB,36mo,1.1718,us-east-1,live
+2026-05-22,AWS EC2,A100 40GB,12mo,1.7401,us-east-1,live
+2026-05-22,AWS EC2,A100 80GB,on_demand,3.4309,us-east-1,live
+2026-05-22,AWS EC2,A100 80GB,36mo,1.4647,us-east-1,live
+2026-05-22,AWS EC2,A100 80GB,12mo,2.1752,us-east-1,live
+2026-05-22,AWS SageMaker,H100 SXM,on_demand,7.912,us-east-1,live
+2026-05-22,AWS SageMaker,H200 SXM,on_demand,5.7211,ap-south-1,live
+2026-05-22,AWS SageMaker,L4,on_demand,1.1267,us-east-1,live
+2026-05-22,AWS SageMaker,L40S,on_demand,2.6054,us-east-1,live
+2026-05-22,AWS SageMaker,A100 40GB,on_demand,3.1564,us-east-1,live
+2026-05-22,AWS SageMaker,A100 80GB,on_demand,3.9455,us-east-1,live
+2026-05-22,GCP,A100,on_demand,2.9339,us-central1,live
+2026-05-22,GCP,A100,12mo,1.6136,us-central1,live
+2026-05-22,GCP,B200,36mo,7.0884,us-central1,live
+2026-05-22,GCP,H100 SXM,spot,3.1155,asia-south1,live
+2026-05-22,GCP,B200,12mo,8.055,asia-south1,live
+2026-05-22,GCP,H100 SXM,36mo,4.2999,us-central1,live
+2026-05-22,GCP,L4,12mo,0.3528,us-central1,live
+2026-05-22,GCP,H100 SXM,12mo,4.2008,us-central1,live
+2026-05-22,GCP,A100,spot,0.5897,asia-south1,live
+2026-05-22,GCP,L4,36mo,0.252,us-central1,live
+2026-05-22,GCP,H200 SXM,36mo,4.083,us-central1,live
+2026-05-22,GCP,H100 SXM,on_demand,9.7966,us-central1,live
+2026-05-22,GCP,H200 SXM,on_demand,9.3117,us-central1,live
+2026-05-22,GCP,A100,36mo,1.0269,us-central1,live
+2026-05-22,GCP,H200 SXM,spot,4.6559,us-central1,live
+2026-05-22,GCP,L4,spot,0.2343,us-central1,live
+2026-05-22,GCP,H200 SXM,12mo,4.5753,asia-south1,live
+2026-05-22,GCP,B200,spot,2.8099,asia-south1,live
+2026-05-22,GCP,L4,on_demand,0.56,us-central1,live
+2026-05-22,RunPod,A100,on_demand,1.39,global,live
+2026-05-22,RunPod,A100,36mo,1.21,global,live
+2026-05-22,RunPod,A100,spot,1.0,global,live
+2026-05-22,RunPod,B200,on_demand,5.89,global,live
+2026-05-22,RunPod,B200,36mo,5.54,global,live
+2026-05-22,RunPod,B200,spot,5.98,global,live
+2026-05-22,RunPod,B300,on_demand,7.39,global,live
+2026-05-22,RunPod,B300,spot,6.94,global,live
+2026-05-22,RunPod,H100 SXM,on_demand,2.89,global,live
+2026-05-22,RunPod,H100 SXM,36mo,2.72,global,live
+2026-05-22,RunPod,H100 SXM,spot,1.99,global,live
+2026-05-22,RunPod,H200 SXM,on_demand,3.79,global,live
+2026-05-22,RunPod,H200 SXM,36mo,3.56,global,live
+2026-05-22,RunPod,H200 SXM,spot,0.5,global,live
+2026-05-22,RunPod,L4,on_demand,0.39,global,live
+2026-05-22,RunPod,L4,36mo,0.34,global,live
+2026-05-22,RunPod,L4,spot,0.44,global,live
+2026-05-22,RunPod,L40,on_demand,0.82,global,live
+2026-05-22,RunPod,L40,36mo,0.71,global,live
+2026-05-22,RunPod,L40,spot,0.69,global,live
+2026-05-22,RunPod,L40S,on_demand,0.86,global,live
+2026-05-22,RunPod,L40S,36mo,0.748,global,live
+2026-05-22,RunPod,L40S,spot,0.79,global,live
+2026-05-22,Vultr,L40S,on_demand,1.5596,,live

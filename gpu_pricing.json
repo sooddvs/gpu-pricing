@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T17:25:05.587478+00:00",
+  "fetched_at": "2026-05-22T08:16:37.730038+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -212,33 +212,6 @@
           "per_gpu_hourly_usd": 5.8067
         },
         {
-          "sku": "Standard_NC80adis_H100_v5",
-          "gpu_type": "H100 NVL",
-          "gpu_count": 2,
-          "region": "eastus2",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 13.96,
-          "per_gpu_hourly_usd": 6.98
-        },
-        {
-          "sku": "Standard_NC80adis_H100_v5",
-          "gpu_type": "H100 NVL",
-          "gpu_count": 2,
-          "region": "eastus2",
-          "price_tier": "36mo",
-          "total_hourly_usd": 8.6119,
-          "per_gpu_hourly_usd": 4.306
-        },
-        {
-          "sku": "Standard_NC80adis_H100_v5",
-          "gpu_type": "H100 NVL",
-          "gpu_count": 2,
-          "region": "eastus2",
-          "price_tier": "12mo",
-          "total_hourly_usd": 11.6133,
-          "per_gpu_hourly_usd": 5.8067
-        },
-        {
           "sku": "Standard_ND96isr_H200_v5",
           "gpu_type": "H200 SXM",
           "gpu_count": 8,
@@ -246,33 +219,6 @@
           "price_tier": "on_demand",
           "total_hourly_usd": 84.8,
           "per_gpu_hourly_usd": 10.6
-        },
-        {
-          "sku": "Standard_NC24ads_A100_v4",
-          "gpu_type": "A100",
-          "gpu_count": 1,
-          "region": "eastus2",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 3.673,
-          "per_gpu_hourly_usd": 3.673
-        },
-        {
-          "sku": "Standard_NC24ads_A100_v4",
-          "gpu_type": "A100",
-          "gpu_count": 1,
-          "region": "eastus2",
-          "price_tier": "36mo",
-          "total_hourly_usd": 2.2659,
-          "per_gpu_hourly_usd": 2.2659
-        },
-        {
-          "sku": "Standard_NC24ads_A100_v4",
-          "gpu_type": "A100",
-          "gpu_count": 1,
-          "region": "eastus2",
-          "price_tier": "12mo",
-          "total_hourly_usd": 3.0574,
-          "per_gpu_hourly_usd": 3.0574
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -690,7 +636,7 @@
       ]
     },
     "aws": {
-      "provider": "AWS",
+      "provider": "AWS EC2",
       "skus": [
         {
           "instance_type": "p5.48xlarge",
@@ -1267,6 +1213,236 @@
           "price_tier": "12mo",
           "total_hourly_usd": 17.0257,
           "per_gpu_hourly_usd": 2.1282
+        }
+      ]
+    },
+    "sagemaker": {
+      "provider": "AWS SageMaker",
+      "skus": [
+        {
+          "instance_type": "ml.p5.48xlarge",
+          "gpu_type": "H100 SXM",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 63.296,
+          "per_gpu_hourly_usd": 7.912
+        },
+        {
+          "instance_type": "ml.p5en.48xlarge",
+          "gpu_type": "H200 SXM",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 72.795,
+          "per_gpu_hourly_usd": 9.0994
+        },
+        {
+          "instance_type": "ml.g6.xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 1,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 1.1267,
+          "per_gpu_hourly_usd": 1.1267
+        },
+        {
+          "instance_type": "ml.g6.4xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 1,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 1.654,
+          "per_gpu_hourly_usd": 1.654
+        },
+        {
+          "instance_type": "ml.g6.12xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 4,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 5.752,
+          "per_gpu_hourly_usd": 1.438
+        },
+        {
+          "instance_type": "ml.g6.48xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 16.688,
+          "per_gpu_hourly_usd": 2.086
+        },
+        {
+          "instance_type": "ml.g6e.xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 1,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 2.6054,
+          "per_gpu_hourly_usd": 2.6054
+        },
+        {
+          "instance_type": "ml.g6e.4xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 1,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 3.7553,
+          "per_gpu_hourly_usd": 3.7553
+        },
+        {
+          "instance_type": "ml.g6e.12xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 4,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 13.1158,
+          "per_gpu_hourly_usd": 3.279
+        },
+        {
+          "instance_type": "ml.g6e.48xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 37.664,
+          "per_gpu_hourly_usd": 4.708
+        },
+        {
+          "instance_type": "ml.p4d.24xlarge",
+          "gpu_type": "A100 40GB",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 25.2513,
+          "per_gpu_hourly_usd": 3.1564
+        },
+        {
+          "instance_type": "ml.p4de.24xlarge",
+          "gpu_type": "A100 80GB",
+          "gpu_count": 8,
+          "region": "us-east-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 31.5641,
+          "per_gpu_hourly_usd": 3.9455
+        },
+        {
+          "instance_type": "ml.p5.48xlarge",
+          "gpu_type": "H100 SXM",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 75.9575,
+          "per_gpu_hourly_usd": 9.4947
+        },
+        {
+          "instance_type": "ml.p5e.48xlarge",
+          "gpu_type": "H200 SXM",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 45.7689,
+          "per_gpu_hourly_usd": 5.7211
+        },
+        {
+          "instance_type": "ml.p5en.48xlarge",
+          "gpu_type": "H200 SXM",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 87.354,
+          "per_gpu_hourly_usd": 10.9192
+        },
+        {
+          "instance_type": "ml.g6.xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 1,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 1.353,
+          "per_gpu_hourly_usd": 1.353
+        },
+        {
+          "instance_type": "ml.g6.4xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 1,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 1.9861,
+          "per_gpu_hourly_usd": 1.9861
+        },
+        {
+          "instance_type": "ml.g6.12xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 4,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 6.907,
+          "per_gpu_hourly_usd": 1.7268
+        },
+        {
+          "instance_type": "ml.g6.48xlarge",
+          "gpu_type": "L4",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 20.0389,
+          "per_gpu_hourly_usd": 2.5049
+        },
+        {
+          "instance_type": "ml.g6e.xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 1,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 3.129,
+          "per_gpu_hourly_usd": 3.129
+        },
+        {
+          "instance_type": "ml.g6e.4xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 1,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 4.51,
+          "per_gpu_hourly_usd": 4.51
+        },
+        {
+          "instance_type": "ml.g6e.12xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 4,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 15.7516,
+          "per_gpu_hourly_usd": 3.9379
+        },
+        {
+          "instance_type": "ml.g6e.48xlarge",
+          "gpu_type": "L40S",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 45.2332,
+          "per_gpu_hourly_usd": 5.6541
+        },
+        {
+          "instance_type": "ml.p4d.24xlarge",
+          "gpu_type": "A100 40GB",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 30.2961,
+          "per_gpu_hourly_usd": 3.787
+        },
+        {
+          "instance_type": "ml.p4de.24xlarge",
+          "gpu_type": "A100 80GB",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 38.8332,
+          "per_gpu_hourly_usd": 4.8541
         }
       ]
     },
@@ -2183,120 +2359,20 @@
       "provider": "Vultr",
       "skus": [
         {
-          "plan_id": "vcg-a16-2c-8g-2vram",
-          "gpu_type": "A16",
-          "gpu_type_raw": "NVIDIA_A16",
-          "gpu_count": 1,
-          "vcpus": 2,
-          "ram_gb": 8.0,
-          "region": "ewr,ord,atl,lhr,fra",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 0.0597,
-          "per_gpu_hourly_usd": 0.0597
-        },
-        {
-          "plan_id": "vcg-a16-2c-16g-4vram",
-          "gpu_type": "A16",
-          "gpu_type_raw": "NVIDIA_A16",
-          "gpu_count": 1,
-          "vcpus": 2,
-          "ram_gb": 16.0,
-          "region": "ewr,ord,atl,lhr,fra",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 0.1194,
-          "per_gpu_hourly_usd": 0.1194
-        },
-        {
-          "plan_id": "vcg-a16-3c-32g-8vram",
-          "gpu_type": "A16",
-          "gpu_type_raw": "NVIDIA_A16",
-          "gpu_count": 1,
-          "vcpus": 3,
-          "ram_gb": 32.0,
-          "region": "ewr,ord,atl,lhr,fra",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 0.2389,
-          "per_gpu_hourly_usd": 0.2389
-        },
-        {
-          "plan_id": "vcg-a16-6c-64g-16vram",
-          "gpu_type": "A16",
-          "gpu_type_raw": "NVIDIA_A16",
-          "gpu_count": 1,
-          "vcpus": 6,
-          "ram_gb": 64.0,
-          "region": "ewr,ord,atl,lhr,fra",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 0.4778,
-          "per_gpu_hourly_usd": 0.4778
-        },
-        {
-          "plan_id": "vcg-a16-12c-128g-32vram",
-          "gpu_type": "A16",
-          "gpu_type_raw": "NVIDIA_A16",
-          "gpu_count": 1,
-          "vcpus": 12,
-          "ram_gb": 128.0,
-          "region": "ewr,ord,atl,lhr,fra",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 0.9556,
-          "per_gpu_hourly_usd": 0.9556
-        },
-        {
           "plan_id": "vcg-l40s-16c-180g-48vram",
           "gpu_type": "L40S",
           "gpu_type_raw": "NVIDIA_L40S",
           "gpu_count": 1,
-          "vcpus": 16,
-          "ram_gb": 180.0,
           "region": "",
           "price_tier": "on_demand",
           "total_hourly_usd": 1.5596,
           "per_gpu_hourly_usd": 1.5596
         },
         {
-          "plan_id": "vcg-a16-24c-256g-64vram",
-          "gpu_type": "A16",
-          "gpu_type_raw": "NVIDIA_A16",
-          "gpu_count": 1,
-          "vcpus": 24,
-          "ram_gb": 256.0,
-          "region": "ewr,ord,fra,sgp,blr",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 1.9097,
-          "per_gpu_hourly_usd": 1.9097
-        },
-        {
-          "plan_id": "vcg-a16-48c-496g-128vram",
-          "gpu_type": "A16",
-          "gpu_type_raw": "NVIDIA_A16",
-          "gpu_count": 1,
-          "vcpus": 48,
-          "ram_gb": 496.0,
-          "region": "sgp,blr",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 3.8194,
-          "per_gpu_hourly_usd": 3.8194
-        },
-        {
-          "plan_id": "vcg-a16-96c-960g-256vram",
-          "gpu_type": "A16",
-          "gpu_type_raw": "NVIDIA_A16",
-          "gpu_count": 1,
-          "vcpus": 96,
-          "ram_gb": 960.0,
-          "region": "",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 7.6389,
-          "per_gpu_hourly_usd": 7.6389
-        },
-        {
           "plan_id": "vcg-l40s-32c-375g-96vram",
           "gpu_type": "L40S",
           "gpu_type_raw": "NVIDIA_L40S",
           "gpu_count": 1,
-          "vcpus": 32,
-          "ram_gb": 375.0,
           "region": "",
           "price_tier": "on_demand",
           "total_hourly_usd": 3.1192,
@@ -2307,8 +2383,6 @@
           "gpu_type": "L40S",
           "gpu_type_raw": "NVIDIA_L40S",
           "gpu_count": 1,
-          "vcpus": 64,
-          "ram_gb": 750.0,
           "region": "",
           "price_tier": "on_demand",
           "total_hourly_usd": 6.2384,
@@ -2319,8 +2393,6 @@
           "gpu_type": "L40S",
           "gpu_type_raw": "NVIDIA_L40S",
           "gpu_count": 1,
-          "vcpus": 128,
-          "ram_gb": 1500.0,
           "region": "",
           "price_tier": "on_demand",
           "total_hourly_usd": 12.4768,
