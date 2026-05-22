@@ -43,10 +43,19 @@ from datetime import datetime, timezone, date
 
 HISTORY_FILE  = "gpu_pricing_history.csv"
 PRICING_FILE  = "gpu_pricing.json"
+CHANGES_FILE  = "price_changes.csv"
+
+CHANGE_THRESHOLD = 5.0  # flag any move >= 5%
 
 FIELDNAMES = [
     "date", "provider", "gpu_type", "price_tier",
     "per_gpu_hourly_usd", "region", "source",
+]
+
+CHANGES_FIELDNAMES = [
+    "date", "provider", "gpu_type", "price_tier",
+    "previous_date", "previous_price_usd", "new_price_usd",
+    "change_pct", "direction", "region",
 ]
 
 # ─── SEED DATA ────────────────────────────────────────────────────────────────
@@ -309,6 +318,104 @@ def print_summary():
     print(f"       Filter by gpu_type to see individual GPU trends")
 
 
+# ─── PRICE CHANGE DETECTION ──────────────────────────────────────────────────
+
+def detect_price_changes():
+    """
+    Compare today's live prices to the most recent previous day's live prices.
+    Write any moves >= CHANGE_THRESHOLD% to price_changes.csv.
+    Biggest moves listed first. Only live rows are compared (not seed estimates).
+    """
+    if not os.path.exists(HISTORY_FILE):
+        return 0
+
+    today = date.today().isoformat()
+
+    # Load all live rows only — skip historical estimates
+    rows = []
+    with open(HISTORY_FILE, newline="") as f:
+        for row in csv.DictReader(f):
+            if row.get("source") == "live":
+                rows.append(row)
+
+    if not rows:
+        print("  No live history rows yet — skipping change detection")
+        return 0
+
+    # Group by (provider, gpu_type, price_tier)
+    from collections import defaultdict
+    groups = defaultdict(list)
+    for row in rows:
+        key = (row["provider"], row["gpu_type"], row["price_tier"])
+        groups[key].append(row)
+
+    changes = []
+    for key, group_rows in groups.items():
+        group_rows.sort(key=lambda r: r["date"])
+
+        today_rows = [r for r in group_rows if r["date"] == today]
+        if not today_rows:
+            continue
+
+        prev_rows = [r for r in group_rows if r["date"] < today]
+        if not prev_rows:
+            continue  # first time we've seen this GPU — nothing to compare
+
+        today_row = today_rows[0]
+        prev_row  = prev_rows[-1]  # most recent date before today
+
+        try:
+            new_price = float(today_row["per_gpu_hourly_usd"])
+            old_price = float(prev_row["per_gpu_hourly_usd"])
+        except (ValueError, KeyError):
+            continue
+
+        if old_price == 0:
+            continue
+
+        change_pct = (new_price - old_price) / old_price * 100
+
+        if abs(change_pct) >= CHANGE_THRESHOLD:
+            changes.append({
+                "date":               today,
+                "provider":           today_row["provider"],
+                "gpu_type":           today_row["gpu_type"],
+                "price_tier":         today_row["price_tier"],
+                "previous_date":      prev_row["date"],
+                "previous_price_usd": round(old_price, 4),
+                "new_price_usd":      round(new_price, 4),
+                "change_pct":         round(change_pct, 2),
+                "direction":          "DOWN" if change_pct < 0 else "UP",
+                "region":             today_row.get("region", ""),
+            })
+
+    if not changes:
+        print("  No price changes >= 5% detected today")
+        return 0
+
+    # Sort by absolute change descending — biggest moves first
+    changes.sort(key=lambda r: abs(r["change_pct"]), reverse=True)
+
+    is_new = not os.path.exists(CHANGES_FILE)
+    with open(CHANGES_FILE, "a", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=CHANGES_FIELDNAMES)
+        if is_new:
+            writer.writeheader()
+        writer.writerows(changes)
+
+    print(f"  ⚡ {len(changes)} price change(s) detected (>= {CHANGE_THRESHOLD}%):")
+    for c in changes[:5]:
+        arrow = "↓" if c["direction"] == "DOWN" else "↑"
+        print(f"     {arrow} {c['provider']:15s} {c['gpu_type']:10s} "
+              f"({c['price_tier']:8s}): "
+              f"${c['previous_price_usd']} → ${c['new_price_usd']} "
+              f"({c['change_pct']:+.1f}%)")
+    if len(changes) > 5:
+        print(f"     ... and {len(changes) - 5} more — see {CHANGES_FILE}")
+
+    return len(changes)
+
+
 # ─── MAIN ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -330,7 +437,11 @@ def main():
     # 2. Append today's live data
     appended = append_today(existing)
 
-    # 3. Summary
+    # 3. Detect price changes vs previous day
+    print("\n  Checking for price changes ...")
+    detect_price_changes()
+
+    # 4. Summary
     print_summary()
 
     size_kb = os.path.getsize(HISTORY_FILE) // 1024 if os.path.exists(HISTORY_FILE) else 0
