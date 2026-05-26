@@ -53,9 +53,9 @@ A100,GCP,on_demand,4.718,,asia-south1,,Nvidia Tesla A100 80GB GPU running in Mum
 A100,GCP,on_demand,3.4369,,asia-south1,,Nvidia Tesla A100 GPU running in Mumbai
 A100,GCP,on_demand,3.9281,,us-central1,,Nvidia Tesla A100 80GB GPU running in Americas
 A100,GCP,spot,1.4341,,us-central1,,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Americas
-A100,GCP,spot,0.8096,,asia-south1,,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Mumbai
+A100,GCP,spot,0.7691,,asia-south1,,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Mumbai
 A100,GCP,spot,1.964,,us-central1,,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Americas
-A100,GCP,spot,0.5897,,asia-south1,,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Mumbai
+A100,GCP,spot,0.5602,,asia-south1,,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Mumbai
 A100,OCI,on_demand,4,4,global,1,B95907
 A100,RunPod,36mo,1.21,,global,,NVIDIA A100 80GB PCIe
 A100,RunPod,36mo,1.3,,global,,NVIDIA A100-SXM4-80GB
@@ -142,9 +142,9 @@ H100 SXM,GCP,36mo,4.5701,,us-central1,,Reserved Nvidia H100 80GB GPU in Americas
 H100 SXM,GCP,on_demand,10.1884,,asia-south1,,Nvidia H100 80GB GPU running in Mumbai
 H100 SXM,GCP,on_demand,10.3443,,us-central1,,Nvidia H100 80GB Plus GPU running in Americas
 H100 SXM,GCP,on_demand,9.7966,,us-central1,,Nvidia H100 80GB GPU running in Americas
-H100 SXM,GCP,spot,3.1155,,asia-south1,,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Mumbai
-H100 SXM,GCP,spot,4.0013,,us-central1,,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Americas
-H100 SXM,GCP,spot,4.2252,,us-central1,,Nvidia H100 80GB Plus GPU attached to Spot Preemptible VMs running in Americas
+H100 SXM,GCP,spot,3.2713,,asia-south1,,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Mumbai
+H100 SXM,GCP,spot,4.2014,,us-central1,,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Americas
+H100 SXM,GCP,spot,4.4365,,us-central1,,Nvidia H100 80GB Plus GPU attached to Spot Preemptible VMs running in Americas
 H100 SXM,OCI,on_demand,10.75,10.75,global,1,B109480
 H100 SXM,OCI,on_demand,10,10,global,1,B98415
 H100 SXM,RunPod,36mo,3.09,,global,,NVIDIA H100 80GB HBM3
@@ -177,7 +177,7 @@ H200 SXM,GCP,36mo,4.083,,us-central1,,Commitment v1: H200 141GB GPU running in A
 H200 SXM,GCP,on_demand,9.3117,,us-central1,,H200 141GB GPU running in Americas
 H200 SXM,GCP,on_demand,11.1741,,asia-south1,,H200 141GB GPU running in Mumbai
 H200 SXM,GCP,spot,4.6559,,us-central1,,H200 141GB GPU attached to Spot Preemptible VMs running in Americas
-H200 SXM,GCP,spot,4.8421,,asia-south1,,H200 141GB GPU attached to Spot Preemptible VMs running in Mumbai
+H200 SXM,GCP,spot,5.0842,,asia-south1,,H200 141GB GPU attached to Spot Preemptible VMs running in Mumbai
 H200 SXM,OCI,on_demand,10,10,global,1,B110519
 H200 SXM,RunPod,36mo,4.13,,global,,NVIDIA H200
 H200 SXM,RunPod,36mo,3.56,,global,,NVIDIA H200 NVL
@@ -228,7 +228,7 @@ L4,GCP,36mo,0.252,,us-central1,,Commitment v1: Nvidia L4 GPU running in Americas
 L4,GCP,on_demand,0.56,,us-central1,,Nvidia L4 GPU running in Americas
 L4,GCP,on_demand,0.583,,asia-south1,,Nvidia L4 GPU running in Mumbai
 L4,GCP,spot,0.2437,,asia-south1,,Nvidia L4 GPU attached to Spot Preemptible VMs running in Mumbai
-L4,GCP,spot,0.2343,,us-central1,,Nvidia L4 GPU attached to Spot Preemptible VMs running in Americas
+L4,GCP,spot,0.246,,us-central1,,Nvidia L4 GPU attached to Spot Preemptible VMs running in Americas
 L4,RunPod,36mo,0.34,,global,,NVIDIA L4
 L4,RunPod,6mo,0.33,,global,,NVIDIA L4
 L4,RunPod,on_demand,0.39,,global,,NVIDIA L4
