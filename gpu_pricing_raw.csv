@@ -86,6 +86,7 @@ B200,GCP,12mo,8.055,,us-central1,,A4 Nvidia B200 (1 gpu slice) attached to DWS D
 B200,GCP,36mo,11.277,,us-central1,,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Americas
 B200,GCP,36mo,7.0884,,us-central1,,Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 3 Year
 B200,GCP,36mo,11.277,,asia-south1,,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Mumbai
+B200,GCP,on_demand,16.11,,us-central1,,A4 Nvidia B200 (1 gpu slice) running in Americas
 B200,GCP,spot,4.2796,,us-central1,,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Americas
 B200,GCP,spot,2.8099,,asia-south1,,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Mumbai
 B200,OCI,on_demand,14,14,global,1,B110978

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-28T10:13:46.654387+00:00",
+  "fetched_at": "2026-05-29T10:02:39.872893+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -1565,6 +1565,13 @@
           "region": "asia-south1",
           "price_tier": "12mo",
           "per_gpu_hourly_usd": 0.3673
+        },
+        {
+          "description": "A4 Nvidia B200 (1 gpu slice) running in Americas",
+          "gpu_type": "B200",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 16.11
         },
         {
           "description": "Commitment v1: Nvidia H100 80GB GPU running in Americas for 1 Year",
