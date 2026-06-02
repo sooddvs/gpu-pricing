@@ -279,6 +279,6 @@ L40S,RunPod,6mo,0.731,,global,,NVIDIA L40S
 L40S,RunPod,on_demand,0.86,,global,,NVIDIA L40S
 L40S,RunPod,spot,0.79,,global,,NVIDIA L40S
 L40S,Vultr,on_demand,1.5596,1.5596,,1,vcg-l40s-16c-180g-48vram
-L40S,Vultr,on_demand,3.1192,3.1192,,1,vcg-l40s-32c-375g-96vram
-L40S,Vultr,on_demand,6.2384,6.2384,,1,vcg-l40s-64c-750g-192vram
-L40S,Vultr,on_demand,12.4768,12.4768,,1,vcg-l40s-128c-1500g-384vram
+L40S,Vultr,on_demand,1.5596,3.1192,,2,vcg-l40s-32c-375g-96vram
+L40S,Vultr,on_demand,1.5596,6.2384,,4,vcg-l40s-64c-750g-192vram
+L40S,Vultr,on_demand,1.5596,12.4768,,8,vcg-l40s-128c-1500g-384vram

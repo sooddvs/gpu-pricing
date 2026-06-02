@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-01T11:45:20.674598+00:00",
+  "fetched_at": "2026-06-02T10:45:01.313537+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -2433,31 +2433,31 @@
           "plan_id": "vcg-l40s-32c-375g-96vram",
           "gpu_type": "L40S",
           "gpu_type_raw": "NVIDIA_L40S",
-          "gpu_count": 1,
+          "gpu_count": 2,
           "region": "",
           "price_tier": "on_demand",
           "total_hourly_usd": 3.1192,
-          "per_gpu_hourly_usd": 3.1192
+          "per_gpu_hourly_usd": 1.5596
         },
         {
           "plan_id": "vcg-l40s-64c-750g-192vram",
           "gpu_type": "L40S",
           "gpu_type_raw": "NVIDIA_L40S",
-          "gpu_count": 1,
+          "gpu_count": 4,
           "region": "",
           "price_tier": "on_demand",
           "total_hourly_usd": 6.2384,
-          "per_gpu_hourly_usd": 6.2384
+          "per_gpu_hourly_usd": 1.5596
         },
         {
           "plan_id": "vcg-l40s-128c-1500g-384vram",
           "gpu_type": "L40S",
           "gpu_type_raw": "NVIDIA_L40S",
-          "gpu_count": 1,
+          "gpu_count": 8,
           "region": "",
           "price_tier": "on_demand",
           "total_hourly_usd": 12.4768,
-          "per_gpu_hourly_usd": 12.4768
+          "per_gpu_hourly_usd": 1.5596
         }
       ]
     },
