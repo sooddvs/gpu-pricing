@@ -513,10 +513,11 @@ def fetch_vastai():
 
 # ─── RAW CSV ─────────────────────────────────────────────────────────────────
 RAW_FIELDNAMES = ["gpu_type", "provider", "price_tier", "per_gpu_hourly_usd",
-                  "total_hourly_usd", "region", "gpu_count", "sku"]
+                  "total_hourly_usd", "region", "gpu_count", "sku", "fetched_at"]
 
 
 def write_raw_csv(output, path):
+    fetched_at = output.get("fetched_at", "")
     rows = []
     for prov_key, prov_data in output["providers"].items():
         pname = prov_data.get("provider", prov_key)
@@ -533,6 +534,7 @@ def write_raw_csv(output, path):
                                        or sku.get("plan_id") or sku.get("part_number")
                                        or sku.get("id") or sku.get("description")
                                        or sku.get("display_name") or sku.get("note") or ""),
+                "fetched_at":         fetched_at,
             })
     if not rows:
         return
@@ -575,6 +577,7 @@ def _best_price(skus, gpu_type, tier, india, us):
 
 
 def write_comparison_csv(output, path):
+    fetched_at = output.get("fetched_at", "")
     providers = {v.get("provider", k): v.get("skus", [])
                  for k, v in output["providers"].items()}
     neysa_cols = [f"neysa_{t}" for t in NEYSA_TIERS]
@@ -615,6 +618,9 @@ def write_comparison_csv(output, path):
     with open(path, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=final, extrasaction="ignore")
         writer.writeheader()
+        # Metadata row — changes daily so git always detects a difference
+        writer.writerow({"gpu_type": f"LAST REFRESHED: {fetched_at}",
+                         "pricing_note": "Data refreshed daily at 6am UTC (11:30am IST)"})
         writer.writerow({k: v for k, v in guide.items() if k in final})
         writer.writerows(rows)
 

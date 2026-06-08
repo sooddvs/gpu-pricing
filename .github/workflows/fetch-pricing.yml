@@ -49,6 +49,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin main
           git reset --soft origin/main
+          git rm -f gpu_pricing.csv 2>/dev/null || true
           git add gpu_pricing.json gpu_pricing_raw.csv gpu_pricing_comparison.csv gpu_pricing_history.csv inference_api_pricing.csv
           [ -f price_changes.csv ] && git add price_changes.csv || true
           git diff --staged --quiet && echo "No changes" && exit 0
