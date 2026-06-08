@@ -1,594 +1,594 @@
 provider,model,token_type,price_per_1m_usd,region,raw_unit,source,fetched_at
-AWS Bedrock,,combined,10000.0,ap-south-1,image,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,,combined,8000.0,us-east-1,image,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,,input,0.024,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,,input,0.02,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,,output,0.5,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,,output,0.2,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Anthropic Claude 2.0,input,8.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Anthropic Claude 2.1,input,8.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Anthropic Claude 3 Haiku,input,0.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Anthropic Claude 3 Sonnet,input,3.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Anthropic Claude Instant,input,0.8,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,DeepSeek DeepSeek V3.1,input,0.341212,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,DeepSeek DeepSeek V3.1,output,0.988339,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,DeepSeek DeepSeek v3.2,input,0.37,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,DeepSeek DeepSeek v3.2,input,0.31,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,DeepSeek DeepSeek v3.2,output,1.11,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,DeepSeek DeepSeek v3.2,output,0.925,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,DeepSeek R1,input,1.35,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,DeepSeek R1,output,5.4,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 12B,input,0.06,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 12B,input,0.05,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 12B,output,0.17,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 12B,output,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 27B,input,0.14,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 27B,input,0.12,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 27B,output,0.22,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 27B,output,0.19,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 4B,input,0.03,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 4B,input,0.02,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 4B,output,0.05,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Google Gemma 3 4B,output,0.04,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Kimi AI Kimi K2 Thinking,input,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Kimi AI Kimi K2 Thinking,input,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Kimi AI Kimi K2 Thinking,output,1.47,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Kimi AI Kimi K2 Thinking,output,1.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3 70B,input,3.18,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3 70B,input,2.65,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3 70B,output,4.2,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3 70B,output,3.5,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3 8B,input,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3 8B,input,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3 8B,output,0.72,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3 8B,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.1 70B,input,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.1 70B,output,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.1 70B Latency Optimized,input,0.9,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.1 70B Latency Optimized,output,0.9,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.1 8B,input,0.22,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.1 8B,output,0.22,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.2 11B,input,0.16,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.2 11B,output,0.16,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.2 1B,input,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.2 1B,output,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.2 3B,input,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.2 3B,output,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.2 90B,input,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.2 90B,output,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.3 70B,input,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 3.3 70B,output,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 4 Maverick 17B,input,0.24,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 4 Maverick 17B,output,0.97,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 4 Scout 17B,input,0.17,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Meta Llama 4 Scout 17B,output,0.66,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI MiniMax M2.5,input,0.18,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI MiniMax M2.5,input,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI MiniMax M2.5,output,0.72,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI MiniMax M2.5,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI Minimax M2,input,0.17,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI Minimax M2,input,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI Minimax M2,output,0.71,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI Minimax M2,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI Minimax M2.1,input,0.18,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI Minimax M2.1,input,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI Minimax M2.1,output,0.72,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Minimax AI Minimax M2.1,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral AI Devstral,input,0.24,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral AI Devstral,input,0.2,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral AI Devstral,output,1.2,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral AI Devstral,output,1.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Magistral Small 1.2,input,0.3,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Magistral Small 1.2,input,0.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Magistral Small 1.2,output,0.88,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Magistral Small 1.2,output,0.75,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 14B 3.0,input,0.12,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 14B 3.0,input,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 14B 3.0,output,0.12,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 14B 3.0,output,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 3B 3.0,input,0.06,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 3B 3.0,input,0.05,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 3B 3.0,output,0.06,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 3B 3.0,output,0.05,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 8B 3.0,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 8B 3.0,input,0.07,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 8B 3.0,output,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Ministral 8B 3.0,output,0.07,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral 7B,input,0.18,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral 7B,input,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral 7B,output,0.24,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral 7B,output,0.2,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral Large,input,4.8,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral Large,input,4.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral Large,output,14.4,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral Large,output,12.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral Large 3,input,0.3,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral Large 3,input,0.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral Large 3,output,0.88,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral Large 3,output,0.75,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral Small,input,1.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mistral Small,output,3.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mixtral 8x7B,input,0.54,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mixtral 8x7B,input,0.45,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mixtral 8x7B,output,0.84,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Mixtral 8x7B,output,0.7,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Pixtral Large 25.02,input,2.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Pixtral Large 25.02,output,6.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Voxtral Mini 1.0,input,0.03,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Voxtral Mini 1.0,input,0.02,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Voxtral Mini 1.0,output,0.03,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Voxtral Mini 1.0,output,0.02,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Voxtral Small 1.0,input,0.06,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Voxtral Small 1.0,input,0.05,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Voxtral Small 1.0,output,0.17,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Mistral Voxtral Small 1.0,output,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Moonshot AI Kimi K2.5,input,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Moonshot AI Kimi K2.5,input,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Moonshot AI Kimi K2.5,output,1.8,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Moonshot AI Kimi K2.5,output,1.5,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova 2.0 Lite,input,0.165,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova 2.0 Lite,output,1.375,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova 2.0 Omni,input,0.2,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova 2.0 Omni,output,1.4,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova 2.0 Pro,input,0.6875,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova 2.0 Pro,output,5.5,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Canvas,combined,40000.0,us-east-1,image,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Lite,input,0.071,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Lite,input,0.06,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Lite,output,0.284,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Lite,output,0.24,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Micro,input,0.041,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Micro,input,0.035,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Micro,output,0.164,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Micro,output,0.14,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Premier,input,1.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Premier,output,6.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Pro,input,0.47,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Pro,input,0.4,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Pro,output,1.88,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Pro,output,1.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Pro Latency Optimized,input,1.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Pro Latency Optimized,output,4.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Reel,combined,80000.0,us-east-1,video,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Sonic,input,0.06,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Sonic,output,0.24,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Sonic 2.0,input,0.33,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nova Sonic 2.0,output,2.75,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron 3 Super 120B A12B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron 3 Super 120B A12B,input,0.075,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron 3 Super 120B A12B,output,0.39,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron 3 Super 120B A12B,output,0.325,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2,input,0.03,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2,input,0.03,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2,output,0.14,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2,output,0.12,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2 VL,input,0.12,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2 VL,input,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2 VL,output,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2 VL,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia Nemotron Nano 3 30B,input,0.03,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia Nemotron Nano 3 30B,input,0.03,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia Nemotron Nano 3 30B,output,0.14,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Nvidia Nemotron Nano 3 30B,output,0.12,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI GPT OSS Safeguard 120B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI GPT OSS Safeguard 120B,input,0.07,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI GPT OSS Safeguard 120B,output,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI GPT OSS Safeguard 120B,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI GPT OSS Safeguard 20B,input,0.04,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI GPT OSS Safeguard 20B,input,0.03,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI GPT OSS Safeguard 20B,output,0.12,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI GPT OSS Safeguard 20B,output,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI gpt-oss-120b,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI gpt-oss-120b,input,0.075,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI gpt-oss-120b,output,0.355,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI gpt-oss-120b,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI gpt-oss-20b,input,0.04,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI gpt-oss-20b,input,0.035,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI gpt-oss-20b,output,0.175,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,OpenAI gpt-oss-20b,output,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 235B A22B 2507,input,0.13,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 235B A22B 2507,output,0.52,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 32B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 32B,input,0.075,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 32B,output,0.355,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 32B,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Coder 30B A3B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Coder 30B A3B,input,0.075,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Coder 30B A3B,output,0.355,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Coder 30B A3B,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Coder 480B A35B,input,0.265,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Coder 480B A35B,output,1.06,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Coder Next,input,0.3,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Coder Next,input,0.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Coder Next,output,0.72,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Coder Next,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Next 80B A3B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Next 80B A3B,input,0.07,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Next 80B A3B,output,0.71,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 Next 80B A3B,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 VL 235B A22B,input,0.31,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 VL 235B A22B,input,0.26,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 VL 235B A22B,output,1.56,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Qwen Qwen3 VL 235B A22B,output,1.33,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Writer Writer Palmyra Vision 7B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Writer Writer Palmyra Vision 7B,input,0.075,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Writer Writer Palmyra Vision 7B,output,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Writer Writer Palmyra Vision 7B,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 4.7,input,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 4.7,input,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 4.7,output,1.32,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 4.7,output,1.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 4.7 Flash,input,0.04,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 4.7 Flash,input,0.035,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 4.7 Flash,output,0.24,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 4.7 Flash,output,0.2,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 5,input,0.6,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 5,input,0.5,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 5,output,1.92,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-AWS Bedrock,Z AI GLM 5,output,1.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,AsyncBatchEmbedContent input token count for gemini-embedding-001,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count Gemini 2.5 Pro input audio,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count Gemini 2.5 Pro input image,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count Gemini 2.5 Pro input video,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count Gemini 2.5 Pro long input text,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count Gemini 2.5 Pro short input text,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash input audio,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash input image,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash input video,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash lite input audio,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash lite input image,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash lite input video,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash lite long input text,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash lite short input text,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash long input text,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash short input text,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content output token count Gemini 2.5 Pro long output text,output,7.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content output token count Gemini 2.5 Pro short output text,output,5.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash lite long output text,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash lite short output text,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash long input text,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash long output text non-thinking,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash short input text,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash short output text non-thinking,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerateContent audio input token count for Gemini 2.0 Flash,input,0.35,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerateContent audio input token count for Gemini 2.0 Flash Lite,input,0.037,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerateContent image input token count for Gemini 2.0 Flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerateContent image input token count for Gemini 2.0 Flash Lite,input,0.037,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerateContent input token count for Gemini 2.5 Flash Native Image Generation,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerateContent output image token count for Gemini 2.0 Flash MMGen,output,15.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerateContent output token count for Gemini 2.5 Flash Native Image Generation,output,15.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerateContent text input token count for Gemini 2.0 Flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerateContent text output token count for Gemini 2.0 Flash,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerateContent video input token count for Gemini 2.0 Flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerateContent video input token count for Gemini 2.0 Flash Lite,input,0.037,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate_content audio input token count for gemini 3 pro long,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate_content audio input token count for gemini 3 pro short,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate_content image input token count for gemini 3 pro long,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate_content image input token count for gemini 3 pro short,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate_content text input token count for gemini 3 pro long,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate_content text input token count for gemini 3 pro short,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate_content text output token count for gemini 3 pro long,output,9.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate_content video input token count for gemini 3 pro long,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate_content video input token count for gemini 3 pro short,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BatchGenerate_content_output_token_count_gemini_3_pro_short_text,output,6.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Bidi generate content input token count gemini 3 flash live audio,input,3.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Bidi generate content input token count gemini 3 flash live image,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Bidi generate content input token count gemini 3 flash live text,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Bidi generate content input token count gemini 3 flash live video,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Bidi generate content output token count gemini 3 flash live audio,output,12.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Bidi generate content output token count gemini 3 flash live text,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent audio input token count for Gemini 2.0 Flash Live,input,2.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent audio input token count for Gemini 2.5 Flash 001,input,3.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent audio input token count for Gemini 2.5 Flash Native Audio,input,3.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent audio output token count for Gemini 2.0 Flash Live,output,8.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent audio output token count for Gemini 2.5 Flash 001,output,12.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent audio output token count for Gemini 2.5 Flash Native Audio,output,12.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent audio output token count for Gemini 2.5 Flash Native Audio Thinking,output,12.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent image input token count for Gemini 2.0 Flash Live,input,2.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent image input token count for Gemini 2.5 Flash 001,input,3.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent image input token count for Gemini 2.5 Flash Native Audio,input,3.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent text input token count for Gemini 2.0 Flash Live,input,0.35,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent text input token count for Gemini 2.5 Flash 001,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent text input token count for Gemini 2.5 Flash Native Audio,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent text output token count for Gemini 2.0 Flash Live,output,1.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent text output token count for Gemini 2.5 Flash 001,output,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent text output token count for Gemini 2.5 Flash Native Audio,output,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,BidiGenerateContent text output token count for Gemini 2.5 Flash Native Audio Thinking,output,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Embed content input token count gemini embedding 2 audio batch,input,3.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Embed content input token count gemini embedding 2 image batch,input,0.225,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Embed content input token count gemini embedding 2 text batch,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Embed content input token count gemini embedding 2 video batch,input,6.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,EmbedContent input token count for gemini-embedding-001,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,EmbedContent input token count for gemini-embedding-2 audio,input,6.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,EmbedContent input token count for gemini-embedding-2 image,input,0.45,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,EmbedContent input token count for gemini-embedding-2 text,input,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,EmbedContent input token count for gemini-embedding-2 video,input,12.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Gemini Pro Input Tokens,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Gemini Pro Output Tokens,output,1.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 2.5 flash input audio,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 2.5 flash input image,input,0.03,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 2.5 flash input short text,input,0.03,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 2.5 flash input video,input,0.03,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 2.5 flash long input text,input,0.03,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 2.5 pro long input,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 2.5 pro preview long input,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 2.5 pro preview short input,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 2.5 pro short input,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 3.1 flash lite preview audio,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 3.1 flash lite preview image,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 3.1 flash lite preview text,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 3.1 flash lite preview video,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 3.5 flash audio,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 3.5 flash image,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 3.5 flash text,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content cached input token count gemini 3.5 flash video,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count Gemini 2.5 Pro Experimental input audio,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count Gemini 2.5 Pro Experimental input image,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count Gemini 2.5 Pro Experimental input video,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count Gemini 2.5 Pro Experimental long input text,input,2.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count Gemini 2.5 Pro Experimental short input text,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count Gemini 2.5 Pro input audio,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count Gemini 2.5 Pro input image,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count Gemini 2.5 Pro input video,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count Gemini 2.5 Pro long input text,input,2.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count Gemini 2.5 Pro short input text,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash audio flex,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash audio priority,input,1.8,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash image flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash image priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash input audio,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash input image,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash input video,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite audio flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite audio priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite image flex,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite image priority,input,0.18,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite input audio,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite input image,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite input video,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite long input text,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite long text flex,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite long text priority,input,0.18,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite short input text,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite short text flex,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite short text priority,input,0.18,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite video flex,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash lite video priority,input,0.18,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash long input text,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash long text flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash long text priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash native image generation flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash native image generation priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash short input text,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash short text flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash short text priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash video flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 flash video priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 pro audio flex,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 pro audio priority,input,2.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 pro image flex,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 pro image priority,input,2.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 pro long text flex,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 pro long text priority,input,4.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 pro short text flex,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 pro short text priority,input,2.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 pro video flex,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 2.5 pro video priority,input,2.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 flash audio flex,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 flash audio priority,input,1.8,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 flash image flex,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 flash image priority,input,0.9,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 flash text flex,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 flash text priority,input,0.9,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 flash video flex,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 flash video priority,input,0.9,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro long audio flex,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro long audio priority,input,7.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro long image flex,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro long image priority,input,7.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro long text flex,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro long text priority,input,7.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro long video flex,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro long video priority,input,7.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro short audio flex,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro short audio priority,input,3.6,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro short image flex,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro short image priority,input,3.6,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro short text flex,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro short text priority,input,3.6,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro short video flex,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3 pro short video priority,input,3.6,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview audio,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview audio batch,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview audio flex,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview audio priority,input,0.9,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview image,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview image batch,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview image flex,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview image priority,input,0.45,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview text,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview text batch,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview text flex,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview text priority,input,0.45,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview video,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview video batch,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview video flex,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview video priority,input,0.45,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash audio,input,1.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash audio batch,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash audio flex,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash audio priority,input,2.7,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash image,input,1.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash image batch,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash image flex,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash image priority,input,2.7,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash text,input,1.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash text batch,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash text flex,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash text priority,input,2.7,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash video,input,1.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash video batch,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash video flex,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content input token count gemini 3.5 flash video priority,input,2.7,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count Gemini 2.5 Pro Experimental long input text,input,15.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count Gemini 2.5 Pro Experimental short input text,input,10.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count Gemini 2.5 Pro long output text,output,15.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count Gemini 2.5 Pro short output text,output,10.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash lite long output text,output,0.4,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash lite long text flex,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash lite long text non thinking flex,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash lite long text non thinking priority,output,0.72,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash lite long text priority,output,0.72,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash lite short output text,output,0.4,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash lite short output text non-thinking,output,0.4,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash lite short text flex,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash lite short text non thinking flex,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash lite short text non thinking priority,output,0.72,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash lite short text priority,output,0.72,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash long input text,input,2.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash long output text non-thinking,output,0.4,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash long text flex,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash long text non thinking flex,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash long text non thinking priority,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash long text priority,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash native image generation flex,output,15.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash native image generation priority,output,54.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash short input text,input,2.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash short output text non-thinking,output,2.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash short text flex,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash short text non thinking flex,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash short text non thinking priority,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 flash short text priority,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 pro long text flex,output,7.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 pro long text priority,output,27.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 pro short text flex,output,5.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 2.5 pro short text priority,output,18.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3 flash text flex,output,1.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3 flash text priority,output,5.4,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3 pro image generation image flex,output,60.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3 pro image generation image priority,output,216.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3 pro long text flex,output,9.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3 pro long text priority,output,32.4,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3 pro short text flex,output,6.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3 pro short text priority,output,21.6,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3.1 flash lite preview text,output,1.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3.1 flash lite preview text batch,output,0.75,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3.1 flash lite preview text flex,output,0.75,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3.1 flash lite preview text priority,output,2.7,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3.5 flash text,output,9.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3.5 flash text batch,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3.5 flash text flex,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate content output token count gemini 3.5 flash text priority,output,16.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent audio input token count for Gemini 2.0 Flash,input,0.7,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent audio input token count for Gemini 2.0 Flash Lite,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent audio output token count for Gemini 2.0 Flash TTS,output,10.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent audio output token count for Gemini 2.5 Pro TTS,output,20.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached audio input token count for Gemini 2.0 Flash,input,0.175,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached audio input token count for Gemini 2.0 Flash Lite,input,0.018,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached image input token count for Gemini 2.0 Flash,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached image input token count for Gemini 2.0 Flash Lite,input,0.018,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Flash 8B when input is over 128k tokens,input,0.02,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Flash 8B when input is up to 128k tokens,input,0.01,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Flash when input is over 128k tokens,input,0.037,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Flash when input is up to 128k tokens,input,0.018,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Pro when input is over 128k tokens,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Pro when input is up to 128k tokens,input,0.312,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached text input token count for Gemini 2.0 Flash,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached text input token count for Gemini 2.0 Flash Lite,input,0.018,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached video input token count for Gemini 2.0 Flash,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent cached video input token count for Gemini 2.0 Flash Lite,input,0.018,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent image input token count for Gemini 2.0 Flash,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent image input token count for Gemini 2.0 Flash Lite,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent input token count for Gemini 1.5 Flash 8B when input is longer than 128k tokens,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent input token count for Gemini 1.5 Flash 8B when input is up to 128k tokens,input,0.037,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent input token count for Gemini 1.5 Flash when input is longer than 128k tokens,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent input token count for Gemini 1.5 Flash when input is up to 128k tokens,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent input token count for Gemini 1.5 Pro when input is longer than 128k tokens,input,2.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent input token count for Gemini 1.5 Pro when input is up to 128k tokens,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent output image token count for Gemini 2.0 Flash MMGen,output,30.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent output token count for Gemini 1.5 Flash 8B when input is longer than 128k tokens,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent output token count for Gemini 1.5 Flash 8B when input is up to 128k tokens,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent output token count for Gemini 1.5 Flash when input is longer than 128k tokens,input,0.6,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent output token count for Gemini 1.5 Flash when input is up to 128k tokens,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent output token count for Gemini 1.5 Pro when input is longer than 128k tokens,input,10.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent output token count for Gemini 1.5 Pro when input is up to 128k tokens,input,5.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent text input token count for Gemini 2.0 Flash,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent text input token count for Gemini 2.0 Flash Lite,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent text input token count for Gemini 2.0 Flash TTS,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent text input token count for Gemini 2.5 Pro TTS,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent text output token count for Gemini 2.0 Flash,output,0.4,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent text output token count for Gemini 2.0 Flash Lite,output,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent video input token count for Gemini 2.0 Flash,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,GenerateContent video input token count for Gemini 2.0 Flash Lite,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content audio cached input token count for Gemini 2.5 Flash Lite,input,0.03,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content audio input token count for Gemini 3.5 Flash Flex Caching,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content audio input token count for Gemini 3.5 Flash Priority Caching,input,0.27,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content audio input token count for Gemini 3.5 Live Translate,input,3.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content audio input token count for gemini 3 flash,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content audio input token count for gemini 3 flash batch,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content audio input token count for gemini 3 pro long,input,4.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content audio input token count for gemini 3 pro short,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content audio output token count for Gemini 3.1 flash tts,output,20.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content audio output token count for Gemini 3.1 flash tts batch,output,10.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content audio output token count for Gemini 3.5 Live Translate,output,21.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content cached audio input token count for gemini 3 flash,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content cached audio input token count for gemini 3 pro long,input,0.4,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content cached audio input token count for gemini 3 pro short,input,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content cached image input token count for gemini 3 flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content cached image input token count for gemini 3 pro long,input,0.4,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content cached text input token count for gemini 3 flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content cached video input token count for gemini 3 flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content cached video input token count for gemini 3 pro long,input,0.4,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content cached video input token count for gemini 3 pro short,input,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image cached input token count for Gemini 2.5 Flash Lite,input,0.01,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image input token count for Gemini 2.5 Flash Native Image Generation,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image input token count for Gemini 3 Pro Image,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image input token count for Gemini 3 Pro Image batch,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image input token count for Gemini 3.5 Flash Flex Caching,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image input token count for Gemini 3.5 Flash Priority Caching,input,0.27,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image input token count for gemini 3 flash,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image input token count for gemini 3 flash batch,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image input token count for gemini 3 pro long,input,4.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image input token count for gemini 3 pro short,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image output token count for Gemini 2.5 Flash Native Image Generation,output,30.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image output token count for Gemini 3 Pro Image,output,120.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content image output token count for Gemini 3 Pro Image batch,output,60.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text cached input token count for gemini 2.5 Flash Lite,input,0.01,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text cached input token count for gemini 3 pro long,input,0.4,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text cached input token count for gemini 3 pro short,input,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text input token count for Gemini 3.1 flash tts,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text input token count for Gemini 3.1 flash tts batch,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text input token count for Gemini 3.5 Flash Flex Caching,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text input token count for Gemini 3.5 Flash Priority Caching,input,0.27,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text input token count for gemini 3 flash,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text input token count for gemini 3 flash batch,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text input token count for gemini 3 pro long,input,4.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text input token count for gemini 3 pro short,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text output token count for gemini 3 flash,output,3.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text output token count for gemini 3 flash batch,output,1.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text output token count for gemini 3 pro long,output,18.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content text output token count for gemini 3 pro short,output,12.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content video cached input token count for Gemini 2.5 Flash Lite,input,0.01,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content video input token count for Gemini 3.5 Flash Flex Caching,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content video input token count for gemini 3 flash,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content video input token count for gemini 3 pro long,input,4.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content video input token count for gemini 3 pro short,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_cached_input_token_count_gemini_3_pro_short_image,input,0.2,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_audio,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_audio_batching,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_image,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_image_batching,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_video,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_video_batching,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_long_input_text,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_long_input_text_batch,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_short_input_text,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_short_input_text_batch,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_long_output_text,output,2.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_long_output_text_batch,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_long_output_text_non_thinking,output,2.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_long_output_text_non_thinking_batch,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_short_output_text,output,2.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_short_output_text_batch,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_short_output_text_non_thinking,output,2.5,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
-GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_short_output_text_non_thinking_batch,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T09:11:38.853026+00:00
+AWS Bedrock,,combined,10000.0,ap-south-1,image,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,,combined,8000.0,us-east-1,image,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,,input,0.024,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,,input,0.02,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,,output,0.5,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,,output,0.2,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Anthropic Claude 2.0,input,8.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Anthropic Claude 2.1,input,8.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Anthropic Claude 3 Haiku,input,0.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Anthropic Claude 3 Sonnet,input,3.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Anthropic Claude Instant,input,0.8,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,DeepSeek DeepSeek V3.1,input,0.341212,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,DeepSeek DeepSeek V3.1,output,0.988339,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,DeepSeek DeepSeek v3.2,input,0.37,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,DeepSeek DeepSeek v3.2,input,0.31,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,DeepSeek DeepSeek v3.2,output,1.11,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,DeepSeek DeepSeek v3.2,output,0.925,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,DeepSeek R1,input,1.35,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,DeepSeek R1,output,5.4,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 12B,input,0.06,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 12B,input,0.05,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 12B,output,0.17,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 12B,output,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 27B,input,0.14,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 27B,input,0.12,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 27B,output,0.22,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 27B,output,0.19,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 4B,input,0.03,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 4B,input,0.02,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 4B,output,0.05,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Google Gemma 3 4B,output,0.04,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Kimi AI Kimi K2 Thinking,input,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Kimi AI Kimi K2 Thinking,input,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Kimi AI Kimi K2 Thinking,output,1.47,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Kimi AI Kimi K2 Thinking,output,1.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3 70B,input,3.18,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3 70B,input,2.65,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3 70B,output,4.2,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3 70B,output,3.5,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3 8B,input,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3 8B,input,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3 8B,output,0.72,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3 8B,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.1 70B,input,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.1 70B,output,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.1 70B Latency Optimized,input,0.9,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.1 70B Latency Optimized,output,0.9,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.1 8B,input,0.22,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.1 8B,output,0.22,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.2 11B,input,0.16,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.2 11B,output,0.16,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.2 1B,input,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.2 1B,output,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.2 3B,input,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.2 3B,output,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.2 90B,input,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.2 90B,output,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.3 70B,input,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 3.3 70B,output,0.72,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 4 Maverick 17B,input,0.24,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 4 Maverick 17B,output,0.97,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 4 Scout 17B,input,0.17,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Meta Llama 4 Scout 17B,output,0.66,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI MiniMax M2.5,input,0.18,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI MiniMax M2.5,input,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI MiniMax M2.5,output,0.72,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI MiniMax M2.5,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI Minimax M2,input,0.17,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI Minimax M2,input,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI Minimax M2,output,0.71,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI Minimax M2,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI Minimax M2.1,input,0.18,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI Minimax M2.1,input,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI Minimax M2.1,output,0.72,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Minimax AI Minimax M2.1,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral AI Devstral,input,0.24,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral AI Devstral,input,0.2,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral AI Devstral,output,1.2,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral AI Devstral,output,1.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Magistral Small 1.2,input,0.3,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Magistral Small 1.2,input,0.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Magistral Small 1.2,output,0.88,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Magistral Small 1.2,output,0.75,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 14B 3.0,input,0.12,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 14B 3.0,input,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 14B 3.0,output,0.12,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 14B 3.0,output,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 3B 3.0,input,0.06,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 3B 3.0,input,0.05,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 3B 3.0,output,0.06,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 3B 3.0,output,0.05,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 8B 3.0,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 8B 3.0,input,0.07,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 8B 3.0,output,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Ministral 8B 3.0,output,0.07,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral 7B,input,0.18,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral 7B,input,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral 7B,output,0.24,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral 7B,output,0.2,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral Large,input,4.8,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral Large,input,4.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral Large,output,14.4,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral Large,output,12.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral Large 3,input,0.3,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral Large 3,input,0.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral Large 3,output,0.88,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral Large 3,output,0.75,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral Small,input,1.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mistral Small,output,3.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mixtral 8x7B,input,0.54,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mixtral 8x7B,input,0.45,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mixtral 8x7B,output,0.84,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Mixtral 8x7B,output,0.7,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Pixtral Large 25.02,input,2.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Pixtral Large 25.02,output,6.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Voxtral Mini 1.0,input,0.03,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Voxtral Mini 1.0,input,0.02,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Voxtral Mini 1.0,output,0.03,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Voxtral Mini 1.0,output,0.02,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Voxtral Small 1.0,input,0.06,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Voxtral Small 1.0,input,0.05,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Voxtral Small 1.0,output,0.17,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Mistral Voxtral Small 1.0,output,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Moonshot AI Kimi K2.5,input,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Moonshot AI Kimi K2.5,input,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Moonshot AI Kimi K2.5,output,1.8,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Moonshot AI Kimi K2.5,output,1.5,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova 2.0 Lite,input,0.165,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova 2.0 Lite,output,1.375,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova 2.0 Omni,input,0.2,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova 2.0 Omni,output,1.4,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova 2.0 Pro,input,0.6875,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova 2.0 Pro,output,5.5,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Canvas,combined,40000.0,us-east-1,image,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Lite,input,0.071,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Lite,input,0.06,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Lite,output,0.284,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Lite,output,0.24,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Micro,input,0.041,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Micro,input,0.035,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Micro,output,0.164,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Micro,output,0.14,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Premier,input,1.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Premier,output,6.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Pro,input,0.47,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Pro,input,0.4,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Pro,output,1.88,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Pro,output,1.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Pro Latency Optimized,input,1.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Pro Latency Optimized,output,4.0,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Reel,combined,80000.0,us-east-1,video,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Sonic,input,0.06,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Sonic,output,0.24,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Sonic 2.0,input,0.33,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nova Sonic 2.0,output,2.75,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron 3 Super 120B A12B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron 3 Super 120B A12B,input,0.075,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron 3 Super 120B A12B,output,0.39,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron 3 Super 120B A12B,output,0.325,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2,input,0.03,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2,input,0.03,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2,output,0.14,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2,output,0.12,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2 VL,input,0.12,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2 VL,input,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2 VL,output,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia NVIDIA Nemotron Nano 2 VL,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia Nemotron Nano 3 30B,input,0.03,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia Nemotron Nano 3 30B,input,0.03,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia Nemotron Nano 3 30B,output,0.14,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Nvidia Nemotron Nano 3 30B,output,0.12,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI GPT OSS Safeguard 120B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI GPT OSS Safeguard 120B,input,0.07,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI GPT OSS Safeguard 120B,output,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI GPT OSS Safeguard 120B,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI GPT OSS Safeguard 20B,input,0.04,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI GPT OSS Safeguard 20B,input,0.03,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI GPT OSS Safeguard 20B,output,0.12,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI GPT OSS Safeguard 20B,output,0.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI gpt-oss-120b,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI gpt-oss-120b,input,0.075,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI gpt-oss-120b,output,0.355,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI gpt-oss-120b,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI gpt-oss-20b,input,0.04,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI gpt-oss-20b,input,0.035,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI gpt-oss-20b,output,0.175,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,OpenAI gpt-oss-20b,output,0.15,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 235B A22B 2507,input,0.13,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 235B A22B 2507,output,0.52,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 32B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 32B,input,0.075,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 32B,output,0.355,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 32B,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Coder 30B A3B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Coder 30B A3B,input,0.075,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Coder 30B A3B,output,0.355,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Coder 30B A3B,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Coder 480B A35B,input,0.265,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Coder 480B A35B,output,1.06,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Coder Next,input,0.3,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Coder Next,input,0.25,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Coder Next,output,0.72,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Coder Next,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Next 80B A3B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Next 80B A3B,input,0.07,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Next 80B A3B,output,0.71,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 Next 80B A3B,output,0.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 VL 235B A22B,input,0.31,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 VL 235B A22B,input,0.26,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 VL 235B A22B,output,1.56,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Qwen Qwen3 VL 235B A22B,output,1.33,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Writer Writer Palmyra Vision 7B,input,0.09,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Writer Writer Palmyra Vision 7B,input,0.075,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Writer Writer Palmyra Vision 7B,output,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Writer Writer Palmyra Vision 7B,output,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 4.7,input,0.36,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 4.7,input,0.3,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 4.7,output,1.32,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 4.7,output,1.1,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 4.7 Flash,input,0.04,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 4.7 Flash,input,0.035,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 4.7 Flash,output,0.24,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 4.7 Flash,output,0.2,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 5,input,0.6,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 5,input,0.5,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 5,output,1.92,ap-south-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+AWS Bedrock,Z AI GLM 5,output,1.6,us-east-1,1K tokens,AWS Pricing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,AsyncBatchEmbedContent input token count for gemini-embedding-001,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count Gemini 2.5 Pro input audio,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count Gemini 2.5 Pro input image,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count Gemini 2.5 Pro input video,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count Gemini 2.5 Pro long input text,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count Gemini 2.5 Pro short input text,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash input audio,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash input image,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash input video,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash lite input audio,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash lite input image,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash lite input video,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash lite long input text,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash lite short input text,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash long input text,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content input token count gemini 2.5 flash short input text,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content output token count Gemini 2.5 Pro long output text,output,7.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content output token count Gemini 2.5 Pro short output text,output,5.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash lite long output text,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash lite short output text,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash long input text,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash long output text non-thinking,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash short input text,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate content output token count gemini 2.5 flash short output text non-thinking,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerateContent audio input token count for Gemini 2.0 Flash,input,0.35,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerateContent audio input token count for Gemini 2.0 Flash Lite,input,0.037,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerateContent image input token count for Gemini 2.0 Flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerateContent image input token count for Gemini 2.0 Flash Lite,input,0.037,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerateContent input token count for Gemini 2.5 Flash Native Image Generation,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerateContent output image token count for Gemini 2.0 Flash MMGen,output,15.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerateContent output token count for Gemini 2.5 Flash Native Image Generation,output,15.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerateContent text input token count for Gemini 2.0 Flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerateContent text output token count for Gemini 2.0 Flash,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerateContent video input token count for Gemini 2.0 Flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerateContent video input token count for Gemini 2.0 Flash Lite,input,0.037,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate_content audio input token count for gemini 3 pro long,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate_content audio input token count for gemini 3 pro short,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate_content image input token count for gemini 3 pro long,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate_content image input token count for gemini 3 pro short,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate_content text input token count for gemini 3 pro long,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate_content text input token count for gemini 3 pro short,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate_content text output token count for gemini 3 pro long,output,9.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate_content video input token count for gemini 3 pro long,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate_content video input token count for gemini 3 pro short,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BatchGenerate_content_output_token_count_gemini_3_pro_short_text,output,6.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Bidi generate content input token count gemini 3 flash live audio,input,3.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Bidi generate content input token count gemini 3 flash live image,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Bidi generate content input token count gemini 3 flash live text,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Bidi generate content input token count gemini 3 flash live video,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Bidi generate content output token count gemini 3 flash live audio,output,12.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Bidi generate content output token count gemini 3 flash live text,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent audio input token count for Gemini 2.0 Flash Live,input,2.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent audio input token count for Gemini 2.5 Flash 001,input,3.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent audio input token count for Gemini 2.5 Flash Native Audio,input,3.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent audio output token count for Gemini 2.0 Flash Live,output,8.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent audio output token count for Gemini 2.5 Flash 001,output,12.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent audio output token count for Gemini 2.5 Flash Native Audio,output,12.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent audio output token count for Gemini 2.5 Flash Native Audio Thinking,output,12.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent image input token count for Gemini 2.0 Flash Live,input,2.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent image input token count for Gemini 2.5 Flash 001,input,3.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent image input token count for Gemini 2.5 Flash Native Audio,input,3.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent text input token count for Gemini 2.0 Flash Live,input,0.35,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent text input token count for Gemini 2.5 Flash 001,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent text input token count for Gemini 2.5 Flash Native Audio,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent text output token count for Gemini 2.0 Flash Live,output,1.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent text output token count for Gemini 2.5 Flash 001,output,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent text output token count for Gemini 2.5 Flash Native Audio,output,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,BidiGenerateContent text output token count for Gemini 2.5 Flash Native Audio Thinking,output,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Embed content input token count gemini embedding 2 audio batch,input,3.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Embed content input token count gemini embedding 2 image batch,input,0.225,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Embed content input token count gemini embedding 2 text batch,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Embed content input token count gemini embedding 2 video batch,input,6.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,EmbedContent input token count for gemini-embedding-001,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,EmbedContent input token count for gemini-embedding-2 audio,input,6.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,EmbedContent input token count for gemini-embedding-2 image,input,0.45,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,EmbedContent input token count for gemini-embedding-2 text,input,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,EmbedContent input token count for gemini-embedding-2 video,input,12.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Gemini Pro Input Tokens,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Gemini Pro Output Tokens,output,1.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 2.5 flash input audio,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 2.5 flash input image,input,0.03,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 2.5 flash input short text,input,0.03,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 2.5 flash input video,input,0.03,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 2.5 flash long input text,input,0.03,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 2.5 pro long input,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 2.5 pro preview long input,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 2.5 pro preview short input,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 2.5 pro short input,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 3.1 flash lite preview audio,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 3.1 flash lite preview image,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 3.1 flash lite preview text,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 3.1 flash lite preview video,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 3.5 flash audio,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 3.5 flash image,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 3.5 flash text,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content cached input token count gemini 3.5 flash video,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count Gemini 2.5 Pro Experimental input audio,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count Gemini 2.5 Pro Experimental input image,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count Gemini 2.5 Pro Experimental input video,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count Gemini 2.5 Pro Experimental long input text,input,2.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count Gemini 2.5 Pro Experimental short input text,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count Gemini 2.5 Pro input audio,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count Gemini 2.5 Pro input image,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count Gemini 2.5 Pro input video,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count Gemini 2.5 Pro long input text,input,2.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count Gemini 2.5 Pro short input text,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash audio flex,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash audio priority,input,1.8,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash image flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash image priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash input audio,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash input image,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash input video,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite audio flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite audio priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite image flex,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite image priority,input,0.18,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite input audio,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite input image,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite input video,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite long input text,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite long text flex,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite long text priority,input,0.18,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite short input text,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite short text flex,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite short text priority,input,0.18,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite video flex,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash lite video priority,input,0.18,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash long input text,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash long text flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash long text priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash native image generation flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash native image generation priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash short input text,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash short text flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash short text priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash video flex,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 flash video priority,input,0.54,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 pro audio flex,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 pro audio priority,input,2.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 pro image flex,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 pro image priority,input,2.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 pro long text flex,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 pro long text priority,input,4.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 pro short text flex,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 pro short text priority,input,2.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 pro video flex,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 2.5 pro video priority,input,2.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 flash audio flex,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 flash audio priority,input,1.8,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 flash image flex,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 flash image priority,input,0.9,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 flash text flex,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 flash text priority,input,0.9,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 flash video flex,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 flash video priority,input,0.9,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro long audio flex,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro long audio priority,input,7.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro long image flex,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro long image priority,input,7.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro long text flex,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro long text priority,input,7.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro long video flex,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro long video priority,input,7.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro short audio flex,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro short audio priority,input,3.6,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro short image flex,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro short image priority,input,3.6,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro short text flex,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro short text priority,input,3.6,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro short video flex,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3 pro short video priority,input,3.6,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview audio,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview audio batch,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview audio flex,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview audio priority,input,0.9,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview image,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview image batch,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview image flex,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview image priority,input,0.45,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview text,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview text batch,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview text flex,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview text priority,input,0.45,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview video,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview video batch,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview video flex,input,0.125,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.1 flash lite preview video priority,input,0.45,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash audio,input,1.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash audio batch,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash audio flex,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash audio priority,input,2.7,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash image,input,1.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash image batch,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash image flex,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash image priority,input,2.7,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash text,input,1.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash text batch,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash text flex,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash text priority,input,2.7,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash video,input,1.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash video batch,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash video flex,input,0.75,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content input token count gemini 3.5 flash video priority,input,2.7,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count Gemini 2.5 Pro Experimental long input text,input,15.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count Gemini 2.5 Pro Experimental short input text,input,10.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count Gemini 2.5 Pro long output text,output,15.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count Gemini 2.5 Pro short output text,output,10.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash lite long output text,output,0.4,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash lite long text flex,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash lite long text non thinking flex,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash lite long text non thinking priority,output,0.72,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash lite long text priority,output,0.72,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash lite short output text,output,0.4,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash lite short output text non-thinking,output,0.4,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash lite short text flex,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash lite short text non thinking flex,output,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash lite short text non thinking priority,output,0.72,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash lite short text priority,output,0.72,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash long input text,input,2.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash long output text non-thinking,output,0.4,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash long text flex,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash long text non thinking flex,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash long text non thinking priority,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash long text priority,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash native image generation flex,output,15.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash native image generation priority,output,54.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash short input text,input,2.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash short output text non-thinking,output,2.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash short text flex,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash short text non thinking flex,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash short text non thinking priority,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 flash short text priority,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 pro long text flex,output,7.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 pro long text priority,output,27.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 pro short text flex,output,5.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 2.5 pro short text priority,output,18.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3 flash text flex,output,1.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3 flash text priority,output,5.4,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3 pro image generation image flex,output,60.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3 pro image generation image priority,output,216.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3 pro long text flex,output,9.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3 pro long text priority,output,32.4,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3 pro short text flex,output,6.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3 pro short text priority,output,21.6,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3.1 flash lite preview text,output,1.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3.1 flash lite preview text batch,output,0.75,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3.1 flash lite preview text flex,output,0.75,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3.1 flash lite preview text priority,output,2.7,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3.5 flash text,output,9.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3.5 flash text batch,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3.5 flash text flex,output,4.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate content output token count gemini 3.5 flash text priority,output,16.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent audio input token count for Gemini 2.0 Flash,input,0.7,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent audio input token count for Gemini 2.0 Flash Lite,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent audio output token count for Gemini 2.0 Flash TTS,output,10.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent audio output token count for Gemini 2.5 Pro TTS,output,20.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached audio input token count for Gemini 2.0 Flash,input,0.175,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached audio input token count for Gemini 2.0 Flash Lite,input,0.018,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached image input token count for Gemini 2.0 Flash,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached image input token count for Gemini 2.0 Flash Lite,input,0.018,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Flash 8B when input is over 128k tokens,input,0.02,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Flash 8B when input is up to 128k tokens,input,0.01,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Flash when input is over 128k tokens,input,0.037,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Flash when input is up to 128k tokens,input,0.018,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Pro when input is over 128k tokens,input,0.625,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached input token count for Gemini 1.5 Pro when input is up to 128k tokens,input,0.312,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached text input token count for Gemini 2.0 Flash,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached text input token count for Gemini 2.0 Flash Lite,input,0.018,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached video input token count for Gemini 2.0 Flash,input,0.025,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent cached video input token count for Gemini 2.0 Flash Lite,input,0.018,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent image input token count for Gemini 2.0 Flash,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent image input token count for Gemini 2.0 Flash Lite,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent input token count for Gemini 1.5 Flash 8B when input is longer than 128k tokens,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent input token count for Gemini 1.5 Flash 8B when input is up to 128k tokens,input,0.037,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent input token count for Gemini 1.5 Flash when input is longer than 128k tokens,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent input token count for Gemini 1.5 Flash when input is up to 128k tokens,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent input token count for Gemini 1.5 Pro when input is longer than 128k tokens,input,2.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent input token count for Gemini 1.5 Pro when input is up to 128k tokens,input,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent output image token count for Gemini 2.0 Flash MMGen,output,30.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent output token count for Gemini 1.5 Flash 8B when input is longer than 128k tokens,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent output token count for Gemini 1.5 Flash 8B when input is up to 128k tokens,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent output token count for Gemini 1.5 Flash when input is longer than 128k tokens,input,0.6,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent output token count for Gemini 1.5 Flash when input is up to 128k tokens,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent output token count for Gemini 1.5 Pro when input is longer than 128k tokens,input,10.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent output token count for Gemini 1.5 Pro when input is up to 128k tokens,input,5.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent text input token count for Gemini 2.0 Flash,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent text input token count for Gemini 2.0 Flash Lite,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent text input token count for Gemini 2.0 Flash TTS,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent text input token count for Gemini 2.5 Pro TTS,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent text output token count for Gemini 2.0 Flash,output,0.4,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent text output token count for Gemini 2.0 Flash Lite,output,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent video input token count for Gemini 2.0 Flash,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,GenerateContent video input token count for Gemini 2.0 Flash Lite,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content audio cached input token count for Gemini 2.5 Flash Lite,input,0.03,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content audio input token count for Gemini 3.5 Flash Flex Caching,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content audio input token count for Gemini 3.5 Flash Priority Caching,input,0.27,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content audio input token count for Gemini 3.5 Live Translate,input,3.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content audio input token count for gemini 3 flash,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content audio input token count for gemini 3 flash batch,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content audio input token count for gemini 3 pro long,input,4.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content audio input token count for gemini 3 pro short,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content audio output token count for Gemini 3.1 flash tts,output,20.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content audio output token count for Gemini 3.1 flash tts batch,output,10.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content audio output token count for Gemini 3.5 Live Translate,output,21.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content cached audio input token count for gemini 3 flash,input,0.1,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content cached audio input token count for gemini 3 pro long,input,0.4,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content cached audio input token count for gemini 3 pro short,input,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content cached image input token count for gemini 3 flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content cached image input token count for gemini 3 pro long,input,0.4,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content cached text input token count for gemini 3 flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content cached video input token count for gemini 3 flash,input,0.05,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content cached video input token count for gemini 3 pro long,input,0.4,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content cached video input token count for gemini 3 pro short,input,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image cached input token count for Gemini 2.5 Flash Lite,input,0.01,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image input token count for Gemini 2.5 Flash Native Image Generation,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image input token count for Gemini 3 Pro Image,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image input token count for Gemini 3 Pro Image batch,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image input token count for Gemini 3.5 Flash Flex Caching,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image input token count for Gemini 3.5 Flash Priority Caching,input,0.27,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image input token count for gemini 3 flash,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image input token count for gemini 3 flash batch,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image input token count for gemini 3 pro long,input,4.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image input token count for gemini 3 pro short,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image output token count for Gemini 2.5 Flash Native Image Generation,output,30.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image output token count for Gemini 3 Pro Image,output,120.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content image output token count for Gemini 3 Pro Image batch,output,60.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text cached input token count for gemini 2.5 Flash Lite,input,0.01,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text cached input token count for gemini 3 pro long,input,0.4,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text cached input token count for gemini 3 pro short,input,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text input token count for Gemini 3.1 flash tts,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text input token count for Gemini 3.1 flash tts batch,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text input token count for Gemini 3.5 Flash Flex Caching,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text input token count for Gemini 3.5 Flash Priority Caching,input,0.27,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text input token count for gemini 3 flash,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text input token count for gemini 3 flash batch,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text input token count for gemini 3 pro long,input,4.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text input token count for gemini 3 pro short,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text output token count for gemini 3 flash,output,3.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text output token count for gemini 3 flash batch,output,1.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text output token count for gemini 3 pro long,output,18.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content text output token count for gemini 3 pro short,output,12.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content video cached input token count for Gemini 2.5 Flash Lite,input,0.01,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content video input token count for Gemini 3.5 Flash Flex Caching,input,0.075,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content video input token count for gemini 3 flash,input,0.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content video input token count for gemini 3 pro long,input,4.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content video input token count for gemini 3 pro short,input,2.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_cached_input_token_count_gemini_3_pro_short_image,input,0.2,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_audio,input,1.0,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_audio_batching,input,0.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_image,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_image_batching,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_video,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_input_video_batching,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_long_input_text,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_long_input_text_batch,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_short_input_text,input,0.3,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_input_token_count_gemini_robotics_ER_1.5_short_input_text_batch,input,0.15,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_long_output_text,output,2.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_long_output_text_batch,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_long_output_text_non_thinking,output,2.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_long_output_text_non_thinking_batch,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_short_output_text,output,2.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_short_output_text_batch,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_short_output_text_non_thinking,output,2.5,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
+GCP Gemini API,Generate_content_output_token_count_gemini_robotics_ER_1.5_short_output_text_non_thinking_batch,output,1.25,global,count,GCP Cloud Billing API,2026-06-08T11:07:11.818245+00:00
