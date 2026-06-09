@@ -1,3 +1,4 @@
 date,provider,gpu_type,price_tier,previous_date,previous_price_usd,new_price_usd,change_pct,direction,region
 2026-05-26,GCP,H100 SXM,spot,2026-05-25,3.1155,3.2713,5.0,UP,asia-south1
 2026-05-26,GCP,A100,spot,2026-05-25,0.5897,0.5602,-5.0,DOWN,asia-south1
+2026-06-09,GCP,H100 SXM,spot,2026-06-08,3.2713,3.4422,5.22,UP,asia-south1

@@ -1,18 +1,9 @@
 {
-  "fetched_at": "2026-06-08T11:06:44.265380+00:00",
+  "fetched_at": "2026-06-09T09:58:14.374786+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
       "skus": [
-        {
-          "sku": "Standard_ND96isr_H100_v5",
-          "gpu_type": "H100 SXM",
-          "gpu_count": 8,
-          "region": "eastus",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 98.32,
-          "per_gpu_hourly_usd": 12.29
-        },
         {
           "sku": "Standard_NC40ads_H100_v5",
           "gpu_type": "H100 NVL",
@@ -1529,7 +1520,7 @@
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 3.2713
+          "per_gpu_hourly_usd": 3.4422
         },
         {
           "description": "Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 1 Year",
@@ -1599,7 +1590,7 @@
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 1.4341
+          "per_gpu_hourly_usd": 1.4666
         },
         {
           "description": "Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years",
@@ -1676,7 +1667,7 @@
           "gpu_type": "A100",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.7691
+          "per_gpu_hourly_usd": 0.7306
         },
         {
           "description": "Commitment v1: Nvidia H100 80GB Plus GPU running in Americas for 3 Years",
@@ -1760,7 +1751,7 @@
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 4.2014
+          "per_gpu_hourly_usd": 4.4104
         },
         {
           "description": "Commitment v1: H200 141GB GPU running in Mumbai for 1 Year",
@@ -1802,7 +1793,7 @@
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 4.4365
+          "per_gpu_hourly_usd": 4.656
         },
         {
           "description": "Reserved Nvidia H100 80GB GPU in Mumbai in Calendar Mode",
@@ -1865,7 +1856,7 @@
           "gpu_type": "L4",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.246
+          "per_gpu_hourly_usd": 0.2595
         },
         {
           "description": "H200 141GB GPU attached to Spot Preemptible VMs running in Mumbai",
@@ -1977,7 +1968,7 @@
           "gpu_type": "A100",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.5602
+          "per_gpu_hourly_usd": 0.5679
         },
         {
           "description": "H200 141GB GPU attached to DWS Defined Duration VMs running in Americas",
