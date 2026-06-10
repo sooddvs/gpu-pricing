@@ -1,9 +1,18 @@
 {
-  "fetched_at": "2026-06-09T09:58:14.374786+00:00",
+  "fetched_at": "2026-06-10T10:11:46.534760+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
       "skus": [
+        {
+          "sku": "Standard_ND96isr_H100_v5",
+          "gpu_type": "H100 SXM",
+          "gpu_count": 8,
+          "region": "eastus",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 98.32,
+          "per_gpu_hourly_usd": 12.29
+        },
         {
           "sku": "Standard_NC40ads_H100_v5",
           "gpu_type": "H100 NVL",
