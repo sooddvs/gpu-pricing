@@ -1,284 +1,284 @@
 gpu_type,provider,price_tier,per_gpu_hourly_usd,total_hourly_usd,region,gpu_count,sku,fetched_at
-A100,Azure,12mo,3.0574,3.0574,eastus,1,Standard_NC24ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,3.0574,6.1148,eastus,2,Standard_NC48ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,3.0574,12.2296,eastus,4,Standard_NC96ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,3.5306,28.2445,eastus,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,3.0574,3.0574,eastus2,1,Standard_NC24ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,3.0574,6.1148,eastus2,2,Standard_NC48ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,3.0574,12.2296,eastus2,4,Standard_NC96ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,3.5306,28.2445,eastus2,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,3.0574,3.0574,westus2,1,Standard_NC24ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,3.0574,6.1148,westus2,2,Standard_NC48ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,3.0574,12.2296,westus2,4,Standard_NC96ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,3.5306,28.2445,westus2,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,12mo,5.3312,42.6494,southindia,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.2659,2.2659,eastus,1,Standard_NC24ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.2659,4.5317,eastus,2,Standard_NC48ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.2659,9.0635,eastus,4,Standard_NC96ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.1264,17.0109,eastus,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.2659,2.2659,eastus2,1,Standard_NC24ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.2659,4.5317,eastus2,2,Standard_NC48ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.2659,9.0635,eastus2,4,Standard_NC96ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.1264,17.0109,eastus2,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.2659,2.2659,westus2,1,Standard_NC24ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.2659,4.5317,westus2,2,Standard_NC48ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.2659,9.0635,westus2,4,Standard_NC96ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,2.1264,17.0109,westus2,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,36mo,3.2108,25.6866,southindia,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,3.673,3.673,eastus,1,Standard_NC24ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,3.673,7.346,eastus,2,Standard_NC48ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,3.673,14.692,eastus,4,Standard_NC96ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,4.0963,32.77,eastus,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,3.673,3.673,eastus2,1,Standard_NC24ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,3.673,7.346,eastus2,2,Standard_NC48ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,3.673,14.692,eastus2,4,Standard_NC96ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,4.0963,32.77,eastus2,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,3.673,3.673,westus2,1,Standard_NC24ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,3.673,7.346,westus2,2,Standard_NC48ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,3.673,14.692,westus2,4,Standard_NC96ads_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,4.0963,32.77,westus2,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,Azure,on_demand,6.1854,49.483,southindia,8,Standard_ND96amsr_A100_v4,2026-06-11T10:45:50.301916+00:00
-A100,GCP,12mo,1.6136,,us-central1,,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-A100,GCP,12mo,3.4811,,us-central1,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Americas for 1 Year,2026-06-11T10:45:50.301916+00:00
-A100,GCP,12mo,2.1844,,asia-south1,,Commitment v1: Nvidia Tesla A100 GPU running in Mumbai for 1 Year,2026-06-11T10:45:50.301916+00:00
-A100,GCP,12mo,1.8462,,us-central1,,Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-A100,GCP,12mo,1.8484,,us-central1,,Commitment v1: Nvidia Tesla A100 GPU running in Americas for 1 Year,2026-06-11T10:45:50.301916+00:00
-A100,GCP,12mo,4.1811,,asia-south1,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Mumbai for 1 Year,2026-06-11T10:45:50.301916+00:00
-A100,GCP,36mo,3.7193,,asia-south1,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Mumbai for 3 Years,2026-06-11T10:45:50.301916+00:00
-A100,GCP,36mo,3.0966,,us-central1,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Americas for 3 Years,2026-06-11T10:45:50.301916+00:00
-A100,GCP,36mo,1.0269,,us-central1,,Commitment v1: Nvidia Tesla A100 GPU running in Americas for 3 Year,2026-06-11T10:45:50.301916+00:00
-A100,GCP,36mo,1.1552,,asia-south1,,Commitment v1: Nvidia Tesla A100 GPU running in Mumbai for 3 Year,2026-06-11T10:45:50.301916+00:00
-A100,GCP,on_demand,2.9339,,us-central1,,Nvidia Tesla A100 GPU running in Americas,2026-06-11T10:45:50.301916+00:00
-A100,GCP,on_demand,4.718,,asia-south1,,Nvidia Tesla A100 80GB GPU running in Mumbai,2026-06-11T10:45:50.301916+00:00
-A100,GCP,on_demand,3.4369,,asia-south1,,Nvidia Tesla A100 GPU running in Mumbai,2026-06-11T10:45:50.301916+00:00
-A100,GCP,on_demand,3.9281,,us-central1,,Nvidia Tesla A100 80GB GPU running in Americas,2026-06-11T10:45:50.301916+00:00
-A100,GCP,spot,1.4666,,us-central1,,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-A100,GCP,spot,0.7306,,asia-south1,,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Mumbai,2026-06-11T10:45:50.301916+00:00
-A100,GCP,spot,1.964,,us-central1,,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-A100,GCP,spot,0.5679,,asia-south1,,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Mumbai,2026-06-11T10:45:50.301916+00:00
-A100,OCI,on_demand,4,4,global,1,B95907,2026-06-11T10:45:50.301916+00:00
-A100,RunPod,36mo,1.21,,global,,NVIDIA A100 80GB PCIe,2026-06-11T10:45:50.301916+00:00
-A100,RunPod,36mo,1.3,,global,,NVIDIA A100-SXM4-80GB,2026-06-11T10:45:50.301916+00:00
-A100,RunPod,6mo,1.18,,global,,NVIDIA A100 80GB PCIe,2026-06-11T10:45:50.301916+00:00
-A100,RunPod,6mo,1.27,,global,,NVIDIA A100-SXM4-80GB,2026-06-11T10:45:50.301916+00:00
-A100,RunPod,on_demand,1.39,,global,,NVIDIA A100 80GB PCIe,2026-06-11T10:45:50.301916+00:00
-A100,RunPod,on_demand,1.49,,global,,NVIDIA A100-SXM4-80GB,2026-06-11T10:45:50.301916+00:00
-A100,RunPod,spot,1.19,,global,,NVIDIA A100 80GB PCIe,2026-06-11T10:45:50.301916+00:00
-A100,RunPod,spot,1,,global,,NVIDIA A100-SXM4-40GB,2026-06-11T10:45:50.301916+00:00
-A100,RunPod,spot,1.39,,global,,NVIDIA A100-SXM4-80GB,2026-06-11T10:45:50.301916+00:00
-A100 40GB,AWS EC2,12mo,1.7401,13.9211,us-east-1,8,p4d.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 40GB,AWS EC2,12mo,2.1282,17.0257,ap-south-1,8,p4d.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 40GB,AWS EC2,36mo,1.1718,9.3742,us-east-1,8,p4d.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 40GB,AWS EC2,36mo,1.7719,14.175,ap-south-1,8,p4d.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 40GB,AWS EC2,on_demand,2.7447,21.9576,us-east-1,8,p4d.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 40GB,AWS EC2,on_demand,3.2931,26.3444,ap-south-1,8,p4d.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 40GB,AWS SageMaker,on_demand,3.1564,25.2513,us-east-1,8,ml.p4d.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 40GB,AWS SageMaker,on_demand,3.787,30.2961,ap-south-1,8,ml.p4d.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 80GB,AWS EC2,12mo,2.1752,17.4014,us-east-1,8,p4de.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 80GB,AWS EC2,36mo,1.4647,11.7178,us-east-1,8,p4de.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 80GB,AWS EC2,on_demand,3.4309,27.4471,us-east-1,8,p4de.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 80GB,AWS SageMaker,on_demand,3.9455,31.5641,us-east-1,8,ml.p4de.24xlarge,2026-06-11T10:45:50.301916+00:00
-A100 80GB,AWS SageMaker,on_demand,4.8541,38.8332,ap-south-1,8,ml.p4de.24xlarge,2026-06-11T10:45:50.301916+00:00
-B200,AWS EC2,on_demand,14.2416,113.9328,us-east-1,8,p6-b200.48xlarge,2026-06-11T10:45:50.301916+00:00
-B200,GCP,12mo,11.1159,,us-central1,,Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 1 Year,2026-06-11T10:45:50.301916+00:00
-B200,GCP,12mo,8.055,,asia-south1,,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Mumbai,2026-06-11T10:45:50.301916+00:00
-B200,GCP,12mo,8.055,,us-central1,,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-B200,GCP,36mo,11.277,,us-central1,,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Americas,2026-06-11T10:45:50.301916+00:00
-B200,GCP,36mo,7.0884,,us-central1,,Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 3 Year,2026-06-11T10:45:50.301916+00:00
-B200,GCP,36mo,11.277,,asia-south1,,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Mumbai,2026-06-11T10:45:50.301916+00:00
-B200,GCP,on_demand,16.11,,us-central1,,A4 Nvidia B200 (1 gpu slice) running in Americas,2026-06-11T10:45:50.301916+00:00
-B200,GCP,spot,4.2796,,us-central1,,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Americas,2026-06-11T10:45:50.301916+00:00
-B200,GCP,spot,2.8099,,asia-south1,,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Mumbai,2026-06-11T10:45:50.301916+00:00
-B200,OCI,on_demand,14,14,global,1,B110978,2026-06-11T10:45:50.301916+00:00
-B200,OCI,on_demand,16,16,global,1,B110979,2026-06-11T10:45:50.301916+00:00
-B200,RunPod,36mo,5.54,,global,,NVIDIA B200,2026-06-11T10:45:50.301916+00:00
-B200,RunPod,6mo,5.12,,global,,NVIDIA B200,2026-06-11T10:45:50.301916+00:00
-B200,RunPod,on_demand,5.89,,global,,NVIDIA B200,2026-06-11T10:45:50.301916+00:00
-B200,RunPod,spot,5.98,,global,,NVIDIA B200,2026-06-11T10:45:50.301916+00:00
-B300,OCI,on_demand,18,18,global,1,B112140,2026-06-11T10:45:50.301916+00:00
-B300,OCI,on_demand,15,15,global,1,B112237,2026-06-11T10:45:50.301916+00:00
-B300,RunPod,on_demand,7.39,,global,,NVIDIA B300 SXM6 AC,2026-06-11T10:45:50.301916+00:00
-B300,RunPod,spot,6.94,,global,,NVIDIA B300 SXM6 AC,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,12mo,5.8067,5.8067,eastus,1,Standard_NC40ads_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,12mo,5.8067,11.6133,eastus,2,Standard_NC80adis_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,12mo,5.8067,5.8067,eastus2,1,Standard_NC40ads_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,12mo,5.8067,11.6133,eastus2,2,Standard_NC80adis_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,12mo,5.8067,5.8067,westus2,1,Standard_NC40ads_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,12mo,5.8067,11.6133,westus2,2,Standard_NC80adis_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,36mo,4.306,4.306,eastus,1,Standard_NC40ads_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,36mo,4.306,8.6119,eastus,2,Standard_NC80adis_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,36mo,4.306,4.306,eastus2,1,Standard_NC40ads_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,36mo,4.306,8.6119,eastus2,2,Standard_NC80adis_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,36mo,4.306,4.306,westus2,1,Standard_NC40ads_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,36mo,4.306,8.6119,westus2,2,Standard_NC80adis_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,on_demand,6.98,6.98,eastus,1,Standard_NC40ads_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,on_demand,6.98,13.96,eastus,2,Standard_NC80adis_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,on_demand,6.98,6.98,eastus2,1,Standard_NC40ads_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,on_demand,6.98,13.96,eastus2,2,Standard_NC80adis_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,on_demand,6.98,6.98,westus2,1,Standard_NC40ads_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 NVL,Azure,on_demand,6.98,13.96,westus2,2,Standard_NC80adis_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 SXM,AWS EC2,36mo,2.9722,23.7773,us-east-1,8,p5.48xlarge,2026-06-11T10:45:50.301916+00:00
-H100 SXM,AWS EC2,36mo,3.5666,28.5327,ap-south-1,8,p5.48xlarge,2026-06-11T10:45:50.301916+00:00
-H100 SXM,AWS EC2,on_demand,6.88,55.04,us-east-1,8,p5.48xlarge,2026-06-11T10:45:50.301916+00:00
-H100 SXM,AWS EC2,on_demand,8.256,66.048,ap-south-1,8,p5.48xlarge,2026-06-11T10:45:50.301916+00:00
-H100 SXM,AWS SageMaker,on_demand,7.912,63.296,us-east-1,8,ml.p5.48xlarge,2026-06-11T10:45:50.301916+00:00
-H100 SXM,AWS SageMaker,on_demand,9.4947,75.9575,ap-south-1,8,ml.p5.48xlarge,2026-06-11T10:45:50.301916+00:00
-H100 SXM,Azure,on_demand,12.29,98.32,eastus,8,Standard_ND96isr_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 SXM,Azure,on_demand,12.29,98.32,eastus2,8,Standard_ND96isr_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 SXM,Azure,on_demand,12.29,98.32,westus2,8,Standard_ND96isr_H100_v5,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,12mo,6.7988,,us-central1,,Commitment v1: Nvidia H100 80GB GPU running in Americas for 1 Year,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,12mo,4.2008,,us-central1,,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,12mo,4.2008,,asia-south1,,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Mumbai,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,12mo,7.0708,,asia-south1,,Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 1 Year,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,12mo,7.1136,,us-central1,,Commitment v1: Nvidia H100 80GB Plus GPU running in Americas for 1 Year,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,12mo,4.4239,,us-central1,,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,12mo,4.4239,,asia-south1,,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Mumbai,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,36mo,4.2999,,us-central1,,Commitment v1: Nvidia H100 80GB GPU running in Americas for 3 Years,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,36mo,4.8411,,asia-south1,,Reserved Nvidia H100 80GB Mega GPU in Mumbai in Calendar Mode,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,36mo,4.499,,us-central1,,Commitment v1: Nvidia H100 80GB Plus GPU running in Americas for 3 Years,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,36mo,4.5701,,asia-south1,,Reserved Nvidia H100 80GB GPU in Mumbai in Calendar Mode,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,36mo,4.8411,,us-central1,,Reserved Nvidia H100 80GB Mega GPU in Americas in Calendar Mode,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,36mo,4.4719,,asia-south1,,Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 3 Years,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,36mo,4.5701,,us-central1,,Reserved Nvidia H100 80GB GPU in Americas in Calendar Mode,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,on_demand,10.1884,,asia-south1,,Nvidia H100 80GB GPU running in Mumbai,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,on_demand,10.3443,,us-central1,,Nvidia H100 80GB Plus GPU running in Americas,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,on_demand,9.7966,,us-central1,,Nvidia H100 80GB GPU running in Americas,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,spot,3.4422,,asia-south1,,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Mumbai,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,spot,4.4104,,us-central1,,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-H100 SXM,GCP,spot,4.656,,us-central1,,Nvidia H100 80GB Plus GPU attached to Spot Preemptible VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-H100 SXM,OCI,on_demand,10.75,10.75,global,1,B109480,2026-06-11T10:45:50.301916+00:00
-H100 SXM,OCI,on_demand,10,10,global,1,B98415,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,36mo,3.09,,global,,NVIDIA H100 80GB HBM3,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,36mo,3,,global,,NVIDIA H100 NVL,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,36mo,2.72,,global,,NVIDIA H100 PCIe,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,6mo,2.86,,global,,NVIDIA H100 80GB HBM3,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,6mo,2.78,,global,,NVIDIA H100 NVL,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,6mo,2.51,,global,,NVIDIA H100 PCIe,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,on_demand,3.29,,global,,NVIDIA H100 80GB HBM3,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,on_demand,3.19,,global,,NVIDIA H100 NVL,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,on_demand,2.89,,global,,NVIDIA H100 PCIe,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,spot,2.69,,global,,NVIDIA H100 80GB HBM3,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,spot,2.59,,global,,NVIDIA H100 NVL,2026-06-11T10:45:50.301916+00:00
-H100 SXM,RunPod,spot,1.99,,global,,NVIDIA H100 PCIe,2026-06-11T10:45:50.301916+00:00
-H200 SXM,AWS EC2,on_demand,7.912,63.296,us-east-1,8,p5en.48xlarge,2026-06-11T10:45:50.301916+00:00
-H200 SXM,AWS EC2,on_demand,9.4944,75.9552,ap-south-1,8,p5en.48xlarge,2026-06-11T10:45:50.301916+00:00
-H200 SXM,AWS SageMaker,on_demand,9.0994,72.795,us-east-1,8,ml.p5en.48xlarge,2026-06-11T10:45:50.301916+00:00
-H200 SXM,AWS SageMaker,on_demand,5.7211,45.7689,ap-south-1,8,ml.p5e.48xlarge,2026-06-11T10:45:50.301916+00:00
-H200 SXM,AWS SageMaker,on_demand,10.9192,87.354,ap-south-1,8,ml.p5en.48xlarge,2026-06-11T10:45:50.301916+00:00
-H200 SXM,Azure,on_demand,10.6,84.8,eastus2,8,Standard_ND96isr_H200_v5,2026-06-11T10:45:50.301916+00:00
-H200 SXM,Azure,on_demand,10.6,84.8,westus2,8,Standard_ND96isr_H200_v5,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,12mo,4.5753,,asia-south1,,H200 141GB GPU attached to DWS Defined Duration VMs running in Mumbai,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,12mo,6.4314,,us-central1,,Commitment v1: H200 141GB GPU running in Americas for 1 Year,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,12mo,7.7177,,asia-south1,,Commitment v1: H200 141GB GPU running in Mumbai for 1 Year,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,12mo,4.5753,,us-central1,,H200 141GB GPU attached to DWS Defined Duration VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,36mo,6.4745,,us-central1,,Reserved H200 141GB GPU in Americas in Calendar Mode,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,36mo,4.8996,,asia-south1,,Commitment v1: H200 141GB GPU running in Mumbai for 3 Years,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,36mo,6.4745,,asia-south1,,Reserved H200 141GB GPU in Mumbai in Calendar Mode,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,36mo,4.083,,us-central1,,Commitment v1: H200 141GB GPU running in Americas for 3 Years,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,on_demand,9.3117,,us-central1,,H200 141GB GPU running in Americas,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,on_demand,11.1741,,asia-south1,,H200 141GB GPU running in Mumbai,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,spot,4.6559,,us-central1,,H200 141GB GPU attached to Spot Preemptible VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-H200 SXM,GCP,spot,5.0842,,asia-south1,,H200 141GB GPU attached to Spot Preemptible VMs running in Mumbai,2026-06-11T10:45:50.301916+00:00
-H200 SXM,OCI,on_demand,10,10,global,1,B110519,2026-06-11T10:45:50.301916+00:00
-H200 SXM,RunPod,36mo,4.13,,global,,NVIDIA H200,2026-06-11T10:45:50.301916+00:00
-H200 SXM,RunPod,36mo,3.56,,global,,NVIDIA H200 NVL,2026-06-11T10:45:50.301916+00:00
-H200 SXM,RunPod,6mo,3.82,,global,,NVIDIA H200,2026-06-11T10:45:50.301916+00:00
-H200 SXM,RunPod,6mo,3.3,,global,,NVIDIA H200 NVL,2026-06-11T10:45:50.301916+00:00
-H200 SXM,RunPod,on_demand,4.39,,global,,NVIDIA H200,2026-06-11T10:45:50.301916+00:00
-H200 SXM,RunPod,on_demand,3.79,,global,,NVIDIA H200 NVL,2026-06-11T10:45:50.301916+00:00
-H200 SXM,RunPod,spot,3.59,,global,,NVIDIA H200,2026-06-11T10:45:50.301916+00:00
-H200 SXM,RunPod,spot,0.5,,global,,NVIDIA H200 NVL,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,12mo,0.5239,0.5239,us-east-1,1,g6.xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,12mo,0.8614,0.8614,us-east-1,1,g6.4xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,12mo,0.7489,2.9956,us-east-1,4,g6.12xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,12mo,1.0864,8.6911,us-east-1,8,g6.48xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,12mo,0.6291,0.6291,ap-south-1,1,g6.xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,12mo,1.0344,1.0344,ap-south-1,1,g6.4xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,12mo,0.8993,3.5972,ap-south-1,4,g6.12xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,12mo,1.3045,10.4362,ap-south-1,8,g6.48xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,36mo,0.3694,0.3694,us-east-1,1,g6.xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,36mo,0.6073,0.6073,us-east-1,1,g6.4xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,36mo,0.528,2.1121,us-east-1,4,g6.12xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,36mo,0.766,6.1278,us-east-1,8,g6.48xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,36mo,0.4436,0.4436,ap-south-1,1,g6.xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,36mo,0.7293,0.7293,ap-south-1,1,g6.4xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,36mo,0.6341,2.5362,ap-south-1,4,g6.12xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,36mo,0.9198,7.3583,ap-south-1,8,g6.48xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,on_demand,0.8048,0.8048,us-east-1,1,g6.xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,on_demand,1.3232,1.3232,us-east-1,1,g6.4xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,on_demand,1.1504,4.6016,us-east-1,4,g6.12xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,on_demand,1.6688,13.3504,us-east-1,8,g6.48xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,on_demand,0.9664,0.9664,ap-south-1,1,g6.xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,on_demand,1.5889,1.5889,ap-south-1,1,g6.4xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,on_demand,1.3814,5.5256,ap-south-1,4,g6.12xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS EC2,on_demand,2.0039,16.0311,ap-south-1,8,g6.48xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS SageMaker,on_demand,1.1267,1.1267,us-east-1,1,ml.g6.xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS SageMaker,on_demand,1.654,1.654,us-east-1,1,ml.g6.4xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS SageMaker,on_demand,1.438,5.752,us-east-1,4,ml.g6.12xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS SageMaker,on_demand,2.086,16.688,us-east-1,8,ml.g6.48xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS SageMaker,on_demand,1.353,1.353,ap-south-1,1,ml.g6.xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS SageMaker,on_demand,1.9861,1.9861,ap-south-1,1,ml.g6.4xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS SageMaker,on_demand,1.7268,6.907,ap-south-1,4,ml.g6.12xlarge,2026-06-11T10:45:50.301916+00:00
-L4,AWS SageMaker,on_demand,2.5049,20.0389,ap-south-1,8,ml.g6.48xlarge,2026-06-11T10:45:50.301916+00:00
-L4,GCP,12mo,0.3673,,asia-south1,,Commitment v1: Nvidia L4 GPU running in Mumbai for 1 Year,2026-06-11T10:45:50.301916+00:00
-L4,GCP,12mo,0.56,,us-central1,,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-L4,GCP,12mo,0.3528,,us-central1,,Commitment v1: Nvidia L4 GPU running in Americas for 1 Year,2026-06-11T10:45:50.301916+00:00
-L4,GCP,12mo,0.5824,,asia-south1,,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Mumbai,2026-06-11T10:45:50.301916+00:00
-L4,GCP,36mo,0.2623,,asia-south1,,Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years,2026-06-11T10:45:50.301916+00:00
-L4,GCP,36mo,0.252,,us-central1,,Commitment v1: Nvidia L4 GPU running in Americas for 3 Years,2026-06-11T10:45:50.301916+00:00
-L4,GCP,on_demand,0.56,,us-central1,,Nvidia L4 GPU running in Americas,2026-06-11T10:45:50.301916+00:00
-L4,GCP,on_demand,0.583,,asia-south1,,Nvidia L4 GPU running in Mumbai,2026-06-11T10:45:50.301916+00:00
-L4,GCP,spot,0.2437,,asia-south1,,Nvidia L4 GPU attached to Spot Preemptible VMs running in Mumbai,2026-06-11T10:45:50.301916+00:00
-L4,GCP,spot,0.2595,,us-central1,,Nvidia L4 GPU attached to Spot Preemptible VMs running in Americas,2026-06-11T10:45:50.301916+00:00
-L4,RunPod,36mo,0.34,,global,,NVIDIA L4,2026-06-11T10:45:50.301916+00:00
-L4,RunPod,6mo,0.33,,global,,NVIDIA L4,2026-06-11T10:45:50.301916+00:00
-L4,RunPod,on_demand,0.39,,global,,NVIDIA L4,2026-06-11T10:45:50.301916+00:00
-L4,RunPod,spot,0.44,,global,,NVIDIA L4,2026-06-11T10:45:50.301916+00:00
-L40,RunPod,36mo,0.71,,global,,NVIDIA L40,2026-06-11T10:45:50.301916+00:00
-L40,RunPod,6mo,0.7,,global,,NVIDIA L40,2026-06-11T10:45:50.301916+00:00
-L40,RunPod,on_demand,0.82,,global,,NVIDIA L40,2026-06-11T10:45:50.301916+00:00
-L40,RunPod,spot,0.69,,global,,NVIDIA L40,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,12mo,1.1724,1.1724,us-east-1,1,g6e.xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,12mo,1.8927,1.8927,us-east-1,1,g6e.4xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,12mo,1.6526,6.6104,us-east-1,4,g6e.12xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,12mo,2.3728,18.9826,us-east-1,8,g6e.48xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,12mo,1.4081,1.4081,ap-south-1,1,g6e.xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,12mo,2.273,2.273,ap-south-1,1,g6e.4xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,12mo,1.9847,7.9388,ap-south-1,4,g6e.12xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,12mo,2.8497,22.7975,ap-south-1,8,g6e.48xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,36mo,0.804,0.804,us-east-1,1,g6e.xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,36mo,1.2978,1.2978,us-east-1,1,g6e.4xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,36mo,1.1332,4.5328,us-east-1,4,g6e.12xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,36mo,1.6271,13.0167,us-east-1,8,g6e.48xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,36mo,0.9655,0.9655,ap-south-1,1,g6e.xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,36mo,1.5587,1.5587,ap-south-1,1,g6e.4xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,36mo,1.3609,5.4438,ap-south-1,4,g6e.12xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,36mo,1.9541,15.6326,ap-south-1,8,g6e.48xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,on_demand,1.861,1.861,us-east-1,1,g6e.xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,on_demand,3.0042,3.0042,us-east-1,1,g6e.4xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,on_demand,2.6232,10.4926,us-east-1,4,g6e.12xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,on_demand,3.7664,30.1312,us-east-1,8,g6e.48xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,on_demand,2.235,2.235,ap-south-1,1,g6e.xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,on_demand,3.608,3.608,ap-south-1,1,g6e.4xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,on_demand,3.1503,12.6013,ap-south-1,4,g6e.12xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS EC2,on_demand,4.5233,36.1866,ap-south-1,8,g6e.48xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS SageMaker,on_demand,2.6054,2.6054,us-east-1,1,ml.g6e.xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS SageMaker,on_demand,3.7553,3.7553,us-east-1,1,ml.g6e.4xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS SageMaker,on_demand,3.279,13.1158,us-east-1,4,ml.g6e.12xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS SageMaker,on_demand,4.708,37.664,us-east-1,8,ml.g6e.48xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS SageMaker,on_demand,3.129,3.129,ap-south-1,1,ml.g6e.xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS SageMaker,on_demand,4.51,4.51,ap-south-1,1,ml.g6e.4xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS SageMaker,on_demand,3.9379,15.7516,ap-south-1,4,ml.g6e.12xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,AWS SageMaker,on_demand,5.6541,45.2332,ap-south-1,8,ml.g6e.48xlarge,2026-06-11T10:45:50.301916+00:00
-L40S,OCI,on_demand,3.5,3.5,global,1,B109479,2026-06-11T10:45:50.301916+00:00
-L40S,OCI,on_demand,3.5,3.5,global,1,B110965,2026-06-11T10:45:50.301916+00:00
-L40S,OCI,on_demand,0.6,0.6,global,1,B111454,2026-06-11T10:45:50.301916+00:00
-L40S,OCI,on_demand,2.9,2.9,global,1,B111455,2026-06-11T10:45:50.301916+00:00
-L40S,RunPod,36mo,0.748,,global,,NVIDIA L40S,2026-06-11T10:45:50.301916+00:00
-L40S,RunPod,6mo,0.731,,global,,NVIDIA L40S,2026-06-11T10:45:50.301916+00:00
-L40S,RunPod,on_demand,0.86,,global,,NVIDIA L40S,2026-06-11T10:45:50.301916+00:00
-L40S,RunPod,spot,0.79,,global,,NVIDIA L40S,2026-06-11T10:45:50.301916+00:00
-L40S,Vultr,on_demand,1.5596,1.5596,,1,vcg-l40s-16c-180g-48vram,2026-06-11T10:45:50.301916+00:00
-L40S,Vultr,on_demand,1.5596,3.1192,,2,vcg-l40s-32c-375g-96vram,2026-06-11T10:45:50.301916+00:00
-L40S,Vultr,on_demand,1.5596,6.2384,,4,vcg-l40s-64c-750g-192vram,2026-06-11T10:45:50.301916+00:00
-L40S,Vultr,on_demand,1.5596,12.4768,,8,vcg-l40s-128c-1500g-384vram,2026-06-11T10:45:50.301916+00:00
+A100,Azure,12mo,3.0574,3.0574,eastus,1,Standard_NC24ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,3.0574,6.1148,eastus,2,Standard_NC48ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,3.0574,12.2296,eastus,4,Standard_NC96ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,3.5306,28.2445,eastus,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,3.0574,3.0574,eastus2,1,Standard_NC24ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,3.0574,6.1148,eastus2,2,Standard_NC48ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,3.0574,12.2296,eastus2,4,Standard_NC96ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,3.5306,28.2445,eastus2,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,3.0574,3.0574,westus2,1,Standard_NC24ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,3.0574,6.1148,westus2,2,Standard_NC48ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,3.0574,12.2296,westus2,4,Standard_NC96ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,3.5306,28.2445,westus2,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,12mo,5.3312,42.6494,southindia,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.2659,2.2659,eastus,1,Standard_NC24ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.2659,4.5317,eastus,2,Standard_NC48ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.2659,9.0635,eastus,4,Standard_NC96ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.1264,17.0109,eastus,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.2659,2.2659,eastus2,1,Standard_NC24ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.2659,4.5317,eastus2,2,Standard_NC48ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.2659,9.0635,eastus2,4,Standard_NC96ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.1264,17.0109,eastus2,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.2659,2.2659,westus2,1,Standard_NC24ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.2659,4.5317,westus2,2,Standard_NC48ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.2659,9.0635,westus2,4,Standard_NC96ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,2.1264,17.0109,westus2,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,36mo,3.2108,25.6866,southindia,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,3.673,3.673,eastus,1,Standard_NC24ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,3.673,7.346,eastus,2,Standard_NC48ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,3.673,14.692,eastus,4,Standard_NC96ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,4.0963,32.77,eastus,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,3.673,3.673,eastus2,1,Standard_NC24ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,3.673,7.346,eastus2,2,Standard_NC48ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,3.673,14.692,eastus2,4,Standard_NC96ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,4.0963,32.77,eastus2,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,3.673,3.673,westus2,1,Standard_NC24ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,3.673,7.346,westus2,2,Standard_NC48ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,3.673,14.692,westus2,4,Standard_NC96ads_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,4.0963,32.77,westus2,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,Azure,on_demand,6.1854,49.483,southindia,8,Standard_ND96amsr_A100_v4,2026-06-12T10:21:34.885130+00:00
+A100,GCP,12mo,1.6136,,us-central1,,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+A100,GCP,12mo,3.4811,,us-central1,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Americas for 1 Year,2026-06-12T10:21:34.885130+00:00
+A100,GCP,12mo,2.1844,,asia-south1,,Commitment v1: Nvidia Tesla A100 GPU running in Mumbai for 1 Year,2026-06-12T10:21:34.885130+00:00
+A100,GCP,12mo,1.8462,,us-central1,,Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+A100,GCP,12mo,1.8484,,us-central1,,Commitment v1: Nvidia Tesla A100 GPU running in Americas for 1 Year,2026-06-12T10:21:34.885130+00:00
+A100,GCP,12mo,4.1811,,asia-south1,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Mumbai for 1 Year,2026-06-12T10:21:34.885130+00:00
+A100,GCP,36mo,3.7193,,asia-south1,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Mumbai for 3 Years,2026-06-12T10:21:34.885130+00:00
+A100,GCP,36mo,3.0966,,us-central1,,Commitment v1: Nvidia Tesla A100 80GB GPU running in Americas for 3 Years,2026-06-12T10:21:34.885130+00:00
+A100,GCP,36mo,1.0269,,us-central1,,Commitment v1: Nvidia Tesla A100 GPU running in Americas for 3 Year,2026-06-12T10:21:34.885130+00:00
+A100,GCP,36mo,1.1552,,asia-south1,,Commitment v1: Nvidia Tesla A100 GPU running in Mumbai for 3 Year,2026-06-12T10:21:34.885130+00:00
+A100,GCP,on_demand,2.9339,,us-central1,,Nvidia Tesla A100 GPU running in Americas,2026-06-12T10:21:34.885130+00:00
+A100,GCP,on_demand,4.718,,asia-south1,,Nvidia Tesla A100 80GB GPU running in Mumbai,2026-06-12T10:21:34.885130+00:00
+A100,GCP,on_demand,3.4369,,asia-south1,,Nvidia Tesla A100 GPU running in Mumbai,2026-06-12T10:21:34.885130+00:00
+A100,GCP,on_demand,3.9281,,us-central1,,Nvidia Tesla A100 80GB GPU running in Americas,2026-06-12T10:21:34.885130+00:00
+A100,GCP,spot,1.4666,,us-central1,,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+A100,GCP,spot,0.7306,,asia-south1,,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Mumbai,2026-06-12T10:21:34.885130+00:00
+A100,GCP,spot,1.964,,us-central1,,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+A100,GCP,spot,0.5679,,asia-south1,,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Mumbai,2026-06-12T10:21:34.885130+00:00
+A100,OCI,on_demand,4,4,global,1,B95907,2026-06-12T10:21:34.885130+00:00
+A100,RunPod,36mo,1.21,,global,,NVIDIA A100 80GB PCIe,2026-06-12T10:21:34.885130+00:00
+A100,RunPod,36mo,1.3,,global,,NVIDIA A100-SXM4-80GB,2026-06-12T10:21:34.885130+00:00
+A100,RunPod,6mo,1.18,,global,,NVIDIA A100 80GB PCIe,2026-06-12T10:21:34.885130+00:00
+A100,RunPod,6mo,1.27,,global,,NVIDIA A100-SXM4-80GB,2026-06-12T10:21:34.885130+00:00
+A100,RunPod,on_demand,1.39,,global,,NVIDIA A100 80GB PCIe,2026-06-12T10:21:34.885130+00:00
+A100,RunPod,on_demand,1.49,,global,,NVIDIA A100-SXM4-80GB,2026-06-12T10:21:34.885130+00:00
+A100,RunPod,spot,1.19,,global,,NVIDIA A100 80GB PCIe,2026-06-12T10:21:34.885130+00:00
+A100,RunPod,spot,1,,global,,NVIDIA A100-SXM4-40GB,2026-06-12T10:21:34.885130+00:00
+A100,RunPod,spot,1.39,,global,,NVIDIA A100-SXM4-80GB,2026-06-12T10:21:34.885130+00:00
+A100 40GB,AWS EC2,12mo,1.7401,13.9211,us-east-1,8,p4d.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 40GB,AWS EC2,12mo,2.1282,17.0257,ap-south-1,8,p4d.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 40GB,AWS EC2,36mo,1.1718,9.3742,us-east-1,8,p4d.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 40GB,AWS EC2,36mo,1.7719,14.175,ap-south-1,8,p4d.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 40GB,AWS EC2,on_demand,2.7447,21.9576,us-east-1,8,p4d.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 40GB,AWS EC2,on_demand,3.2931,26.3444,ap-south-1,8,p4d.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 40GB,AWS SageMaker,on_demand,3.1564,25.2513,us-east-1,8,ml.p4d.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 40GB,AWS SageMaker,on_demand,3.787,30.2961,ap-south-1,8,ml.p4d.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 80GB,AWS EC2,12mo,2.1752,17.4014,us-east-1,8,p4de.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 80GB,AWS EC2,36mo,1.4647,11.7178,us-east-1,8,p4de.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 80GB,AWS EC2,on_demand,3.4309,27.4471,us-east-1,8,p4de.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 80GB,AWS SageMaker,on_demand,3.9455,31.5641,us-east-1,8,ml.p4de.24xlarge,2026-06-12T10:21:34.885130+00:00
+A100 80GB,AWS SageMaker,on_demand,4.8541,38.8332,ap-south-1,8,ml.p4de.24xlarge,2026-06-12T10:21:34.885130+00:00
+B200,AWS EC2,on_demand,14.2416,113.9328,us-east-1,8,p6-b200.48xlarge,2026-06-12T10:21:34.885130+00:00
+B200,GCP,12mo,11.1159,,us-central1,,Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 1 Year,2026-06-12T10:21:34.885130+00:00
+B200,GCP,12mo,8.055,,asia-south1,,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Mumbai,2026-06-12T10:21:34.885130+00:00
+B200,GCP,12mo,8.055,,us-central1,,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+B200,GCP,36mo,11.277,,us-central1,,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Americas,2026-06-12T10:21:34.885130+00:00
+B200,GCP,36mo,7.0884,,us-central1,,Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 3 Year,2026-06-12T10:21:34.885130+00:00
+B200,GCP,36mo,11.277,,asia-south1,,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Mumbai,2026-06-12T10:21:34.885130+00:00
+B200,GCP,on_demand,16.11,,us-central1,,A4 Nvidia B200 (1 gpu slice) running in Americas,2026-06-12T10:21:34.885130+00:00
+B200,GCP,spot,4.2796,,us-central1,,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Americas,2026-06-12T10:21:34.885130+00:00
+B200,GCP,spot,2.8099,,asia-south1,,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Mumbai,2026-06-12T10:21:34.885130+00:00
+B200,OCI,on_demand,14,14,global,1,B110978,2026-06-12T10:21:34.885130+00:00
+B200,OCI,on_demand,16,16,global,1,B110979,2026-06-12T10:21:34.885130+00:00
+B200,RunPod,36mo,5.54,,global,,NVIDIA B200,2026-06-12T10:21:34.885130+00:00
+B200,RunPod,6mo,5.12,,global,,NVIDIA B200,2026-06-12T10:21:34.885130+00:00
+B200,RunPod,on_demand,5.89,,global,,NVIDIA B200,2026-06-12T10:21:34.885130+00:00
+B200,RunPod,spot,5.98,,global,,NVIDIA B200,2026-06-12T10:21:34.885130+00:00
+B300,OCI,on_demand,18,18,global,1,B112140,2026-06-12T10:21:34.885130+00:00
+B300,OCI,on_demand,15,15,global,1,B112237,2026-06-12T10:21:34.885130+00:00
+B300,RunPod,on_demand,7.39,,global,,NVIDIA B300 SXM6 AC,2026-06-12T10:21:34.885130+00:00
+B300,RunPod,spot,6.94,,global,,NVIDIA B300 SXM6 AC,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,12mo,5.8067,5.8067,eastus,1,Standard_NC40ads_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,12mo,5.8067,11.6133,eastus,2,Standard_NC80adis_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,12mo,5.8067,5.8067,eastus2,1,Standard_NC40ads_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,12mo,5.8067,11.6133,eastus2,2,Standard_NC80adis_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,12mo,5.8067,5.8067,westus2,1,Standard_NC40ads_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,12mo,5.8067,11.6133,westus2,2,Standard_NC80adis_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,36mo,4.306,4.306,eastus,1,Standard_NC40ads_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,36mo,4.306,8.6119,eastus,2,Standard_NC80adis_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,36mo,4.306,4.306,eastus2,1,Standard_NC40ads_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,36mo,4.306,8.6119,eastus2,2,Standard_NC80adis_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,36mo,4.306,4.306,westus2,1,Standard_NC40ads_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,36mo,4.306,8.6119,westus2,2,Standard_NC80adis_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,on_demand,6.98,6.98,eastus,1,Standard_NC40ads_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,on_demand,6.98,13.96,eastus,2,Standard_NC80adis_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,on_demand,6.98,6.98,eastus2,1,Standard_NC40ads_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,on_demand,6.98,13.96,eastus2,2,Standard_NC80adis_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,on_demand,6.98,6.98,westus2,1,Standard_NC40ads_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 NVL,Azure,on_demand,6.98,13.96,westus2,2,Standard_NC80adis_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 SXM,AWS EC2,36mo,2.9722,23.7773,us-east-1,8,p5.48xlarge,2026-06-12T10:21:34.885130+00:00
+H100 SXM,AWS EC2,36mo,3.5666,28.5327,ap-south-1,8,p5.48xlarge,2026-06-12T10:21:34.885130+00:00
+H100 SXM,AWS EC2,on_demand,6.88,55.04,us-east-1,8,p5.48xlarge,2026-06-12T10:21:34.885130+00:00
+H100 SXM,AWS EC2,on_demand,8.256,66.048,ap-south-1,8,p5.48xlarge,2026-06-12T10:21:34.885130+00:00
+H100 SXM,AWS SageMaker,on_demand,7.912,63.296,us-east-1,8,ml.p5.48xlarge,2026-06-12T10:21:34.885130+00:00
+H100 SXM,AWS SageMaker,on_demand,9.4947,75.9575,ap-south-1,8,ml.p5.48xlarge,2026-06-12T10:21:34.885130+00:00
+H100 SXM,Azure,on_demand,12.29,98.32,eastus,8,Standard_ND96isr_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 SXM,Azure,on_demand,12.29,98.32,eastus2,8,Standard_ND96isr_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 SXM,Azure,on_demand,12.29,98.32,westus2,8,Standard_ND96isr_H100_v5,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,12mo,6.7988,,us-central1,,Commitment v1: Nvidia H100 80GB GPU running in Americas for 1 Year,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,12mo,4.2008,,us-central1,,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,12mo,4.2008,,asia-south1,,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Mumbai,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,12mo,7.0708,,asia-south1,,Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 1 Year,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,12mo,7.1136,,us-central1,,Commitment v1: Nvidia H100 80GB Plus GPU running in Americas for 1 Year,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,12mo,4.4239,,us-central1,,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,12mo,4.4239,,asia-south1,,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Mumbai,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,36mo,4.2999,,us-central1,,Commitment v1: Nvidia H100 80GB GPU running in Americas for 3 Years,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,36mo,4.8411,,asia-south1,,Reserved Nvidia H100 80GB Mega GPU in Mumbai in Calendar Mode,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,36mo,4.499,,us-central1,,Commitment v1: Nvidia H100 80GB Plus GPU running in Americas for 3 Years,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,36mo,4.5701,,asia-south1,,Reserved Nvidia H100 80GB GPU in Mumbai in Calendar Mode,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,36mo,4.8411,,us-central1,,Reserved Nvidia H100 80GB Mega GPU in Americas in Calendar Mode,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,36mo,4.4719,,asia-south1,,Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 3 Years,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,36mo,4.5701,,us-central1,,Reserved Nvidia H100 80GB GPU in Americas in Calendar Mode,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,on_demand,10.1884,,asia-south1,,Nvidia H100 80GB GPU running in Mumbai,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,on_demand,10.3443,,us-central1,,Nvidia H100 80GB Plus GPU running in Americas,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,on_demand,9.7966,,us-central1,,Nvidia H100 80GB GPU running in Americas,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,spot,3.4422,,asia-south1,,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Mumbai,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,spot,4.4104,,us-central1,,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+H100 SXM,GCP,spot,4.656,,us-central1,,Nvidia H100 80GB Plus GPU attached to Spot Preemptible VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+H100 SXM,OCI,on_demand,10.75,10.75,global,1,B109480,2026-06-12T10:21:34.885130+00:00
+H100 SXM,OCI,on_demand,10,10,global,1,B98415,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,36mo,3.09,,global,,NVIDIA H100 80GB HBM3,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,36mo,3,,global,,NVIDIA H100 NVL,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,36mo,2.72,,global,,NVIDIA H100 PCIe,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,6mo,2.86,,global,,NVIDIA H100 80GB HBM3,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,6mo,2.78,,global,,NVIDIA H100 NVL,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,6mo,2.51,,global,,NVIDIA H100 PCIe,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,on_demand,3.29,,global,,NVIDIA H100 80GB HBM3,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,on_demand,3.19,,global,,NVIDIA H100 NVL,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,on_demand,2.89,,global,,NVIDIA H100 PCIe,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,spot,2.69,,global,,NVIDIA H100 80GB HBM3,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,spot,2.59,,global,,NVIDIA H100 NVL,2026-06-12T10:21:34.885130+00:00
+H100 SXM,RunPod,spot,1.99,,global,,NVIDIA H100 PCIe,2026-06-12T10:21:34.885130+00:00
+H200 SXM,AWS EC2,on_demand,7.912,63.296,us-east-1,8,p5en.48xlarge,2026-06-12T10:21:34.885130+00:00
+H200 SXM,AWS EC2,on_demand,9.4944,75.9552,ap-south-1,8,p5en.48xlarge,2026-06-12T10:21:34.885130+00:00
+H200 SXM,AWS SageMaker,on_demand,9.0994,72.795,us-east-1,8,ml.p5en.48xlarge,2026-06-12T10:21:34.885130+00:00
+H200 SXM,AWS SageMaker,on_demand,5.7211,45.7689,ap-south-1,8,ml.p5e.48xlarge,2026-06-12T10:21:34.885130+00:00
+H200 SXM,AWS SageMaker,on_demand,10.9192,87.354,ap-south-1,8,ml.p5en.48xlarge,2026-06-12T10:21:34.885130+00:00
+H200 SXM,Azure,on_demand,10.6,84.8,eastus2,8,Standard_ND96isr_H200_v5,2026-06-12T10:21:34.885130+00:00
+H200 SXM,Azure,on_demand,10.6,84.8,westus2,8,Standard_ND96isr_H200_v5,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,12mo,4.5753,,asia-south1,,H200 141GB GPU attached to DWS Defined Duration VMs running in Mumbai,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,12mo,6.4314,,us-central1,,Commitment v1: H200 141GB GPU running in Americas for 1 Year,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,12mo,7.7177,,asia-south1,,Commitment v1: H200 141GB GPU running in Mumbai for 1 Year,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,12mo,4.5753,,us-central1,,H200 141GB GPU attached to DWS Defined Duration VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,36mo,6.4745,,us-central1,,Reserved H200 141GB GPU in Americas in Calendar Mode,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,36mo,4.8996,,asia-south1,,Commitment v1: H200 141GB GPU running in Mumbai for 3 Years,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,36mo,6.4745,,asia-south1,,Reserved H200 141GB GPU in Mumbai in Calendar Mode,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,36mo,4.083,,us-central1,,Commitment v1: H200 141GB GPU running in Americas for 3 Years,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,on_demand,9.3117,,us-central1,,H200 141GB GPU running in Americas,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,on_demand,11.1741,,asia-south1,,H200 141GB GPU running in Mumbai,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,spot,4.6559,,us-central1,,H200 141GB GPU attached to Spot Preemptible VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+H200 SXM,GCP,spot,5.0842,,asia-south1,,H200 141GB GPU attached to Spot Preemptible VMs running in Mumbai,2026-06-12T10:21:34.885130+00:00
+H200 SXM,OCI,on_demand,10,10,global,1,B110519,2026-06-12T10:21:34.885130+00:00
+H200 SXM,RunPod,36mo,4.13,,global,,NVIDIA H200,2026-06-12T10:21:34.885130+00:00
+H200 SXM,RunPod,36mo,3.56,,global,,NVIDIA H200 NVL,2026-06-12T10:21:34.885130+00:00
+H200 SXM,RunPod,6mo,3.82,,global,,NVIDIA H200,2026-06-12T10:21:34.885130+00:00
+H200 SXM,RunPod,6mo,3.3,,global,,NVIDIA H200 NVL,2026-06-12T10:21:34.885130+00:00
+H200 SXM,RunPod,on_demand,4.39,,global,,NVIDIA H200,2026-06-12T10:21:34.885130+00:00
+H200 SXM,RunPod,on_demand,3.79,,global,,NVIDIA H200 NVL,2026-06-12T10:21:34.885130+00:00
+H200 SXM,RunPod,spot,3.59,,global,,NVIDIA H200,2026-06-12T10:21:34.885130+00:00
+H200 SXM,RunPod,spot,0.5,,global,,NVIDIA H200 NVL,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,12mo,0.5239,0.5239,us-east-1,1,g6.xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,12mo,0.8614,0.8614,us-east-1,1,g6.4xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,12mo,0.7489,2.9956,us-east-1,4,g6.12xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,12mo,1.0864,8.6911,us-east-1,8,g6.48xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,12mo,0.6291,0.6291,ap-south-1,1,g6.xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,12mo,1.0344,1.0344,ap-south-1,1,g6.4xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,12mo,0.8993,3.5972,ap-south-1,4,g6.12xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,12mo,1.3045,10.4362,ap-south-1,8,g6.48xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,36mo,0.3694,0.3694,us-east-1,1,g6.xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,36mo,0.6073,0.6073,us-east-1,1,g6.4xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,36mo,0.528,2.1121,us-east-1,4,g6.12xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,36mo,0.766,6.1278,us-east-1,8,g6.48xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,36mo,0.4436,0.4436,ap-south-1,1,g6.xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,36mo,0.7293,0.7293,ap-south-1,1,g6.4xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,36mo,0.6341,2.5362,ap-south-1,4,g6.12xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,36mo,0.9198,7.3583,ap-south-1,8,g6.48xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,on_demand,0.8048,0.8048,us-east-1,1,g6.xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,on_demand,1.3232,1.3232,us-east-1,1,g6.4xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,on_demand,1.1504,4.6016,us-east-1,4,g6.12xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,on_demand,1.6688,13.3504,us-east-1,8,g6.48xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,on_demand,0.9664,0.9664,ap-south-1,1,g6.xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,on_demand,1.5889,1.5889,ap-south-1,1,g6.4xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,on_demand,1.3814,5.5256,ap-south-1,4,g6.12xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS EC2,on_demand,2.0039,16.0311,ap-south-1,8,g6.48xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS SageMaker,on_demand,1.1267,1.1267,us-east-1,1,ml.g6.xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS SageMaker,on_demand,1.654,1.654,us-east-1,1,ml.g6.4xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS SageMaker,on_demand,1.438,5.752,us-east-1,4,ml.g6.12xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS SageMaker,on_demand,2.086,16.688,us-east-1,8,ml.g6.48xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS SageMaker,on_demand,1.353,1.353,ap-south-1,1,ml.g6.xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS SageMaker,on_demand,1.9861,1.9861,ap-south-1,1,ml.g6.4xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS SageMaker,on_demand,1.7268,6.907,ap-south-1,4,ml.g6.12xlarge,2026-06-12T10:21:34.885130+00:00
+L4,AWS SageMaker,on_demand,2.5049,20.0389,ap-south-1,8,ml.g6.48xlarge,2026-06-12T10:21:34.885130+00:00
+L4,GCP,12mo,0.3673,,asia-south1,,Commitment v1: Nvidia L4 GPU running in Mumbai for 1 Year,2026-06-12T10:21:34.885130+00:00
+L4,GCP,12mo,0.56,,us-central1,,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+L4,GCP,12mo,0.3528,,us-central1,,Commitment v1: Nvidia L4 GPU running in Americas for 1 Year,2026-06-12T10:21:34.885130+00:00
+L4,GCP,12mo,0.5824,,asia-south1,,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Mumbai,2026-06-12T10:21:34.885130+00:00
+L4,GCP,36mo,0.2623,,asia-south1,,Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years,2026-06-12T10:21:34.885130+00:00
+L4,GCP,36mo,0.252,,us-central1,,Commitment v1: Nvidia L4 GPU running in Americas for 3 Years,2026-06-12T10:21:34.885130+00:00
+L4,GCP,on_demand,0.56,,us-central1,,Nvidia L4 GPU running in Americas,2026-06-12T10:21:34.885130+00:00
+L4,GCP,on_demand,0.583,,asia-south1,,Nvidia L4 GPU running in Mumbai,2026-06-12T10:21:34.885130+00:00
+L4,GCP,spot,0.2437,,asia-south1,,Nvidia L4 GPU attached to Spot Preemptible VMs running in Mumbai,2026-06-12T10:21:34.885130+00:00
+L4,GCP,spot,0.2595,,us-central1,,Nvidia L4 GPU attached to Spot Preemptible VMs running in Americas,2026-06-12T10:21:34.885130+00:00
+L4,RunPod,36mo,0.34,,global,,NVIDIA L4,2026-06-12T10:21:34.885130+00:00
+L4,RunPod,6mo,0.33,,global,,NVIDIA L4,2026-06-12T10:21:34.885130+00:00
+L4,RunPod,on_demand,0.39,,global,,NVIDIA L4,2026-06-12T10:21:34.885130+00:00
+L4,RunPod,spot,0.44,,global,,NVIDIA L4,2026-06-12T10:21:34.885130+00:00
+L40,RunPod,36mo,0.71,,global,,NVIDIA L40,2026-06-12T10:21:34.885130+00:00
+L40,RunPod,6mo,0.7,,global,,NVIDIA L40,2026-06-12T10:21:34.885130+00:00
+L40,RunPod,on_demand,0.82,,global,,NVIDIA L40,2026-06-12T10:21:34.885130+00:00
+L40,RunPod,spot,0.69,,global,,NVIDIA L40,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,12mo,1.1724,1.1724,us-east-1,1,g6e.xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,12mo,1.8927,1.8927,us-east-1,1,g6e.4xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,12mo,1.6526,6.6104,us-east-1,4,g6e.12xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,12mo,2.3728,18.9826,us-east-1,8,g6e.48xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,12mo,1.4081,1.4081,ap-south-1,1,g6e.xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,12mo,2.273,2.273,ap-south-1,1,g6e.4xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,12mo,1.9847,7.9388,ap-south-1,4,g6e.12xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,12mo,2.8497,22.7975,ap-south-1,8,g6e.48xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,36mo,0.804,0.804,us-east-1,1,g6e.xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,36mo,1.2978,1.2978,us-east-1,1,g6e.4xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,36mo,1.1332,4.5328,us-east-1,4,g6e.12xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,36mo,1.6271,13.0167,us-east-1,8,g6e.48xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,36mo,0.9655,0.9655,ap-south-1,1,g6e.xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,36mo,1.5587,1.5587,ap-south-1,1,g6e.4xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,36mo,1.3609,5.4438,ap-south-1,4,g6e.12xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,36mo,1.9541,15.6326,ap-south-1,8,g6e.48xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,on_demand,1.861,1.861,us-east-1,1,g6e.xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,on_demand,3.0042,3.0042,us-east-1,1,g6e.4xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,on_demand,2.6232,10.4926,us-east-1,4,g6e.12xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,on_demand,3.7664,30.1312,us-east-1,8,g6e.48xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,on_demand,2.235,2.235,ap-south-1,1,g6e.xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,on_demand,3.608,3.608,ap-south-1,1,g6e.4xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,on_demand,3.1503,12.6013,ap-south-1,4,g6e.12xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS EC2,on_demand,4.5233,36.1866,ap-south-1,8,g6e.48xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS SageMaker,on_demand,2.6054,2.6054,us-east-1,1,ml.g6e.xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS SageMaker,on_demand,3.7553,3.7553,us-east-1,1,ml.g6e.4xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS SageMaker,on_demand,3.279,13.1158,us-east-1,4,ml.g6e.12xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS SageMaker,on_demand,4.708,37.664,us-east-1,8,ml.g6e.48xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS SageMaker,on_demand,3.129,3.129,ap-south-1,1,ml.g6e.xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS SageMaker,on_demand,4.51,4.51,ap-south-1,1,ml.g6e.4xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS SageMaker,on_demand,3.9379,15.7516,ap-south-1,4,ml.g6e.12xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,AWS SageMaker,on_demand,5.6541,45.2332,ap-south-1,8,ml.g6e.48xlarge,2026-06-12T10:21:34.885130+00:00
+L40S,OCI,on_demand,3.5,3.5,global,1,B109479,2026-06-12T10:21:34.885130+00:00
+L40S,OCI,on_demand,3.5,3.5,global,1,B110965,2026-06-12T10:21:34.885130+00:00
+L40S,OCI,on_demand,0.6,0.6,global,1,B111454,2026-06-12T10:21:34.885130+00:00
+L40S,OCI,on_demand,2.9,2.9,global,1,B111455,2026-06-12T10:21:34.885130+00:00
+L40S,RunPod,36mo,0.748,,global,,NVIDIA L40S,2026-06-12T10:21:34.885130+00:00
+L40S,RunPod,6mo,0.731,,global,,NVIDIA L40S,2026-06-12T10:21:34.885130+00:00
+L40S,RunPod,on_demand,0.86,,global,,NVIDIA L40S,2026-06-12T10:21:34.885130+00:00
+L40S,RunPod,spot,0.79,,global,,NVIDIA L40S,2026-06-12T10:21:34.885130+00:00
+L40S,Vultr,on_demand,1.5596,1.5596,,1,vcg-l40s-16c-180g-48vram,2026-06-12T10:21:34.885130+00:00
+L40S,Vultr,on_demand,1.5596,3.1192,,2,vcg-l40s-32c-375g-96vram,2026-06-12T10:21:34.885130+00:00
+L40S,Vultr,on_demand,1.5596,6.2384,,4,vcg-l40s-64c-750g-192vram,2026-06-12T10:21:34.885130+00:00
+L40S,Vultr,on_demand,1.5596,12.4768,,8,vcg-l40s-128c-1500g-384vram,2026-06-12T10:21:34.885130+00:00
