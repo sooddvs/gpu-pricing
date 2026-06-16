@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-15T12:26:48.490094+00:00",
+  "fetched_at": "2026-06-16T07:01:25.146163+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -11,7 +11,8 @@
           "region": "eastus",
           "price_tier": "on_demand",
           "total_hourly_usd": 98.32,
-          "per_gpu_hourly_usd": 12.29
+          "per_gpu_hourly_usd": 12.29,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
@@ -20,7 +21,8 @@
           "region": "eastus",
           "price_tier": "on_demand",
           "total_hourly_usd": 6.98,
-          "per_gpu_hourly_usd": 6.98
+          "per_gpu_hourly_usd": 6.98,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
@@ -29,7 +31,8 @@
           "region": "eastus",
           "price_tier": "36mo",
           "total_hourly_usd": 4.306,
-          "per_gpu_hourly_usd": 4.306
+          "per_gpu_hourly_usd": 4.306,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
@@ -38,7 +41,8 @@
           "region": "eastus",
           "price_tier": "12mo",
           "total_hourly_usd": 5.8067,
-          "per_gpu_hourly_usd": 5.8067
+          "per_gpu_hourly_usd": 5.8067,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -47,7 +51,8 @@
           "region": "eastus",
           "price_tier": "on_demand",
           "total_hourly_usd": 13.96,
-          "per_gpu_hourly_usd": 6.98
+          "per_gpu_hourly_usd": 6.98,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -56,7 +61,8 @@
           "region": "eastus",
           "price_tier": "36mo",
           "total_hourly_usd": 8.6119,
-          "per_gpu_hourly_usd": 4.306
+          "per_gpu_hourly_usd": 4.306,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -65,7 +71,8 @@
           "region": "eastus",
           "price_tier": "12mo",
           "total_hourly_usd": 11.6133,
-          "per_gpu_hourly_usd": 5.8067
+          "per_gpu_hourly_usd": 5.8067,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC24ads_A100_v4",
@@ -74,7 +81,8 @@
           "region": "eastus",
           "price_tier": "on_demand",
           "total_hourly_usd": 3.673,
-          "per_gpu_hourly_usd": 3.673
+          "per_gpu_hourly_usd": 3.673,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC24ads_A100_v4",
@@ -83,7 +91,8 @@
           "region": "eastus",
           "price_tier": "36mo",
           "total_hourly_usd": 2.2659,
-          "per_gpu_hourly_usd": 2.2659
+          "per_gpu_hourly_usd": 2.2659,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC24ads_A100_v4",
@@ -92,7 +101,8 @@
           "region": "eastus",
           "price_tier": "12mo",
           "total_hourly_usd": 3.0574,
-          "per_gpu_hourly_usd": 3.0574
+          "per_gpu_hourly_usd": 3.0574,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -101,7 +111,8 @@
           "region": "eastus",
           "price_tier": "on_demand",
           "total_hourly_usd": 7.346,
-          "per_gpu_hourly_usd": 3.673
+          "per_gpu_hourly_usd": 3.673,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -110,7 +121,8 @@
           "region": "eastus",
           "price_tier": "36mo",
           "total_hourly_usd": 4.5317,
-          "per_gpu_hourly_usd": 2.2659
+          "per_gpu_hourly_usd": 2.2659,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -119,7 +131,8 @@
           "region": "eastus",
           "price_tier": "12mo",
           "total_hourly_usd": 6.1148,
-          "per_gpu_hourly_usd": 3.0574
+          "per_gpu_hourly_usd": 3.0574,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC96ads_A100_v4",
@@ -128,7 +141,8 @@
           "region": "eastus",
           "price_tier": "on_demand",
           "total_hourly_usd": 14.692,
-          "per_gpu_hourly_usd": 3.673
+          "per_gpu_hourly_usd": 3.673,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC96ads_A100_v4",
@@ -137,7 +151,8 @@
           "region": "eastus",
           "price_tier": "36mo",
           "total_hourly_usd": 9.0635,
-          "per_gpu_hourly_usd": 2.2659
+          "per_gpu_hourly_usd": 2.2659,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC96ads_A100_v4",
@@ -146,7 +161,8 @@
           "region": "eastus",
           "price_tier": "12mo",
           "total_hourly_usd": 12.2296,
-          "per_gpu_hourly_usd": 3.0574
+          "per_gpu_hourly_usd": 3.0574,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -155,7 +171,8 @@
           "region": "eastus",
           "price_tier": "on_demand",
           "total_hourly_usd": 32.77,
-          "per_gpu_hourly_usd": 4.0963
+          "per_gpu_hourly_usd": 4.0963,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -164,7 +181,8 @@
           "region": "eastus",
           "price_tier": "36mo",
           "total_hourly_usd": 17.0109,
-          "per_gpu_hourly_usd": 2.1264
+          "per_gpu_hourly_usd": 2.1264,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -173,7 +191,8 @@
           "region": "eastus",
           "price_tier": "12mo",
           "total_hourly_usd": 28.2445,
-          "per_gpu_hourly_usd": 3.5306
+          "per_gpu_hourly_usd": 3.5306,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96isr_H100_v5",
@@ -182,7 +201,8 @@
           "region": "eastus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 98.32,
-          "per_gpu_hourly_usd": 12.29
+          "per_gpu_hourly_usd": 12.29,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
@@ -191,7 +211,8 @@
           "region": "eastus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 6.98,
-          "per_gpu_hourly_usd": 6.98
+          "per_gpu_hourly_usd": 6.98,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
@@ -200,7 +221,8 @@
           "region": "eastus2",
           "price_tier": "36mo",
           "total_hourly_usd": 4.306,
-          "per_gpu_hourly_usd": 4.306
+          "per_gpu_hourly_usd": 4.306,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
@@ -209,7 +231,8 @@
           "region": "eastus2",
           "price_tier": "12mo",
           "total_hourly_usd": 5.8067,
-          "per_gpu_hourly_usd": 5.8067
+          "per_gpu_hourly_usd": 5.8067,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -218,7 +241,8 @@
           "region": "eastus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 13.96,
-          "per_gpu_hourly_usd": 6.98
+          "per_gpu_hourly_usd": 6.98,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -227,7 +251,8 @@
           "region": "eastus2",
           "price_tier": "36mo",
           "total_hourly_usd": 8.6119,
-          "per_gpu_hourly_usd": 4.306
+          "per_gpu_hourly_usd": 4.306,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -236,7 +261,8 @@
           "region": "eastus2",
           "price_tier": "12mo",
           "total_hourly_usd": 11.6133,
-          "per_gpu_hourly_usd": 5.8067
+          "per_gpu_hourly_usd": 5.8067,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96isr_H200_v5",
@@ -245,7 +271,8 @@
           "region": "eastus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 84.8,
-          "per_gpu_hourly_usd": 10.6
+          "per_gpu_hourly_usd": 10.6,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC24ads_A100_v4",
@@ -254,7 +281,8 @@
           "region": "eastus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 3.673,
-          "per_gpu_hourly_usd": 3.673
+          "per_gpu_hourly_usd": 3.673,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC24ads_A100_v4",
@@ -263,7 +291,8 @@
           "region": "eastus2",
           "price_tier": "36mo",
           "total_hourly_usd": 2.2659,
-          "per_gpu_hourly_usd": 2.2659
+          "per_gpu_hourly_usd": 2.2659,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC24ads_A100_v4",
@@ -272,7 +301,8 @@
           "region": "eastus2",
           "price_tier": "12mo",
           "total_hourly_usd": 3.0574,
-          "per_gpu_hourly_usd": 3.0574
+          "per_gpu_hourly_usd": 3.0574,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -281,7 +311,8 @@
           "region": "eastus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 7.346,
-          "per_gpu_hourly_usd": 3.673
+          "per_gpu_hourly_usd": 3.673,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -290,7 +321,8 @@
           "region": "eastus2",
           "price_tier": "36mo",
           "total_hourly_usd": 4.5317,
-          "per_gpu_hourly_usd": 2.2659
+          "per_gpu_hourly_usd": 2.2659,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -299,7 +331,8 @@
           "region": "eastus2",
           "price_tier": "12mo",
           "total_hourly_usd": 6.1148,
-          "per_gpu_hourly_usd": 3.0574
+          "per_gpu_hourly_usd": 3.0574,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC96ads_A100_v4",
@@ -308,7 +341,8 @@
           "region": "eastus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 14.692,
-          "per_gpu_hourly_usd": 3.673
+          "per_gpu_hourly_usd": 3.673,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC96ads_A100_v4",
@@ -317,7 +351,8 @@
           "region": "eastus2",
           "price_tier": "36mo",
           "total_hourly_usd": 9.0635,
-          "per_gpu_hourly_usd": 2.2659
+          "per_gpu_hourly_usd": 2.2659,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC96ads_A100_v4",
@@ -326,7 +361,8 @@
           "region": "eastus2",
           "price_tier": "12mo",
           "total_hourly_usd": 12.2296,
-          "per_gpu_hourly_usd": 3.0574
+          "per_gpu_hourly_usd": 3.0574,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -335,7 +371,8 @@
           "region": "eastus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 32.77,
-          "per_gpu_hourly_usd": 4.0963
+          "per_gpu_hourly_usd": 4.0963,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -344,7 +381,8 @@
           "region": "eastus2",
           "price_tier": "36mo",
           "total_hourly_usd": 17.0109,
-          "per_gpu_hourly_usd": 2.1264
+          "per_gpu_hourly_usd": 2.1264,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -353,7 +391,8 @@
           "region": "eastus2",
           "price_tier": "12mo",
           "total_hourly_usd": 28.2445,
-          "per_gpu_hourly_usd": 3.5306
+          "per_gpu_hourly_usd": 3.5306,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96isr_H100_v5",
@@ -362,7 +401,8 @@
           "region": "westus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 98.32,
-          "per_gpu_hourly_usd": 12.29
+          "per_gpu_hourly_usd": 12.29,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
@@ -371,7 +411,8 @@
           "region": "westus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 6.98,
-          "per_gpu_hourly_usd": 6.98
+          "per_gpu_hourly_usd": 6.98,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
@@ -380,7 +421,8 @@
           "region": "westus2",
           "price_tier": "36mo",
           "total_hourly_usd": 4.306,
-          "per_gpu_hourly_usd": 4.306
+          "per_gpu_hourly_usd": 4.306,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
@@ -389,7 +431,8 @@
           "region": "westus2",
           "price_tier": "12mo",
           "total_hourly_usd": 5.8067,
-          "per_gpu_hourly_usd": 5.8067
+          "per_gpu_hourly_usd": 5.8067,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -398,7 +441,8 @@
           "region": "westus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 13.96,
-          "per_gpu_hourly_usd": 6.98
+          "per_gpu_hourly_usd": 6.98,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -407,7 +451,8 @@
           "region": "westus2",
           "price_tier": "36mo",
           "total_hourly_usd": 8.6119,
-          "per_gpu_hourly_usd": 4.306
+          "per_gpu_hourly_usd": 4.306,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -416,7 +461,8 @@
           "region": "westus2",
           "price_tier": "12mo",
           "total_hourly_usd": 11.6133,
-          "per_gpu_hourly_usd": 5.8067
+          "per_gpu_hourly_usd": 5.8067,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96isr_H200_v5",
@@ -425,7 +471,8 @@
           "region": "westus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 84.8,
-          "per_gpu_hourly_usd": 10.6
+          "per_gpu_hourly_usd": 10.6,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC24ads_A100_v4",
@@ -434,7 +481,8 @@
           "region": "westus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 3.673,
-          "per_gpu_hourly_usd": 3.673
+          "per_gpu_hourly_usd": 3.673,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC24ads_A100_v4",
@@ -443,7 +491,8 @@
           "region": "westus2",
           "price_tier": "36mo",
           "total_hourly_usd": 2.2659,
-          "per_gpu_hourly_usd": 2.2659
+          "per_gpu_hourly_usd": 2.2659,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC24ads_A100_v4",
@@ -452,7 +501,8 @@
           "region": "westus2",
           "price_tier": "12mo",
           "total_hourly_usd": 3.0574,
-          "per_gpu_hourly_usd": 3.0574
+          "per_gpu_hourly_usd": 3.0574,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -461,7 +511,8 @@
           "region": "westus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 7.346,
-          "per_gpu_hourly_usd": 3.673
+          "per_gpu_hourly_usd": 3.673,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -470,7 +521,8 @@
           "region": "westus2",
           "price_tier": "36mo",
           "total_hourly_usd": 4.5317,
-          "per_gpu_hourly_usd": 2.2659
+          "per_gpu_hourly_usd": 2.2659,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -479,7 +531,8 @@
           "region": "westus2",
           "price_tier": "12mo",
           "total_hourly_usd": 6.1148,
-          "per_gpu_hourly_usd": 3.0574
+          "per_gpu_hourly_usd": 3.0574,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC96ads_A100_v4",
@@ -488,7 +541,8 @@
           "region": "westus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 14.692,
-          "per_gpu_hourly_usd": 3.673
+          "per_gpu_hourly_usd": 3.673,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC96ads_A100_v4",
@@ -497,7 +551,8 @@
           "region": "westus2",
           "price_tier": "36mo",
           "total_hourly_usd": 9.0635,
-          "per_gpu_hourly_usd": 2.2659
+          "per_gpu_hourly_usd": 2.2659,
+          "os": "Linux"
         },
         {
           "sku": "Standard_NC96ads_A100_v4",
@@ -506,7 +561,8 @@
           "region": "westus2",
           "price_tier": "12mo",
           "total_hourly_usd": 12.2296,
-          "per_gpu_hourly_usd": 3.0574
+          "per_gpu_hourly_usd": 3.0574,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -515,7 +571,8 @@
           "region": "westus2",
           "price_tier": "on_demand",
           "total_hourly_usd": 32.77,
-          "per_gpu_hourly_usd": 4.0963
+          "per_gpu_hourly_usd": 4.0963,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -524,7 +581,8 @@
           "region": "westus2",
           "price_tier": "36mo",
           "total_hourly_usd": 17.0109,
-          "per_gpu_hourly_usd": 2.1264
+          "per_gpu_hourly_usd": 2.1264,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -533,7 +591,8 @@
           "region": "westus2",
           "price_tier": "12mo",
           "total_hourly_usd": 28.2445,
-          "per_gpu_hourly_usd": 3.5306
+          "per_gpu_hourly_usd": 3.5306,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -542,7 +601,8 @@
           "region": "southindia",
           "price_tier": "on_demand",
           "total_hourly_usd": 49.483,
-          "per_gpu_hourly_usd": 6.1854
+          "per_gpu_hourly_usd": 6.1854,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -551,7 +611,8 @@
           "region": "southindia",
           "price_tier": "36mo",
           "total_hourly_usd": 25.6866,
-          "per_gpu_hourly_usd": 3.2108
+          "per_gpu_hourly_usd": 3.2108,
+          "os": "Linux"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
@@ -560,7 +621,8 @@
           "region": "southindia",
           "price_tier": "12mo",
           "total_hourly_usd": 42.6494,
-          "per_gpu_hourly_usd": 5.3312
+          "per_gpu_hourly_usd": 5.3312,
+          "os": "Linux"
         }
       ]
     },
@@ -575,7 +637,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 3.5,
-          "total_hourly_usd": 3.5
+          "total_hourly_usd": 3.5,
+          "os": "Linux"
         },
         {
           "part_number": "B109480",
@@ -585,7 +648,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 10.75,
-          "total_hourly_usd": 10.75
+          "total_hourly_usd": 10.75,
+          "os": "Linux"
         },
         {
           "part_number": "B110519",
@@ -595,7 +659,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 10,
-          "total_hourly_usd": 10
+          "total_hourly_usd": 10,
+          "os": "Linux"
         },
         {
           "part_number": "B110965",
@@ -605,7 +670,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 3.5,
-          "total_hourly_usd": 3.5
+          "total_hourly_usd": 3.5,
+          "os": "Linux"
         },
         {
           "part_number": "B110978",
@@ -615,7 +681,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 14,
-          "total_hourly_usd": 14
+          "total_hourly_usd": 14,
+          "os": "Linux"
         },
         {
           "part_number": "B110979",
@@ -625,7 +692,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 16,
-          "total_hourly_usd": 16
+          "total_hourly_usd": 16,
+          "os": "Linux"
         },
         {
           "part_number": "B111454",
@@ -635,7 +703,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 0.6,
-          "total_hourly_usd": 0.6
+          "total_hourly_usd": 0.6,
+          "os": "Linux"
         },
         {
           "part_number": "B111455",
@@ -645,7 +714,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 2.9,
-          "total_hourly_usd": 2.9
+          "total_hourly_usd": 2.9,
+          "os": "Linux"
         },
         {
           "part_number": "B112140",
@@ -655,7 +725,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 18,
-          "total_hourly_usd": 18
+          "total_hourly_usd": 18,
+          "os": "Linux"
         },
         {
           "part_number": "B112237",
@@ -665,7 +736,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 15,
-          "total_hourly_usd": 15
+          "total_hourly_usd": 15,
+          "os": "Linux"
         },
         {
           "part_number": "B95907",
@@ -675,7 +747,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 4,
-          "total_hourly_usd": 4
+          "total_hourly_usd": 4,
+          "os": "Linux"
         },
         {
           "part_number": "B98415",
@@ -685,7 +758,8 @@
           "region": "global",
           "price_tier": "on_demand",
           "per_gpu_hourly_usd": 10,
-          "total_hourly_usd": 10
+          "total_hourly_usd": 10,
+          "os": "Linux"
         }
       ]
     },
@@ -699,7 +773,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 55.04,
-          "per_gpu_hourly_usd": 6.88
+          "per_gpu_hourly_usd": 6.88,
+          "os": "Linux"
         },
         {
           "instance_type": "p5.48xlarge",
@@ -708,7 +783,8 @@
           "region": "us-east-1",
           "price_tier": "36mo",
           "total_hourly_usd": 23.7773,
-          "per_gpu_hourly_usd": 2.9722
+          "per_gpu_hourly_usd": 2.9722,
+          "os": "Linux"
         },
         {
           "instance_type": "p5en.48xlarge",
@@ -717,7 +793,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 63.296,
-          "per_gpu_hourly_usd": 7.912
+          "per_gpu_hourly_usd": 7.912,
+          "os": "Linux"
         },
         {
           "instance_type": "p6-b200.48xlarge",
@@ -726,7 +803,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 113.9328,
-          "per_gpu_hourly_usd": 14.2416
+          "per_gpu_hourly_usd": 14.2416,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.xlarge",
@@ -735,7 +813,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 0.8048,
-          "per_gpu_hourly_usd": 0.8048
+          "per_gpu_hourly_usd": 0.8048,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.xlarge",
@@ -744,7 +823,8 @@
           "region": "us-east-1",
           "price_tier": "36mo",
           "total_hourly_usd": 0.3694,
-          "per_gpu_hourly_usd": 0.3694
+          "per_gpu_hourly_usd": 0.3694,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.xlarge",
@@ -753,7 +833,8 @@
           "region": "us-east-1",
           "price_tier": "12mo",
           "total_hourly_usd": 0.5239,
-          "per_gpu_hourly_usd": 0.5239
+          "per_gpu_hourly_usd": 0.5239,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.4xlarge",
@@ -762,7 +843,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 1.3232,
-          "per_gpu_hourly_usd": 1.3232
+          "per_gpu_hourly_usd": 1.3232,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.4xlarge",
@@ -771,7 +853,8 @@
           "region": "us-east-1",
           "price_tier": "12mo",
           "total_hourly_usd": 0.8614,
-          "per_gpu_hourly_usd": 0.8614
+          "per_gpu_hourly_usd": 0.8614,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.4xlarge",
@@ -780,7 +863,8 @@
           "region": "us-east-1",
           "price_tier": "36mo",
           "total_hourly_usd": 0.6073,
-          "per_gpu_hourly_usd": 0.6073
+          "per_gpu_hourly_usd": 0.6073,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.12xlarge",
@@ -789,7 +873,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 4.6016,
-          "per_gpu_hourly_usd": 1.1504
+          "per_gpu_hourly_usd": 1.1504,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.12xlarge",
@@ -798,7 +883,8 @@
           "region": "us-east-1",
           "price_tier": "36mo",
           "total_hourly_usd": 2.1121,
-          "per_gpu_hourly_usd": 0.528
+          "per_gpu_hourly_usd": 0.528,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.12xlarge",
@@ -807,7 +893,8 @@
           "region": "us-east-1",
           "price_tier": "12mo",
           "total_hourly_usd": 2.9956,
-          "per_gpu_hourly_usd": 0.7489
+          "per_gpu_hourly_usd": 0.7489,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.48xlarge",
@@ -816,7 +903,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 13.3504,
-          "per_gpu_hourly_usd": 1.6688
+          "per_gpu_hourly_usd": 1.6688,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.48xlarge",
@@ -825,7 +913,8 @@
           "region": "us-east-1",
           "price_tier": "36mo",
           "total_hourly_usd": 6.1278,
-          "per_gpu_hourly_usd": 0.766
+          "per_gpu_hourly_usd": 0.766,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.48xlarge",
@@ -834,7 +923,8 @@
           "region": "us-east-1",
           "price_tier": "12mo",
           "total_hourly_usd": 8.6911,
-          "per_gpu_hourly_usd": 1.0864
+          "per_gpu_hourly_usd": 1.0864,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.xlarge",
@@ -843,7 +933,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 1.861,
-          "per_gpu_hourly_usd": 1.861
+          "per_gpu_hourly_usd": 1.861,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.xlarge",
@@ -852,7 +943,8 @@
           "region": "us-east-1",
           "price_tier": "12mo",
           "total_hourly_usd": 1.1724,
-          "per_gpu_hourly_usd": 1.1724
+          "per_gpu_hourly_usd": 1.1724,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.xlarge",
@@ -861,7 +953,8 @@
           "region": "us-east-1",
           "price_tier": "36mo",
           "total_hourly_usd": 0.804,
-          "per_gpu_hourly_usd": 0.804
+          "per_gpu_hourly_usd": 0.804,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.4xlarge",
@@ -870,7 +963,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 3.0042,
-          "per_gpu_hourly_usd": 3.0042
+          "per_gpu_hourly_usd": 3.0042,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.4xlarge",
@@ -879,7 +973,8 @@
           "region": "us-east-1",
           "price_tier": "36mo",
           "total_hourly_usd": 1.2978,
-          "per_gpu_hourly_usd": 1.2978
+          "per_gpu_hourly_usd": 1.2978,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.4xlarge",
@@ -888,7 +983,8 @@
           "region": "us-east-1",
           "price_tier": "12mo",
           "total_hourly_usd": 1.8927,
-          "per_gpu_hourly_usd": 1.8927
+          "per_gpu_hourly_usd": 1.8927,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.12xlarge",
@@ -897,7 +993,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 10.4926,
-          "per_gpu_hourly_usd": 2.6232
+          "per_gpu_hourly_usd": 2.6232,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.12xlarge",
@@ -906,7 +1003,8 @@
           "region": "us-east-1",
           "price_tier": "36mo",
           "total_hourly_usd": 4.5328,
-          "per_gpu_hourly_usd": 1.1332
+          "per_gpu_hourly_usd": 1.1332,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.12xlarge",
@@ -915,7 +1013,8 @@
           "region": "us-east-1",
           "price_tier": "12mo",
           "total_hourly_usd": 6.6104,
-          "per_gpu_hourly_usd": 1.6526
+          "per_gpu_hourly_usd": 1.6526,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.48xlarge",
@@ -924,7 +1023,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 30.1312,
-          "per_gpu_hourly_usd": 3.7664
+          "per_gpu_hourly_usd": 3.7664,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.48xlarge",
@@ -933,7 +1033,8 @@
           "region": "us-east-1",
           "price_tier": "36mo",
           "total_hourly_usd": 13.0167,
-          "per_gpu_hourly_usd": 1.6271
+          "per_gpu_hourly_usd": 1.6271,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.48xlarge",
@@ -942,7 +1043,8 @@
           "region": "us-east-1",
           "price_tier": "12mo",
           "total_hourly_usd": 18.9826,
-          "per_gpu_hourly_usd": 2.3728
+          "per_gpu_hourly_usd": 2.3728,
+          "os": "Linux"
         },
         {
           "instance_type": "p4d.24xlarge",
@@ -951,7 +1053,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 21.9576,
-          "per_gpu_hourly_usd": 2.7447
+          "per_gpu_hourly_usd": 2.7447,
+          "os": "Linux"
         },
         {
           "instance_type": "p4d.24xlarge",
@@ -960,7 +1063,8 @@
           "region": "us-east-1",
           "price_tier": "36mo",
           "total_hourly_usd": 9.3742,
-          "per_gpu_hourly_usd": 1.1718
+          "per_gpu_hourly_usd": 1.1718,
+          "os": "Linux"
         },
         {
           "instance_type": "p4d.24xlarge",
@@ -969,7 +1073,8 @@
           "region": "us-east-1",
           "price_tier": "12mo",
           "total_hourly_usd": 13.9211,
-          "per_gpu_hourly_usd": 1.7401
+          "per_gpu_hourly_usd": 1.7401,
+          "os": "Linux"
         },
         {
           "instance_type": "p4de.24xlarge",
@@ -978,7 +1083,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 27.4471,
-          "per_gpu_hourly_usd": 3.4309
+          "per_gpu_hourly_usd": 3.4309,
+          "os": "Linux"
         },
         {
           "instance_type": "p4de.24xlarge",
@@ -987,7 +1093,8 @@
           "region": "us-east-1",
           "price_tier": "36mo",
           "total_hourly_usd": 11.7178,
-          "per_gpu_hourly_usd": 1.4647
+          "per_gpu_hourly_usd": 1.4647,
+          "os": "Linux"
         },
         {
           "instance_type": "p4de.24xlarge",
@@ -996,7 +1103,8 @@
           "region": "us-east-1",
           "price_tier": "12mo",
           "total_hourly_usd": 17.4014,
-          "per_gpu_hourly_usd": 2.1752
+          "per_gpu_hourly_usd": 2.1752,
+          "os": "Linux"
         },
         {
           "instance_type": "p5.48xlarge",
@@ -1005,7 +1113,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 66.048,
-          "per_gpu_hourly_usd": 8.256
+          "per_gpu_hourly_usd": 8.256,
+          "os": "Linux"
         },
         {
           "instance_type": "p5.48xlarge",
@@ -1014,7 +1123,8 @@
           "region": "ap-south-1",
           "price_tier": "36mo",
           "total_hourly_usd": 28.5327,
-          "per_gpu_hourly_usd": 3.5666
+          "per_gpu_hourly_usd": 3.5666,
+          "os": "Linux"
         },
         {
           "instance_type": "p5en.48xlarge",
@@ -1023,7 +1133,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 75.9552,
-          "per_gpu_hourly_usd": 9.4944
+          "per_gpu_hourly_usd": 9.4944,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.xlarge",
@@ -1032,7 +1143,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 0.9664,
-          "per_gpu_hourly_usd": 0.9664
+          "per_gpu_hourly_usd": 0.9664,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.xlarge",
@@ -1041,7 +1153,8 @@
           "region": "ap-south-1",
           "price_tier": "12mo",
           "total_hourly_usd": 0.6291,
-          "per_gpu_hourly_usd": 0.6291
+          "per_gpu_hourly_usd": 0.6291,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.xlarge",
@@ -1050,7 +1163,8 @@
           "region": "ap-south-1",
           "price_tier": "36mo",
           "total_hourly_usd": 0.4436,
-          "per_gpu_hourly_usd": 0.4436
+          "per_gpu_hourly_usd": 0.4436,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.4xlarge",
@@ -1059,7 +1173,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 1.5889,
-          "per_gpu_hourly_usd": 1.5889
+          "per_gpu_hourly_usd": 1.5889,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.4xlarge",
@@ -1068,7 +1183,8 @@
           "region": "ap-south-1",
           "price_tier": "36mo",
           "total_hourly_usd": 0.7293,
-          "per_gpu_hourly_usd": 0.7293
+          "per_gpu_hourly_usd": 0.7293,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.4xlarge",
@@ -1077,7 +1193,8 @@
           "region": "ap-south-1",
           "price_tier": "12mo",
           "total_hourly_usd": 1.0344,
-          "per_gpu_hourly_usd": 1.0344
+          "per_gpu_hourly_usd": 1.0344,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.12xlarge",
@@ -1086,7 +1203,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 5.5256,
-          "per_gpu_hourly_usd": 1.3814
+          "per_gpu_hourly_usd": 1.3814,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.12xlarge",
@@ -1095,7 +1213,8 @@
           "region": "ap-south-1",
           "price_tier": "12mo",
           "total_hourly_usd": 3.5972,
-          "per_gpu_hourly_usd": 0.8993
+          "per_gpu_hourly_usd": 0.8993,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.12xlarge",
@@ -1104,7 +1223,8 @@
           "region": "ap-south-1",
           "price_tier": "36mo",
           "total_hourly_usd": 2.5362,
-          "per_gpu_hourly_usd": 0.6341
+          "per_gpu_hourly_usd": 0.6341,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.48xlarge",
@@ -1113,7 +1233,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 16.0311,
-          "per_gpu_hourly_usd": 2.0039
+          "per_gpu_hourly_usd": 2.0039,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.48xlarge",
@@ -1122,7 +1243,8 @@
           "region": "ap-south-1",
           "price_tier": "12mo",
           "total_hourly_usd": 10.4362,
-          "per_gpu_hourly_usd": 1.3045
+          "per_gpu_hourly_usd": 1.3045,
+          "os": "Linux"
         },
         {
           "instance_type": "g6.48xlarge",
@@ -1131,7 +1253,8 @@
           "region": "ap-south-1",
           "price_tier": "36mo",
           "total_hourly_usd": 7.3583,
-          "per_gpu_hourly_usd": 0.9198
+          "per_gpu_hourly_usd": 0.9198,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.xlarge",
@@ -1140,7 +1263,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 2.235,
-          "per_gpu_hourly_usd": 2.235
+          "per_gpu_hourly_usd": 2.235,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.xlarge",
@@ -1149,7 +1273,8 @@
           "region": "ap-south-1",
           "price_tier": "12mo",
           "total_hourly_usd": 1.4081,
-          "per_gpu_hourly_usd": 1.4081
+          "per_gpu_hourly_usd": 1.4081,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.xlarge",
@@ -1158,7 +1283,8 @@
           "region": "ap-south-1",
           "price_tier": "36mo",
           "total_hourly_usd": 0.9655,
-          "per_gpu_hourly_usd": 0.9655
+          "per_gpu_hourly_usd": 0.9655,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.4xlarge",
@@ -1167,7 +1293,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 3.608,
-          "per_gpu_hourly_usd": 3.608
+          "per_gpu_hourly_usd": 3.608,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.4xlarge",
@@ -1176,7 +1303,8 @@
           "region": "ap-south-1",
           "price_tier": "36mo",
           "total_hourly_usd": 1.5587,
-          "per_gpu_hourly_usd": 1.5587
+          "per_gpu_hourly_usd": 1.5587,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.4xlarge",
@@ -1185,7 +1313,8 @@
           "region": "ap-south-1",
           "price_tier": "12mo",
           "total_hourly_usd": 2.273,
-          "per_gpu_hourly_usd": 2.273
+          "per_gpu_hourly_usd": 2.273,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.12xlarge",
@@ -1194,7 +1323,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 12.6013,
-          "per_gpu_hourly_usd": 3.1503
+          "per_gpu_hourly_usd": 3.1503,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.12xlarge",
@@ -1203,7 +1333,8 @@
           "region": "ap-south-1",
           "price_tier": "12mo",
           "total_hourly_usd": 7.9388,
-          "per_gpu_hourly_usd": 1.9847
+          "per_gpu_hourly_usd": 1.9847,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.12xlarge",
@@ -1212,7 +1343,8 @@
           "region": "ap-south-1",
           "price_tier": "36mo",
           "total_hourly_usd": 5.4438,
-          "per_gpu_hourly_usd": 1.3609
+          "per_gpu_hourly_usd": 1.3609,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.48xlarge",
@@ -1221,7 +1353,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 36.1866,
-          "per_gpu_hourly_usd": 4.5233
+          "per_gpu_hourly_usd": 4.5233,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.48xlarge",
@@ -1230,7 +1363,8 @@
           "region": "ap-south-1",
           "price_tier": "12mo",
           "total_hourly_usd": 22.7975,
-          "per_gpu_hourly_usd": 2.8497
+          "per_gpu_hourly_usd": 2.8497,
+          "os": "Linux"
         },
         {
           "instance_type": "g6e.48xlarge",
@@ -1239,7 +1373,8 @@
           "region": "ap-south-1",
           "price_tier": "36mo",
           "total_hourly_usd": 15.6326,
-          "per_gpu_hourly_usd": 1.9541
+          "per_gpu_hourly_usd": 1.9541,
+          "os": "Linux"
         },
         {
           "instance_type": "p4d.24xlarge",
@@ -1248,7 +1383,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 26.3444,
-          "per_gpu_hourly_usd": 3.2931
+          "per_gpu_hourly_usd": 3.2931,
+          "os": "Linux"
         },
         {
           "instance_type": "p4d.24xlarge",
@@ -1257,7 +1393,8 @@
           "region": "ap-south-1",
           "price_tier": "36mo",
           "total_hourly_usd": 14.175,
-          "per_gpu_hourly_usd": 1.7719
+          "per_gpu_hourly_usd": 1.7719,
+          "os": "Linux"
         },
         {
           "instance_type": "p4d.24xlarge",
@@ -1266,7 +1403,8 @@
           "region": "ap-south-1",
           "price_tier": "12mo",
           "total_hourly_usd": 17.0257,
-          "per_gpu_hourly_usd": 2.1282
+          "per_gpu_hourly_usd": 2.1282,
+          "os": "Linux"
         }
       ]
     },
@@ -1280,7 +1418,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 63.296,
-          "per_gpu_hourly_usd": 7.912
+          "per_gpu_hourly_usd": 7.912,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.p5en.48xlarge",
@@ -1289,7 +1428,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 72.795,
-          "per_gpu_hourly_usd": 9.0994
+          "per_gpu_hourly_usd": 9.0994,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6.xlarge",
@@ -1298,7 +1438,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 1.1267,
-          "per_gpu_hourly_usd": 1.1267
+          "per_gpu_hourly_usd": 1.1267,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6.4xlarge",
@@ -1307,7 +1448,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 1.654,
-          "per_gpu_hourly_usd": 1.654
+          "per_gpu_hourly_usd": 1.654,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6.12xlarge",
@@ -1316,7 +1458,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 5.752,
-          "per_gpu_hourly_usd": 1.438
+          "per_gpu_hourly_usd": 1.438,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6.48xlarge",
@@ -1325,7 +1468,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 16.688,
-          "per_gpu_hourly_usd": 2.086
+          "per_gpu_hourly_usd": 2.086,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6e.xlarge",
@@ -1334,7 +1478,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 2.6054,
-          "per_gpu_hourly_usd": 2.6054
+          "per_gpu_hourly_usd": 2.6054,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6e.4xlarge",
@@ -1343,7 +1488,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 3.7553,
-          "per_gpu_hourly_usd": 3.7553
+          "per_gpu_hourly_usd": 3.7553,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6e.12xlarge",
@@ -1352,7 +1498,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 13.1158,
-          "per_gpu_hourly_usd": 3.279
+          "per_gpu_hourly_usd": 3.279,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6e.48xlarge",
@@ -1361,7 +1508,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 37.664,
-          "per_gpu_hourly_usd": 4.708
+          "per_gpu_hourly_usd": 4.708,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.p4d.24xlarge",
@@ -1370,7 +1518,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 25.2513,
-          "per_gpu_hourly_usd": 3.1564
+          "per_gpu_hourly_usd": 3.1564,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.p4de.24xlarge",
@@ -1379,7 +1528,8 @@
           "region": "us-east-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 31.5641,
-          "per_gpu_hourly_usd": 3.9455
+          "per_gpu_hourly_usd": 3.9455,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.p5.48xlarge",
@@ -1388,7 +1538,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 75.9575,
-          "per_gpu_hourly_usd": 9.4947
+          "per_gpu_hourly_usd": 9.4947,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.p5e.48xlarge",
@@ -1397,7 +1548,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 45.7689,
-          "per_gpu_hourly_usd": 5.7211
+          "per_gpu_hourly_usd": 5.7211,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.p5en.48xlarge",
@@ -1406,7 +1558,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 87.354,
-          "per_gpu_hourly_usd": 10.9192
+          "per_gpu_hourly_usd": 10.9192,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6.xlarge",
@@ -1415,7 +1568,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 1.353,
-          "per_gpu_hourly_usd": 1.353
+          "per_gpu_hourly_usd": 1.353,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6.4xlarge",
@@ -1424,7 +1578,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 1.9861,
-          "per_gpu_hourly_usd": 1.9861
+          "per_gpu_hourly_usd": 1.9861,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6.12xlarge",
@@ -1433,7 +1588,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 6.907,
-          "per_gpu_hourly_usd": 1.7268
+          "per_gpu_hourly_usd": 1.7268,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6.48xlarge",
@@ -1442,7 +1598,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 20.0389,
-          "per_gpu_hourly_usd": 2.5049
+          "per_gpu_hourly_usd": 2.5049,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6e.xlarge",
@@ -1451,7 +1608,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 3.129,
-          "per_gpu_hourly_usd": 3.129
+          "per_gpu_hourly_usd": 3.129,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6e.4xlarge",
@@ -1460,7 +1618,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 4.51,
-          "per_gpu_hourly_usd": 4.51
+          "per_gpu_hourly_usd": 4.51,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6e.12xlarge",
@@ -1469,7 +1628,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 15.7516,
-          "per_gpu_hourly_usd": 3.9379
+          "per_gpu_hourly_usd": 3.9379,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.g6e.48xlarge",
@@ -1478,7 +1638,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 45.2332,
-          "per_gpu_hourly_usd": 5.6541
+          "per_gpu_hourly_usd": 5.6541,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.p4d.24xlarge",
@@ -1487,7 +1648,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 30.2961,
-          "per_gpu_hourly_usd": 3.787
+          "per_gpu_hourly_usd": 3.787,
+          "os": "Linux"
         },
         {
           "instance_type": "ml.p4de.24xlarge",
@@ -1496,7 +1658,8 @@
           "region": "ap-south-1",
           "price_tier": "on_demand",
           "total_hourly_usd": 38.8332,
-          "per_gpu_hourly_usd": 4.8541
+          "per_gpu_hourly_usd": 4.8541,
+          "os": "Linux"
         }
       ]
     },
@@ -1508,483 +1671,552 @@
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 2.9339
+          "per_gpu_hourly_usd": 2.9339,
+          "os": "Linux"
         },
         {
           "description": "Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 1.6136
+          "per_gpu_hourly_usd": 1.6136,
+          "os": "Linux"
         },
         {
           "description": "DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Americas",
           "gpu_type": "B200",
           "region": "us-central1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 11.277
+          "per_gpu_hourly_usd": 11.277,
+          "os": "Linux"
         },
         {
           "description": "Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Mumbai",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 3.4422
+          "per_gpu_hourly_usd": 3.4422,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 1 Year",
           "gpu_type": "B200",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 11.1159
+          "per_gpu_hourly_usd": 11.1159,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia Tesla A100 80GB GPU running in Americas for 1 Year",
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 3.4811
+          "per_gpu_hourly_usd": 3.4811,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia Tesla A100 GPU running in Mumbai for 1 Year",
           "gpu_type": "A100",
           "region": "asia-south1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 2.1844
+          "per_gpu_hourly_usd": 2.1844,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia H100 80GB GPU running in Americas for 3 Years",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 4.2999
+          "per_gpu_hourly_usd": 4.2999,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia L4 GPU running in Mumbai for 1 Year",
           "gpu_type": "L4",
           "region": "asia-south1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 0.3673
+          "per_gpu_hourly_usd": 0.3673,
+          "os": "Linux"
         },
         {
           "description": "A4 Nvidia B200 (1 gpu slice) running in Americas",
           "gpu_type": "B200",
           "region": "us-central1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 16.11
+          "per_gpu_hourly_usd": 16.11,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia H100 80GB GPU running in Americas for 1 Year",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 6.7988
+          "per_gpu_hourly_usd": 6.7988,
+          "os": "Linux"
         },
         {
           "description": "Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 4.2008
+          "per_gpu_hourly_usd": 4.2008,
+          "os": "Linux"
         },
         {
           "description": "A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Mumbai",
           "gpu_type": "B200",
           "region": "asia-south1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 8.055
+          "per_gpu_hourly_usd": 8.055,
+          "os": "Linux"
         },
         {
           "description": "Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Americas",
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 1.4666
+          "per_gpu_hourly_usd": 1.4666,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years",
           "gpu_type": "L4",
           "region": "asia-south1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 0.2623
+          "per_gpu_hourly_usd": 0.2623,
+          "os": "Linux"
         },
         {
           "description": "Reserved H200 141GB GPU in Americas in Calendar Mode",
           "gpu_type": "H200 SXM",
           "region": "us-central1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 6.4745
+          "per_gpu_hourly_usd": 6.4745,
+          "os": "Linux"
         },
         {
           "description": "Nvidia H100 80GB GPU running in Mumbai",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 10.1884
+          "per_gpu_hourly_usd": 10.1884,
+          "os": "Linux"
         },
         {
           "description": "H200 141GB GPU running in Americas",
           "gpu_type": "H200 SXM",
           "region": "us-central1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 9.3117
+          "per_gpu_hourly_usd": 9.3117,
+          "os": "Linux"
         },
         {
           "description": "Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 1.8462
+          "per_gpu_hourly_usd": 1.8462,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia Tesla A100 80GB GPU running in Mumbai for 3 Years",
           "gpu_type": "A100",
           "region": "asia-south1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 3.7193
+          "per_gpu_hourly_usd": 3.7193,
+          "os": "Linux"
         },
         {
           "description": "Reserved Nvidia H100 80GB Mega GPU in Mumbai in Calendar Mode",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 4.8411
+          "per_gpu_hourly_usd": 4.8411,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: A4 Nvidia B200 (1 gpu slice) in Americas for 3 Year",
           "gpu_type": "B200",
           "region": "us-central1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 7.0884
+          "per_gpu_hourly_usd": 7.0884,
+          "os": "Linux"
         },
         {
           "description": "DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Mumbai",
           "gpu_type": "B200",
           "region": "asia-south1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 11.277
+          "per_gpu_hourly_usd": 11.277,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: H200 141GB GPU running in Mumbai for 3 Years",
           "gpu_type": "H200 SXM",
           "region": "asia-south1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 4.8996
+          "per_gpu_hourly_usd": 4.8996,
+          "os": "Linux"
         },
         {
           "description": "Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Mumbai",
           "gpu_type": "A100",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.7306
+          "per_gpu_hourly_usd": 0.7306,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia H100 80GB Plus GPU running in Americas for 3 Years",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 4.499
+          "per_gpu_hourly_usd": 4.499,
+          "os": "Linux"
         },
         {
           "description": "Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Mumbai",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 4.2008
+          "per_gpu_hourly_usd": 4.2008,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia L4 GPU running in Americas for 3 Years",
           "gpu_type": "L4",
           "region": "us-central1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 0.252
+          "per_gpu_hourly_usd": 0.252,
+          "os": "Linux"
         },
         {
           "description": "H200 141GB GPU attached to Spot Preemptible VMs running in Americas",
           "gpu_type": "H200 SXM",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 4.6559
+          "per_gpu_hourly_usd": 4.6559,
+          "os": "Linux"
         },
         {
           "description": "Nvidia L4 GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "L4",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 0.56
+          "per_gpu_hourly_usd": 0.56,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 1 Year",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 7.0708
+          "per_gpu_hourly_usd": 7.0708,
+          "os": "Linux"
         },
         {
           "description": "Nvidia Tesla A100 80GB GPU running in Mumbai",
           "gpu_type": "A100",
           "region": "asia-south1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 4.718
+          "per_gpu_hourly_usd": 4.718,
+          "os": "Linux"
         },
         {
           "description": "Nvidia L4 GPU attached to Spot Preemptible VMs running in Mumbai",
           "gpu_type": "L4",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.2437
+          "per_gpu_hourly_usd": 0.2437,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia H100 80GB Plus GPU running in Americas for 1 Year",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 7.1136
+          "per_gpu_hourly_usd": 7.1136,
+          "os": "Linux"
         },
         {
           "description": "H200 141GB GPU attached to DWS Defined Duration VMs running in Mumbai",
           "gpu_type": "H200 SXM",
           "region": "asia-south1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 4.5753
+          "per_gpu_hourly_usd": 4.5753,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: H200 141GB GPU running in Americas for 1 Year",
           "gpu_type": "H200 SXM",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 6.4314
+          "per_gpu_hourly_usd": 6.4314,
+          "os": "Linux"
         },
         {
           "description": "Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Americas",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 4.4104
+          "per_gpu_hourly_usd": 4.4104,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: H200 141GB GPU running in Mumbai for 1 Year",
           "gpu_type": "H200 SXM",
           "region": "asia-south1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 7.7177
+          "per_gpu_hourly_usd": 7.7177,
+          "os": "Linux"
         },
         {
           "description": "Nvidia H100 80GB Plus GPU running in Americas",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 10.3443
+          "per_gpu_hourly_usd": 10.3443,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia Tesla A100 80GB GPU running in Americas for 3 Years",
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 3.0966
+          "per_gpu_hourly_usd": 3.0966,
+          "os": "Linux"
         },
         {
           "description": "Reserved H200 141GB GPU in Mumbai in Calendar Mode",
           "gpu_type": "H200 SXM",
           "region": "asia-south1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 6.4745
+          "per_gpu_hourly_usd": 6.4745,
+          "os": "Linux"
         },
         {
           "description": "Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Americas",
           "gpu_type": "B200",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 4.2796
+          "per_gpu_hourly_usd": 4.2796,
+          "os": "Linux"
         },
         {
           "description": "Nvidia H100 80GB Plus GPU attached to Spot Preemptible VMs running in Americas",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 4.656
+          "per_gpu_hourly_usd": 4.656,
+          "os": "Linux"
         },
         {
           "description": "Reserved Nvidia H100 80GB GPU in Mumbai in Calendar Mode",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 4.5701
+          "per_gpu_hourly_usd": 4.5701,
+          "os": "Linux"
         },
         {
           "description": "Reserved Nvidia H100 80GB Mega GPU in Americas in Calendar Mode",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 4.8411
+          "per_gpu_hourly_usd": 4.8411,
+          "os": "Linux"
         },
         {
           "description": "A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "B200",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 8.055
+          "per_gpu_hourly_usd": 8.055,
+          "os": "Linux"
         },
         {
           "description": "Nvidia L4 GPU running in Americas",
           "gpu_type": "L4",
           "region": "us-central1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 0.56
+          "per_gpu_hourly_usd": 0.56,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 3 Years",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 4.4719
+          "per_gpu_hourly_usd": 4.4719,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia Tesla A100 GPU running in Americas for 3 Year",
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 1.0269
+          "per_gpu_hourly_usd": 1.0269,
+          "os": "Linux"
         },
         {
           "description": "Nvidia L4 GPU running in Mumbai",
           "gpu_type": "L4",
           "region": "asia-south1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 0.583
+          "per_gpu_hourly_usd": 0.583,
+          "os": "Linux"
         },
         {
           "description": "Reserved Nvidia H100 80GB GPU in Americas in Calendar Mode",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 4.5701
+          "per_gpu_hourly_usd": 4.5701,
+          "os": "Linux"
         },
         {
           "description": "Nvidia L4 GPU attached to Spot Preemptible VMs running in Americas",
           "gpu_type": "L4",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.2595
+          "per_gpu_hourly_usd": 0.2595,
+          "os": "Linux"
         },
         {
           "description": "H200 141GB GPU attached to Spot Preemptible VMs running in Mumbai",
           "gpu_type": "H200 SXM",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 5.0842
+          "per_gpu_hourly_usd": 5.0842,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: H200 141GB GPU running in Americas for 3 Years",
           "gpu_type": "H200 SXM",
           "region": "us-central1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 4.083
+          "per_gpu_hourly_usd": 4.083,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia L4 GPU running in Americas for 1 Year",
           "gpu_type": "L4",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 0.3528
+          "per_gpu_hourly_usd": 0.3528,
+          "os": "Linux"
         },
         {
           "description": "Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 4.4239
+          "per_gpu_hourly_usd": 4.4239,
+          "os": "Linux"
         },
         {
           "description": "Nvidia L4 GPU attached to DWS Defined Duration VMs running in Mumbai",
           "gpu_type": "L4",
           "region": "asia-south1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 0.5824
+          "per_gpu_hourly_usd": 0.5824,
+          "os": "Linux"
         },
         {
           "description": "Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Mumbai",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 4.4239
+          "per_gpu_hourly_usd": 4.4239,
+          "os": "Linux"
         },
         {
           "description": "Nvidia H100 80GB GPU running in Americas",
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 9.7966
+          "per_gpu_hourly_usd": 9.7966,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia Tesla A100 GPU running in Mumbai for 3 Year",
           "gpu_type": "A100",
           "region": "asia-south1",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 1.1552
+          "per_gpu_hourly_usd": 1.1552,
+          "os": "Linux"
         },
         {
           "description": "Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Americas",
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 1.964
+          "per_gpu_hourly_usd": 1.964,
+          "os": "Linux"
         },
         {
           "description": "Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Mumbai",
           "gpu_type": "B200",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 2.8099
+          "per_gpu_hourly_usd": 2.8099,
+          "os": "Linux"
         },
         {
           "description": "H200 141GB GPU running in Mumbai",
           "gpu_type": "H200 SXM",
           "region": "asia-south1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 11.1741
+          "per_gpu_hourly_usd": 11.1741,
+          "os": "Linux"
         },
         {
           "description": "Nvidia Tesla A100 GPU running in Mumbai",
           "gpu_type": "A100",
           "region": "asia-south1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 3.4369
+          "per_gpu_hourly_usd": 3.4369,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia Tesla A100 GPU running in Americas for 1 Year",
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 1.8484
+          "per_gpu_hourly_usd": 1.8484,
+          "os": "Linux"
         },
         {
           "description": "Nvidia Tesla A100 80GB GPU running in Americas",
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 3.9281
+          "per_gpu_hourly_usd": 3.9281,
+          "os": "Linux"
         },
         {
           "description": "Commitment v1: Nvidia Tesla A100 80GB GPU running in Mumbai for 1 Year",
           "gpu_type": "A100",
           "region": "asia-south1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 4.1811
+          "per_gpu_hourly_usd": 4.1811,
+          "os": "Linux"
         },
         {
           "description": "Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Mumbai",
           "gpu_type": "A100",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.5679
+          "per_gpu_hourly_usd": 0.5679,
+          "os": "Linux"
         },
         {
           "description": "H200 141GB GPU attached to DWS Defined Duration VMs running in Americas",
           "gpu_type": "H200 SXM",
           "region": "us-central1",
           "price_tier": "12mo",
-          "per_gpu_hourly_usd": 4.5753
+          "per_gpu_hourly_usd": 4.5753,
+          "os": "Linux"
         }
       ]
     },
@@ -1998,7 +2230,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 1.39
+          "per_gpu_hourly_usd": 1.39,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA A100 80GB PCIe",
@@ -2007,7 +2240,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 1.18
+          "per_gpu_hourly_usd": 1.18,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA A100 80GB PCIe",
@@ -2016,7 +2250,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 1.21
+          "per_gpu_hourly_usd": 1.21,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA A100 80GB PCIe",
@@ -2025,7 +2260,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 1.19
+          "per_gpu_hourly_usd": 1.19,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA A100-SXM4-40GB",
@@ -2034,7 +2270,8 @@
           "memory_gb": 40,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 1
+          "per_gpu_hourly_usd": 1,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA A100-SXM4-80GB",
@@ -2043,7 +2280,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 1.49
+          "per_gpu_hourly_usd": 1.49,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA A100-SXM4-80GB",
@@ -2052,7 +2290,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 1.27
+          "per_gpu_hourly_usd": 1.27,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA A100-SXM4-80GB",
@@ -2061,7 +2300,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 1.3
+          "per_gpu_hourly_usd": 1.3,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA A100-SXM4-80GB",
@@ -2070,7 +2310,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 1.39
+          "per_gpu_hourly_usd": 1.39,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA B200",
@@ -2079,7 +2320,8 @@
           "memory_gb": 180,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 5.89
+          "per_gpu_hourly_usd": 5.89,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA B200",
@@ -2088,7 +2330,8 @@
           "memory_gb": 180,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 5.12
+          "per_gpu_hourly_usd": 5.12,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA B200",
@@ -2097,7 +2340,8 @@
           "memory_gb": 180,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 5.54
+          "per_gpu_hourly_usd": 5.54,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA B200",
@@ -2106,7 +2350,8 @@
           "memory_gb": 180,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 5.98
+          "per_gpu_hourly_usd": 5.98,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA B300 SXM6 AC",
@@ -2115,7 +2360,8 @@
           "memory_gb": 288,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 7.39
+          "per_gpu_hourly_usd": 7.39,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA B300 SXM6 AC",
@@ -2124,7 +2370,8 @@
           "memory_gb": 288,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 6.94
+          "per_gpu_hourly_usd": 6.94,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 80GB HBM3",
@@ -2133,7 +2380,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 3.29
+          "per_gpu_hourly_usd": 3.29,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 80GB HBM3",
@@ -2142,7 +2390,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 2.86
+          "per_gpu_hourly_usd": 2.86,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 80GB HBM3",
@@ -2151,7 +2400,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 3.09
+          "per_gpu_hourly_usd": 3.09,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 80GB HBM3",
@@ -2160,7 +2410,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 2.69
+          "per_gpu_hourly_usd": 2.69,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 NVL",
@@ -2169,7 +2420,8 @@
           "memory_gb": 94,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 3.19
+          "per_gpu_hourly_usd": 3.19,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 NVL",
@@ -2178,7 +2430,8 @@
           "memory_gb": 94,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 2.78
+          "per_gpu_hourly_usd": 2.78,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 NVL",
@@ -2187,7 +2440,8 @@
           "memory_gb": 94,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 3
+          "per_gpu_hourly_usd": 3,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 NVL",
@@ -2196,7 +2450,8 @@
           "memory_gb": 94,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 2.59
+          "per_gpu_hourly_usd": 2.59,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 PCIe",
@@ -2205,7 +2460,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 2.89
+          "per_gpu_hourly_usd": 2.89,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 PCIe",
@@ -2214,7 +2470,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 2.51
+          "per_gpu_hourly_usd": 2.51,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 PCIe",
@@ -2223,7 +2480,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 2.72
+          "per_gpu_hourly_usd": 2.72,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H100 PCIe",
@@ -2232,7 +2490,8 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 1.99
+          "per_gpu_hourly_usd": 1.99,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H200",
@@ -2241,7 +2500,8 @@
           "memory_gb": 141,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 4.39
+          "per_gpu_hourly_usd": 4.39,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H200",
@@ -2250,7 +2510,8 @@
           "memory_gb": 141,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 3.82
+          "per_gpu_hourly_usd": 3.82,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H200",
@@ -2259,7 +2520,8 @@
           "memory_gb": 141,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 4.13
+          "per_gpu_hourly_usd": 4.13,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H200",
@@ -2268,7 +2530,8 @@
           "memory_gb": 141,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 3.59
+          "per_gpu_hourly_usd": 3.59,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H200 NVL",
@@ -2277,7 +2540,8 @@
           "memory_gb": 143,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 3.79
+          "per_gpu_hourly_usd": 3.79,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H200 NVL",
@@ -2286,7 +2550,8 @@
           "memory_gb": 143,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 3.3
+          "per_gpu_hourly_usd": 3.3,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H200 NVL",
@@ -2295,7 +2560,8 @@
           "memory_gb": 143,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 3.56
+          "per_gpu_hourly_usd": 3.56,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA H200 NVL",
@@ -2304,7 +2570,8 @@
           "memory_gb": 143,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.5
+          "per_gpu_hourly_usd": 0.5,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L4",
@@ -2313,7 +2580,8 @@
           "memory_gb": 24,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 0.39
+          "per_gpu_hourly_usd": 0.39,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L4",
@@ -2322,7 +2590,8 @@
           "memory_gb": 24,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 0.33
+          "per_gpu_hourly_usd": 0.33,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L4",
@@ -2331,7 +2600,8 @@
           "memory_gb": 24,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 0.34
+          "per_gpu_hourly_usd": 0.34,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L4",
@@ -2340,7 +2610,8 @@
           "memory_gb": 24,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.44
+          "per_gpu_hourly_usd": 0.44,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L40",
@@ -2349,7 +2620,8 @@
           "memory_gb": 48,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 0.82
+          "per_gpu_hourly_usd": 0.82,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L40",
@@ -2358,7 +2630,8 @@
           "memory_gb": 48,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 0.7
+          "per_gpu_hourly_usd": 0.7,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L40",
@@ -2367,7 +2640,8 @@
           "memory_gb": 48,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 0.71
+          "per_gpu_hourly_usd": 0.71,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L40",
@@ -2376,7 +2650,8 @@
           "memory_gb": 48,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.69
+          "per_gpu_hourly_usd": 0.69,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L40S",
@@ -2385,7 +2660,8 @@
           "memory_gb": 48,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 0.86
+          "per_gpu_hourly_usd": 0.86,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L40S",
@@ -2394,7 +2670,8 @@
           "memory_gb": 48,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 0.731
+          "per_gpu_hourly_usd": 0.731,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L40S",
@@ -2403,7 +2680,8 @@
           "memory_gb": 48,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 0.748
+          "per_gpu_hourly_usd": 0.748,
+          "os": "Linux"
         },
         {
           "id": "NVIDIA L40S",
@@ -2412,7 +2690,8 @@
           "memory_gb": 48,
           "region": "global",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.79
+          "per_gpu_hourly_usd": 0.79,
+          "os": "Linux"
         }
       ]
     },
@@ -2427,7 +2706,8 @@
           "region": "",
           "price_tier": "on_demand",
           "total_hourly_usd": 1.5596,
-          "per_gpu_hourly_usd": 1.5596
+          "per_gpu_hourly_usd": 1.5596,
+          "os": "Linux"
         },
         {
           "plan_id": "vcg-l40s-32c-375g-96vram",
@@ -2437,7 +2717,8 @@
           "region": "",
           "price_tier": "on_demand",
           "total_hourly_usd": 3.1192,
-          "per_gpu_hourly_usd": 1.5596
+          "per_gpu_hourly_usd": 1.5596,
+          "os": "Linux"
         },
         {
           "plan_id": "vcg-l40s-64c-750g-192vram",
@@ -2447,7 +2728,8 @@
           "region": "",
           "price_tier": "on_demand",
           "total_hourly_usd": 6.2384,
-          "per_gpu_hourly_usd": 1.5596
+          "per_gpu_hourly_usd": 1.5596,
+          "os": "Linux"
         },
         {
           "plan_id": "vcg-l40s-128c-1500g-384vram",
@@ -2457,7 +2739,8 @@
           "region": "",
           "price_tier": "on_demand",
           "total_hourly_usd": 12.4768,
-          "per_gpu_hourly_usd": 1.5596
+          "per_gpu_hourly_usd": 1.5596,
+          "os": "Linux"
         }
       ]
     },

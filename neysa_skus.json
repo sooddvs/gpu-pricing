@@ -1,0 +1,272 @@
+[
+  {
+    "service": "Velocis Bare Metal GPUs",
+    "gpu_type": "L40S",
+    "gpu_count": 8,
+    "label": "8 x L40S",
+    "on_demand_inr_hr": null,
+    "monthly_inr": {
+      "1mo": 496000.0,
+      "6mo": 466240.0,
+      "12mo": 438266.0,
+      "24mo": 411970.0,
+      "36mo": 387251.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis Bare Metal GPUs",
+    "gpu_type": "H100 SXM",
+    "gpu_count": 8,
+    "label": "8 x H100 SXM",
+    "on_demand_inr_hr": null,
+    "monthly_inr": {
+      "1mo": 1432000.0,
+      "6mo": 1346080.0,
+      "12mo": 1265315.0,
+      "24mo": 1189396.0,
+      "36mo": 1118033.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis Bare Metal GPUs",
+    "gpu_type": "H200 SXM",
+    "gpu_count": 8,
+    "label": "8 x H200 SXM",
+    "on_demand_inr_hr": null,
+    "monthly_inr": {
+      "1mo": 1592000.0,
+      "6mo": 1496480.0,
+      "12mo": 1406691.0,
+      "24mo": 1322290.0,
+      "36mo": 1242952.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "L4",
+    "gpu_count": 1,
+    "label": "1 x L4",
+    "on_demand_inr_hr": 105.0,
+    "monthly_inr": {
+      "1mo": 50400.0,
+      "6mo": 47124.0,
+      "12mo": 44061.0,
+      "24mo": 41197.0,
+      "36mo": 38519.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "L4",
+    "gpu_count": 2,
+    "label": "2 x L4",
+    "on_demand_inr_hr": 210.0,
+    "monthly_inr": {
+      "1mo": 100800.0,
+      "6mo": 94248.0,
+      "12mo": 88122.0,
+      "24mo": 82394.0,
+      "36mo": 77038.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "L4",
+    "gpu_count": 4,
+    "label": "4 x L4",
+    "on_demand_inr_hr": 420.0,
+    "monthly_inr": {
+      "1mo": 201600.0,
+      "6mo": 188496.0,
+      "12mo": 176244.0,
+      "24mo": 164788.0,
+      "36mo": 154077.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "L40S",
+    "gpu_count": 1,
+    "label": "1 x L40S",
+    "on_demand_inr_hr": 175.0,
+    "monthly_inr": {
+      "1mo": 84000.0,
+      "6mo": 78540.0,
+      "12mo": 73435.0,
+      "24mo": 68662.0,
+      "36mo": 64199.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "L40S",
+    "gpu_count": 2,
+    "label": "2 x L40S",
+    "on_demand_inr_hr": 350.0,
+    "monthly_inr": {
+      "1mo": 168000.0,
+      "6mo": 157080.0,
+      "12mo": 146870.0,
+      "24mo": 137323.0,
+      "36mo": 128397.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "L40S",
+    "gpu_count": 4,
+    "label": "4 x L40S",
+    "on_demand_inr_hr": 700.0,
+    "monthly_inr": {
+      "1mo": 336000.0,
+      "6mo": 314160.0,
+      "12mo": 293740.0,
+      "24mo": 274647.0,
+      "36mo": 256795.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "H100 SXM",
+    "gpu_count": 1,
+    "label": "1 x H100 SXM",
+    "on_demand_inr_hr": 395.0,
+    "monthly_inr": {
+      "1mo": 205000.0,
+      "6mo": 192700.0,
+      "12mo": 181138.0,
+      "24mo": 170270.0,
+      "36mo": 160054.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "H100 SXM",
+    "gpu_count": 2,
+    "label": "2 x H100 SXM",
+    "on_demand_inr_hr": 790.0,
+    "monthly_inr": {
+      "1mo": 410000.0,
+      "6mo": 385400.0,
+      "12mo": 362276.0,
+      "24mo": 340539.0,
+      "36mo": 320107.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "H100 SXM",
+    "gpu_count": 4,
+    "label": "4 x H100 SXM",
+    "on_demand_inr_hr": 1580.0,
+    "monthly_inr": {
+      "1mo": 820000.0,
+      "6mo": 770800.0,
+      "12mo": 724552.0,
+      "24mo": 681079.0,
+      "36mo": 640214.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "H100 NVL",
+    "gpu_count": 1,
+    "label": "1 x H100 NVL",
+    "on_demand_inr_hr": 395.0,
+    "monthly_inr": {
+      "1mo": 205000.0,
+      "6mo": 192700.0,
+      "12mo": 181138.0,
+      "24mo": 170270.0,
+      "36mo": 160054.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "H100 NVL",
+    "gpu_count": 2,
+    "label": "2 x H100 NVL",
+    "on_demand_inr_hr": 790.0,
+    "monthly_inr": {
+      "1mo": 410000.0,
+      "6mo": 385400.0,
+      "12mo": 362276.0,
+      "24mo": 340539.0,
+      "36mo": 320107.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "H100 NVL",
+    "gpu_count": 4,
+    "label": "4 x H100 NVL",
+    "on_demand_inr_hr": 1580.0,
+    "monthly_inr": {
+      "1mo": 820000.0,
+      "6mo": 770800.0,
+      "12mo": 724552.0,
+      "24mo": 681079.0,
+      "36mo": 640214.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "H200 SXM",
+    "gpu_count": 1,
+    "label": "1 x H200 SXM",
+    "on_demand_inr_hr": 425.0,
+    "monthly_inr": {
+      "1mo": 215000.0,
+      "6mo": 202100.0,
+      "12mo": 189974.0,
+      "24mo": 178576.0,
+      "36mo": 167861.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "H200 SXM",
+    "gpu_count": 2,
+    "label": "2 x H200 SXM",
+    "on_demand_inr_hr": 850.0,
+    "monthly_inr": {
+      "1mo": 430000.0,
+      "6mo": 404200.0,
+      "12mo": 379948.0,
+      "24mo": 357151.0,
+      "36mo": 335722.0
+    },
+    "os": "Ubuntu"
+  },
+  {
+    "service": "Velocis AI Platform",
+    "gpu_type": "H200 SXM",
+    "gpu_count": 4,
+    "label": "4 x H200 SXM",
+    "on_demand_inr_hr": 1700.0,
+    "monthly_inr": {
+      "1mo": 860000.0,
+      "6mo": 808400.0,
+      "12mo": 759896.0,
+      "24mo": 714302.0,
+      "36mo": 671444.0
+    },
+    "os": "Ubuntu"
+  }
+]
