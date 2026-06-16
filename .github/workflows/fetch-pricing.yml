@@ -1,10 +1,8 @@
 name: Fetch GPU pricing daily
-
 on:
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
-
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -15,14 +13,11 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
-        run: pip install requests boto3
-
+        run: pip install requests boto3 openpyxl
       - name: Fetch GPU pricing
         run: python fetch_gpu_pricing.py
         env:
@@ -31,7 +26,6 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: us-east-1
-
       - name: Fetch inference API pricing
         run: python fetch_inference_pricing.py
         env:
@@ -39,19 +33,15 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: us-east-1
-
       - name: Update price history
         run: python update_history.py
-
+      - name: Tag operating system
+        run: python os_overlay.py gpu_pricing.json
+      - name: Extract Neysa SKUs
+        run: python extract_neysa_skus.py Velocis_Pricing_Sheet.xlsx neysa_skus.json
+      - name: Match competitors
+        run: python match_competitors.py --neysa neysa_skus.json --competitors gpu_pricing.json --out Neysa_Competitor_SKU_Match.xlsx
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git reset --soft origin/main
-          git rm -f gpu_pricing.csv 2>/dev/null || true
-          git add gpu_pricing.json gpu_pricing_raw.csv gpu_pricing_comparison.csv gpu_pricing_history.csv inference_api_pricing.csv
-          [ -f price_changes.csv ] && git add price_changes.csv || true
-          git diff --staged --quiet && echo "No changes" && exit 0
-          git commit -m "Daily pricing refresh $(date -u +%Y-%m-%d)"
-          git push origin main
+          git config user.email "github-actions[bot]@users.noreply.githu
