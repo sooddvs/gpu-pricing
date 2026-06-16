@@ -37,6 +37,8 @@ jobs:
         run: python update_history.py
       - name: Tag operating system
         run: python os_overlay.py gpu_pricing.json
+      - name: Enrich competitor specs (vCPU/RAM)
+        run: python enrich_specs.py gpu_pricing.json
       - name: Extract Neysa SKUs
         run: python extract_neysa_skus.py Velocis_Pricing_Sheet.xlsx neysa_skus.json
       - name: Match competitors
