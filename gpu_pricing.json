@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-16T11:20:54.483754+00:00",
+  "fetched_at": "2026-06-17T11:06:11.704255+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -3363,7 +3363,7 @@
           "gpu_type": "L40S",
           "gpu_type_raw": "NVIDIA_L40S",
           "gpu_count": 1,
-          "region": "",
+          "region": "atl",
           "price_tier": "on_demand",
           "total_hourly_usd": 1.5596,
           "per_gpu_hourly_usd": 1.5596,
@@ -3377,7 +3377,7 @@
           "gpu_type": "L40S",
           "gpu_type_raw": "NVIDIA_L40S",
           "gpu_count": 2,
-          "region": "",
+          "region": "atl",
           "price_tier": "on_demand",
           "total_hourly_usd": 3.1192,
           "per_gpu_hourly_usd": 1.5596,

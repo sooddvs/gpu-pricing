@@ -323,7 +323,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x L40S,L40S,1,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L40S.
 1 x L40S,L40S,1,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647888.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L40S.
 1 x L40S,L40S,1,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311164.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.748,71.0,19657.0,1859790.0,,,exact,24.3,No India SKU; used global/other region (global).
-1 x L40S,L40S,1,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,1,Linux,,global/other,1.5596,148.0,,,16,180,exact,18.6,No India SKU; used global/other region ().
+1 x L40S,L40S,1,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,1,Linux,atl,global/other,1.5596,148.0,,,16,180,exact,18.6,No India SKU; used global/other region (atl).
 1 x L40S,L40S,1,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 1mo commitment for L40S.
 1 x L40S,L40S,1,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 6mo commitment for L40S.
 1 x L40S,L40S,1,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 12mo commitment for L40S.
@@ -371,7 +371,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x L40S,L40S,2,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L40S.
 2 x L40S,L40S,2,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647876.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L40S.
 2 x L40S,L40S,2,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311146.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.748,71.0,19657.0,1859790.0,,,exact,24.3,No India SKU; used global/other region (global).
-2 x L40S,L40S,2,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,2,Linux,,global/other,1.5596,148.0,,,32,375,exact,18.6,No India SKU; used global/other region ().
+2 x L40S,L40S,2,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,2,Linux,atl,global/other,1.5596,148.0,,,32,375,exact,18.6,No India SKU; used global/other region (atl).
 2 x L40S,L40S,2,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 1mo commitment for L40S.
 2 x L40S,L40S,2,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 6mo commitment for L40S.
 2 x L40S,L40S,2,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 12mo commitment for L40S.
