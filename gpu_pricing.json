@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-17T11:06:11.704255+00:00",
+  "fetched_at": "2026-06-18T10:37:59.790333+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -1428,6 +1428,19 @@
           "price_tier": "on_demand",
           "total_hourly_usd": 75.9552,
           "per_gpu_hourly_usd": 9.4944,
+          "os": "Linux",
+          "vcpu": 192,
+          "ram_gb": 2048,
+          "disk": "8x3.84TB NVMe"
+        },
+        {
+          "instance_type": "p6-b200.48xlarge",
+          "gpu_type": "B200",
+          "gpu_count": 8,
+          "region": "ap-south-1",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 160.6453,
+          "per_gpu_hourly_usd": 20.0807,
           "os": "Linux",
           "vcpu": 192,
           "ram_gb": 2048,
