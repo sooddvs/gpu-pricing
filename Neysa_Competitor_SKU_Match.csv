@@ -29,12 +29,12 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 8 x L40S,L40S,8,Ubuntu,,,12mo,0.7932,75.0,6949.0,657399.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 8 x L40S,L40S,8,Ubuntu,,,24mo,0.7456,71.0,13063.0,1235910.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 8 x L40S,L40S,8,Ubuntu,,,36mo,0.7009,66.0,18419.0,1742630.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
-8 x L40S,L40S,8,Ubuntu,,,on_demand,,,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,,,,,exact,,No India SKU; used global/other region (global).
+8 x L40S,L40S,8,Ubuntu,,,on_demand,,,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,,,,,exact,,No India SKU; used global/other region (global).
 8 x L40S,L40S,8,Ubuntu,,,1mo,0.8977,85.0,655.0,62000.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L40S.
-8 x L40S,L40S,8,Ubuntu,,,6mo,0.8438,80.0,3696.0,349680.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.731,69.0,3202.0,302920.0,,,exact,15.4,No India SKU; used global/other region (global).
+8 x L40S,L40S,8,Ubuntu,,,6mo,0.8438,80.0,3696.0,349680.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.84,79.0,3679.0,348089.0,,,exact,0.5,No India SKU; used global/other region (global).
 8 x L40S,L40S,8,Ubuntu,,,12mo,0.7932,75.0,6949.0,657399.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L40S.
 8 x L40S,L40S,8,Ubuntu,,,24mo,0.7456,71.0,13063.0,1235910.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L40S.
-8 x L40S,L40S,8,Ubuntu,,,36mo,0.7009,66.0,18419.0,1742630.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.748,71.0,19657.0,1859790.0,,,exact,-6.3,No India SKU; used global/other region (global).
+8 x L40S,L40S,8,Ubuntu,,,36mo,0.7009,66.0,18419.0,1742630.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,22601.0,2138262.0,,,exact,-18.5,No India SKU; used global/other region (global).
 8 x L40S,L40S,8,Ubuntu,,,on_demand,,,,,Vultr,,L40S,8,Linux,,global/other,1.5596,148.0,,,128,1500,exact,,No India SKU; used global/other region ().
 8 x L40S,L40S,8,Ubuntu,,,1mo,0.8977,85.0,655.0,62000.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 1mo commitment for L40S.
 8 x L40S,L40S,8,Ubuntu,,,6mo,0.8438,80.0,3696.0,349680.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 6mo commitment for L40S.
@@ -317,12 +317,12 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x L40S,L40S,1,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 1 x L40S,L40S,1,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647888.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 1 x L40S,L40S,1,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311164.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
-1 x L40S,L40S,1,Ubuntu,,,on_demand,1.8497,175.0,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,,,,,exact,115.1,No India SKU; used global/other region (global).
+1 x L40S,L40S,1,Ubuntu,,,on_demand,1.8497,175.0,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,,,,,exact,86.8,No India SKU; used global/other region (global).
 1 x L40S,L40S,1,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L40S.
-1 x L40S,L40S,1,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.731,69.0,3202.0,302920.0,,,exact,55.6,No India SKU; used global/other region (global).
+1 x L40S,L40S,1,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.84,79.0,3679.0,348089.0,,,exact,35.4,No India SKU; used global/other region (global).
 1 x L40S,L40S,1,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L40S.
 1 x L40S,L40S,1,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647888.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L40S.
-1 x L40S,L40S,1,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311164.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.748,71.0,19657.0,1859790.0,,,exact,24.3,No India SKU; used global/other region (global).
+1 x L40S,L40S,1,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311164.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,22601.0,2138262.0,,,exact,8.1,No India SKU; used global/other region (global).
 1 x L40S,L40S,1,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,1,Linux,atl,global/other,1.5596,148.0,,,16,180,exact,18.6,No India SKU; used global/other region (atl).
 1 x L40S,L40S,1,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 1mo commitment for L40S.
 1 x L40S,L40S,1,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 6mo commitment for L40S.
@@ -365,12 +365,12 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x L40S,L40S,2,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 2 x L40S,L40S,2,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647876.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 2 x L40S,L40S,2,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311146.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
-2 x L40S,L40S,2,Ubuntu,,,on_demand,1.8497,175.0,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,,,,,exact,115.1,No India SKU; used global/other region (global).
+2 x L40S,L40S,2,Ubuntu,,,on_demand,1.8497,175.0,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,,,,,exact,86.8,No India SKU; used global/other region (global).
 2 x L40S,L40S,2,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L40S.
-2 x L40S,L40S,2,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.731,69.0,3202.0,302920.0,,,exact,55.6,No India SKU; used global/other region (global).
+2 x L40S,L40S,2,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.84,79.0,3679.0,348089.0,,,exact,35.4,No India SKU; used global/other region (global).
 2 x L40S,L40S,2,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L40S.
 2 x L40S,L40S,2,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647876.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L40S.
-2 x L40S,L40S,2,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311146.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.748,71.0,19657.0,1859790.0,,,exact,24.3,No India SKU; used global/other region (global).
+2 x L40S,L40S,2,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311146.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,22601.0,2138262.0,,,exact,8.1,No India SKU; used global/other region (global).
 2 x L40S,L40S,2,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,2,Linux,atl,global/other,1.5596,148.0,,,32,375,exact,18.6,No India SKU; used global/other region (atl).
 2 x L40S,L40S,2,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 1mo commitment for L40S.
 2 x L40S,L40S,2,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 6mo commitment for L40S.
@@ -413,12 +413,12 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 4 x L40S,L40S,4,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 4 x L40S,L40S,4,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647882.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 4 x L40S,L40S,4,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311155.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
-4 x L40S,L40S,4,Ubuntu,,,on_demand,1.8497,175.0,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,,,,,exact,115.1,No India SKU; used global/other region (global).
+4 x L40S,L40S,4,Ubuntu,,,on_demand,1.8497,175.0,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,,,,,exact,86.8,No India SKU; used global/other region (global).
 4 x L40S,L40S,4,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L40S.
-4 x L40S,L40S,4,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.731,69.0,3202.0,302920.0,,,exact,55.6,No India SKU; used global/other region (global).
+4 x L40S,L40S,4,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.84,79.0,3679.0,348089.0,,,exact,35.4,No India SKU; used global/other region (global).
 4 x L40S,L40S,4,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L40S.
 4 x L40S,L40S,4,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647882.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L40S.
-4 x L40S,L40S,4,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311155.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.748,71.0,19657.0,1859790.0,,,exact,24.3,No India SKU; used global/other region (global).
+4 x L40S,L40S,4,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311155.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,22601.0,2138262.0,,,exact,8.1,No India SKU; used global/other region (global).
 4 x L40S,L40S,4,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,4,Linux,,global/other,1.5596,148.0,,,64,750,exact,18.6,No India SKU; used global/other region ().
 4 x L40S,L40S,4,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 1mo commitment for L40S.
 4 x L40S,L40S,4,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 6mo commitment for L40S.
