@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-29T11:09:26.339187+00:00",
+  "fetched_at": "2026-06-30T09:48:43.338256+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -3044,6 +3044,26 @@
           "region": "global",
           "price_tier": "spot",
           "per_gpu_hourly_usd": 6.94,
+          "os": "Linux"
+        },
+        {
+          "id": "NVIDIA B300 SXM6 AC MIG 1g.34gb",
+          "display_name": "B300 MIG 34GB",
+          "gpu_type": "B300",
+          "memory_gb": 34,
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 0.5,
+          "os": "Linux"
+        },
+        {
+          "id": "NVIDIA B300 SXM6 AC MIG 1g.34gb",
+          "display_name": "B300 MIG 34GB",
+          "gpu_type": "B300",
+          "memory_gb": 34,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 0.5,
           "os": "Linux"
         },
         {
