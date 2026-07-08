@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-07T09:50:46.242470+00:00",
+  "fetched_at": "2026-07-08T08:36:02.165899+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -1977,8 +1977,8 @@
           "gpu_count": 8,
           "region": "ap-south-1",
           "price_tier": "on_demand",
-          "total_hourly_usd": 45.7689,
-          "per_gpu_hourly_usd": 5.7211,
+          "total_hourly_usd": 54.924,
+          "per_gpu_hourly_usd": 6.8655,
           "os": "Linux",
           "vcpu": 192,
           "ram_gb": 2048,
@@ -3073,7 +3073,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 3.29,
+          "per_gpu_hourly_usd": 2.99,
           "os": "Linux"
         },
         {
