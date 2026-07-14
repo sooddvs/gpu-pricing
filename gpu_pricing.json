@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-13T09:36:04.306885+00:00",
+  "fetched_at": "2026-07-14T08:16:16.585472+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -601,6 +601,58 @@
           "vcpu": 80,
           "ram_gb": 640,
           "disk": "2x500GB"
+        },
+        {
+          "sku": "Standard_ND96isr_H200_v5",
+          "gpu_type": "H200 SXM",
+          "gpu_count": 8,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 84.8,
+          "per_gpu_hourly_usd": 10.6,
+          "os": "Linux",
+          "vcpu": 96,
+          "ram_gb": 1900,
+          "disk": "8x1TB NVMe"
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 3.673,
+          "per_gpu_hourly_usd": 3.673,
+          "os": "Linux",
+          "vcpu": 24,
+          "ram_gb": 220,
+          "disk": "1x1TB"
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 2.2659,
+          "per_gpu_hourly_usd": 2.2659,
+          "os": "Linux",
+          "vcpu": 24,
+          "ram_gb": 220,
+          "disk": "1x1TB"
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 3.0574,
+          "per_gpu_hourly_usd": 3.0574,
+          "os": "Linux",
+          "vcpu": 24,
+          "ram_gb": 220,
+          "disk": "1x1TB"
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -3380,20 +3432,6 @@
           "vcpu": 64,
           "ram_gb": 750,
           "disk": "192GB VRAM"
-        },
-        {
-          "plan_id": "vcg-l40s-128c-1500g-384vram",
-          "gpu_type": "L40S",
-          "gpu_type_raw": "NVIDIA_L40S",
-          "gpu_count": 8,
-          "region": "",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 12.4768,
-          "per_gpu_hourly_usd": 1.5596,
-          "os": "Linux",
-          "vcpu": 128,
-          "ram_gb": 1500,
-          "disk": "384GB VRAM"
         }
       ]
     },
