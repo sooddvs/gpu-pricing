@@ -31,10 +31,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 8 x L40S,L40S,8,Ubuntu,,,36mo,0.7009,66.0,18419.0,1742630.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 8 x L40S,L40S,8,Ubuntu,,,on_demand,,,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,,,,,exact,,No India SKU; used global/other region (global).
 8 x L40S,L40S,8,Ubuntu,,,1mo,0.8977,85.0,655.0,62000.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L40S.
-8 x L40S,L40S,8,Ubuntu,,,6mo,0.8438,80.0,3696.0,349680.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.84,79.0,3679.0,348089.0,,,exact,0.5,No India SKU; used global/other region (global).
+8 x L40S,L40S,8,Ubuntu,,,6mo,0.8438,80.0,3696.0,349680.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,4336.0,410248.0,,,exact,-14.8,No India SKU; used global/other region (global).
 8 x L40S,L40S,8,Ubuntu,,,12mo,0.7932,75.0,6949.0,657399.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L40S.
 8 x L40S,L40S,8,Ubuntu,,,24mo,0.7456,71.0,13063.0,1235910.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L40S.
-8 x L40S,L40S,8,Ubuntu,,,36mo,0.7009,66.0,18419.0,1742630.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,22601.0,2138262.0,,,exact,-18.5,No India SKU; used global/other region (global).
+8 x L40S,L40S,8,Ubuntu,,,36mo,0.7009,66.0,18419.0,1742630.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,26017.0,2461487.0,,,exact,-29.2,No India SKU; used global/other region (global).
 8 x L40S,L40S,8,Ubuntu,,,on_demand,,,,,Vultr,,L40S,4,Linux,,global/other,1.5596,148.0,,,64,750,exact,,No India SKU; used global/other region ().
 8 x L40S,L40S,8,Ubuntu,,,1mo,0.8977,85.0,655.0,62000.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 1mo commitment for L40S.
 8 x L40S,L40S,8,Ubuntu,,,6mo,0.8438,80.0,3696.0,349680.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 6mo commitment for L40S.
@@ -47,7 +47,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 8 x L40S,L40S,8,Ubuntu,,,12mo,0.7932,75.0,6949.0,657399.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer L40S or any comparable GPU.
 8 x L40S,L40S,8,Ubuntu,,,24mo,0.7456,71.0,13063.0,1235910.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer L40S or any comparable GPU.
 8 x L40S,L40S,8,Ubuntu,,,36mo,0.7009,66.0,18419.0,1742630.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer L40S or any comparable GPU.
-8 x H100 SXM,H100 SXM,8,Ubuntu,,,on_demand,,,,,Azure,Standard_ND96isr_H100_v5,H100 SXM,8,Linux,eastus,US,12.29,1163.0,,,96,1900,exact,,No India SKU; used US region (eastus).
+8 x H100 SXM,H100 SXM,8,Ubuntu,,,on_demand,,,,,Azure,Standard_ND96isr_H100_v5,H100 SXM,8,Linux,eastus2,US,12.29,1163.0,,,96,1900,exact,,No India SKU; used US region (eastus2).
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,1mo,2.5918,245.0,1892.0,179000.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H100 SXM.
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,6mo,2.4362,230.0,10671.0,1009560.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H100 SXM.
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,12mo,2.2901,217.0,20061.0,1897972.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H100 SXM.
@@ -79,10 +79,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,36mo,2.0235,191.0,53178.0,5031148.0,GCP,Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 3 Years,H100 SXM,1,Linux,asia-south1,India,4.4719,423.0,117522.0,11118712.0,26,234,exact,-54.8,
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,on_demand,,,,,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,,,,,exact,,No India SKU; used global/other region (global).
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,1mo,2.5918,245.0,1892.0,179000.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for H100 SXM.
-8 x H100 SXM,H100 SXM,8,Ubuntu,,,6mo,2.4362,230.0,10671.0,1009560.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.51,237.0,10994.0,1040123.0,,,exact,-2.9,No India SKU; used global/other region (global).
+8 x H100 SXM,H100 SXM,8,Ubuntu,,,6mo,2.4362,230.0,10671.0,1009560.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,12658.0,1197592.0,,,exact,-15.7,No India SKU; used global/other region (global).
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,12mo,2.2901,217.0,20061.0,1897972.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for H100 SXM.
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,24mo,2.1527,204.0,37715.0,3568188.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for H100 SXM.
-8 x H100 SXM,H100 SXM,8,Ubuntu,,,36mo,2.0235,191.0,53178.0,5031148.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.72,257.0,71482.0,6762874.0,,,exact,-25.6,No India SKU; used global/other region (global).
+8 x H100 SXM,H100 SXM,8,Ubuntu,,,36mo,2.0235,191.0,53178.0,5031148.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,75949.0,7185554.0,,,exact,-30.0,No India SKU; used global/other region (global).
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,on_demand,,,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,1mo,2.5918,245.0,1892.0,179000.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,6mo,2.4362,230.0,10671.0,1009560.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -95,7 +95,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,12mo,2.2901,217.0,20061.0,1897972.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,24mo,2.1527,204.0,37715.0,3568188.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,36mo,2.0235,191.0,53178.0,5031148.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
-8 x H200 SXM,H200 SXM,8,Ubuntu,,,on_demand,,,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,eastus2,US,10.6,1003.0,,,96,1900,exact,,No India SKU; used US region (eastus2).
+8 x H200 SXM,H200 SXM,8,Ubuntu,,,on_demand,,,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,westus2,US,10.6,1003.0,,,96,1900,exact,,No India SKU; used US region (westus2).
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,1mo,2.8813,273.0,2103.0,199000.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H200 SXM.
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,6mo,2.7085,256.0,11863.0,1122360.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H200 SXM.
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,12mo,2.5459,241.0,22302.0,2110036.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H200 SXM.
@@ -127,10 +127,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,36mo,2.2496,213.0,59119.0,5593284.0,GCP,Commitment v1: H200 141GB GPU running in Mumbai for 3 Years,H200 SXM,1,Linux,asia-south1,India,4.8996,464.0,128761.0,12182124.0,28,234,exact,-54.1,
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,on_demand,,,,,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,,,,,exact,,No India SKU; used global/other region (global).
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,1mo,2.8813,273.0,2103.0,199000.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for H200 SXM.
-8 x H200 SXM,H200 SXM,8,Ubuntu,,,6mo,2.7085,256.0,11863.0,1122360.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.3,312.0,14454.0,1367493.0,,,exact,-17.9,No India SKU; used global/other region (global).
+8 x H200 SXM,H200 SXM,8,Ubuntu,,,6mo,2.7085,256.0,11863.0,1122360.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,16600.0,1570545.0,,,exact,-28.5,No India SKU; used global/other region (global).
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,12mo,2.5459,241.0,22302.0,2110036.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for H200 SXM.
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,24mo,2.3932,226.0,41929.0,3966870.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for H200 SXM.
-8 x H200 SXM,H200 SXM,8,Ubuntu,,,36mo,2.2496,213.0,59119.0,5593284.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.56,337.0,93557.0,8851409.0,,,exact,-36.8,No India SKU; used global/other region (global).
+8 x H200 SXM,H200 SXM,8,Ubuntu,,,36mo,2.2496,213.0,59119.0,5593284.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,99601.0,9423270.0,,,exact,-40.6,No India SKU; used global/other region (global).
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,on_demand,,,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,1mo,2.8813,273.0,2103.0,199000.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,6mo,2.7085,256.0,11863.0,1122360.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -175,10 +175,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x L4,L4,1,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,GCP,Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years,L4,1,Linux,asia-south1,India,0.2623,25.0,6893.0,652170.0,8,32,exact,112.6,
 1 x L4,L4,1,Ubuntu,,,on_demand,1.1098,105.0,,,RunPod,L4,L4,1,Linux,global,global/other,0.39,37.0,,,,,exact,184.6,No India SKU; used global/other region (global).
 1 x L4,L4,1,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L4.
-1 x L4,L4,1,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.33,31.0,1445.0,136749.0,,,exact,106.8,No India SKU; used global/other region (global).
+1 x L4,L4,1,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.39,37.0,1708.0,161613.0,,,exact,75.0,No India SKU; used global/other region (global).
 1 x L4,L4,1,Ubuntu,,,12mo,0.638,60.0,5589.0,528732.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L4.
 1 x L4,L4,1,Ubuntu,,,24mo,0.5965,56.0,10451.0,988728.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L4.
-1 x L4,L4,1,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,RunPod,L4,L4,1,Linux,global,global/other,0.34,32.0,8935.0,845359.0,,,exact,64.0,No India SKU; used global/other region (global).
+1 x L4,L4,1,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,RunPod,L4,L4,1,Linux,global,global/other,0.39,37.0,10249.0,969677.0,,,exact,43.0,No India SKU; used global/other region (global).
 1 x L4,L4,1,Ubuntu,,,on_demand,1.1098,105.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 1 x L4,L4,1,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 1 x L4,L4,1,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -223,10 +223,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x L4,L4,2,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,GCP,Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years,L4,1,Linux,asia-south1,India,0.2623,25.0,6893.0,652170.0,8,32,exact,112.6,
 2 x L4,L4,2,Ubuntu,,,on_demand,1.1098,105.0,,,RunPod,L4,L4,1,Linux,global,global/other,0.39,37.0,,,,,exact,184.6,No India SKU; used global/other region (global).
 2 x L4,L4,2,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L4.
-2 x L4,L4,2,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.33,31.0,1445.0,136749.0,,,exact,106.8,No India SKU; used global/other region (global).
+2 x L4,L4,2,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.39,37.0,1708.0,161613.0,,,exact,75.0,No India SKU; used global/other region (global).
 2 x L4,L4,2,Ubuntu,,,12mo,0.638,60.0,5589.0,528732.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L4.
 2 x L4,L4,2,Ubuntu,,,24mo,0.5965,56.0,10451.0,988728.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L4.
-2 x L4,L4,2,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,RunPod,L4,L4,1,Linux,global,global/other,0.34,32.0,8935.0,845359.0,,,exact,64.0,No India SKU; used global/other region (global).
+2 x L4,L4,2,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,RunPod,L4,L4,1,Linux,global,global/other,0.39,37.0,10249.0,969677.0,,,exact,43.0,No India SKU; used global/other region (global).
 2 x L4,L4,2,Ubuntu,,,on_demand,1.1098,105.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 2 x L4,L4,2,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 2 x L4,L4,2,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -271,10 +271,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 4 x L4,L4,4,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386693.0,GCP,Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years,L4,1,Linux,asia-south1,India,0.2623,25.0,6893.0,652170.0,8,32,exact,112.6,
 4 x L4,L4,4,Ubuntu,,,on_demand,1.1098,105.0,,,RunPod,L4,L4,1,Linux,global,global/other,0.39,37.0,,,,,exact,184.6,No India SKU; used global/other region (global).
 4 x L4,L4,4,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L4.
-4 x L4,L4,4,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.33,31.0,1445.0,136749.0,,,exact,106.8,No India SKU; used global/other region (global).
+4 x L4,L4,4,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.39,37.0,1708.0,161613.0,,,exact,75.0,No India SKU; used global/other region (global).
 4 x L4,L4,4,Ubuntu,,,12mo,0.638,60.0,5589.0,528732.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L4.
 4 x L4,L4,4,Ubuntu,,,24mo,0.5965,56.0,10451.0,988728.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L4.
-4 x L4,L4,4,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386693.0,RunPod,L4,L4,1,Linux,global,global/other,0.34,32.0,8935.0,845359.0,,,exact,64.0,No India SKU; used global/other region (global).
+4 x L4,L4,4,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386693.0,RunPod,L4,L4,1,Linux,global,global/other,0.39,37.0,10249.0,969677.0,,,exact,43.0,No India SKU; used global/other region (global).
 4 x L4,L4,4,Ubuntu,,,on_demand,1.1098,105.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 4 x L4,L4,4,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 4 x L4,L4,4,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -319,11 +319,11 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x L40S,L40S,1,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311164.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 1 x L40S,L40S,1,Ubuntu,,,on_demand,1.8497,175.0,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,,,,,exact,86.8,No India SKU; used global/other region (global).
 1 x L40S,L40S,1,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L40S.
-1 x L40S,L40S,1,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.84,79.0,3679.0,348089.0,,,exact,35.4,No India SKU; used global/other region (global).
+1 x L40S,L40S,1,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,4336.0,410248.0,,,exact,14.9,No India SKU; used global/other region (global).
 1 x L40S,L40S,1,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L40S.
 1 x L40S,L40S,1,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647888.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L40S.
-1 x L40S,L40S,1,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311164.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,22601.0,2138262.0,,,exact,8.1,No India SKU; used global/other region (global).
-1 x L40S,L40S,1,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,1,Linux,atl,global/other,1.5596,148.0,,,16,180,exact,18.6,No India SKU; used global/other region (atl).
+1 x L40S,L40S,1,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311164.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,26017.0,2461487.0,,,exact,-6.1,No India SKU; used global/other region (global).
+1 x L40S,L40S,1,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,1,Linux,,global/other,1.5596,148.0,,,16,180,exact,18.6,No India SKU; used global/other region ().
 1 x L40S,L40S,1,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 1mo commitment for L40S.
 1 x L40S,L40S,1,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 6mo commitment for L40S.
 1 x L40S,L40S,1,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 12mo commitment for L40S.
@@ -367,11 +367,11 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x L40S,L40S,2,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311146.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 2 x L40S,L40S,2,Ubuntu,,,on_demand,1.8497,175.0,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,,,,,exact,86.8,No India SKU; used global/other region (global).
 2 x L40S,L40S,2,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L40S.
-2 x L40S,L40S,2,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.84,79.0,3679.0,348089.0,,,exact,35.4,No India SKU; used global/other region (global).
+2 x L40S,L40S,2,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,4336.0,410248.0,,,exact,14.9,No India SKU; used global/other region (global).
 2 x L40S,L40S,2,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L40S.
 2 x L40S,L40S,2,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647876.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L40S.
-2 x L40S,L40S,2,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311146.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,22601.0,2138262.0,,,exact,8.1,No India SKU; used global/other region (global).
-2 x L40S,L40S,2,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,2,Linux,atl,global/other,1.5596,148.0,,,32,375,exact,18.6,No India SKU; used global/other region (atl).
+2 x L40S,L40S,2,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311146.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,26017.0,2461487.0,,,exact,-6.1,No India SKU; used global/other region (global).
+2 x L40S,L40S,2,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,2,Linux,,global/other,1.5596,148.0,,,32,375,exact,18.6,No India SKU; used global/other region ().
 2 x L40S,L40S,2,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 1mo commitment for L40S.
 2 x L40S,L40S,2,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 6mo commitment for L40S.
 2 x L40S,L40S,2,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 12mo commitment for L40S.
@@ -415,10 +415,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 4 x L40S,L40S,4,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311155.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer L40S. Nearest: Nvidia L4 GPU running in Mumbai (L4, 8 vCPU, 32GB RAM) at $0.58/GPU/hr (₹55) [India region]."
 4 x L40S,L40S,4,Ubuntu,,,on_demand,1.8497,175.0,,,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,,,,,exact,86.8,No India SKU; used global/other region (global).
 4 x L40S,L40S,4,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L40S.
-4 x L40S,L40S,4,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.84,79.0,3679.0,348089.0,,,exact,35.4,No India SKU; used global/other region (global).
+4 x L40S,L40S,4,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,4336.0,410248.0,,,exact,14.9,No India SKU; used global/other region (global).
 4 x L40S,L40S,4,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L40S.
 4 x L40S,L40S,4,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647882.0,RunPod,,L40S,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L40S.
-4 x L40S,L40S,4,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311155.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.86,81.0,22601.0,2138262.0,,,exact,8.1,No India SKU; used global/other region (global).
+4 x L40S,L40S,4,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311155.0,RunPod,L40S,L40S,1,Linux,global,global/other,0.99,94.0,26017.0,2461487.0,,,exact,-6.1,No India SKU; used global/other region (global).
 4 x L40S,L40S,4,Ubuntu,,,on_demand,1.8497,175.0,,,Vultr,,L40S,4,Linux,,global/other,1.5596,148.0,,,64,750,exact,18.6,No India SKU; used global/other region ().
 4 x L40S,L40S,4,Ubuntu,,,1mo,1.2162,115.0,888.0,84000.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 1mo commitment for L40S.
 4 x L40S,L40S,4,Ubuntu,,,6mo,1.1372,108.0,4981.0,471240.0,Vultr,,L40S,,,,,,,,,,,tier not offered,,Vultr does not offer a 6mo commitment for L40S.
@@ -431,7 +431,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 4 x L40S,L40S,4,Ubuntu,,,12mo,1.0633,101.0,9314.0,881220.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer L40S or any comparable GPU.
 4 x L40S,L40S,4,Ubuntu,,,24mo,0.9942,94.0,17418.0,1647882.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer L40S or any comparable GPU.
 4 x L40S,L40S,4,Ubuntu,,,36mo,0.9295,88.0,24428.0,2311155.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer L40S or any comparable GPU.
-1 x H100 SXM,H100 SXM,1,Ubuntu,,,on_demand,4.175,395.0,,,Azure,Standard_ND96isr_H100_v5,H100 SXM,8,Linux,eastus,US,12.29,1163.0,,,96,1900,exact,-66.0,No India SKU; used US region (eastus).
+1 x H100 SXM,H100 SXM,1,Ubuntu,,,on_demand,4.175,395.0,,,Azure,Standard_ND96isr_H100_v5,H100 SXM,8,Linux,eastus2,US,12.29,1163.0,,,96,1900,exact,-66.0,No India SKU; used US region (eastus2).
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H100 SXM.
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H100 SXM.
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H100 SXM.
@@ -463,10 +463,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,GCP,Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 3 Years,H100 SXM,1,Linux,asia-south1,India,4.4719,423.0,117522.0,11118712.0,26,234,exact,-48.2,
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,on_demand,4.175,395.0,,,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,,,,,exact,44.5,No India SKU; used global/other region (global).
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for H100 SXM.
-1 x H100 SXM,H100 SXM,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.51,237.0,10994.0,1040123.0,,,exact,11.2,No India SKU; used global/other region (global).
+1 x H100 SXM,H100 SXM,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,12658.0,1197592.0,,,exact,-3.5,No India SKU; used global/other region (global).
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for H100 SXM.
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for H100 SXM.
-1 x H100 SXM,H100 SXM,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.72,257.0,71482.0,6762874.0,,,exact,-14.8,No India SKU; used global/other region (global).
+1 x H100 SXM,H100 SXM,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,75949.0,7185554.0,,,exact,-19.8,No India SKU; used global/other region (global).
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,on_demand,4.175,395.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -479,7 +479,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
 1 x H100 SXM,H100 SXM,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
-2 x H100 SXM,H100 SXM,2,Ubuntu,,,on_demand,4.175,395.0,,,Azure,Standard_ND96isr_H100_v5,H100 SXM,8,Linux,eastus,US,12.29,1163.0,,,96,1900,exact,-66.0,No India SKU; used US region (eastus).
+2 x H100 SXM,H100 SXM,2,Ubuntu,,,on_demand,4.175,395.0,,,Azure,Standard_ND96isr_H100_v5,H100 SXM,8,Linux,eastus2,US,12.29,1163.0,,,96,1900,exact,-66.0,No India SKU; used US region (eastus2).
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H100 SXM.
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H100 SXM.
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H100 SXM.
@@ -511,10 +511,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,GCP,Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 3 Years,H100 SXM,1,Linux,asia-south1,India,4.4719,423.0,117522.0,11118712.0,26,234,exact,-48.2,
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,on_demand,4.175,395.0,,,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,,,,,exact,44.5,No India SKU; used global/other region (global).
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for H100 SXM.
-2 x H100 SXM,H100 SXM,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.51,237.0,10994.0,1040123.0,,,exact,11.2,No India SKU; used global/other region (global).
+2 x H100 SXM,H100 SXM,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,12658.0,1197592.0,,,exact,-3.5,No India SKU; used global/other region (global).
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for H100 SXM.
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for H100 SXM.
-2 x H100 SXM,H100 SXM,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.72,257.0,71482.0,6762874.0,,,exact,-14.8,No India SKU; used global/other region (global).
+2 x H100 SXM,H100 SXM,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,75949.0,7185554.0,,,exact,-19.8,No India SKU; used global/other region (global).
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,on_demand,4.175,395.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -527,7 +527,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
 2 x H100 SXM,H100 SXM,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
-4 x H100 SXM,H100 SXM,4,Ubuntu,,,on_demand,4.175,395.0,,,Azure,Standard_ND96isr_H100_v5,H100 SXM,8,Linux,eastus,US,12.29,1163.0,,,96,1900,exact,-66.0,No India SKU; used US region (eastus).
+4 x H100 SXM,H100 SXM,4,Ubuntu,,,on_demand,4.175,395.0,,,Azure,Standard_ND96isr_H100_v5,H100 SXM,8,Linux,eastus2,US,12.29,1163.0,,,96,1900,exact,-66.0,No India SKU; used US region (eastus2).
 4 x H100 SXM,H100 SXM,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H100 SXM.
 4 x H100 SXM,H100 SXM,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H100 SXM.
 4 x H100 SXM,H100 SXM,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,Azure,,H100 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H100 SXM.
@@ -559,10 +559,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 4 x H100 SXM,H100 SXM,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,GCP,Commitment v1: Nvidia H100 80GB GPU running in Mumbai for 3 Years,H100 SXM,1,Linux,asia-south1,India,4.4719,423.0,117522.0,11118712.0,26,234,exact,-48.2,
 4 x H100 SXM,H100 SXM,4,Ubuntu,,,on_demand,4.175,395.0,,,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,,,,,exact,44.5,No India SKU; used global/other region (global).
 4 x H100 SXM,H100 SXM,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for H100 SXM.
-4 x H100 SXM,H100 SXM,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.51,237.0,10994.0,1040123.0,,,exact,11.2,No India SKU; used global/other region (global).
+4 x H100 SXM,H100 SXM,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,12658.0,1197592.0,,,exact,-3.5,No India SKU; used global/other region (global).
 4 x H100 SXM,H100 SXM,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for H100 SXM.
 4 x H100 SXM,H100 SXM,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,RunPod,,H100 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for H100 SXM.
-4 x H100 SXM,H100 SXM,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.72,257.0,71482.0,6762874.0,,,exact,-14.8,No India SKU; used global/other region (global).
+4 x H100 SXM,H100 SXM,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,RunPod,H100 PCIe,H100 SXM,1,Linux,global,global/other,2.89,273.0,75949.0,7185554.0,,,exact,-19.8,No India SKU; used global/other region (global).
 4 x H100 SXM,H100 SXM,4,Ubuntu,,,on_demand,4.175,395.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 4 x H100 SXM,H100 SXM,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 4 x H100 SXM,H100 SXM,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -581,36 +581,36 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,Azure,Standard_NC40ads_H100_v5,H100 NVL,1,Linux,eastus,US,5.8067,549.0,50867.0,4812498.0,40,320,exact,-54.8,No India SKU; used US region (eastus).
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,Azure,,H100 NVL,,,,,,,,,,,tier not offered,,Azure does not offer a 24mo commitment for H100 NVL.
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,Azure,Standard_NC40ads_H100_v5,H100 NVL,1,Linux,eastus,US,4.306,407.0,113162.0,10706227.0,40,320,exact,-46.2,No India SKU; used US region (eastus).
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,on_demand,4.175,395.0,,,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,on_demand,4.175,395.0,,,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,on_demand,4.175,395.0,,,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,on_demand,4.175,395.0,,,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,on_demand,4.175,395.0,,,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,on_demand,4.175,395.0,,,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,on_demand,4.175,395.0,,,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,on_demand,4.175,395.0,,,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-1 x H100 NVL,H100 NVL,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,on_demand,4.175,395.0,,,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086480.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+1 x H100 NVL,H100 NVL,1,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761944.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,on_demand,4.175,395.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 NVL. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 NVL. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 1 x H100 NVL,H100 NVL,1,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 NVL. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -629,36 +629,36 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,Azure,Standard_NC80adis_H100_v5,H100 NVL,2,Linux,eastus,US,5.8067,549.0,50867.0,4812498.0,80,640,exact,-54.8,No India SKU; used US region (eastus).
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,Azure,,H100 NVL,,,,,,,,,,,tier not offered,,Azure does not offer a 24mo commitment for H100 NVL.
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,Azure,Standard_NC80adis_H100_v5,H100 NVL,2,Linux,eastus,US,4.306,407.0,113162.0,10706227.0,80,640,exact,-46.2,No India SKU; used US region (eastus).
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,on_demand,4.175,395.0,,,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,on_demand,4.175,395.0,,,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,on_demand,4.175,395.0,,,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,on_demand,4.175,395.0,,,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,on_demand,4.175,395.0,,,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $2.23/GPU/hr (₹211) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,on_demand,4.175,395.0,,,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.xlarge (L40S, 4 vCPU, 32GB RAM) at $3.13/GPU/hr (₹296) [India region]."
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,on_demand,4.175,395.0,,,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,on_demand,4.175,395.0,,,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-2 x H100 NVL,H100 NVL,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,on_demand,4.175,395.0,,,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086468.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+2 x H100 NVL,H100 NVL,2,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,on_demand,4.175,395.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 NVL. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 NVL. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 2 x H100 NVL,H100 NVL,2,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 NVL. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -677,36 +677,36 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,Azure,Standard_NC80adis_H100_v5,H100 NVL,2,Linux,eastus,US,5.8067,549.0,50867.0,4812498.0,80,640,exact,-54.8,No India SKU; used US region (eastus).
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,Azure,,H100 NVL,,,,,,,,,,,tier not offered,,Azure does not offer a 24mo commitment for H100 NVL.
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,Azure,Standard_NC80adis_H100_v5,H100 NVL,2,Linux,eastus,US,4.306,407.0,113162.0,10706227.0,80,640,exact,-46.2,No India SKU; used US region (eastus).
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,on_demand,4.175,395.0,,,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Cloud Infrastructure - Compute - GPU - H100 (H100 SXM) at $10.00/GPU/hr (₹946) [global/other region].
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,on_demand,4.175,395.0,,,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $8.26/GPU/hr (₹781) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,on_demand,4.175,395.0,,,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.p5.48xlarge (H100 SXM, 192 vCPU, 2048GB RAM) at $9.49/GPU/hr (₹898) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,on_demand,4.175,395.0,,,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,OCI,,,,,,,,,,,,,no GPU match,,OCI does not offer H100 NVL. Nearest: Oracle Compute Cloud@Customer - Compute - GPU.L40S - Resource Commit (L40S) at $0.60/GPU/hr (₹57) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,on_demand,4.175,395.0,,,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.15/GPU/hr (₹298) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.15/GPU/hr (₹298) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.15/GPU/hr (₹298) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.15/GPU/hr (₹298) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.15/GPU/hr (₹298) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,AWS EC2,,,,,,,,,,,,,no GPU match,,"AWS EC2 does not offer H100 NVL. Nearest: g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.15/GPU/hr (₹298) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,on_demand,4.175,395.0,,,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.94/GPU/hr (₹373) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.94/GPU/hr (₹373) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.94/GPU/hr (₹373) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.94/GPU/hr (₹373) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.94/GPU/hr (₹373) [India region]."
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,AWS SageMaker,,,,,,,,,,,,,no GPU match,,"AWS SageMaker does not offer H100 NVL. Nearest: ml.g6e.12xlarge (L40S, 48 vCPU, 384GB RAM) at $3.94/GPU/hr (₹373) [India region]."
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,on_demand,4.175,395.0,,,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,GCP,,,,,,,,,,,,,no GPU match,,"GCP does not offer H100 NVL. Nearest: Nvidia H100 80GB GPU running in Mumbai (H100 SXM, 26 vCPU, 234GB RAM) at $10.19/GPU/hr (₹964) [India region]."
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,on_demand,4.175,395.0,,,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
-4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: H100 PCIe (H100 SXM) at $2.89/GPU/hr (₹273) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,on_demand,4.175,395.0,,,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
+4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,RunPod,,,,,,,,,,,,,no GPU match,,RunPod does not offer H100 NVL. Nearest: L40S (L40S) at $0.99/GPU/hr (₹94) [global/other region].
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,on_demand,4.175,395.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 NVL. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,1mo,2.9682,281.0,2167.0,205000.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 NVL. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,6mo,2.7901,264.0,12221.0,1156200.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H100 NVL. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -719,7 +719,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 NVL or any comparable GPU.
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 NVL or any comparable GPU.
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 NVL or any comparable GPU.
-1 x H200 SXM,H200 SXM,1,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,eastus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (eastus2).
+1 x H200 SXM,H200 SXM,1,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,westus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (westus2).
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H200 SXM.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H200 SXM.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H200 SXM.
@@ -751,10 +751,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,GCP,Commitment v1: H200 141GB GPU running in Mumbai for 3 Years,H200 SXM,1,Linux,asia-south1,India,4.8996,464.0,128761.0,12182124.0,28,234,exact,-50.4,
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,on_demand,4.4921,425.0,,,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,,,,,exact,18.5,No India SKU; used global/other region (global).
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for H200 SXM.
-1 x H200 SXM,H200 SXM,1,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.3,312.0,14454.0,1367493.0,,,exact,-11.3,No India SKU; used global/other region (global).
+1 x H200 SXM,H200 SXM,1,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,16600.0,1570545.0,,,exact,-22.8,No India SKU; used global/other region (global).
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for H200 SXM.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,24mo,2.5856,245.0,45300.0,4285824.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for H200 SXM.
-1 x H200 SXM,H200 SXM,1,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.56,337.0,93557.0,8851409.0,,,exact,-31.7,No India SKU; used global/other region (global).
+1 x H200 SXM,H200 SXM,1,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,99601.0,9423270.0,,,exact,-35.9,No India SKU; used global/other region (global).
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,on_demand,4.4921,425.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -767,7 +767,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,24mo,2.5856,245.0,45300.0,4285824.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
-2 x H200 SXM,H200 SXM,2,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,eastus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (eastus2).
+2 x H200 SXM,H200 SXM,2,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,westus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (westus2).
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H200 SXM.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H200 SXM.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H200 SXM.
@@ -799,10 +799,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,GCP,Commitment v1: H200 141GB GPU running in Mumbai for 3 Years,H200 SXM,1,Linux,asia-south1,India,4.8996,464.0,128761.0,12182124.0,28,234,exact,-50.4,
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,on_demand,4.4921,425.0,,,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,,,,,exact,18.5,No India SKU; used global/other region (global).
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for H200 SXM.
-2 x H200 SXM,H200 SXM,2,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.3,312.0,14454.0,1367493.0,,,exact,-11.3,No India SKU; used global/other region (global).
+2 x H200 SXM,H200 SXM,2,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,16600.0,1570545.0,,,exact,-22.8,No India SKU; used global/other region (global).
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for H200 SXM.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,24mo,2.5856,245.0,45300.0,4285812.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for H200 SXM.
-2 x H200 SXM,H200 SXM,2,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.56,337.0,93557.0,8851409.0,,,exact,-31.7,No India SKU; used global/other region (global).
+2 x H200 SXM,H200 SXM,2,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,99601.0,9423270.0,,,exact,-35.9,No India SKU; used global/other region (global).
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,on_demand,4.4921,425.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -815,7 +815,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,24mo,2.5856,245.0,45300.0,4285812.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
-4 x H200 SXM,H200 SXM,4,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,eastus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (eastus2).
+4 x H200 SXM,H200 SXM,4,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,westus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (westus2).
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H200 SXM.
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H200 SXM.
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H200 SXM.
@@ -847,10 +847,10 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,GCP,Commitment v1: H200 141GB GPU running in Mumbai for 3 Years,H200 SXM,1,Linux,asia-south1,India,4.8996,464.0,128761.0,12182124.0,28,234,exact,-50.4,
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,on_demand,4.4921,425.0,,,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,,,,,exact,18.5,No India SKU; used global/other region (global).
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for H200 SXM.
-4 x H200 SXM,H200 SXM,4,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.3,312.0,14454.0,1367493.0,,,exact,-11.3,No India SKU; used global/other region (global).
+4 x H200 SXM,H200 SXM,4,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,16600.0,1570545.0,,,exact,-22.8,No India SKU; used global/other region (global).
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for H200 SXM.
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,24mo,2.5856,245.0,45300.0,4285812.0,RunPod,,H200 SXM,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for H200 SXM.
-4 x H200 SXM,H200 SXM,4,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.56,337.0,93557.0,8851409.0,,,exact,-31.7,No India SKU; used global/other region (global).
+4 x H200 SXM,H200 SXM,4,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,RunPod,H200 NVL,H200 SXM,1,Linux,global,global/other,3.79,359.0,99601.0,9423270.0,,,exact,-35.9,No India SKU; used global/other region (global).
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,on_demand,4.4921,425.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer H200 SXM. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."

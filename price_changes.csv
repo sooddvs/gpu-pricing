@@ -16,3 +16,12 @@ date,provider,gpu_type,price_tier,previous_date,previous_price_usd,new_price_usd
 2026-07-07,GCP,H100 SXM,spot,2026-07-06,3.6136,3.9749,10.0,UP,asia-south1
 2026-07-07,GCP,A100,spot,2026-07-06,0.5397,0.5127,-5.0,DOWN,asia-south1
 2026-07-08,AWS SageMaker,H200 SXM,on_demand,2026-07-07,5.7211,6.8655,20.0,UP,ap-south-1
+2026-07-16,RunPod,B300,on_demand,2026-07-15,0.5,7.39,1378.0,UP,global
+2026-07-16,RunPod,B300,spot,2026-07-15,0.5,6.94,1288.0,UP,global
+2026-07-16,RunPod,L40,36mo,2026-07-15,0.71,0.82,15.49,UP,global
+2026-07-16,RunPod,L40S,36mo,2026-07-15,0.86,0.99,15.12,UP,global
+2026-07-16,RunPod,A100,36mo,2026-07-15,1.21,1.39,14.88,UP,global
+2026-07-16,RunPod,L4,36mo,2026-07-15,0.34,0.39,14.71,UP,global
+2026-07-16,RunPod,H200 SXM,36mo,2026-07-15,3.56,3.79,6.46,UP,global
+2026-07-16,RunPod,B200,36mo,2026-07-15,5.54,5.89,6.32,UP,global
+2026-07-16,RunPod,H100 SXM,36mo,2026-07-15,2.72,2.89,6.25,UP,global
