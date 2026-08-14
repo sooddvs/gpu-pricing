@@ -37,3 +37,4 @@ date,provider,gpu_type,price_tier,previous_date,previous_price_usd,new_price_usd
 2026-08-05,RunPod,B200,36mo,2026-08-04,5.89,6.79,15.28,UP,global
 2026-08-10,GCP,H100 SXM,spot,2026-08-09,4.5915,4.8211,5.0,UP,asia-south1
 2026-08-10,GCP,B200,spot,2026-08-09,2.5359,2.4091,-5.0,DOWN,asia-south1
+2026-08-14,RunPod,B300,on_demand,2026-08-13,7.39,7.89,6.77,UP,global

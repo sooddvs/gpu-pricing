@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-13T07:40:40.466922+00:00",
+  "fetched_at": "2026-08-14T07:38:01.713853+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -3033,7 +3033,7 @@
           "memory_gb": 288,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 7.39,
+          "per_gpu_hourly_usd": 7.89,
           "os": "Linux"
         },
         {
