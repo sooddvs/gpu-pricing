@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T06:54:54.381052+00:00",
+  "fetched_at": "2026-08-26T06:55:53.904877+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -510,19 +510,6 @@
           "vcpu": 96,
           "ram_gb": 1900,
           "disk": "8x1TB"
-        },
-        {
-          "sku": "Standard_ND96isr_H100_v5",
-          "gpu_type": "H100 SXM",
-          "gpu_count": 8,
-          "region": "westus2",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 98.32,
-          "per_gpu_hourly_usd": 12.29,
-          "os": "Linux",
-          "vcpu": 96,
-          "ram_gb": 1900,
-          "disk": "8x1TB NVMe"
         },
         {
           "sku": "Standard_NC40ads_H100_v5",
