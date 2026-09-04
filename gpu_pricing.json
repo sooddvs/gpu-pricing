@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-03T10:56:53.042995+00:00",
+  "fetched_at": "2026-09-04T10:56:18.110179+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -2903,7 +2903,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 1.39,
+          "per_gpu_hourly_usd": 1.59,
           "os": "Linux"
         },
         {
@@ -2913,7 +2913,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 1.39,
+          "per_gpu_hourly_usd": 1.59,
           "os": "Linux"
         },
         {
@@ -2923,7 +2923,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 1.39,
+          "per_gpu_hourly_usd": 1.59,
           "os": "Linux"
         },
         {
@@ -3053,7 +3053,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 3.29,
+          "per_gpu_hourly_usd": 3.49,
           "os": "Linux"
         },
         {
@@ -3063,7 +3063,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 3.29,
+          "per_gpu_hourly_usd": 3.49,
           "os": "Linux"
         },
         {
@@ -3073,7 +3073,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 3.29,
+          "per_gpu_hourly_usd": 3.49,
           "os": "Linux"
         },
         {
@@ -3333,7 +3333,7 @@
           "memory_gb": 48,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 0.99,
+          "per_gpu_hourly_usd": 1.09,
           "os": "Linux"
         },
         {
@@ -3343,7 +3343,7 @@
           "memory_gb": 48,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 0.99,
+          "per_gpu_hourly_usd": 1.09,
           "os": "Linux"
         },
         {
@@ -3353,7 +3353,7 @@
           "memory_gb": 48,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 0.99,
+          "per_gpu_hourly_usd": 1.09,
           "os": "Linux"
         },
         {
