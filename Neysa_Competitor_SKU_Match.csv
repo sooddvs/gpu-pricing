@@ -95,7 +95,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,12mo,2.2901,217.0,20061.0,1897972.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,24mo,2.1527,204.0,37715.0,3568188.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
 8 x H100 SXM,H100 SXM,8,Ubuntu,,,36mo,2.0235,191.0,53178.0,5031148.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 SXM or any comparable GPU.
-8 x H200 SXM,H200 SXM,8,Ubuntu,,,on_demand,,,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,eastus2,US,10.6,1003.0,,,96,1900,exact,,No India SKU; used US region (eastus2).
+8 x H200 SXM,H200 SXM,8,Ubuntu,,,on_demand,,,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,westus2,US,10.6,1003.0,,,96,1900,exact,,No India SKU; used US region (westus2).
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,1mo,2.8813,273.0,2103.0,199000.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H200 SXM.
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,6mo,2.7085,256.0,11863.0,1122360.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H200 SXM.
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,12mo,2.5459,241.0,22302.0,2110036.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H200 SXM.
@@ -719,7 +719,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,12mo,2.6227,248.0,22975.0,2173656.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 NVL or any comparable GPU.
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,24mo,2.4653,233.0,43193.0,4086474.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 NVL or any comparable GPU.
 4 x H100 NVL,H100 NVL,4,Ubuntu,,,36mo,2.3174,219.0,60902.0,5761926.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H100 NVL or any comparable GPU.
-1 x H200 SXM,H200 SXM,1,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,eastus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (eastus2).
+1 x H200 SXM,H200 SXM,1,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,westus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (westus2).
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H200 SXM.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H200 SXM.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H200 SXM.
@@ -767,7 +767,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,24mo,2.5856,245.0,45300.0,4285824.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
-2 x H200 SXM,H200 SXM,2,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,eastus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (eastus2).
+2 x H200 SXM,H200 SXM,2,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,westus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (westus2).
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H200 SXM.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H200 SXM.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H200 SXM.
@@ -815,7 +815,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,24mo,2.5856,245.0,45300.0,4285812.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,Vast.ai,,,,,,,,,,,,,no GPU match,,Vast.ai does not offer H200 SXM or any comparable GPU.
-4 x H200 SXM,H200 SXM,4,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,eastus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (eastus2).
+4 x H200 SXM,H200 SXM,4,Ubuntu,,,on_demand,4.4921,425.0,,,Azure,Standard_ND96isr_H200_v5,H200 SXM,8,Linux,westus2,US,10.6,1003.0,,,96,1900,exact,-57.6,No India SKU; used US region (westus2).
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 1mo commitment for H200 SXM.
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 6mo commitment for H200 SXM.
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,Azure,,H200 SXM,,,,,,,,,,,tier not offered,,Azure does not offer a 12mo commitment for H200 SXM.
