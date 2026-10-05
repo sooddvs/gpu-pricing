@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-04T14:05:08.906130+00:00",
+  "fetched_at": "2026-10-05T14:06:59.494529+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -2170,7 +2170,7 @@
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 6.0945,
+          "per_gpu_hourly_usd": 5.7898,
           "os": "Linux",
           "vcpu": 26,
           "ram_gb": 234,
@@ -2533,7 +2533,7 @@
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 5.8632,
+          "per_gpu_hourly_usd": 5.57,
           "os": "Linux",
           "vcpu": 26,
           "ram_gb": 234,
@@ -2599,7 +2599,7 @@
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 6.1901,
+          "per_gpu_hourly_usd": 5.8806,
           "os": "Linux",
           "vcpu": 26,
           "ram_gb": 234,
@@ -2698,7 +2698,7 @@
           "gpu_type": "L4",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.336,
+          "per_gpu_hourly_usd": 0.3192,
           "os": "Linux",
           "vcpu": 8,
           "ram_gb": 32,
@@ -2709,7 +2709,7 @@
           "gpu_type": "H200 SXM",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 6.7026,
+          "per_gpu_hourly_usd": 6.3675,
           "os": "Linux",
           "vcpu": 28,
           "ram_gb": 234,
@@ -3370,50 +3370,8 @@
     },
     "vultr": {
       "provider": "Vultr",
-      "skus": [
-        {
-          "plan_id": "vcg-l40s-16c-180g-48vram",
-          "gpu_type": "L40S",
-          "gpu_type_raw": "NVIDIA_L40S",
-          "gpu_count": 1,
-          "region": "",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 1.5596,
-          "per_gpu_hourly_usd": 1.5596,
-          "os": "Linux",
-          "vcpu": 16,
-          "ram_gb": 180,
-          "disk": "48GB VRAM"
-        },
-        {
-          "plan_id": "vcg-l40s-32c-375g-96vram",
-          "gpu_type": "L40S",
-          "gpu_type_raw": "NVIDIA_L40S",
-          "gpu_count": 2,
-          "region": "",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 3.1192,
-          "per_gpu_hourly_usd": 1.5596,
-          "os": "Linux",
-          "vcpu": 32,
-          "ram_gb": 375,
-          "disk": "96GB VRAM"
-        },
-        {
-          "plan_id": "vcg-l40s-64c-750g-192vram",
-          "gpu_type": "L40S",
-          "gpu_type_raw": "NVIDIA_L40S",
-          "gpu_count": 4,
-          "region": "",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 6.2384,
-          "per_gpu_hourly_usd": 1.5596,
-          "os": "Linux",
-          "vcpu": 64,
-          "ram_gb": 750,
-          "disk": "192GB VRAM"
-        }
-      ]
+      "error": "500 Server Error: Internal Server Error for url: https://api.vultr.com/v2/plans?type=vcg&per_page=500",
+      "skus": []
     },
     "vastai": {
       "provider": "Vast.ai",
