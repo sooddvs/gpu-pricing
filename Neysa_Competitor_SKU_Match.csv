@@ -119,7 +119,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,12mo,2.5459,241.0,22302.0,2110036.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 12mo commitment for H200 SXM.
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,24mo,2.3932,226.0,41929.0,3966870.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 24mo commitment for H200 SXM.
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,36mo,2.2496,213.0,59119.0,5593284.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 36mo commitment for H200 SXM.
-8 x H200 SXM,H200 SXM,8,Ubuntu,,,on_demand,,,,,GCP,H200 141GB GPU running in Americas,H200 SXM,1,Linux,us-central1,US,9.3117,881.0,,,28,234,exact,,No India SKU; used US region (us-central1).
+8 x H200 SXM,H200 SXM,8,Ubuntu,,,on_demand,,,,,GCP,H200 141GB GPU running in Mumbai,H200 SXM,1,Linux,asia-south1,India,11.1741,1057.0,,,28,234,exact,,
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,1mo,2.8813,273.0,2103.0,199000.0,GCP,,H200 SXM,,,,,,,,,,,tier not offered,,GCP does not offer a 1mo commitment for H200 SXM.
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,6mo,2.7085,256.0,11863.0,1122360.0,GCP,,H200 SXM,,,,,,,,,,,tier not offered,,GCP does not offer a 6mo commitment for H200 SXM.
 8 x H200 SXM,H200 SXM,8,Ubuntu,,,12mo,2.5459,241.0,22302.0,2110036.0,GCP,H200 141GB GPU attached to DWS Defined Duration VMs running in Mumbai,H200 SXM,1,Linux,asia-south1,India,4.5753,433.0,40080.0,3791934.0,28,234,exact,-44.4,
@@ -173,12 +173,12 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x L4,L4,1,Ubuntu,,,12mo,0.638,60.0,5589.0,528732.0,GCP,Commitment v1: Nvidia L4 GPU running in Mumbai for 1 Year,L4,1,Linux,asia-south1,India,0.3673,35.0,3218.0,304412.0,8,32,exact,73.7,
 1 x L4,L4,1,Ubuntu,,,24mo,0.5965,56.0,10451.0,988728.0,GCP,,L4,,,,,,,,,,,tier not offered,,GCP does not offer a 24mo commitment for L4.
 1 x L4,L4,1,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,GCP,Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years,L4,1,Linux,asia-south1,India,0.2623,25.0,6893.0,652170.0,8,32,exact,112.6,
-1 x L4,L4,1,Ubuntu,,,on_demand,1.1098,105.0,,,RunPod,L4,L4,1,Linux,global,global/other,0.49,46.0,,,,,exact,126.5,No India SKU; used global/other region (global).
+1 x L4,L4,1,Ubuntu,,,on_demand,1.1098,105.0,,,RunPod,L4,L4,1,Linux,global,global/other,0.59,56.0,,,,,exact,88.1,No India SKU; used global/other region (global).
 1 x L4,L4,1,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L4.
-1 x L4,L4,1,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.49,46.0,2146.0,203052.0,,,exact,39.2,No India SKU; used global/other region (global).
+1 x L4,L4,1,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.59,56.0,2584.0,244491.0,,,exact,15.6,No India SKU; used global/other region (global).
 1 x L4,L4,1,Ubuntu,,,12mo,0.638,60.0,5589.0,528732.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L4.
 1 x L4,L4,1,Ubuntu,,,24mo,0.5965,56.0,10451.0,988728.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L4.
-1 x L4,L4,1,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,RunPod,L4,L4,1,Linux,global,global/other,0.49,46.0,12877.0,1218312.0,,,exact,13.8,No India SKU; used global/other region (global).
+1 x L4,L4,1,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,RunPod,L4,L4,1,Linux,global,global/other,0.59,56.0,15505.0,1466947.0,,,exact,-5.5,No India SKU; used global/other region (global).
 1 x L4,L4,1,Ubuntu,,,on_demand,1.1098,105.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 1 x L4,L4,1,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 1 x L4,L4,1,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 16 vCPU, 180GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -221,12 +221,12 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x L4,L4,2,Ubuntu,,,12mo,0.638,60.0,5589.0,528732.0,GCP,Commitment v1: Nvidia L4 GPU running in Mumbai for 1 Year,L4,1,Linux,asia-south1,India,0.3673,35.0,3218.0,304412.0,8,32,exact,73.7,
 2 x L4,L4,2,Ubuntu,,,24mo,0.5965,56.0,10451.0,988728.0,GCP,,L4,,,,,,,,,,,tier not offered,,GCP does not offer a 24mo commitment for L4.
 2 x L4,L4,2,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,GCP,Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years,L4,1,Linux,asia-south1,India,0.2623,25.0,6893.0,652170.0,8,32,exact,112.6,
-2 x L4,L4,2,Ubuntu,,,on_demand,1.1098,105.0,,,RunPod,L4,L4,1,Linux,global,global/other,0.49,46.0,,,,,exact,126.5,No India SKU; used global/other region (global).
+2 x L4,L4,2,Ubuntu,,,on_demand,1.1098,105.0,,,RunPod,L4,L4,1,Linux,global,global/other,0.59,56.0,,,,,exact,88.1,No India SKU; used global/other region (global).
 2 x L4,L4,2,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L4.
-2 x L4,L4,2,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.49,46.0,2146.0,203052.0,,,exact,39.2,No India SKU; used global/other region (global).
+2 x L4,L4,2,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.59,56.0,2584.0,244491.0,,,exact,15.6,No India SKU; used global/other region (global).
 2 x L4,L4,2,Ubuntu,,,12mo,0.638,60.0,5589.0,528732.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L4.
 2 x L4,L4,2,Ubuntu,,,24mo,0.5965,56.0,10451.0,988728.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L4.
-2 x L4,L4,2,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,RunPod,L4,L4,1,Linux,global,global/other,0.49,46.0,12877.0,1218312.0,,,exact,13.8,No India SKU; used global/other region (global).
+2 x L4,L4,2,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386684.0,RunPod,L4,L4,1,Linux,global,global/other,0.59,56.0,15505.0,1466947.0,,,exact,-5.5,No India SKU; used global/other region (global).
 2 x L4,L4,2,Ubuntu,,,on_demand,1.1098,105.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 2 x L4,L4,2,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 2 x L4,L4,2,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 32 vCPU, 375GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -269,12 +269,12 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 4 x L4,L4,4,Ubuntu,,,12mo,0.638,60.0,5589.0,528732.0,GCP,Commitment v1: Nvidia L4 GPU running in Mumbai for 1 Year,L4,1,Linux,asia-south1,India,0.3673,35.0,3218.0,304412.0,8,32,exact,73.7,
 4 x L4,L4,4,Ubuntu,,,24mo,0.5965,56.0,10451.0,988728.0,GCP,,L4,,,,,,,,,,,tier not offered,,GCP does not offer a 24mo commitment for L4.
 4 x L4,L4,4,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386693.0,GCP,Commitment v1: Nvidia L4 GPU running in Mumbai for 3 Years,L4,1,Linux,asia-south1,India,0.2623,25.0,6893.0,652170.0,8,32,exact,112.6,
-4 x L4,L4,4,Ubuntu,,,on_demand,1.1098,105.0,,,RunPod,L4,L4,1,Linux,global,global/other,0.49,46.0,,,,,exact,126.5,No India SKU; used global/other region (global).
+4 x L4,L4,4,Ubuntu,,,on_demand,1.1098,105.0,,,RunPod,L4,L4,1,Linux,global,global/other,0.59,56.0,,,,,exact,88.1,No India SKU; used global/other region (global).
 4 x L4,L4,4,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 1mo commitment for L4.
-4 x L4,L4,4,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.49,46.0,2146.0,203052.0,,,exact,39.2,No India SKU; used global/other region (global).
+4 x L4,L4,4,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,RunPod,L4,L4,1,Linux,global,global/other,0.59,56.0,2584.0,244491.0,,,exact,15.6,No India SKU; used global/other region (global).
 4 x L4,L4,4,Ubuntu,,,12mo,0.638,60.0,5589.0,528732.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 12mo commitment for L4.
 4 x L4,L4,4,Ubuntu,,,24mo,0.5965,56.0,10451.0,988728.0,RunPod,,L4,,,,,,,,,,,tier not offered,,RunPod does not offer a 24mo commitment for L4.
-4 x L4,L4,4,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386693.0,RunPod,L4,L4,1,Linux,global,global/other,0.49,46.0,12877.0,1218312.0,,,exact,13.8,No India SKU; used global/other region (global).
+4 x L4,L4,4,Ubuntu,,,36mo,0.5577,53.0,14657.0,1386693.0,RunPod,L4,L4,1,Linux,global,global/other,0.59,56.0,15505.0,1466947.0,,,exact,-5.5,No India SKU; used global/other region (global).
 4 x L4,L4,4,Ubuntu,,,on_demand,1.1098,105.0,,,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 4 x L4,L4,4,Ubuntu,,,1mo,0.7297,69.0,533.0,50400.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
 4 x L4,L4,4,Ubuntu,,,6mo,0.6823,65.0,2989.0,282744.0,Vultr,,,,,,,,,,,,,no GPU match,,"Vultr does not offer L4. Nearest: L40S (L40S, 64 vCPU, 750GB RAM) at $1.56/GPU/hr (₹148) [global/other region]."
@@ -743,7 +743,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 12mo commitment for H200 SXM.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,24mo,2.5856,245.0,45300.0,4285824.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 24mo commitment for H200 SXM.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 36mo commitment for H200 SXM.
-1 x H200 SXM,H200 SXM,1,Ubuntu,,,on_demand,4.4921,425.0,,,GCP,H200 141GB GPU running in Americas,H200 SXM,1,Linux,us-central1,US,9.3117,881.0,,,28,234,exact,-51.8,No India SKU; used US region (us-central1).
+1 x H200 SXM,H200 SXM,1,Ubuntu,,,on_demand,4.4921,425.0,,,GCP,H200 141GB GPU running in Mumbai,H200 SXM,1,Linux,asia-south1,India,11.1741,1057.0,,,28,234,exact,-59.8,
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,GCP,,H200 SXM,,,,,,,,,,,tier not offered,,GCP does not offer a 1mo commitment for H200 SXM.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,GCP,,H200 SXM,,,,,,,,,,,tier not offered,,GCP does not offer a 6mo commitment for H200 SXM.
 1 x H200 SXM,H200 SXM,1,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,GCP,H200 141GB GPU attached to DWS Defined Duration VMs running in Mumbai,H200 SXM,1,Linux,asia-south1,India,4.5753,433.0,40080.0,3791934.0,28,234,exact,-39.9,
@@ -791,7 +791,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 12mo commitment for H200 SXM.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,24mo,2.5856,245.0,45300.0,4285812.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 24mo commitment for H200 SXM.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 36mo commitment for H200 SXM.
-2 x H200 SXM,H200 SXM,2,Ubuntu,,,on_demand,4.4921,425.0,,,GCP,H200 141GB GPU running in Americas,H200 SXM,1,Linux,us-central1,US,9.3117,881.0,,,28,234,exact,-51.8,No India SKU; used US region (us-central1).
+2 x H200 SXM,H200 SXM,2,Ubuntu,,,on_demand,4.4921,425.0,,,GCP,H200 141GB GPU running in Mumbai,H200 SXM,1,Linux,asia-south1,India,11.1741,1057.0,,,28,234,exact,-59.8,
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,GCP,,H200 SXM,,,,,,,,,,,tier not offered,,GCP does not offer a 1mo commitment for H200 SXM.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,GCP,,H200 SXM,,,,,,,,,,,tier not offered,,GCP does not offer a 6mo commitment for H200 SXM.
 2 x H200 SXM,H200 SXM,2,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,GCP,H200 141GB GPU attached to DWS Defined Duration VMs running in Mumbai,H200 SXM,1,Linux,asia-south1,India,4.5753,433.0,40080.0,3791934.0,28,234,exact,-39.9,
@@ -839,7 +839,7 @@ neysa_sku,neysa_gpu,neysa_count,neysa_os,neysa_vcpu,neysa_ram_gb,tier,neysa_usd_
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 12mo commitment for H200 SXM.
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,24mo,2.5856,245.0,45300.0,4285812.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 24mo commitment for H200 SXM.
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,36mo,2.4305,230.0,63873.0,6042996.0,AWS SageMaker,,H200 SXM,,,,,,,,,,,tier not offered,,AWS SageMaker does not offer a 36mo commitment for H200 SXM.
-4 x H200 SXM,H200 SXM,4,Ubuntu,,,on_demand,4.4921,425.0,,,GCP,H200 141GB GPU running in Americas,H200 SXM,1,Linux,us-central1,US,9.3117,881.0,,,28,234,exact,-51.8,No India SKU; used US region (us-central1).
+4 x H200 SXM,H200 SXM,4,Ubuntu,,,on_demand,4.4921,425.0,,,GCP,H200 141GB GPU running in Mumbai,H200 SXM,1,Linux,asia-south1,India,11.1741,1057.0,,,28,234,exact,-59.8,
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,1mo,3.113,295.0,2272.0,215000.0,GCP,,H200 SXM,,,,,,,,,,,tier not offered,,GCP does not offer a 1mo commitment for H200 SXM.
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,6mo,2.9262,277.0,12817.0,1212600.0,GCP,,H200 SXM,,,,,,,,,,,tier not offered,,GCP does not offer a 6mo commitment for H200 SXM.
 4 x H200 SXM,H200 SXM,4,Ubuntu,,,12mo,2.7506,260.0,24096.0,2279688.0,GCP,H200 141GB GPU attached to DWS Defined Duration VMs running in Mumbai,H200 SXM,1,Linux,asia-south1,India,4.5753,433.0,40080.0,3791934.0,28,234,exact,-39.9,

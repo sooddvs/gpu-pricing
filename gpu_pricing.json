@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-08T13:06:49.036886+00:00",
+  "fetched_at": "2026-10-09T12:53:26.814483+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -2131,7 +2131,6 @@
     },
     "gcp": {
       "provider": "GCP",
-      "error": "HTTPSConnectionPool(host='cloudbilling.googleapis.com', port=443): Read timed out. (read timeout=60)",
       "skus": [
         {
           "description": "Nvidia Tesla A100 GPU running in Americas",
@@ -2737,6 +2736,160 @@
           "vcpu": 8,
           "ram_gb": 32,
           "disk": "host SSD"
+        },
+        {
+          "description": "Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Americas",
+          "gpu_type": "H100 SXM",
+          "region": "us-central1",
+          "price_tier": "12mo",
+          "per_gpu_hourly_usd": 4.4239,
+          "os": "Linux",
+          "vcpu": 26,
+          "ram_gb": 234,
+          "disk": "host SSD"
+        },
+        {
+          "description": "Nvidia L4 GPU attached to DWS Defined Duration VMs running in Mumbai",
+          "gpu_type": "L4",
+          "region": "asia-south1",
+          "price_tier": "12mo",
+          "per_gpu_hourly_usd": 0.5824,
+          "os": "Linux",
+          "vcpu": 8,
+          "ram_gb": 32,
+          "disk": "host SSD"
+        },
+        {
+          "description": "Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Mumbai",
+          "gpu_type": "H100 SXM",
+          "region": "asia-south1",
+          "price_tier": "12mo",
+          "per_gpu_hourly_usd": 4.4239,
+          "os": "Linux",
+          "vcpu": 26,
+          "ram_gb": 234,
+          "disk": "host SSD"
+        },
+        {
+          "description": "Nvidia H100 80GB GPU running in Americas",
+          "gpu_type": "H100 SXM",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 9.7966,
+          "os": "Linux",
+          "vcpu": 26,
+          "ram_gb": 234,
+          "disk": "host SSD"
+        },
+        {
+          "description": "Commitment v1: Nvidia Tesla A100 GPU running in Mumbai for 3 Year",
+          "gpu_type": "A100",
+          "region": "asia-south1",
+          "price_tier": "36mo",
+          "per_gpu_hourly_usd": 1.1552,
+          "os": "Linux",
+          "vcpu": 12,
+          "ram_gb": 85,
+          "disk": "host SSD"
+        },
+        {
+          "description": "Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Americas",
+          "gpu_type": "A100",
+          "region": "us-central1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 2.3568,
+          "os": "Linux",
+          "vcpu": 12,
+          "ram_gb": 85,
+          "disk": "host SSD"
+        },
+        {
+          "description": "Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Mumbai",
+          "gpu_type": "B200",
+          "region": "asia-south1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 1.7399,
+          "os": "Linux",
+          "vcpu": 28,
+          "ram_gb": 234,
+          "disk": "host SSD"
+        },
+        {
+          "description": "H200 141GB GPU running in Mumbai",
+          "gpu_type": "H200 SXM",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 11.1741,
+          "os": "Linux",
+          "vcpu": 28,
+          "ram_gb": 234,
+          "disk": "host SSD"
+        },
+        {
+          "description": "Nvidia Tesla A100 GPU running in Mumbai",
+          "gpu_type": "A100",
+          "region": "asia-south1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 3.4369,
+          "os": "Linux",
+          "vcpu": 12,
+          "ram_gb": 85,
+          "disk": "host SSD"
+        },
+        {
+          "description": "Commitment v1: Nvidia Tesla A100 GPU running in Americas for 1 Year",
+          "gpu_type": "A100",
+          "region": "us-central1",
+          "price_tier": "12mo",
+          "per_gpu_hourly_usd": 1.8484,
+          "os": "Linux",
+          "vcpu": 12,
+          "ram_gb": 85,
+          "disk": "host SSD"
+        },
+        {
+          "description": "Nvidia Tesla A100 80GB GPU running in Americas",
+          "gpu_type": "A100",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 3.9281,
+          "os": "Linux",
+          "vcpu": 12,
+          "ram_gb": 85,
+          "disk": "host SSD"
+        },
+        {
+          "description": "Commitment v1: Nvidia Tesla A100 80GB GPU running in Mumbai for 1 Year",
+          "gpu_type": "A100",
+          "region": "asia-south1",
+          "price_tier": "12mo",
+          "per_gpu_hourly_usd": 4.1811,
+          "os": "Linux",
+          "vcpu": 12,
+          "ram_gb": 85,
+          "disk": "host SSD"
+        },
+        {
+          "description": "Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Mumbai",
+          "gpu_type": "A100",
+          "region": "asia-south1",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 0.3096,
+          "os": "Linux",
+          "vcpu": 12,
+          "ram_gb": 85,
+          "disk": "host SSD"
+        },
+        {
+          "description": "H200 141GB GPU attached to DWS Defined Duration VMs running in Americas",
+          "gpu_type": "H200 SXM",
+          "region": "us-central1",
+          "price_tier": "12mo",
+          "per_gpu_hourly_usd": 4.5753,
+          "os": "Linux",
+          "vcpu": 28,
+          "ram_gb": 234,
+          "disk": "host SSD"
         }
       ]
     },
@@ -2750,7 +2903,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 1.59,
+          "per_gpu_hourly_usd": 1.79,
           "os": "Linux"
         },
         {
@@ -2760,7 +2913,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 1.59,
+          "per_gpu_hourly_usd": 1.79,
           "os": "Linux"
         },
         {
@@ -2770,7 +2923,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 1.59,
+          "per_gpu_hourly_usd": 1.79,
           "os": "Linux"
         },
         {
@@ -2800,7 +2953,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 1.59,
+          "per_gpu_hourly_usd": 1.79,
           "os": "Linux"
         },
         {
@@ -2810,7 +2963,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 1.59,
+          "per_gpu_hourly_usd": 1.79,
           "os": "Linux"
         },
         {
@@ -2820,7 +2973,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 1.59,
+          "per_gpu_hourly_usd": 1.79,
           "os": "Linux"
         },
         {
@@ -2840,7 +2993,7 @@
           "memory_gb": 180,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 6.79,
+          "per_gpu_hourly_usd": 7.99,
           "os": "Linux"
         },
         {
@@ -2850,7 +3003,7 @@
           "memory_gb": 180,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 6.79,
+          "per_gpu_hourly_usd": 7.99,
           "os": "Linux"
         },
         {
@@ -2860,7 +3013,7 @@
           "memory_gb": 180,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 6.79,
+          "per_gpu_hourly_usd": 7.99,
           "os": "Linux"
         },
         {
@@ -2880,7 +3033,7 @@
           "memory_gb": 288,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 7.89,
+          "per_gpu_hourly_usd": 8.99,
           "os": "Linux"
         },
         {
@@ -2920,7 +3073,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 3.49,
+          "per_gpu_hourly_usd": 3.99,
           "os": "Linux"
         },
         {
@@ -2930,7 +3083,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 3.49,
+          "per_gpu_hourly_usd": 3.99,
           "os": "Linux"
         },
         {
@@ -2940,7 +3093,7 @@
           "memory_gb": 80,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 3.49,
+          "per_gpu_hourly_usd": 3.99,
           "os": "Linux"
         },
         {
@@ -3040,7 +3193,7 @@
           "memory_gb": 141,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 4.59,
+          "per_gpu_hourly_usd": 5.29,
           "os": "Linux"
         },
         {
@@ -3050,7 +3203,7 @@
           "memory_gb": 141,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 4.59,
+          "per_gpu_hourly_usd": 5.29,
           "os": "Linux"
         },
         {
@@ -3060,7 +3213,7 @@
           "memory_gb": 141,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 4.59,
+          "per_gpu_hourly_usd": 5.29,
           "os": "Linux"
         },
         {
@@ -3120,7 +3273,7 @@
           "memory_gb": 24,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 0.49,
+          "per_gpu_hourly_usd": 0.59,
           "os": "Linux"
         },
         {
@@ -3130,7 +3283,7 @@
           "memory_gb": 24,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 0.49,
+          "per_gpu_hourly_usd": 0.59,
           "os": "Linux"
         },
         {
@@ -3140,7 +3293,7 @@
           "memory_gb": 24,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 0.49,
+          "per_gpu_hourly_usd": 0.59,
           "os": "Linux"
         },
         {
