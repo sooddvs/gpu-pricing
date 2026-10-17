@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T11:02:46.031301+00:00",
+  "fetched_at": "2026-10-17T10:23:21.660026+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -523,6 +523,45 @@
           "vcpu": 96,
           "ram_gb": 1900,
           "disk": "8x1TB NVMe"
+        },
+        {
+          "sku": "Standard_NC40ads_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 6.98,
+          "per_gpu_hourly_usd": 6.98,
+          "os": "Linux",
+          "vcpu": 40,
+          "ram_gb": 320,
+          "disk": "1x500GB"
+        },
+        {
+          "sku": "Standard_NC40ads_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 4.306,
+          "per_gpu_hourly_usd": 4.306,
+          "os": "Linux",
+          "vcpu": 40,
+          "ram_gb": 320,
+          "disk": "1x500GB"
+        },
+        {
+          "sku": "Standard_NC40ads_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 1,
+          "region": "westus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 5.8067,
+          "per_gpu_hourly_usd": 5.8067,
+          "os": "Linux",
+          "vcpu": 40,
+          "ram_gb": 320,
+          "disk": "1x500GB"
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -3005,6 +3044,26 @@
           "region": "global",
           "price_tier": "spot",
           "per_gpu_hourly_usd": 6.94,
+          "os": "Linux"
+        },
+        {
+          "id": "NVIDIA B300 SXM6 AC MIG 1g.34gb",
+          "display_name": "B300 MIG 34GB",
+          "gpu_type": "B300",
+          "memory_gb": 34,
+          "region": "global",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 0.5,
+          "os": "Linux"
+        },
+        {
+          "id": "NVIDIA B300 SXM6 AC MIG 1g.34gb",
+          "display_name": "B300 MIG 34GB",
+          "gpu_type": "B300",
+          "memory_gb": 34,
+          "region": "global",
+          "price_tier": "spot",
+          "per_gpu_hourly_usd": 0.5,
           "os": "Linux"
         },
         {
