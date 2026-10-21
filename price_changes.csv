@@ -77,3 +77,5 @@ date,provider,gpu_type,price_tier,previous_date,previous_price_usd,new_price_usd
 2026-10-14,RunPod,B300,spot,2026-10-13,0.5,6.94,1288.0,UP,global
 2026-10-17,RunPod,B300,on_demand,2026-10-16,8.99,0.5,-94.44,DOWN,global
 2026-10-17,RunPod,B300,spot,2026-10-16,6.94,0.5,-92.8,DOWN,global
+2026-10-21,RunPod,B300,on_demand,2026-10-20,0.5,8.99,1698.0,UP,global
+2026-10-21,RunPod,B300,spot,2026-10-20,0.5,6.94,1288.0,UP,global
