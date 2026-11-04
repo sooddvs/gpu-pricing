@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T13:53:34.550478+00:00",
+  "fetched_at": "2026-11-04T14:02:20.276729+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -432,45 +432,6 @@
           "vcpu": 48,
           "ram_gb": 440,
           "disk": "2x1TB"
-        },
-        {
-          "sku": "Standard_NC96ads_A100_v4",
-          "gpu_type": "A100",
-          "gpu_count": 4,
-          "region": "eastus2",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 14.692,
-          "per_gpu_hourly_usd": 3.673,
-          "os": "Linux",
-          "vcpu": 96,
-          "ram_gb": 880,
-          "disk": "4x1TB"
-        },
-        {
-          "sku": "Standard_NC96ads_A100_v4",
-          "gpu_type": "A100",
-          "gpu_count": 4,
-          "region": "eastus2",
-          "price_tier": "36mo",
-          "total_hourly_usd": 9.0635,
-          "per_gpu_hourly_usd": 2.2659,
-          "os": "Linux",
-          "vcpu": 96,
-          "ram_gb": 880,
-          "disk": "4x1TB"
-        },
-        {
-          "sku": "Standard_NC96ads_A100_v4",
-          "gpu_type": "A100",
-          "gpu_count": 4,
-          "region": "eastus2",
-          "price_tier": "12mo",
-          "total_hourly_usd": 12.2296,
-          "per_gpu_hourly_usd": 3.0574,
-          "os": "Linux",
-          "vcpu": 96,
-          "ram_gb": 880,
-          "disk": "4x1TB"
         },
         {
           "sku": "Standard_ND96amsr_A100_v4",
