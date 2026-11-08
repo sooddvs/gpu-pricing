@@ -6,7 +6,7 @@ New vs v6:
 - AWS SageMaker GPU instances added (ml.p5, ml.g6, ml.g6e series)
   Same GPUs as EC2 but with managed platform overhead (~10-30% more expensive)
 
-Providers: Azure, OCI, AWS EC2, AWS SageMaker, GCP, RunPod, Vultr, Vast.ai
+Providers: Azure, OCI, AWS EC2, AWS SageMaker, GCP, RunPod, Vultr, Vast.ai, Runcrate
 """
 
 import os, sys, csv, json, re, statistics
@@ -511,6 +511,40 @@ def fetch_vastai():
     return {"provider": "Vast.ai", "skus": skus}
 
 
+# ─── PROVIDER 9: RUNCRATE ────────────────────────────────────────────────────
+# Public JSON feed, no API key. min_price_hr is the live on-demand price per
+# GPU-hour. The feed does not say SXM vs PCIe, so H100 and A100 are left out,
+# and so is V100 (two memory sizes). H200 NVL is a separate feed type, so it is
+# not mapped to "H200 SXM".
+RUNCRATE_URL = "https://www.runcrate.ai/api/gpu-pricing"
+RUNCRATE_GPUS = {
+    "B300": "B300", "B200": "B200", "H200": "H200 SXM",
+    "L40S": "L40S", "L40": "L40", "L4": "L4",
+}
+
+
+def fetch_runcrate():
+    try:
+        resp = requests.get(RUNCRATE_URL, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception as e:
+        return {"provider": "Runcrate", "error": str(e), "skus": []}
+    skus = []
+    for gpu in data.get("gpus", []) or []:
+        gpu_type = RUNCRATE_GPUS.get(gpu.get("gpu_type"))
+        price    = gpu.get("min_price_hr") or 0
+        # available_options < 1 means out of stock; the listed price is stale
+        if not gpu_type or price <= 0 or (gpu.get("available_options") or 0) < 1:
+            continue
+        skus.append({"id": gpu.get("gpu_type"), "display_name": gpu.get("name"),
+                     "gpu_type": gpu_type, "memory_gb": gpu.get("vram"),
+                     "region": "global", "price_tier": "on_demand",
+                     "per_gpu_hourly_usd": round(float(price), 4)})
+    return {"provider": "Runcrate", "skus": skus}
+
+
+
 # ─── RAW CSV ─────────────────────────────────────────────────────────────────
 RAW_FIELDNAMES = ["gpu_type", "provider", "price_tier", "per_gpu_hourly_usd",
                   "total_hourly_usd", "region", "gpu_count", "sku", "fetched_at"]
@@ -549,7 +583,7 @@ def write_raw_csv(output, path):
 NEYSA_TIERS     = ["on_demand", "1mo", "6mo", "12mo", "24mo", "36mo"]
 COMP_TIERS      = ["on_demand", "1mo", "6mo", "12mo", "36mo", "spot"]
 PROVIDERS_ORDER = ["Azure", "AWS EC2", "AWS SageMaker", "GCP", "OCI",
-                   "RunPod", "Vultr", "Vast.ai"]
+                   "RunPod", "Vultr", "Vast.ai", "Runcrate"]
 TIER_LABELS     = {
     "on_demand": "On-demand (PAYG)",
     "1mo":  "1-month committed",
@@ -650,6 +684,7 @@ def main():
         ("runpod",     fetch_runpod),
         ("vultr",      fetch_vultr),
         ("vastai",     fetch_vastai),
+        ("runcrate",   fetch_runcrate),
     ]:
         print(f"→ Fetching {key} ...")
         try:
