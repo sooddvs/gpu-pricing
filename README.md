@@ -21,6 +21,7 @@ Hourly and committed rates per GPU across:
 | RunPod | GPU cloud |
 | Vultr | GPU cloud |
 | Vast.ai | Marketplace |
+| Runcrate | AI cloud |
 
 For each provider: on-demand, 1-month, 6-month, 12-month, and 36-month rates where available. India pricing is preferred; falls back to US if India region has no data.
 
