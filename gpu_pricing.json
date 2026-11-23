@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22T14:20:50.062765+00:00",
+  "fetched_at": "2026-11-23T17:44:33.021687+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -96,6 +96,45 @@
           "disk": "2x500GB"
         },
         {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "eastus",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 3.673,
+          "per_gpu_hourly_usd": 3.673,
+          "os": "Linux",
+          "vcpu": 24,
+          "ram_gb": 220,
+          "disk": "1x1TB"
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "eastus",
+          "price_tier": "36mo",
+          "total_hourly_usd": 2.2659,
+          "per_gpu_hourly_usd": 2.2659,
+          "os": "Linux",
+          "vcpu": 24,
+          "ram_gb": 220,
+          "disk": "1x1TB"
+        },
+        {
+          "sku": "Standard_NC24ads_A100_v4",
+          "gpu_type": "A100",
+          "gpu_count": 1,
+          "region": "eastus",
+          "price_tier": "12mo",
+          "total_hourly_usd": 3.0574,
+          "per_gpu_hourly_usd": 3.0574,
+          "os": "Linux",
+          "vcpu": 24,
+          "ram_gb": 220,
+          "disk": "1x1TB"
+        },
+        {
           "sku": "Standard_NC48ads_A100_v4",
           "gpu_type": "A100",
           "gpu_count": 2,
@@ -575,45 +614,6 @@
           "vcpu": 96,
           "ram_gb": 1900,
           "disk": "8x1TB NVMe"
-        },
-        {
-          "sku": "Standard_NC24ads_A100_v4",
-          "gpu_type": "A100",
-          "gpu_count": 1,
-          "region": "westus2",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 3.673,
-          "per_gpu_hourly_usd": 3.673,
-          "os": "Linux",
-          "vcpu": 24,
-          "ram_gb": 220,
-          "disk": "1x1TB"
-        },
-        {
-          "sku": "Standard_NC24ads_A100_v4",
-          "gpu_type": "A100",
-          "gpu_count": 1,
-          "region": "westus2",
-          "price_tier": "36mo",
-          "total_hourly_usd": 2.2659,
-          "per_gpu_hourly_usd": 2.2659,
-          "os": "Linux",
-          "vcpu": 24,
-          "ram_gb": 220,
-          "disk": "1x1TB"
-        },
-        {
-          "sku": "Standard_NC24ads_A100_v4",
-          "gpu_type": "A100",
-          "gpu_count": 1,
-          "region": "westus2",
-          "price_tier": "12mo",
-          "total_hourly_usd": 3.0574,
-          "per_gpu_hourly_usd": 3.0574,
-          "os": "Linux",
-          "vcpu": 24,
-          "ram_gb": 220,
-          "disk": "1x1TB"
         },
         {
           "sku": "Standard_NC48ads_A100_v4",
@@ -944,6 +944,14 @@
           "disk": "host SSD"
         },
         {
+          "description": "A4X Max Nvidia GB300 (1 gpu slice) running in Iowa",
+          "gpu_type": "B300",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 21.5,
+          "os": "Linux"
+        },
+        {
           "description": "DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Americas",
           "gpu_type": "B200",
           "region": "us-central1",
@@ -955,11 +963,19 @@
           "disk": "host SSD"
         },
         {
+          "description": "A4X Max Nvidia GB300 (1 gpu slice) no lssd running in Iowa",
+          "gpu_type": "B300",
+          "region": "us-central1",
+          "price_tier": "on_demand",
+          "per_gpu_hourly_usd": 21.5,
+          "os": "Linux"
+        },
+        {
           "description": "Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Mumbai",
           "gpu_type": "H100 SXM",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 5.1992,
+          "per_gpu_hourly_usd": 5.4592,
           "os": "Linux",
           "vcpu": 26,
           "ram_gb": 234,
@@ -1069,7 +1085,7 @@
           "gpu_type": "A100",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 1.6602,
+          "per_gpu_hourly_usd": 1.7603,
           "os": "Linux",
           "vcpu": 12,
           "ram_gb": 85,
@@ -1278,7 +1294,7 @@
           "gpu_type": "L4",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 0.2954,
+          "per_gpu_hourly_usd": 0.3102,
           "os": "Linux",
           "vcpu": 8,
           "ram_gb": 32,
@@ -1388,7 +1404,7 @@
           "gpu_type": "H100 SXM",
           "region": "us-central1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 5.2808,
+          "per_gpu_hourly_usd": 5.5448,
           "os": "Linux",
           "vcpu": 26,
           "ram_gb": 234,
@@ -1498,7 +1514,7 @@
           "gpu_type": "H200 SXM",
           "region": "asia-south1",
           "price_tier": "spot",
-          "per_gpu_hourly_usd": 6.3199,
+          "per_gpu_hourly_usd": 6.6359,
           "os": "Linux",
           "vcpu": 28,
           "ram_gb": 234,
