@@ -14970,3 +14970,41 @@ date,provider,gpu_type,price_tier,per_gpu_hourly_usd,region,source
 2026-11-23,RunPod,L40S,36mo,1.09,global,live
 2026-11-23,RunPod,L40S,spot,0.79,global,live
 2026-11-23,Vultr,L40S,on_demand,1.5596,atl,live
+2026-11-24,Azure,H100 SXM,on_demand,12.29,eastus,live
+2026-11-24,Azure,H100 NVL,on_demand,6.98,eastus,live
+2026-11-24,Azure,H100 NVL,36mo,4.306,eastus,live
+2026-11-24,Azure,H100 NVL,12mo,5.8067,eastus,live
+2026-11-24,Azure,A100,on_demand,3.673,eastus,live
+2026-11-24,Azure,A100,36mo,2.1264,eastus,live
+2026-11-24,Azure,A100,12mo,3.0574,eastus,live
+2026-11-24,Azure,H200 SXM,on_demand,10.6,eastus2,live
+2026-11-24,OCI,L40S,on_demand,0.6,global,live
+2026-11-24,OCI,H100 SXM,on_demand,10.0,global,live
+2026-11-24,OCI,H200 SXM,on_demand,10.0,global,live
+2026-11-24,OCI,B200,on_demand,14.0,global,live
+2026-11-24,OCI,B300,on_demand,15.0,global,live
+2026-11-24,OCI,A100,on_demand,4.0,global,live
+2026-11-24,RunPod,A100,on_demand,2.09,global,live
+2026-11-24,RunPod,A100,36mo,2.09,global,live
+2026-11-24,RunPod,A100,spot,1.0,global,live
+2026-11-24,RunPod,B200,on_demand,7.99,global,live
+2026-11-24,RunPod,B200,36mo,7.99,global,live
+2026-11-24,RunPod,B200,spot,5.98,global,live
+2026-11-24,RunPod,B300,on_demand,8.99,global,live
+2026-11-24,RunPod,B300,spot,6.94,global,live
+2026-11-24,RunPod,H100 SXM,on_demand,2.89,global,live
+2026-11-24,RunPod,H100 SXM,36mo,2.89,global,live
+2026-11-24,RunPod,H100 SXM,spot,1.99,global,live
+2026-11-24,RunPod,H200 SXM,on_demand,3.79,global,live
+2026-11-24,RunPod,H200 SXM,36mo,3.79,global,live
+2026-11-24,RunPod,H200 SXM,spot,0.5,global,live
+2026-11-24,RunPod,L4,on_demand,0.69,global,live
+2026-11-24,RunPod,L4,36mo,0.69,global,live
+2026-11-24,RunPod,L4,spot,0.44,global,live
+2026-11-24,RunPod,L40,on_demand,0.82,global,live
+2026-11-24,RunPod,L40,36mo,0.82,global,live
+2026-11-24,RunPod,L40,spot,0.69,global,live
+2026-11-24,RunPod,L40S,on_demand,1.09,global,live
+2026-11-24,RunPod,L40S,36mo,1.09,global,live
+2026-11-24,RunPod,L40S,spot,0.79,global,live
+2026-11-24,Vultr,L40S,on_demand,1.5596,atl,live
