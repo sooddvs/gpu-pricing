@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-25T16:58:31.399633+00:00",
+  "fetched_at": "2026-11-26T16:38:39.704630+00:00",
   "providers": {
     "azure": {
       "provider": "Azure",
@@ -16,45 +16,6 @@
           "vcpu": 96,
           "ram_gb": 1900,
           "disk": "8x1TB NVMe"
-        },
-        {
-          "sku": "Standard_NC40ads_H100_v5",
-          "gpu_type": "H100 NVL",
-          "gpu_count": 1,
-          "region": "eastus",
-          "price_tier": "on_demand",
-          "total_hourly_usd": 6.98,
-          "per_gpu_hourly_usd": 6.98,
-          "os": "Linux",
-          "vcpu": 40,
-          "ram_gb": 320,
-          "disk": "1x500GB"
-        },
-        {
-          "sku": "Standard_NC40ads_H100_v5",
-          "gpu_type": "H100 NVL",
-          "gpu_count": 1,
-          "region": "eastus",
-          "price_tier": "36mo",
-          "total_hourly_usd": 4.306,
-          "per_gpu_hourly_usd": 4.306,
-          "os": "Linux",
-          "vcpu": 40,
-          "ram_gb": 320,
-          "disk": "1x500GB"
-        },
-        {
-          "sku": "Standard_NC40ads_H100_v5",
-          "gpu_type": "H100 NVL",
-          "gpu_count": 1,
-          "region": "eastus",
-          "price_tier": "12mo",
-          "total_hourly_usd": 5.8067,
-          "per_gpu_hourly_usd": 5.8067,
-          "os": "Linux",
-          "vcpu": 40,
-          "ram_gb": 320,
-          "disk": "1x500GB"
         },
         {
           "sku": "Standard_NC80adis_H100_v5",
@@ -512,6 +473,19 @@
           "disk": "8x1TB"
         },
         {
+          "sku": "Standard_ND96isr_H100_v5",
+          "gpu_type": "H100 SXM",
+          "gpu_count": 8,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 98.32,
+          "per_gpu_hourly_usd": 12.29,
+          "os": "Linux",
+          "vcpu": 96,
+          "ram_gb": 1900,
+          "disk": "8x1TB NVMe"
+        },
+        {
           "sku": "Standard_NC40ads_H100_v5",
           "gpu_type": "H100 NVL",
           "gpu_count": 1,
@@ -549,6 +523,45 @@
           "vcpu": 40,
           "ram_gb": 320,
           "disk": "1x500GB"
+        },
+        {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "westus2",
+          "price_tier": "on_demand",
+          "total_hourly_usd": 13.96,
+          "per_gpu_hourly_usd": 6.98,
+          "os": "Linux",
+          "vcpu": 80,
+          "ram_gb": 640,
+          "disk": "2x500GB"
+        },
+        {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "westus2",
+          "price_tier": "36mo",
+          "total_hourly_usd": 8.6119,
+          "per_gpu_hourly_usd": 4.306,
+          "os": "Linux",
+          "vcpu": 80,
+          "ram_gb": 640,
+          "disk": "2x500GB"
+        },
+        {
+          "sku": "Standard_NC80adis_H100_v5",
+          "gpu_type": "H100 NVL",
+          "gpu_count": 2,
+          "region": "westus2",
+          "price_tier": "12mo",
+          "total_hourly_usd": 11.6133,
+          "per_gpu_hourly_usd": 5.8067,
+          "os": "Linux",
+          "vcpu": 80,
+          "ram_gb": 640,
+          "disk": "2x500GB"
         },
         {
           "sku": "Standard_ND96isr_H200_v5",
@@ -1785,7 +1798,7 @@
           "memory_gb": 180,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 7.99,
+          "per_gpu_hourly_usd": 8.99,
           "os": "Linux"
         },
         {
@@ -1795,7 +1808,7 @@
           "memory_gb": 180,
           "region": "global",
           "price_tier": "6mo",
-          "per_gpu_hourly_usd": 7.99,
+          "per_gpu_hourly_usd": 8.99,
           "os": "Linux"
         },
         {
@@ -1805,7 +1818,7 @@
           "memory_gb": 180,
           "region": "global",
           "price_tier": "36mo",
-          "per_gpu_hourly_usd": 7.99,
+          "per_gpu_hourly_usd": 8.99,
           "os": "Linux"
         },
         {
@@ -1825,7 +1838,7 @@
           "memory_gb": 288,
           "region": "global",
           "price_tier": "on_demand",
-          "per_gpu_hourly_usd": 8.99,
+          "per_gpu_hourly_usd": 10.49,
           "os": "Linux"
         },
         {
